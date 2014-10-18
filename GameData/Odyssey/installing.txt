@@ -68,19 +68,19 @@ Scene Jumper 0.2.1
 === CONSTRUCTION MODS
 ===================================================================================================
 
-INSTALL - MechJeb 2.4.0
+MechJeb 2.4.0
 	http://forum.kerbalspaceprogram.com/threads/12384-PART-0-21-Anatid-Robotics-MuMech-MechJeb-Autopilot-v2-0-9
 	delete GameData\MechJeb2\Parts
 	install optional modules for FAR: http://forum.kerbalspaceprogram.com/threads/60933-Optional-MechJeb-Modules
 
-INSTALL - Part Highlighter 1.0
+Part Highlighter 1.0
 	http://forum.kerbalspaceprogram.com/threads/50143-0-23-5-Editor-Part-Highlighter
 
-INSTALL - Select Root Jul18
+Select Root Jul18
 	http://forum.kerbalspaceprogram.com/threads/43208-0-24-Jul18-SelectRoot-Set-a-new-root-part-0-24-new-UI
 	delete GameData\SelectRoot\Source
 
-INSTALL - Fusebox 1.1
+Fusebox 1.1
 	http://forum.kerbalspaceprogram.com/threads/50077-0-24-2-Fusebox-electric-charge-tracker-and-build-helper-1-0a-released-24-08-14
 
 
@@ -88,20 +88,19 @@ INSTALL - Fusebox 1.1
 === BEAUTY MODS
 ===================================================================================================
 
-INSTALL - Raster Prop Monitor 0.18.3
+Raster Prop Monitor 0.18.3
 	http://forum.kerbalspaceprogram.com/threads/57603-0-25-RasterPropMonitor-putting-the-A-in-your-IVA-(v0-18-3)-8-Oct
 	delete GameData\JSI\Agencies
 	delete GameData\JSI\RPMPodPatches\PatchesMod
 
-INSTALL - EVE 7.4 LR
+EVE 7.4 LR
 	http://forum.kerbalspaceprogram.com/threads/55905-0-23-5-7-3-EnvironmentalVisualEnhancements-NEW%21-VolumetricClouds%21
 
-INSTALL - Texture Replacer 1.7.3
+Texture Replacer 1.7.3
 	http://forum.kerbalspaceprogram.com/threads/60961-0-24-2-TextureReplacer-1-7-1-(7-9-2014)-Female-name-detection
 	delete files from inside GameData\TextureReplacer\EnvMap
 
-
-INSTALL - Astronomer's Visual Pack (Edge of Oblivion)
+Astronomer's Visual Pack (Edge of Oblivion)
 	http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-v3-beta
 	step 1, is already done
 	step 2, select 512 texs, replacing texs
@@ -109,42 +108,17 @@ INSTALL - Astronomer's Visual Pack (Edge of Oblivion)
 	Extras, istall 1.5x cloud density, replacing files
 	Download Oiker's Skybox and install into GameData\TextureReplacer\EnvMap
 
-		delete TGA files from GameData\TextureReplacer\EnvMap
-		install ZexySky Skybox or Oinker's Skybox in GameData\TextureReplacer\EnvMap
-		edit settings.cfg and fix these:
-			EVA_ROTATE_ON_MOVE = False			// might change this back
-			SHOW_SPACE_CENTER_CREW = False
-	delete: GameData\BoulderCo\CityLights\Textures
-
-DOWNLOAD - Better Atmo V5 (we need some files from it)
-	http://forum.kerbalspaceprogram.com/threads/77523-0-24-2-Better-Atmospheres-V5-June-14th-2014
-	copy this folder:
-		GameData\BoulderCo\CityLights\Textures
-	copy these files:
-		GameData\BoulderCo\Clouds\Textures\atmo.png
-		GameData\BoulderCo\Clouds\Textures\Sun.png
-		GameData\BoulderCo\Clouds\Textures\muncraters.png
-	fix sun:
-		download UnityAssetsExplorer 1.2
-		use it to open KSP_Data\sharedassets10.assets
-		select and extract sun_flare.tex (be sure it's converting to DDS)
-		download http://filesmelt.com/dl/eRe4s3rs_Sunflare.zip
-		extract the ZIP sun_flare.dds to copy over your extracted sun_flare.dds
-		select and import that DDS back into sharedassets10.assets as sun_flare.tex
-		save and exit
-	copy in my custom additional CFG for clouds (that uses these BA5 textures)
-
-INSTALL - Distant Object 1.3.1
+Distant Object 1.3.1
 	http://forum.kerbalspaceprogram.com/threads/69907-0-24-Distant-Object-Enhancement-1-3-1-Planets-satellites-in-the-night-sky!-(7-29)
 	change debris brightness to 100%
 	change sky brightness to 75%
 
-INSTALL - Kerinside 0.37
-	https://kerbalstuff.com/mod/77/KerbinSide
-	it's the All-In-One, and also adds GameData\medsouz
+Kerinside 0.37
+	http://forum.kerbalspaceprogram.com/threads/82785-0-25-Kerbin-Side-v0-37-We-re-Gonna-Need-a-Bigger-Boat
+	it's the All-In-One, adds Kerbinside and also adds GameData\medsouz
 	delete: GameData\KerbinSide\Flags
 
-INSTALL - KSC++ V3
+KSC++ V3
 	http://forum.kerbalspaceprogram.com/threads/79542-23-5-LLL-LackLuster-Labs-LLL-Full-12-2-10MAY2014-SXT-16-5-28JUN2014-KSC-v2
 
 INSTALL - Ambient Light 1.2.0
@@ -172,6 +146,26 @@ CLEANUP - suits
 INSTALL - HotRockets 7.25 (core pack only)
 	http://www.curse.com/ksp-mods/kerbal/220207-hotrockets-particle-fx-replacement
 	also add GameData\SmokeScreen
+
+Better Atmo V5 (we need some files from it)
+	just download this, don't install it
+	http://forum.kerbalspaceprogram.com/threads/77523-0-24-2-Better-Atmospheres-V5-June-14th-2014
+	copy this folder:
+		GameData\BoulderCo\CityLights\Textures
+	copy these files:
+		GameData\BoulderCo\Clouds\Textures\atmo.png
+		GameData\BoulderCo\Clouds\Textures\Sun.png
+		GameData\BoulderCo\Clouds\Textures\muncraters.png
+	fix sun:
+		download UnityAssetsExplorer 1.2
+		use it to open KSP_Data\sharedassets10.assets
+		select and extract sun_flare.tex (be sure it's converting to DDS)
+		download http://filesmelt.com/dl/eRe4s3rs_Sunflare.zip
+		extract the ZIP sun_flare.dds to copy over your extracted sun_flare.dds
+		select and import that DDS back into sharedassets10.assets as sun_flare.tex
+		save and exit
+	copy in my custom additional CFG for clouds (that uses these BA5 textures)
+
 
 ===================================================================================================
 === PART CHANGER MODS
