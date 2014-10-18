@@ -63,8 +63,8 @@ toolbars
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = Fusebox.FBToggle
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,Fusebox.FBToggle,CrewManifest.CrewManifest
+			visibleButtons = Fusebox.FBToggle,CrewManifest.CrewManifest
 		}
 		toolbar_2039378269
 		{
@@ -91,7 +91,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle
+			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings
 		}
 	}
 	FLIGHT
@@ -117,8 +117,8 @@ toolbars
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = Fusebox.FBToggle
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,Fusebox.FBToggle,CrewManifest.CrewManifest
+			visibleButtons = Fusebox.FBToggle,CrewManifest.CrewManifest
 		}
 		toolbar_2039378269
 		{
@@ -131,6 +131,21 @@ toolbars
 			useKSPSkin = False
 			buttonOrder = 
 			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main
+		}
+	}
+	TRACKSTATION
+	{
+		toolbar_1665779502
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
 		}
 	}
 }

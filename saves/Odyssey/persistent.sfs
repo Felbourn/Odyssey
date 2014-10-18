@@ -87,8 +87,84 @@ GAME
 		{
 			AltitudeRecord
 			{
-				reached = 122.939999999993
-				record = 72.9039962979732
+				reached = 817.319999999548
+				record = 76.6240601737518
+			}
+			Kerbin
+			{
+				reached = 776.779999999585
+				Landing
+				{
+					completed = 776.999999999585
+					vessel
+					{
+						name = Jebediah Kerman
+						flag = 
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+				SurfaceEVA
+				{
+					completed = 776.779999999585
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+			}
+			Mun
+			{
+				reached = 1304.17999999911
+				Orbit
+				{
+					completed = 1304.17999999911
+					vessel
+					{
+						name = Jebediah Kerman
+						flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+			}
+			Minmus
+			{
+				reached = 1218.97999999919
+				Landing
+				{
+					completed = 1218.97999999919
+					vessel
+					{
+						name = Jebediah Kerman
+						flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+			}
+			Duna
+			{
+				reached = 1786.94488708399
+				Landing
+				{
+					completed = 1786.94488708399
+					vessel
+					{
+						name = Jebediah Kerman
+						flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
 			}
 		}
 	}
@@ -271,12 +347,26 @@ GAME
 			key = 1 1 1.5 1.5
 		}
 	}
+	SCENARIO
+	{
+		name = LastKSC
+		scene = 8
+		LastLaunchSite = 
+	}
+	SCENARIO
+	{
+		name = KerbalAlarmClockScenario
+		scene = 5, 8, 7
+		KACAlarmListStorage
+		{
+		}
+	}
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 530.899999999809
-		activeVessel = 7
-		mapViewFiltering = -1026
+		UT = 1850.97106262105
+		activeVessel = 8
+		mapViewFiltering = 990
 		VESSEL
 		{
 			pid = bcaeaeee36294f6ebd9b814a7a23fd7e
@@ -828,36 +918,36 @@ GAME
 			pid = 6527fbaf992a489b9e3bfea63ebb4ff4
 			name = Untitled Space Craft
 			type = Lander
-			sit = PRELAUNCH
+			sit = LANDED
 			landed = True
 			landedAt = KSC_LaunchPad_Platform
 			splashed = False
-			met = 0
-			lct = 530.899999999809
+			met = 373.359999999659
+			lct = 781.299999999581
 			root = 0
-			lat = -0.0972077855774767
-			lon = 285.442326615854
-			alt = 72.834722875501
-			hgt = 0.3324679
-			nrm = 3.861377E-05,1,6.624175E-06
-			rot = -0.7009932,-0.09220655,-0.09724987,0.7004635
-			CoM = 2.335937E-07,4.920001,-8.448954E-07
+			lat = -0.0972077874763352
+			lon = 285.442328313242
+			alt = 72.83317003306
+			hgt = 0.3324686
+			nrm = 3.963191E-05,1,7.733542E-06
+			rot = -0.7009938,-0.0922073,-0.09724844,0.7004631
+			CoM = 3.441253E-07,4.920001,-5.804353E-07
 			stg = 1
 			prst = False
 			ref = 235997686
 			ctrl = False
-			cPch = 0.2
-			cHdg = 0.3
+			cPch = 0
+			cHdg = 0
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300817.592880909
-				ECC = 0.99482267299009
-				INC = 0.0972077863227747
-				LPE = 90.0000000000001
-				LAN = 114.291028958652
-				MNA = 3.14159265358979
-				EPH = 530.899999999809
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 33.7367440547321
+				LAN = 249.29412479441
+				MNA = -8.40714670366795
+				EPH = 1206.3799999992
 				REF = 1
 			}
 			PART
@@ -879,7 +969,7 @@ GAME
 				attN = None, -1
 				attN = top, 1
 				mass = 1.76
-				temp = 17.42289
+				temp = 17.45675
 				expt = 0.5
 				state = 0
 				connected = True
@@ -887,7 +977,6 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.crewCabinInternals (Untitled Space Craft)
 				modCost = 0
-				crew = Bob Kerman
 				EVENTS
 				{
 				}
@@ -917,6 +1006,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -951,7 +1041,7 @@ GAME
 				attN = bottom, 0
 				attN = top, 2
 				mass = 1.76
-				temp = 17.40683
+				temp = 17.44048
 				expt = 0.5
 				state = 0
 				connected = True
@@ -959,7 +1049,6 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.cupolaInternal
 				modCost = 0
-				crew = Malfal Kerman
 				EVENTS
 				{
 				}
@@ -1002,6 +1091,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1047,7 +1137,7 @@ GAME
 				attN = bottom, 1
 				attN = top, 3
 				mass = 1.76
-				temp = 17.4007
+				temp = 17.43457
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1055,7 +1145,6 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.GenericSpace1
 				modCost = 0
-				crew = Bildin Kerman
 				EVENTS
 				{
 				}
@@ -1098,6 +1187,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1143,7 +1233,7 @@ GAME
 				attN = bottom, 2
 				attN = top, 4
 				mass = 1.76
-				temp = 17.39827
+				temp = 17.43214
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1151,7 +1241,6 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.GenericSpace3
 				modCost = 0
-				crew = Camlorf Kerman
 				EVENTS
 				{
 				}
@@ -1194,6 +1283,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1239,7 +1329,7 @@ GAME
 				attN = bottom, 3
 				attN = top, 5
 				mass = 1.76
-				temp = 17.39681
+				temp = 17.43057
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1247,7 +1337,7 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.landerCabinInternals
 				modCost = 0
-				crew = Thomprick Kerman
+				crew = Joseph Kerman
 				EVENTS
 				{
 				}
@@ -1290,6 +1380,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1335,7 +1426,7 @@ GAME
 				attN = bottom, 4
 				attN = top, 6
 				mass = 1.76
-				temp = 17.39477
+				temp = 17.42844
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1343,7 +1434,7 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.landerCabinSmallInternal
 				modCost = 0
-				crew = Dilger Kerman
+				crew = Kesla Kerman
 				EVENTS
 				{
 				}
@@ -1386,6 +1477,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1431,7 +1523,7 @@ GAME
 				attN = bottom, 5
 				attN = top, 7
 				mass = 1.76
-				temp = 17.39006
+				temp = 17.4236
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1439,7 +1531,7 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.mk1CockpitInternal
 				modCost = 0
-				crew = Bilger Kerman
+				crew = Valentina Kerman
 				EVENTS
 				{
 				}
@@ -1482,6 +1574,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1527,7 +1620,7 @@ GAME
 				attN = bottom, 6
 				attN = top, 8
 				mass = 1.76
-				temp = 17.37753
+				temp = 17.41091
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1535,7 +1628,7 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.mk1PodCockpit
 				modCost = 0
-				crew = Desnand Kerman
+				crew = Svetlana Kerman
 				EVENTS
 				{
 				}
@@ -1578,6 +1671,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1623,7 +1717,7 @@ GAME
 				attN = bottom, 7
 				attN = None, -1
 				mass = 1.76
-				temp = 17.34439
+				temp = 17.37769
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1631,7 +1725,6 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.PodCockpit
 				modCost = 0
-				crew = Hans Kerman
 				EVENTS
 				{
 				}
@@ -1674,6 +1767,7 @@ GAME
 					}
 					Surfaced
 					{
+						at = Kerbin
 					}
 					Flew
 					{
@@ -1742,6 +1836,2478 @@ GAME
 				mainThrottle = 0.5
 			}
 		}
+		VESSEL
+		{
+			pid = 9b56c891c7ce49038a4a79d433c47f85
+			name = Jebediah Kerman
+			type = EVA
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 1074.19106262146
+			lct = 776.779999999585
+			root = 0
+			lat = -0.0495611955978116
+			lon = 255.060238877194
+			alt = 3247.62866453407
+			hgt = 0.03271696
+			nrm = -0.9581084,-0.02392958,-0.285405
+			rot = -0.6993338,-0.03121183,-0.6992415,-0.1449809
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = True
+			cPch = 0.3604347
+			cHdg = 16.55984
+			cMod = 1
+			ORBIT
+			{
+				SMA = 161707.086211486
+				ECC = 0.998970076598347
+				INC = 0.0500356166687568
+				LPE = 97.8966904943673
+				LAN = 77.8722323713778
+				MNA = 3.14167637362911
+				EPH = 1850.97106262105
+				REF = 6
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 1302714780
+				mid = 2648165958
+				launchID = 2
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 0.09375
+				temp = -31.94146
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = referenceTransform
+				modCost = 0
+				crew = Jebediah Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = True
+					state = Ragdoll
+					step = 1.460381
+					packExt = True
+					lightOn = False
+					flags = 1
+					EVENTS
+					{
+						PlantFlag
+						{
+							active = False
+							guiActive = True
+							guiIcon = Plant Flag [1]
+							guiName = Plant Flag [1]
+							category = Plant Flag [1]
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReference
+						{
+							active = False
+							guiActive = True
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						OnDeboardSeat
+						{
+							active = False
+							guiActive = True
+							guiIcon = Leave Seat
+							guiName = Leave Seat
+							category = Leave Seat
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					vInfo
+					{
+						vesselName = Jebediah Kerman
+						vesselType = 9
+						rootUId = 1302714780
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = Take Surface Sample
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Sample
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = EVA Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Give Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiIcon = ToggleFlag
+							guiName = ToggleFlag
+							category = ToggleFlag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 3.94370391007494
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
+		VESSEL
+		{
+			pid = fbf82c8c5e03453ca28f2539c312b01d
+			name = Hadfield Kerman
+			type = EVA
+			sit = LANDED
+			landed = True
+			landedAt = KSC_LaunchPad_Platform
+			splashed = False
+			met = 364.719999999666
+			lct = 789.939999999573
+			root = 0
+			lat = -0.0974337484109224
+			lon = 285.44218106217
+			alt = 72.7264531888068
+			hgt = 0.2268829
+			nrm = -0.0003725128,0.9999999,-0.0005442655
+			rot = -0.4383199,-0.6508059,0.5555982,0.275024
+			CoM = -3.692937E-09,1.27586E-08,-6.75463E-09
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = True
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 33.7366922047012
+				LAN = 249.29412479441
+				MNA = -8.40714670366795
+				EPH = 1206.3799999992
+				REF = 1
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 1448528367
+				mid = 2648165958
+				launchID = 2
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 0.09375
+				temp = 17.29996
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = referenceTransform
+				modCost = 0
+				crew = Hadfield Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = True
+					state = Idle (Grounded)
+					step = 1.208333
+					packExt = False
+					lightOn = False
+					flags = 1
+					EVENTS
+					{
+						PlantFlag
+						{
+							active = False
+							guiActive = True
+							guiIcon = Plant Flag [1]
+							guiName = Plant Flag [1]
+							category = Plant Flag [1]
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReference
+						{
+							active = False
+							guiActive = True
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						OnDeboardSeat
+						{
+							active = False
+							guiActive = True
+							guiIcon = Leave Seat
+							guiName = Leave Seat
+							category = Leave Seat
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					vInfo
+					{
+						vesselName = Hadfield Kerman
+						vesselType = 9
+						rootUId = 1448528367
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = Take Surface Sample
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Sample
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = EVA Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Give Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiIcon = ToggleFlag
+							guiName = ToggleFlag
+							category = ToggleFlag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 5
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
+		VESSEL
+		{
+			pid = 19e7c409ae34469489889f44e3e6bb63
+			name = Bill Kerman
+			type = EVA
+			sit = LANDED
+			landed = True
+			landedAt = KSC_LaunchPad_Platform
+			splashed = False
+			met = 356.659999999674
+			lct = 797.999999999566
+			root = 0
+			lat = -0.0975257758210801
+			lon = 285.442311783318
+			alt = 72.7274811824318
+			hgt = 0.2268823
+			nrm = -0.0006662577,0.9999999,3.540232E-05
+			rot = -0.1238506,-0.7035401,0.6967505,-0.06504794
+			CoM = -1.017194E-07,-6.158606E-08,-8.437093E-09
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = True
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 33.7366659383237
+				LAN = 249.29412479441
+				MNA = -8.40714670366795
+				EPH = 1206.3799999992
+				REF = 1
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 174052068
+				mid = 2648165958
+				launchID = 2
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 0.09375
+				temp = 17.15641
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = referenceTransform
+				modCost = 0
+				crew = Bill Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = True
+					state = Idle (Grounded)
+					step = 1.208333
+					packExt = False
+					lightOn = False
+					flags = 1
+					EVENTS
+					{
+						PlantFlag
+						{
+							active = False
+							guiActive = True
+							guiIcon = Plant Flag [1]
+							guiName = Plant Flag [1]
+							category = Plant Flag [1]
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReference
+						{
+							active = False
+							guiActive = True
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						OnDeboardSeat
+						{
+							active = False
+							guiActive = True
+							guiIcon = Leave Seat
+							guiName = Leave Seat
+							category = Leave Seat
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					vInfo
+					{
+						vesselName = Bill Kerman
+						vesselType = 9
+						rootUId = 174052068
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = Take Surface Sample
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Sample
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = EVA Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Give Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiIcon = ToggleFlag
+							guiName = ToggleFlag
+							category = ToggleFlag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 5
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
+		VESSEL
+		{
+			pid = 9f21d0b0087047aba68acd4b05cf4abf
+			name = Bob Kerman
+			type = EVA
+			sit = LANDED
+			landed = True
+			landedAt = KSC_LaunchPad_Platform
+			splashed = False
+			met = 345.959999999684
+			lct = 808.699999999556
+			root = 0
+			lat = -0.0975221326445585
+			lon = 285.442403750884
+			alt = 72.7281991031487
+			hgt = 0.2268827
+			nrm = -0.0002898575,0.9999999,-0.0002936743
+			rot = -0.137946,0.631407,-0.6942777,0.3166619
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = True
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 33.73663942883
+				LAN = 249.29412479441
+				MNA = -8.40714670366795
+				EPH = 1206.3799999992
+				REF = 1
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 766260779
+				mid = 2648165958
+				launchID = 2
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 0.09375
+				temp = 16.54829
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = referenceTransform
+				modCost = 0
+				crew = Bob Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = True
+					state = Idle (Grounded)
+					step = 1.208333
+					packExt = False
+					lightOn = False
+					flags = 1
+					EVENTS
+					{
+						PlantFlag
+						{
+							active = False
+							guiActive = True
+							guiIcon = Plant Flag [1]
+							guiName = Plant Flag [1]
+							category = Plant Flag [1]
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReference
+						{
+							active = False
+							guiActive = True
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						OnDeboardSeat
+						{
+							active = False
+							guiActive = True
+							guiIcon = Leave Seat
+							guiName = Leave Seat
+							category = Leave Seat
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					vInfo
+					{
+						vesselName = Bob Kerman
+						vesselType = 9
+						rootUId = 766260779
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = Take Surface Sample
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Sample
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = EVA Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Give Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiIcon = ToggleFlag
+							guiName = ToggleFlag
+							category = ToggleFlag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 5
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
+		VESSEL
+		{
+			pid = 7b7a5b886acf4de095de11a76d3a7929
+			name = Kranz Kerman
+			type = EVA
+			sit = LANDED
+			landed = True
+			landedAt = KSC_LaunchPad_Platform
+			splashed = False
+			met = 337.979999999691
+			lct = 816.679999999549
+			root = 0
+			lat = -0.0974983737451575
+			lon = 285.442507245381
+			alt = 72.7290065628476
+			hgt = 0.2268825
+			nrm = -0.0008443893,0.9999996,-0.0005118486
+			rot = -0.2180075,0.5900474,-0.6736526,0.3879549
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = True
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 33.7366127977671
+				LAN = 249.29412479441
+				MNA = -8.40714670366795
+				EPH = 1206.3799999992
+				REF = 1
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 1678807122
+				mid = 2648165958
+				launchID = 2
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 0.09375
+				temp = 15.1909
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = referenceTransform
+				modCost = 0
+				crew = Kranz Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = True
+					state = Idle (Grounded)
+					step = 1.208333
+					packExt = False
+					lightOn = False
+					flags = 1
+					EVENTS
+					{
+						PlantFlag
+						{
+							active = False
+							guiActive = True
+							guiIcon = Plant Flag [1]
+							guiName = Plant Flag [1]
+							category = Plant Flag [1]
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReference
+						{
+							active = False
+							guiActive = True
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						OnDeboardSeat
+						{
+							active = False
+							guiActive = True
+							guiIcon = Leave Seat
+							guiName = Leave Seat
+							category = Leave Seat
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					vInfo
+					{
+						vesselName = Kranz Kerman
+						vesselType = 9
+						rootUId = 1678807122
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = Take Surface Sample
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Sample
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = EVA Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Give Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiIcon = ToggleFlag
+							guiName = ToggleFlag
+							category = ToggleFlag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 5
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
+		VESSEL
+		{
+			pid = d04d5d4ec4564a0aab9b359a2f1a4348
+			name = Neil Kerman
+			type = EVA
+			sit = LANDED
+			landed = True
+			landedAt = KSC_LaunchPad_Platform
+			splashed = False
+			met = 329.179999999699
+			lct = 825.479999999541
+			root = 0
+			lat = -0.0973747764086932
+			lon = 285.442149821375
+			alt = 72.7262047238182
+			hgt = 0.2268826
+			nrm = -0.0002651069,1,-0.000304047
+			rot = -0.5857126,-0.5374425,0.3970365,0.4587576
+			CoM = -8.757338E-11,4.808315E-10,7.92776E-10
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = True
+			cPch = 
+			cHdg = 
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300087.546291098
+				ECC = 1
+				INC = NaN
+				LPE = 33.7367185927811
+				LAN = 249.29412479441
+				MNA = 3.14159265358979
+				EPH = 1206.3799999992
+				REF = 1
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 650382814
+				mid = 2648165958
+				launchID = 2
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 0.09375
+				temp = 10.81464
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = referenceTransform
+				modCost = 0
+				crew = Neil Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = True
+					state = Idle (Grounded)
+					step = 1.208333
+					packExt = False
+					lightOn = False
+					flags = 1
+					EVENTS
+					{
+						PlantFlag
+						{
+							active = False
+							guiActive = True
+							guiIcon = Plant Flag [1]
+							guiName = Plant Flag [1]
+							category = Plant Flag [1]
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReference
+						{
+							active = False
+							guiActive = True
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						OnDeboardSeat
+						{
+							active = False
+							guiActive = True
+							guiIcon = Leave Seat
+							guiName = Leave Seat
+							category = Leave Seat
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					vInfo
+					{
+						vesselName = Neil Kerman
+						vesselType = 9
+						rootUId = 650382814
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = Take Surface Sample
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Sample
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Sample
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy
+							guiName = EVA Report
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Report
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiIcon = Reset
+							guiName = Discard Report
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.5
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+							active = False
+						}
+						ResetAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					EVENTS
+					{
+						StoreDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Give Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiIcon = 
+							guiName = Take Data (0)
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Review Data
+							guiName = Review Stored Data (0)
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					EVENTS
+					{
+						ToggleFlag
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiIcon = ToggleFlag
+							guiName = ToggleFlag
+							category = ToggleFlag
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = EVA Propellant
+					amount = 5
+					maxAmount = 5
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
 	}
 	ROSTER
 	{
@@ -1749,52 +4315,52 @@ GAME
 		{
 			name = Jebediah Kerman
 			type = Crew
-			brave = 0.5
-			dumb = 0.5
+			brave = 0.6942797
+			dumb = 0.2727294
 			badS = True
-			state = Available
+			state = Assigned
 			ToD = 0
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
 			name = Bill Kerman
 			type = Crew
-			brave = 0.5
-			dumb = 0.8
+			brave = 0.2470698
+			dumb = 0.4224375
 			badS = False
-			state = Available
+			state = Assigned
 			ToD = 0
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
 			name = Bob Kerman
 			type = Crew
-			brave = 0.3
-			dumb = 0.1
-			badS = False
+			brave = 1
+			dumb = 0
+			badS = True
 			state = Assigned
 			ToD = 0
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
-			name = Calster Kerman
+			name = Kranz Kerman
 			type = Crew
 			brave = 0.9764366
-			dumb = 0.5184057
-			badS = False
-			state = Available
+			dumb = 0.1628371
+			badS = True
+			state = Assigned
 			ToD = 211016.850196533
 			idx = -1
 		}
 		KERBAL
 		{
-			name = Malfal Kerman
+			name = Joseph Kerman
 			type = Crew
-			brave = 0.9845585
-			dumb = 0.7668
+			brave = 0.3467345
+			dumb = 0
 			badS = False
 			state = Assigned
 			ToD = 144114.963065796
@@ -1802,32 +4368,32 @@ GAME
 		}
 		KERBAL
 		{
-			name = Lolock Kerman
+			name = Kesla Kerman
 			type = Crew
-			brave = 0.3943956
-			dumb = 0.2574994
+			brave = 0.1597936
+			dumb = 0
 			badS = False
-			state = Available
+			state = Assigned
 			ToD = 199495.357429199
-			idx = -1
+			idx = 0
 		}
 		KERBAL
 		{
-			name = Hudbree Kerman
+			name = Valentina Kerman
 			type = Crew
-			brave = 0.8119262
-			dumb = 0.8633581
+			brave = 0.8742423
+			dumb = 0.5187865
 			badS = False
-			state = Available
+			state = Assigned
 			ToD = 180410.704719238
-			idx = -1
+			idx = 0
 		}
 		KERBAL
 		{
-			name = Camlorf Kerman
+			name = Svetlana Kerman
 			type = Crew
-			brave = 0.3375433
-			dumb = 0.4158325
+			brave = 0.5501513
+			dumb = 0.4304951
 			badS = False
 			state = Assigned
 			ToD = 215233.952247314
@@ -1835,25 +4401,25 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bildin Kerman
+			name = Hadfield Kerman
 			type = Crew
-			brave = 0.1659347
-			dumb = 0.2017096
-			badS = False
+			brave = 0.4995094
+			dumb = 0.2420318
+			badS = True
 			state = Assigned
 			ToD = 191926.573859863
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
-			name = Hans Kerman
+			name = Neil Kerman
 			type = Crew
-			brave = 0.9892251
-			dumb = 0.6110089
+			brave = 0.692307
+			dumb = 0.2847655
 			badS = False
 			state = Assigned
 			ToD = 240377.166663818
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
@@ -1862,9 +4428,9 @@ GAME
 			brave = 0.6871861
 			dumb = 0.4324182
 			badS = False
-			state = Assigned
+			state = Available
 			ToD = 147558.703147583
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
@@ -1873,9 +4439,9 @@ GAME
 			brave = 0.2496297
 			dumb = 0.3271338
 			badS = False
-			state = Assigned
+			state = Available
 			ToD = 233284.702216797
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
@@ -1884,9 +4450,9 @@ GAME
 			brave = 0.9159513
 			dumb = 0.07579458
 			badS = False
-			state = Assigned
+			state = Available
 			ToD = 255142.008887939
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
@@ -1895,9 +4461,86 @@ GAME
 			brave = 0.244287
 			dumb = 0.02059448
 			badS = False
-			state = Assigned
+			state = Available
 			ToD = 160414.849387817
-			idx = 0
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Corfrid Kerman
+			type = Applicant
+			brave = 0.1384562
+			dumb = 0.07153463
+			badS = False
+			state = Available
+			ToD = 87675.9388598627
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Jorbas Kerman
+			type = Applicant
+			brave = 0.756869
+			dumb = 0.1935726
+			badS = False
+			state = Available
+			ToD = 136654.544893188
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Malfel Kerman
+			type = Applicant
+			brave = 0.4088499
+			dumb = 0.2427945
+			badS = False
+			state = Available
+			ToD = 208072.966447753
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Genesby Kerman
+			type = Applicant
+			brave = 0.1151632
+			dumb = 0.8555394
+			badS = False
+			state = Available
+			ToD = 179111.618486328
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Lenney Kerman
+			type = Applicant
+			brave = 0.2964063
+			dumb = 0.2269359
+			badS = False
+			state = Available
+			ToD = 170567.218080444
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Henski Kerman
+			type = Applicant
+			brave = 0.9514585
+			dumb = 0.2328631
+			badS = False
+			state = Available
+			ToD = 209051.353898925
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Endos Kerman
+			type = Applicant
+			brave = 0.4052771
+			dumb = 0.3065041
+			badS = False
+			state = Available
+			ToD = 159259.155336303
+			idx = -1
 		}
 	}
 	MESSAGESYSTEM

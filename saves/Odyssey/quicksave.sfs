@@ -7,9 +7,9 @@ GAME
 	linkCaption = 
 	Mode = SANDBOX
 	Status = 1
-	scene = 5
+	scene = 7
 	flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-	launchID = 2
+	launchID = 3
 	PARAMETERS
 	{
 		preset = Moderate
@@ -87,8 +87,8 @@ GAME
 		{
 			AltitudeRecord
 			{
-				reached = 25.5199999999996
-				record = 72.8852708677296
+				reached = 122.939999999993
+				record = 72.9039962979732
 			}
 		}
 	}
@@ -274,8 +274,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 134.399999999995
-		activeVessel = 0
+		UT = 773.179999999588
+		activeVessel = 7
 		mapViewFiltering = -1026
 		VESSEL
 		{
@@ -825,7 +825,7 @@ GAME
 		}
 		VESSEL
 		{
-			pid = a4d5dcb7e6ec4f0cbd04d49189810223
+			pid = 6527fbaf992a489b9e3bfea63ebb4ff4
 			name = Untitled Space Craft
 			type = Lander
 			sit = PRELAUNCH
@@ -833,39 +833,39 @@ GAME
 			landedAt = KSC_LaunchPad_Platform
 			splashed = False
 			met = 0
-			lct = 113.899999999995
+			lct = 773.159999999588
 			root = 0
-			lat = -0.0972077830844866
-			lon = 285.442324919959
-			alt = 72.835268196417
-			hgt = 0.3324506
-			nrm = 5.310346E-06,1,-1.39364E-07
-			rot = -0.7009889,-0.09221648,-0.09726325,0.7004645
-			CoM = -1.134575E-07,0.6150001,-1.685694E-08
+			lat = -0.0972077874039891
+			lon = 285.442328313258
+			alt = 72.8331696637906
+			hgt = 0.3324684
+			nrm = 3.870997E-05,0.9999999,6.139166E-06
+			rot = -0.7009931,-0.09220762,-0.09724865,0.7004635
+			CoM = -0.0001360172,4.91876,-5.358214E-05
 			stg = 1
 			prst = False
-			ref = 2434879691
+			ref = 235997686
 			ctrl = False
-			cPch = 
-			cHdg = 
+			cPch = 0.106
+			cHdg = 0.258
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 34.5573063966359
-				LAN = 231.898185949168
-				MNA = -8.40714670366795
-				EPH = 113.919999999995
+				SMA = 300817.620915666
+				ECC = 0.99482247772493
+				INC = 0.0972085261544267
+				LPE = 90.2230744558842
+				LAN = 118.105968897391
+				MNA = 3.14159348003509
+				EPH = 773.179999999588
 				REF = 1
 			}
 			PART
 			{
 				name = view.crewCabinInternals
-				uid = 2434879691
-				mid = 1959486255
-				launchID = 1
+				uid = 2772380871
+				mid = 2648165958
+				launchID = 2
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -879,20 +879,32 @@ GAME
 				attN = None, -1
 				attN = top, 1
 				mass = 1.76
-				temp = 19.51023
+				temp = 19.53605
 				expt = 0.5
 				state = 0
 				connected = True
 				attached = True
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.crewCabinInternals
+				rTrf = view.crewCabinInternals (Untitled Space Craft)
 				modCost = 0
 				crew = Jebediah Kerman
+				crew = Hadfield Kerman
 				EVENTS
 				{
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -924,9 +936,9 @@ GAME
 			PART
 			{
 				name = view.cupolaInternal
-				uid = 24713155
-				mid = 1959486255
-				launchID = 1
+				uid = 235997686
+				mid = 2648165958
+				launchID = 2
 				parent = 0
 				position = 0,1.22999954223633,0
 				rotation = 0,0,0,1
@@ -938,9 +950,9 @@ GAME
 				attm = 0
 				srfN = None, -1
 				attN = bottom, 0
-				attN = None, -1
+				attN = top, 2
 				mass = 1.76
-				temp = 19.46623
+				temp = 19.51947
 				expt = 0.5
 				state = 0
 				connected = True
@@ -954,6 +966,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -978,6 +1014,689 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.GenericSpace1
+				uid = 2098110711
+				mid = 2648165958
+				launchID = 2
+				parent = 1
+				position = 0,2.46000003814697,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = top, 3
+				mass = 1.76
+				temp = 19.51348
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.GenericSpace1
+				modCost = 0
+				crew = Bob Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.GenericSpace3
+				uid = 176571197
+				mid = 2648165958
+				launchID = 2
+				parent = 2
+				position = 0,3.6899995803833,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 4
+				mass = 1.76
+				temp = 19.51104
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.GenericSpace3
+				modCost = 0
+				crew = Kranz Kerman
+				crew = Neil Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.landerCabinInternals
+				uid = 63877443
+				mid = 2648165958
+				launchID = 2
+				parent = 3
+				position = 0,4.92000007629395,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 5
+				mass = 1.76
+				temp = 19.50945
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.landerCabinInternals
+				modCost = 0
+				crew = Joseph Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.landerCabinSmallInternal
+				uid = 3673902821
+				mid = 2648165958
+				launchID = 2
+				parent = 4
+				position = 0,6.14999961853027,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 4
+				attN = top, 6
+				mass = 1.76
+				temp = 19.50722
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.landerCabinSmallInternal
+				modCost = 0
+				crew = Kesla Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.mk1CockpitInternal
+				uid = 890639845
+				mid = 2648165958
+				launchID = 2
+				parent = 5
+				position = 0,7.3799991607666,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 5
+				attN = top, 7
+				mass = 1.76
+				temp = 19.50268
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.mk1CockpitInternal
+				modCost = 0
+				crew = Valentina Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.mk1PodCockpit
+				uid = 910972725
+				mid = 2648165958
+				launchID = 2
+				parent = 6
+				position = 0,8.61000061035156,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 8
+				mass = 1.76
+				temp = 19.48992
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.mk1PodCockpit
+				modCost = 0
+				crew = Svetlana Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = view.PodCockpit
+				uid = 486261741
+				mid = 2648165958
+				launchID = 2
+				parent = 7
+				position = 0,9.84000015258789,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 7
+				attN = None, -1
+				mass = 1.76
+				temp = 19.45626
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = view.PodCockpit
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Surfaced
+					{
+					}
+					Flew
+					{
+					}
+					FlewBy
+					{
+					}
+					Orbited
+					{
+					}
+					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1031,8 +1750,8 @@ GAME
 		{
 			name = Jebediah Kerman
 			type = Crew
-			brave = 0.5
-			dumb = 0.5
+			brave = 0.6942797
+			dumb = 0.2727294
 			badS = True
 			state = Assigned
 			ToD = 0
@@ -1042,8 +1761,8 @@ GAME
 		{
 			name = Bill Kerman
 			type = Crew
-			brave = 0.5
-			dumb = 0.8
+			brave = 0.2470698
+			dumb = 0.4224375
 			badS = False
 			state = Assigned
 			ToD = 0
@@ -1053,11 +1772,132 @@ GAME
 		{
 			name = Bob Kerman
 			type = Crew
-			brave = 0.3
-			dumb = 0.1
+			brave = 1
+			dumb = 0
+			badS = True
+			state = Assigned
+			ToD = 0
+			idx = 0
+		}
+		KERBAL
+		{
+			name = Kranz Kerman
+			type = Crew
+			brave = 0.9764366
+			dumb = 0.1628371
+			badS = True
+			state = Assigned
+			ToD = 211016.850196533
+			idx = 0
+		}
+		KERBAL
+		{
+			name = Joseph Kerman
+			type = Crew
+			brave = 0.3467345
+			dumb = 0
+			badS = False
+			state = Assigned
+			ToD = 144114.963065796
+			idx = 0
+		}
+		KERBAL
+		{
+			name = Kesla Kerman
+			type = Crew
+			brave = 0.1597936
+			dumb = 0
+			badS = False
+			state = Assigned
+			ToD = 199495.357429199
+			idx = 0
+		}
+		KERBAL
+		{
+			name = Valentina Kerman
+			type = Crew
+			brave = 0.8742423
+			dumb = 0.5187865
+			badS = False
+			state = Assigned
+			ToD = 180410.704719238
+			idx = 0
+		}
+		KERBAL
+		{
+			name = Svetlana Kerman
+			type = Crew
+			brave = 0.5501513
+			dumb = 0.4304951
+			badS = False
+			state = Assigned
+			ToD = 215233.952247314
+			idx = 0
+		}
+		KERBAL
+		{
+			name = Hadfield Kerman
+			type = Crew
+			brave = 0.4995094
+			dumb = 0.2420318
+			badS = True
+			state = Assigned
+			ToD = 191926.573859863
+			idx = 1
+		}
+		KERBAL
+		{
+			name = Neil Kerman
+			type = Crew
+			brave = 0.692307
+			dumb = 0.2847655
+			badS = False
+			state = Assigned
+			ToD = 240377.166663818
+			idx = 1
+		}
+		KERBAL
+		{
+			name = Desnand Kerman
+			type = Crew
+			brave = 0.6871861
+			dumb = 0.4324182
 			badS = False
 			state = Available
-			ToD = 0
+			ToD = 147558.703147583
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Thomprick Kerman
+			type = Crew
+			brave = 0.2496297
+			dumb = 0.3271338
+			badS = False
+			state = Available
+			ToD = 233284.702216797
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Dilger Kerman
+			type = Crew
+			brave = 0.9159513
+			dumb = 0.07579458
+			badS = False
+			state = Available
+			ToD = 255142.008887939
+			idx = -1
+		}
+		KERBAL
+		{
+			name = Bilger Kerman
+			type = Crew
+			brave = 0.244287
+			dumb = 0.02059448
+			badS = False
+			state = Available
+			ToD = 160414.849387817
 			idx = -1
 		}
 	}

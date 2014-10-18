@@ -130,50 +130,122 @@ HotRockets 7.25 (core pack only)
 	http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement
 	also add GameData\SmokeScreen
 
-INSTALL - Diverse Heads 1.0
-	http://kerbal.curseforge.com/ksp-mods/220366-diverse-kerbal-heads-1-0
-
-INSTALL - Space Suits 0.38
+Space Suits 0.38
+	do not install directly; just copy files form here
 	http://forum.kerbalspaceprogram.com/threads/72115-0-23-5-Green-Skull-Inc-Custom-Design-Spacesuits-v0-38-14th-April-14
 	from MEGA PACK 0.38 only install the following:
-		GameData\TextureReplacer\Heads
-		contents of "Alternate Textures\Suits\KSP" (into GameData\TextureReplacer\Suits, minus the KSP folder)
-		"Alternate Textures\Suits\Green Skull Inc\GSI_Black_Suit" into GameData\TextureReplacer\Suits\GSI_Black_Suit
+	from: Green Skull Inc\Alternate Textures\Heads into GameData\TextureReplacer\Heads
+		BILLkerbalHead, BOBkerbalHead, JEBkerbalHead, and PROFkerbalHead
+	copy thse suits into: GameData\TextureReplacer\Suits
+		Green Skull Inc\Alternate Textures\Suits\Green Skull Inc\GSI_Black_Suit
+		Green Skull Inc\Alternate Textures\Suits\KSP\KSP_Blue_IVA_suit
+		Green Skull Inc\Alternate Textures\Suits\KSP\KSP_Dark_Orange_IVA_suit
+		Green Skull Inc\Alternate Textures\Suits\KSP\KSP_Light_Orange_IVA_suit
+		Green Skull Inc\Alternate Textures\Suits\KSP\KSP_Orange_Suit
+		Green Skull Inc\Alternate Textures\Suits\KSP\KSP_White_IVA_suit
 
-INSTALL - more space suits
+Diverse Heads 1.0
+	http://kerbal.curseforge.com/ksp-mods/220366-diverse-kerbal-heads-1-0
+
+J's Space Suits
 	http://www.mediafire.com/download/4ulp618m2z7prss/J%27s+Suit+Pack.zip
 
-CLEANUP - suits
-	delete KSP_Orange_EVA_suit
-	delete KSP_Orange_IVA_suit
-	delete KSP_White_EVA_suit
-	delete KSP_White_Suit 
+Real Solar System 8.0 (plugin only)
+	don't install it, just create the directory and copy in the Plugins folder
+	http://forum.kerbalspaceprogram.com/threads/55145-0-25-Real-Solar-System-v8-0-Oct-7-14
 
-
+// did not do this yet
 Better Atmo V5 (we need some files from it)
 	just download this, don't install it
 	http://forum.kerbalspaceprogram.com/threads/77523-0-24-2-Better-Atmospheres-V5-June-14th-2014
-	copy this folder:
-		GameData\BoulderCo\CityLights\Textures
-	copy these files:
-		GameData\BoulderCo\Clouds\Textures\atmo.png
-		GameData\BoulderCo\Clouds\Textures\Sun.png
-		GameData\BoulderCo\Clouds\Textures\muncraters.png
-	fix sun:
+	copy into: GameData\BoulderCo\Clouds\Textures
+		Sun.png
+		muncraters.png
+		Stratus.png
+		atmo.png
+	fix the sun:
 		download UnityAssetsExplorer 1.2
 		use it to open KSP_Data\sharedassets10.assets
 		select and extract sun_flare.tex (be sure it's converting to DDS)
 		download http://filesmelt.com/dl/eRe4s3rs_Sunflare.zip
-		extract the ZIP sun_flare.dds to copy over your extracted sun_flare.dds
+		extract the ZIP sun_flare.dds to copy over your extracted sun_flare.dds (goes in Users subdirectory)
 		select and import that DDS back into sharedassets10.assets as sun_flare.tex
 		save and exit
-	copy in my custom additional CFG for clouds (that uses these BA5 textures)
 
+// NO	copy this folder:
+//		GameData\BoulderCo\CityLights\Textures
+
+
+===================================================================================================
+=== FLIGHT UTILITY MODS
+===================================================================================================
+Crew Manifest 0.5.9
+	http://forum.kerbalspaceprogram.com/threads/60936-0-24-Kerbal-Crew-Manifest-v0-5-8-0
+	in the game, launch a few stacked pods and create the crew:
+		Kranz, Hadfield, Valentina, Svetlana, Neil, Kesla, Joseph
+
+Alarm Clock 3.0.0.4 beta
+	http://forum.kerbalspaceprogram.com/threads/24786-0-25-0-Kerbal-Alarm-Clock-v2-7-9-0-(Oct-10)
+
+Alt Resourse Panel 2.6.0.0
+	http://forum.kerbalspaceprogram.com/threads/60227-0-24-2-KSP-Alternate-Resource-Panel-v2-5-1-0-(Aug-6)
+	delete: GameData\TriggerTech\Flags
+
+
+===================================================================================================
+=== REALISM & CHALLENGE MODS
+===================================================================================================
+Community Resource Pack 0.2.1
+	http://forum.kerbalspaceprogram.com/threads/91998-0-24-2-Community-Resource-Pack-0-1-3-2014-09-12
+
+Real Fuels 8.0
+	http://forum.kerbalspaceprogram.com/threads/64118-0-24-2-Real-Fuels-v7-3-8-14-14
+	delete GameData\RealFuels\Parts
+	install: GameData\TweakScale\TweakScaleInteraction
+
+DRE 6.2.1
+	http://forum.kerbalspaceprogram.com/threads/54954-0-24-2-Deadly-Reentry-Continued-v5-2-7-25-14
+	delete GameData\DeadlyReentry\Parts
+
+FAR 0.14.2
+	http://forum.kerbalspaceprogram.com/threads/20451-0-24-2-Ferram-Aerospace-Research-v0-14-1-1-7-25-14
+
+RemoteTech 1.5.1
+	http://forum.kerbalspaceprogram.com/threads/83305-0-24-2-RemoteTech-2-v1-4-1
+	delete GameData\RemoteTech2\Parts
+
+KIDS 1.4.1a
+	http://forum.kerbalspaceprogram.com/threads/52882-0-24-2-Kerbal-Isp-Difficulty-Scaler-v1-4-8-14-14
+	use it to add a config:
+		Atm Isp multipliter: 0.8
+		Vac Isp multipliter: 0.8
+		Thrust varies with Isp = true
+		Va/Atm engine Isp rating cutoff = 330
+
+TAC Life Support 0.10.1
+	http://forum.kerbalspaceprogram.com/threads/40667-0-24-2-TAC-Life-Support-v0-10-29Aug-No-Win64-Support
+	delete GameData\ThunderAerospace\TacLifeSupportContainers
+	delete GameData\ThunderAerospace\TacLifeSupportHexCans
+	delete GameData\ThunderAerospace\TacLifeSupportRecyclers
+	delete GameData\ThunderAerospace\TacLifeSupportMFT
+	delete GameData\ThunderAerospace\TacLifeSupport\MM_AddResources.cfg
+	delete GameData\ThunderAerospace\TacLifeSupport\TacResources.cfg
+	set life support to Human standard, NOT default Kerbal-sized standard:
+		Allow respawn = false
+		Food = 6.48165992E-05
+		Water = 0.000319213
+		Oxygen = 0.009111505
+		Base electrical = 0.277777778					// 100 watts
+		Per Kerbal electrical = 0.666666667				// 240 watts
+		EVA Kerbal = don't change
+		CarbonDioxide = 0.007836674
+		Waste = 1.80246914E-05
+		WasteWater = 0.000321656
+		Default EVA amount = 28800
 
 ===================================================================================================
 === PART CHANGER MODS
 ===================================================================================================
-
 INSTALL - Cross Feed Enabler 3.1
 	http://forum.kerbalspaceprogram.com/threads/76499-0-24-2-CrossFeedEnabler-v3-0-2-9-12-14
 
@@ -196,7 +268,7 @@ INSTALL - Tweakable Everything 1.4.1
 		TweakableRCS
 		TweakableSolarPanels
 		TweakableStaging
-	actually rthat was 0.24 instructions, now try all of them again and see what happens
+	actually that was 0.24 instructions, now try all of them again and see what happens
 		GameData\TweakableEverything
 
 //GenericSpace1
