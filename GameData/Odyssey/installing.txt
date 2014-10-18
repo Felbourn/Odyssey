@@ -1,0 +1,64 @@
+===================================================================================================
+=== PROJECT ODYSSEY
+===================================================================================================
+Although I said in the episode that this was 0.24.2, I have decided to upgrade to 0.25 after all.
+I am not showing the launches that got 0.25 up to date, but suffice it to say they looked the same
+as the latest 0.24.2 launches that you DID see on YouTube.
+
+
+===================================================================================================
+=== INITIAL INSTALL
+===================================================================================================
+delete GameData\NASAmission\Flags
+
+delete everything in GameData\NASAmission\Parts
+	except PotatoRoid
+	except Size3AdvancedEngine
+	except GrapplingDevice
+
+delete unwanted flags from GameData\Squad\Flags
+	leave default flag
+
+delete GameData\Squad\SPP
+
+delete everything in GameData\Squad\Parts 
+	except Command
+	except Structural
+	except Utility
+
+delete GameData\Squad\Parts\Command
+	except cupola
+
+delete GameData\Squad\Parts\Structural
+	except structuralPanel1x1
+
+delete GameData\Squad\Parts\Utility
+	except commDish88-88
+	except fuelLine
+
+
+===================================================================================================
+=== BASIC UTILITY MODS
+===================================================================================================
+Simple Part Organizer 1.2.1
+	http://www.curse.com/ksp-mods/kerbal/220245-simple-part-organizer-version-1-2-1
+
+Toolbar 1.7.7
+	http://forum.kerbalspaceprogram.com/threads/60863-0-24-2-Toolbar-1-7-6-Common-API-for-draggable-resizable-buttons-toolbar
+
+Module Manager 2.5.1
+	http://forum.kerbalspaceprogram.com/threads/55219-Module-Manager-2-3-5-(Sept-14)-Loading-Speed-Fix
+
+Active Texture Manager (basic) 3.8
+	http://forum.kerbalspaceprogram.com/threads/59005-0-24-Release-3-4-Active-Texture-Management-Save-RAM-without-reduction-packs!
+	add GameData\ActiveTextureManagement
+	add GameData\BoulderCo
+
+
+//GenericSpace1
+//GenericSpace3
+//landerCabinInternals
+//landerCabinSmallInternal
+//mk1CockpitInternal
+//mk1PodCockpit
+//PodCockpit
