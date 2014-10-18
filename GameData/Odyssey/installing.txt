@@ -36,6 +36,9 @@ delete GameData\Squad\Parts\Utility
 	except commDish88-88
 	except fuelLine
 
+//delete GameData\Squad\Spaces\GenericSpace1
+//delete GameData\Squad\Spaces\GenericSpace3
+
 
 ===================================================================================================
 === BASIC UTILITY MODS
@@ -84,6 +87,102 @@ INSTALL - Fusebox 1.1
 === BEAUTY MODS
 ===================================================================================================
 
+INSTALL - Raster Prop Monitor 0.18.3
+	http://forum.kerbalspaceprogram.com/threads/57603-0-25-RasterPropMonitor-putting-the-A-in-your-IVA-(v0-18-3)-8-Oct
+	delete GameData\JSI\Agencies
+
+INSTALL - EVE 7.4
+	http://forum.kerbalspaceprogram.com/threads/55905-0-23-5-7-3-EnvironmentalVisualEnhancements-NEW%21-VolumetricClouds%21
+
+INSTALL - Astronomer's Visual Pack V3
+	http://kerbal.curseforge.com/ksp-mods/220335-astronomers-visual-pack-v3-beta
+	step 1, is already done
+	step 2, select 512 texs
+	step 3, do it
+	under Extras...
+		install 1.5x cloud density
+		delete TGA files from GameData\TextureReplacer\EnvMap
+		install ZexySky Skybox or Oinker's Skybox in GameData\TextureReplacer\EnvMap
+		replace settings.cfg for Tweaked Terrain
+		edit settings.cfg and fix these:
+			CONIC_PATCH_DRAW_MODE = 0
+			EVA_ROTATE_ON_MOVE = False			// might change this back
+			SHOW_SPACE_CENTER_CREW = False
+			SHIP_VOLUME = 0.2
+			AMBIENCE_VOLUME = 0.2
+			MUSIC_VOLUME = 0
+			UI_VOLUME = 0.1
+			VOICE_VOLUME = 0.1
+			KERBIN_TIME = False
+			FULLSCREEN = False
+			PLANET_SCATTER_FACTOR = 1
+			PHYSICS_FRAME_DT_LIMIT = 0.12
+			SCREEN_RESOLUTION_WIDTH = 1600
+			SCREEN_RESOLUTION_HEIGHT = 900
+			QUALITY_PRESET = 5
+			ANTI_ALIASING = 4
+	delete: GameData\BoulderCo\CityLights\Textures
+
+DOWNLOAD - Better Atmo V5 (we need some files from it)
+	http://forum.kerbalspaceprogram.com/threads/77523-0-24-2-Better-Atmospheres-V5-June-14th-2014
+	copy this folder:
+		GameData\BoulderCo\CityLights\Textures
+	copy these files:
+		GameData\BoulderCo\Clouds\Textures\atmo.png
+		GameData\BoulderCo\Clouds\Textures\Sun.png
+		GameData\BoulderCo\Clouds\Textures\muncraters.png
+	fix sun:
+		download UnityAssetsExplorer 1.2
+		use it to open KSP_Data\sharedassets10.assets
+		select and extract sun_flare.tex (be sure it's converting to DDS)
+		download http://filesmelt.com/dl/eRe4s3rs_Sunflare.zip
+		extract the ZIP sun_flare.dds to copy over your extracted sun_flare.dds
+		select and import that DDS back into sharedassets10.assets as sun_flare.tex
+		save and exit
+	copy in my custom additional CFG for clouds (that uses these BA5 textures)
+
+INSTALL - Distant Object 1.3.1
+	http://forum.kerbalspaceprogram.com/threads/69907-0-24-Distant-Object-Enhancement-1-3-1-Planets-satellites-in-the-night-sky!-(7-29)
+	change debris brightness to 100%
+	change sky brightness to 75%
+
+INSTALL - Kerinside 0.37
+	https://kerbalstuff.com/mod/77/KerbinSide
+	it's the All-In-One, and also adds GameData\medsouz
+	delete: GameData\KerbinSide\Flags
+
+INSTALL - KSC++ V3
+	http://forum.kerbalspaceprogram.com/threads/79542-23-5-LLL-LackLuster-Labs-LLL-Full-12-2-10MAY2014-SXT-16-5-28JUN2014-KSC-v2
+
+INSTALL - Ambient Light 1.2.0
+	http://forum.kerbalspaceprogram.com/threads/71536
+
+INSTALL - Texture Replacer 1.7.3
+	http://forum.kerbalspaceprogram.com/threads/60961-0-24-2-TextureReplacer-1-7-1-(7-9-2014)-Female-name-detection
+
+INSTALL - Diverse Heads 1.0
+	http://kerbal.curseforge.com/ksp-mods/220366-diverse-kerbal-heads-1-0
+
+INSTALL - Space Suits 0.38
+	http://forum.kerbalspaceprogram.com/threads/72115-0-23-5-Green-Skull-Inc-Custom-Design-Spacesuits-v0-38-14th-April-14
+	from MEGA PACK 0.38 only install the following:
+		GameData\TextureReplacer\Heads
+		contents of "Alternate Textures\Suits\KSP" (into GameData\TextureReplacer\Suits, minus the KSP folder)
+		"Alternate Textures\Suits\Green Skull Inc\GSI_Black_Suit" into GameData\TextureReplacer\Suits\GSI_Black_Suit
+
+INSTALL - more space suits
+	http://www.mediafire.com/download/4ulp618m2z7prss/J%27s+Suit+Pack.zip
+
+CLEANUP - suits
+	delete KSP_Orange_EVA_suit
+	delete KSP_Orange_IVA_suit
+	delete KSP_White_EVA_suit
+	delete KSP_White_Suit 
+
+INSTALL - HotRockets 7.25 (core pack only)
+	http://www.curse.com/ksp-mods/kerbal/220207-hotrockets-particle-fx-replacement
+	also add GameData\SmokeScreen
+
 ===================================================================================================
 === PART CHANGER MODS
 ===================================================================================================
@@ -120,3 +219,20 @@ INSTALL - Tweakable Everything 1.4.1
 //mk1CockpitInternal
 //mk1PodCockpit
 //PodCockpit
+
+// INTERNAL SPACES:
+//      8 habitation375internals
+//      6 habitation25internals
+//      4 cupola375internals
+//      4 crewCabinInternals
+//      4 observation25internals
+//      4 habitation25-375internals
+//      3 GenericSpace3
+//      3 PodCockpit
+//      2 landerCabinInternals
+//      2 crewtestInternals
+//      1 cupolaInternal
+//      1 GenericSpace1
+//      1 landerCabinSmallInternal
+//      1 mk1CockpitInternal
+//      1 mk1PodCockpit

@@ -9,7 +9,7 @@ GAME
 	Status = 1
 	scene = 5
 	flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-	launchID = 3
+	launchID = 2
 	PARAMETERS
 	{
 		preset = Moderate
@@ -274,8 +274,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 118.519999999994
-		activeVessel = 7
+		UT = 134.399999999995
+		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
 		{
@@ -825,47 +825,47 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 6527fbaf992a489b9e3bfea63ebb4ff4
+			pid = a4d5dcb7e6ec4f0cbd04d49189810223
 			name = Untitled Space Craft
 			type = Lander
 			sit = PRELAUNCH
 			landed = True
-			landedAt = LaunchPad
+			landedAt = KSC_LaunchPad_Platform
 			splashed = False
 			met = 0
-			lct = 118.519999999994
+			lct = 113.899999999995
 			root = 0
-			lat = -0.0972077817758877
-			lon = 285.442323219764
-			alt = 72.8475922124926
-			hgt = 0.3824539
-			nrm = 0.0007454619,0.9999998,-1.129142E-07
-			rot = -0.7009887,-0.09221793,-0.0972654,0.7004643
-			CoM = 3.806395E-07,4.920002,-7.939259E-07
+			lat = -0.0972077830844866
+			lon = 285.442324919959
+			alt = 72.835268196417
+			hgt = 0.3324506
+			nrm = 5.310346E-06,1,-1.39364E-07
+			rot = -0.7009889,-0.09221648,-0.09726325,0.7004645
+			CoM = -1.134575E-07,0.6150001,-1.685694E-08
 			stg = 1
 			prst = False
-			ref = 2772380871
+			ref = 2434879691
 			ctrl = False
-			cPch = 0.2
-			cHdg = 0.3
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300817.599382694
-				ECC = 0.994822672656978
-				INC = 0.0972077794352397
-				LPE = 90.0000000000001
-				LAN = 107.417997584025
-				MNA = 3.14159182714441
-				EPH = 118.519999999994
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 34.5573063966359
+				LAN = 231.898185949168
+				MNA = -8.40714670366795
+				EPH = 113.919999999995
 				REF = 1
 			}
 			PART
 			{
 				name = view.crewCabinInternals
-				uid = 2772380871
-				mid = 2648165958
-				launchID = 2
+				uid = 2434879691
+				mid = 1959486255
+				launchID = 1
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -879,7 +879,7 @@ GAME
 				attN = None, -1
 				attN = top, 1
 				mass = 1.76
-				temp = 18.7797
+				temp = 19.51023
 				expt = 0.5
 				state = 0
 				connected = True
@@ -887,7 +887,7 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.crewCabinInternals
 				modCost = 0
-				crew = Bob Kerman
+				crew = Jebediah Kerman
 				EVENTS
 				{
 				}
@@ -924,9 +924,9 @@ GAME
 			PART
 			{
 				name = view.cupolaInternal
-				uid = 235997686
-				mid = 2648165958
-				launchID = 2
+				uid = 24713155
+				mid = 1959486255
+				launchID = 1
 				parent = 0
 				position = 0,1.22999954223633,0
 				rotation = 0,0,0,1
@@ -938,9 +938,9 @@ GAME
 				attm = 0
 				srfN = None, -1
 				attN = bottom, 0
-				attN = top, 2
+				attN = None, -1
 				mass = 1.76
-				temp = 18.77015
+				temp = 19.46623
 				expt = 0.5
 				state = 0
 				connected = True
@@ -948,434 +948,7 @@ GAME
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
 				rTrf = view.cupolaInternal
 				modCost = 0
-				crew = Malfal Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.GenericSpace1
-				uid = 2098110711
-				mid = 2648165958
-				launchID = 2
-				parent = 1
-				position = 0,2.46000003814697,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 1
-				attN = top, 3
-				mass = 1.76
-				temp = 18.76126
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.GenericSpace1
-				modCost = 0
-				crew = Bildin Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.GenericSpace3
-				uid = 176571197
-				mid = 2648165958
-				launchID = 2
-				parent = 2
-				position = 0,3.6899995803833,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 2
-				attN = top, 4
-				mass = 1.76
-				temp = 18.7524
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.GenericSpace3
-				modCost = 0
-				crew = Camlorf Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.landerCabinInternals
-				uid = 63877443
-				mid = 2648165958
-				launchID = 2
-				parent = 3
-				position = 0,4.92000007629395,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 3
-				attN = top, 5
-				mass = 1.76
-				temp = 18.74393
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.landerCabinInternals
-				modCost = 0
-				crew = Thomprick Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.landerCabinSmallInternal
-				uid = 3673902821
-				mid = 2648165958
-				launchID = 2
-				parent = 4
-				position = 0,6.14999961853027,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 4
-				attN = top, 6
-				mass = 1.76
-				temp = 18.73508
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.landerCabinSmallInternal
-				modCost = 0
-				crew = Dilger Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.mk1CockpitInternal
-				uid = 890639845
-				mid = 2648165958
-				launchID = 2
-				parent = 5
-				position = 0,7.3799991607666,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 5
-				attN = top, 7
-				mass = 1.76
-				temp = 18.72661
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.mk1CockpitInternal
-				modCost = 0
-				crew = Bilger Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.mk1PodCockpit
-				uid = 910972725
-				mid = 2648165958
-				launchID = 2
-				parent = 6
-				position = 0,8.61000061035156,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 6
-				attN = top, 8
-				mass = 1.76
-				temp = 18.7177
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.mk1PodCockpit
-				modCost = 0
-				crew = Desnand Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Surfaced
-					{
-					}
-					Flew
-					{
-					}
-					FlewBy
-					{
-					}
-					Orbited
-					{
-					}
-					SubOrbited
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = view.PodCockpit
-				uid = 486261741
-				mid = 2648165958
-				launchID = 2
-				parent = 7
-				position = 0,9.84000015258789,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 7
-				attN = None, -1
-				mass = 1.76
-				temp = 18.70624
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.PodCockpit
-				modCost = 0
-				crew = Hans Kerman
+				crew = Bill Kerman
 				EVENTS
 				{
 				}
@@ -1448,7 +1021,7 @@ GAME
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
-				mainThrottle = 0
+				mainThrottle = 0.5
 			}
 		}
 	}
@@ -1461,7 +1034,7 @@ GAME
 			brave = 0.5
 			dumb = 0.5
 			badS = True
-			state = Available
+			state = Assigned
 			ToD = 0
 			idx = 0
 		}
@@ -1472,7 +1045,7 @@ GAME
 			brave = 0.5
 			dumb = 0.8
 			badS = False
-			state = Available
+			state = Assigned
 			ToD = 0
 			idx = 0
 		}
@@ -1483,130 +1056,9 @@ GAME
 			brave = 0.3
 			dumb = 0.1
 			badS = False
-			state = Assigned
+			state = Available
 			ToD = 0
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Calster Kerman
-			type = Crew
-			brave = 0.9764366
-			dumb = 0.5184057
-			badS = False
-			state = Available
-			ToD = 211016.850196533
 			idx = -1
-		}
-		KERBAL
-		{
-			name = Malfal Kerman
-			type = Crew
-			brave = 0.9845585
-			dumb = 0.7668
-			badS = False
-			state = Assigned
-			ToD = 144114.963065796
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Lolock Kerman
-			type = Crew
-			brave = 0.3943956
-			dumb = 0.2574994
-			badS = False
-			state = Available
-			ToD = 199495.357429199
-			idx = -1
-		}
-		KERBAL
-		{
-			name = Hudbree Kerman
-			type = Crew
-			brave = 0.8119262
-			dumb = 0.8633581
-			badS = False
-			state = Available
-			ToD = 180410.704719238
-			idx = -1
-		}
-		KERBAL
-		{
-			name = Camlorf Kerman
-			type = Crew
-			brave = 0.3375433
-			dumb = 0.4158325
-			badS = False
-			state = Assigned
-			ToD = 215233.952247314
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Bildin Kerman
-			type = Crew
-			brave = 0.1659347
-			dumb = 0.2017096
-			badS = False
-			state = Assigned
-			ToD = 191926.573859863
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Hans Kerman
-			type = Crew
-			brave = 0.9892251
-			dumb = 0.6110089
-			badS = False
-			state = Assigned
-			ToD = 240377.166663818
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Desnand Kerman
-			type = Crew
-			brave = 0.6871861
-			dumb = 0.4324182
-			badS = False
-			state = Assigned
-			ToD = 147558.703147583
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Thomprick Kerman
-			type = Crew
-			brave = 0.2496297
-			dumb = 0.3271338
-			badS = False
-			state = Assigned
-			ToD = 233284.702216797
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Dilger Kerman
-			type = Crew
-			brave = 0.9159513
-			dumb = 0.07579458
-			badS = False
-			state = Assigned
-			ToD = 255142.008887939
-			idx = 0
-		}
-		KERBAL
-		{
-			name = Bilger Kerman
-			type = Crew
-			brave = 0.244287
-			dumb = 0.02059448
-			badS = False
-			state = Assigned
-			ToD = 160414.849387817
-			idx = 0
 		}
 	}
 	MESSAGESYSTEM
