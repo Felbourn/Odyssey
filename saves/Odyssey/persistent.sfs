@@ -87,8 +87,8 @@ GAME
 		{
 			AltitudeRecord
 			{
-				reached = 25.5199999999996
-				record = 72.8852708677296
+				reached = 122.939999999993
+				record = 72.9039962979732
 			}
 		}
 	}
@@ -274,7 +274,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 118.519999999994
+		UT = 445.699999999885
 		activeVessel = 7
 		mapViewFiltering = -1026
 		VESSEL
@@ -830,34 +830,34 @@ GAME
 			type = Lander
 			sit = PRELAUNCH
 			landed = True
-			landedAt = LaunchPad
+			landedAt = KSC_LaunchPad_Platform
 			splashed = False
 			met = 0
-			lct = 118.519999999994
+			lct = 445.699999999885
 			root = 0
-			lat = -0.0972077817758877
-			lon = 285.442323219764
-			alt = 72.8475922124926
-			hgt = 0.3824539
-			nrm = 0.0007454619,0.9999998,-1.129142E-07
-			rot = -0.7009887,-0.09221793,-0.0972654,0.7004643
-			CoM = 3.806395E-07,4.920002,-7.939259E-07
+			lat = -0.0972077837482174
+			lon = 285.442324918477
+			alt = 72.8540121434489
+			hgt = 0.3324697
+			nrm = 3.779535E-05,1,7.507986E-06
+			rot = -0.7009932,-0.09220561,-0.0972513,0.7004633
+			CoM = 1.861745E-07,4.920001,-6.972783E-08
 			stg = 1
 			prst = False
-			ref = 2772380871
+			ref = 235997686
 			ctrl = False
 			cPch = 0.2
 			cHdg = 0.3
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300817.599382694
-				ECC = 0.994822672656978
-				INC = 0.0972077794352397
+				SMA = 300817.602625324
+				ECC = 0.994822672490848
+				INC = 0.0972077846880631
 				LPE = 90.0000000000001
-				LAN = 107.417997584025
-				MNA = 3.14159182714441
-				EPH = 118.519999999994
+				LAN = 112.871021477331
+				MNA = 3.14159265358979
+				EPH = 445.699999999885
 				REF = 1
 			}
 			PART
@@ -879,13 +879,13 @@ GAME
 				attN = None, -1
 				attN = top, 1
 				mass = 1.76
-				temp = 18.7797
+				temp = 18.2697
 				expt = 0.5
 				state = 0
 				connected = True
 				attached = True
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = view.crewCabinInternals
+				rTrf = view.crewCabinInternals (Untitled Space Craft)
 				modCost = 0
 				crew = Bob Kerman
 				EVENTS
@@ -893,6 +893,17 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -940,7 +951,7 @@ GAME
 				attN = bottom, 0
 				attN = top, 2
 				mass = 1.76
-				temp = 18.77015
+				temp = 18.25356
 				expt = 0.5
 				state = 0
 				connected = True
@@ -954,6 +965,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -978,6 +1013,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1001,7 +1047,7 @@ GAME
 				attN = bottom, 1
 				attN = top, 3
 				mass = 1.76
-				temp = 18.76126
+				temp = 18.24755
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1015,6 +1061,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1039,6 +1109,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1062,7 +1143,7 @@ GAME
 				attN = bottom, 2
 				attN = top, 4
 				mass = 1.76
-				temp = 18.7524
+				temp = 18.24512
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1076,6 +1157,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1100,6 +1205,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1123,7 +1239,7 @@ GAME
 				attN = bottom, 3
 				attN = top, 5
 				mass = 1.76
-				temp = 18.74393
+				temp = 18.24354
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1137,6 +1253,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1161,6 +1301,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1184,7 +1335,7 @@ GAME
 				attN = bottom, 4
 				attN = top, 6
 				mass = 1.76
-				temp = 18.73508
+				temp = 18.24122
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1198,6 +1349,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1222,6 +1397,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1245,7 +1431,7 @@ GAME
 				attN = bottom, 5
 				attN = top, 7
 				mass = 1.76
-				temp = 18.72661
+				temp = 18.23638
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1259,6 +1445,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1283,6 +1493,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1306,7 +1527,7 @@ GAME
 				attN = bottom, 6
 				attN = top, 8
 				mass = 1.76
-				temp = 18.7177
+				temp = 18.22377
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1320,6 +1541,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1344,6 +1589,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1367,7 +1623,7 @@ GAME
 				attN = bottom, 7
 				attN = None, -1
 				mass = 1.76
-				temp = 18.70624
+				temp = 18.19019
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1381,6 +1637,30 @@ GAME
 				}
 				ACTIONS
 				{
+				}
+				MODULE
+				{
+					name = RasterPropMonitorComputer
+					isEnabled = True
+					data = 
+					vesselDescription = 
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = JSINonTransparentPod
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
 				}
 				MODULE
 				{
@@ -1405,6 +1685,17 @@ GAME
 					{
 					}
 					SubOrbited
+					{
+					}
+				}
+				MODULE
+				{
+					name = MechJebRPMVariables
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
 					{
 					}
 				}
@@ -1448,7 +1739,7 @@ GAME
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
-				mainThrottle = 0
+				mainThrottle = 0.5
 			}
 		}
 	}
