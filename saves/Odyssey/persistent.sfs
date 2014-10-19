@@ -62,7 +62,7 @@ GAME
 		DIFFICULTY
 		{
 			AutoHireCrews = False
-			MissingCrewsRespawn = False
+			MissingCrewsRespawn = True
 			BypassEntryPurchaseAfterResearch = True
 			AllowStockVessels = True
 			IndestructibleFacilities = False
@@ -361,11 +361,29 @@ GAME
 		{
 		}
 	}
+	SCENARIO
+	{
+		name = DeadlyReentryScenario
+		scene = 7, 5
+		difficultySetting = 2
+	}
+	SCENARIO
+	{
+		name = TacLifeSupport
+		scene = 5, 7, 6, 9
+		SavedGameSettings
+		{
+			IsNewSave = False
+			Enabled = True
+			HibernateInsteadOfKill = False
+			RespawnDelay = 9203545
+		}
+	}
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 1850.97106262105
-		activeVessel = 8
+		UT = 1938.41106262097
+		activeVessel = 0
 		mapViewFiltering = 990
 		VESSEL
 		{
@@ -941,13 +959,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 300038.876584949
 				ECC = 1
 				INC = NaN
-				LPE = 33.7367440547321
-				LAN = 249.29412479441
-				MNA = -8.40714670366795
-				EPH = 1206.3799999992
+				LPE = 34.5573264308531
+				LAN = 260.8495113574
+				MNA = 3.14159265358979
+				EPH = 1850.99106262105
 				REF = 1
 			}
 			PART
@@ -1859,18 +1877,18 @@ GAME
 			prst = False
 			ref = 0
 			ctrl = True
-			cPch = 0.3604347
-			cHdg = 16.55984
+			cPch = 
+			cHdg = 
 			cMod = 1
 			ORBIT
 			{
-				SMA = 161707.086211486
-				ECC = 0.998970076598347
-				INC = 0.0500356166687568
-				LPE = 97.8966904943673
-				LAN = 77.8722323713778
-				MNA = 3.14167637362911
-				EPH = 1850.97106262105
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 3.15563519429746
+				LAN = 260.8495113574
+				MNA = -8.40714670366795
+				EPH = 1850.99106262105
 				REF = 6
 			}
 			PART
@@ -2276,13 +2294,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 33.7366922047012
-				LAN = 249.29412479441
-				MNA = -8.40714670366795
-				EPH = 1206.3799999992
+				LPE = 34.5574738689043
+				LAN = 260.8495113574
+				MNA = 0
+				EPH = 1850.99106262105
 				REF = 1
 			}
 			PART
@@ -2688,13 +2706,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 300036.363735956
 				ECC = 1
 				INC = NaN
-				LPE = 33.7366659383237
-				LAN = 249.29412479441
-				MNA = -8.40714670366795
-				EPH = 1206.3799999992
+				LPE = 34.5573433756762
+				LAN = 260.8495113574
+				MNA = 0.288150375758712
+				EPH = 1850.99106262105
 				REF = 1
 			}
 			PART
@@ -3100,13 +3118,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = 300036.364100833
 				ECC = 1
 				INC = NaN
-				LPE = 33.73663942883
-				LAN = 249.29412479441
-				MNA = -8.40714670366795
-				EPH = 1206.3799999992
+				LPE = 34.5572514012592
+				LAN = 260.8495113574
+				MNA = 3.14159265358979
+				EPH = 1850.99106262105
 				REF = 1
 			}
 			PART
@@ -3512,13 +3530,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 33.7366127977671
-				LAN = 249.29412479441
+				LPE = 34.557147846844
+				LAN = 260.8495113574
 				MNA = -8.40714670366795
-				EPH = 1206.3799999992
+				EPH = 1850.99106262105
 				REF = 1
 			}
 			PART
@@ -3924,13 +3942,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300087.546291098
+				SMA = 300036.363107658
 				ECC = 1
 				INC = NaN
-				LPE = 33.7367185927811
-				LAN = 249.29412479441
+				LPE = 34.5575049650761
+				LAN = 260.8495113574
 				MNA = 3.14159265358979
-				EPH = 1206.3799999992
+				EPH = 1850.99106262105
 				REF = 1
 			}
 			PART

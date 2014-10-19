@@ -69,7 +69,6 @@ Scene Jumper 0.2.1
 ===================================================================================================
 === CONSTRUCTION MODS
 ===================================================================================================
-
 MechJeb 2.4.0
 	http://forum.kerbalspaceprogram.com/threads/12384-PART-0-21-Anatid-Robotics-MuMech-MechJeb-Autopilot-v2-0-9
 	delete GameData\MechJeb2\Parts
@@ -85,11 +84,14 @@ Select Root Jul18
 Fusebox 1.1
 	http://forum.kerbalspaceprogram.com/threads/50077-0-24-2-Fusebox-electric-charge-tracker-and-build-helper-1-0a-released-24-08-14
 
+RCS Build Aid 0.5.1
+	http://forum.kerbalspaceprogram.com/threads/35996-0-24-x-RCS-Build-Aid-v0-5
+	delete GameData\RCSBuildAid\Sources
+
 
 ===================================================================================================
 === BEAUTY MODS
 ===================================================================================================
-
 Raster Prop Monitor 0.18.3
 	http://forum.kerbalspaceprogram.com/threads/57603-0-25-RasterPropMonitor-putting-the-A-in-your-IVA-(v0-18-3)-8-Oct
 	delete GameData\JSI\Agencies
@@ -191,6 +193,12 @@ Alt Resourse Panel 2.6.0.0
 	http://forum.kerbalspaceprogram.com/threads/60227-0-24-2-KSP-Alternate-Resource-Panel-v2-5-1-0-(Aug-6)
 	delete: GameData\TriggerTech\Flags
 
+Docking Indicator 4.0
+	http://forum.kerbalspaceprogram.com/threads/54303-0-24-Navball-docking-alignment-indicator-v4
+
+Enhanced Navball 1.3.3
+	http://forum.kerbalspaceprogram.com/threads/50524-Plugin-Enhanced-Navball-1-1
+
 
 ===================================================================================================
 === REALISM & CHALLENGE MODS
@@ -201,18 +209,18 @@ Community Resource Pack 0.2.1
 Real Fuels 8.0
 	http://forum.kerbalspaceprogram.com/threads/64118-0-24-2-Real-Fuels-v7-3-8-14-14
 	delete GameData\RealFuels\Parts
-	install: GameData\TweakScale\TweakScaleInteraction
 
 DRE 6.2.1
 	http://forum.kerbalspaceprogram.com/threads/54954-0-24-2-Deadly-Reentry-Continued-v5-2-7-25-14
 	delete GameData\DeadlyReentry\Parts
 
-FAR 0.14.2
+FAR 0.14.3
 	http://forum.kerbalspaceprogram.com/threads/20451-0-24-2-Ferram-Aerospace-Research-v0-14-1-1-7-25-14
 
 RemoteTech 1.5.1
 	http://forum.kerbalspaceprogram.com/threads/83305-0-24-2-RemoteTech-2-v1-4-1
-	delete GameData\RemoteTech2\Parts
+	delete contents of GameData\RemoteTech2\Parts
+	except: GigaDish1
 
 KIDS 1.4.1a
 	http://forum.kerbalspaceprogram.com/threads/52882-0-24-2-Kerbal-Isp-Difficulty-Scaler-v1-4-8-14-14
@@ -242,6 +250,17 @@ TAC Life Support 0.10.1
 		Waste = 1.80246914E-05
 		WasteWater = 0.000321656
 		Default EVA amount = 28800
+
+
+===================================================================================================
+=== MOVIE TOOLS
+===================================================================================================
+INSTALL - KerbCam 0.13
+	http://forum.kerbalspaceprogram.com/threads/24757-0-23-5-KerbCam-v0-13-(camera-pathing-tool-for-videos)
+
+INSTALL - Camera Tools 1.1
+	http://forum.kerbalspaceprogram.com/threads/94171-24-2-Camera-Tools
+
 
 ===================================================================================================
 === PART CHANGER MODS

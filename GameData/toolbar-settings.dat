@@ -15,6 +15,18 @@ toolbars
 			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,PartOrganizer.sort,PartOrganizer.filter
 			visibleButtons = PartOrganizer.filter,PartOrganizer.sort
 		}
+		toolbar_1525673845
+		{
+			x = 445
+			y = 48
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = Fusebox.FBToggle,RCSBuildAid.mainButton,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB
+		}
 	}
 	MAINMENU
 	{
@@ -91,7 +103,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings
+			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS
 		}
 	}
 	FLIGHT
