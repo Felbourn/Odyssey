@@ -69,7 +69,7 @@ toolbars
 		toolbar_701378210
 		{
 			x = 1143
-			y = 5
+			y = 0
 			width = 250
 			height = 38
 			autoHide = False
@@ -88,7 +88,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon
+			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon,Trajectories.ToggleUI,ferram4.FAREditorButton
 		}
 		toolbar_1525673845
 		{
@@ -102,20 +102,56 @@ toolbars
 			buttonOrder = 
 			visibleButtons = Fusebox.FBToggle,RCSBuildAid.mainButton,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB
 		}
-	}
-	SPACECENTER
-	{
-		toolbar_603346423
+		toolbar_1343515002
 		{
-			x = 9
-			y = 7
+			x = 39
+			y = 66
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS,AmbientLightAdjustment.adjustLevels,SCANsat.KSCMap,KerbalAlarmClock.btnToolbarIcon
+			visibleButtons = KerbalAlarmClock.btnToolbarIcon
+		}
+		toolbar_2101262639
+		{
+			x = 544
+			y = 0
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,SCANsat.SmallMap,SCANsat.BigMap,SCANsat.UIMenu
+			visibleButtons = SCANsat.BigMap,SCANsat.SmallMap,SCANsat.UIMenu
+		}
+		toolbar_1382671563
+		{
+			x = 347
+			y = -1
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = KerbCam.toggle,VV.VVbutton,VVC.VVbuttonC
+		}
+	}
+	SPACECENTER
+	{
+		toolbar_603346423
+		{
+			x = 2
+			y = 7
+			width = 338
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS,AmbientLightAdjustment.adjustLevels,SCANsat.KSCMap,KerbalAlarmClock.btnToolbarIcon,ferram4.FARDebugButtonBlizzy,Trajectories.ToggleUI,Kethane.toggle
 		}
 	}
 	FLIGHT
@@ -135,7 +171,7 @@ toolbars
 		toolbar_701378210
 		{
 			x = 1143
-			y = 5
+			y = 0
 			width = 250
 			height = 38
 			autoHide = False
@@ -154,7 +190,43 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon
+			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon,Trajectories.ToggleUI,ferram4.FAREditorButton
+		}
+		toolbar_1343515002
+		{
+			x = 39
+			y = 66
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = KerbalAlarmClock.btnToolbarIcon
+		}
+		toolbar_2101262639
+		{
+			x = 544
+			y = 0
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,SCANsat.SmallMap,SCANsat.BigMap,SCANsat.UIMenu
+			visibleButtons = SCANsat.BigMap,SCANsat.SmallMap,SCANsat.UIMenu
+		}
+		toolbar_1382671563
+		{
+			x = 347
+			y = -1
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = KerbCam.toggle,VV.VVbutton,VVC.VVbuttonC
 		}
 	}
 	TRACKSTATION
