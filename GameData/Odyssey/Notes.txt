@@ -1,5 +1,5 @@
 ===================================================================================================
-=== Internal Spaces
+=== INTERNAL SPACES
 ===================================================================================================
 Sizes and INTERNAL name, plus notes about the spaces.
 
@@ -22,3 +22,102 @@ Stock Station Expansion:
 	4 observation25internals	-
 	4 habitation25-375internals	-
 	2 crewtestInternals	-
+
+
+===================================================================================================
+=== MISSION REQUIREMENTS
+===================================================================================================
+
+KSO launcher
+      ~4000 to KTO (2,868,750)    OR  ~3400 LKO
+      ~450 in sat to finish           ~680 KTO boost (+25 to post-payload deorbit)
+      dark ~1200 secs                 ~450 sat finish
+
+General Mun trip:
+      ~4100 TMI
+      ~310 LMU capture
+      ~650 landing
+      ~580 LMU return
+      ~310 return to Kerbin for aerocapture
+
+Deep Space Comm (L4/L5):
+      ~3300 LKO
+      ~1000 escape    want period = 124.3 days and 88.8 days (AP = 62d 3hr or 44d 9h)
+      ~500 reorbit
+
+Odyssey Station (~300km):
+      ~3700 liftoff
+      ~400 orbit (with ~200 slush)
+
+Mun L4 & L5 + LKO:
+      ~2500 stage 1
+      ~2000 payload booster
+          ~1000 LKO
+          ~760 raise orbit of both satellites, decouple L4
+          ~110 raise L5 orbit after one orbit
+          ~130 decouple booster stage, crash into Mun, plus buffer fuel
+      ~500 satellite L4
+          ~130 raise orbit
+          ~370 complete orbit
+      ~370 satellite L5
+          ~370 complete orbit
+
+
+===================================================================================================
+=== MAX TEMPS
+===================================================================================================
+Some real melting points:
+	-259 Hydrogen	
+	659  Aluminum	
+	1083 Copper	
+	1363 Stainless Steel	
+	1530 Iron	
+	1795 Titanium	
+	3000 Tungsten	
+	3600 Carbon	
+
+Game values:
+	1000 default, battery, vacuum capsule
+	1050 science
+	1100 probe 
+	1150 wheel
+	1200 solar
+	1250 chute
+	1300 dish/antenna
+	1350 servo
+	1400 light
+	1450 return capsule, gyro, mono tank, wing
+	1500 docking, ladder, pipe, fram
+	1550 legs, fuel tank, handrails
+	1600 girder, rcs engine
+	1700 decoupler
+	1800 fairing
+	1900 generator
+	2100 radiator
+	2200 drill
+	2300 engines
+	2400 SRBs
+	2500 heat shield
+	2600 launch clamp
+
+
+===================================================================================================
+=== MISC INFO
+===================================================================================================
+Fuel mass used per second = thrust / Isp / 9.81
+
+HotRockets:
+      energy   - particles lifetime (set in Unity)
+      emission - particles quantity (go as small as looks good)
+
+Ideal gas law: 0.0446175159318548 moles per liter at 1 atm 0 deg C
+
+attachment: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+
+ fuel masses, tons per liter:
+      UDMH            0.00079100
+      NTO             0.00145000
+      LqdHydrogen     0.00007085
+      LqdOxygen       0.00114100
+      Hydrazine       0.00100400
+      Kerosene        0.00082000
