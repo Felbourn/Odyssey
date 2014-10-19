@@ -90,6 +90,18 @@ toolbars
 			buttonOrder = 
 			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon
 		}
+		toolbar_1525673845
+		{
+			x = 445
+			y = 48
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = Fusebox.FBToggle,RCSBuildAid.mainButton,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB
+		}
 	}
 	SPACECENTER
 	{
@@ -103,7 +115,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS
+			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS,AmbientLightAdjustment.adjustLevels,SCANsat.KSCMap,KerbalAlarmClock.btnToolbarIcon
 		}
 	}
 	FLIGHT
@@ -149,15 +161,15 @@ toolbars
 	{
 		toolbar_1665779502
 		{
-			x = 300
-			y = 300
+			x = 207
+			y = 34
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = AmbientLightAdjustment.adjustLevels,Fusebox.FBToggle,SCANsat.KSCMap,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Trajectories.ToggleUI,KerbalAlarmClock.btnToolbarIcon
 		}
 	}
 }
