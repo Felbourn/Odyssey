@@ -233,12 +233,7 @@ FAR 0.14.3
 RemoteTech 1.5.1
 	http://forum.kerbalspaceprogram.com/threads/83305-0-24-2-RemoteTech-2-v1-4-1
 	delete contents of GameData\RemoteTech2\Parts
-	delete GameData\RemoteTech\RemoteTech_Tech_Node.cfg
-	delete GameData\RemoteTech\Parts\LongAntenna2
-	delete GameData\RemoteTech\Parts\ShortDish2
-	delete GameData\RemoteTech\Parts\ShortAntenna1
-	delete GameData\RemoteTech\Parts\LongDish1
-	except: GigaDish1
+		except: GigaDish1, LongAntenna3, & LongDish2
 
 KIDS 1.4.1a
 	http://forum.kerbalspaceprogram.com/threads/52882-0-24-2-Kerbal-Isp-Difficulty-Scaler-v1-4-8-14-14
@@ -284,6 +279,36 @@ Kethane 0.9.2
 	http://forum.kerbalspaceprogram.com/threads/23979-Kethane-Pack-0-9-Major-API-changes-license-revisions-and-code-reorganization
 	delete GameData\Kethane\Flags
 	delete GameData\Kethane\Parts
+
+
+===================================================================================================
+=== TOYS
+===================================================================================================
+KAS 0.4.9
+	http://forum.kerbalspaceprogram.com/threads/92514-0-24-2-Kerbal-Attachment-System-%28KAS%29-0-4-8-Fixed-for-0-24-2-x86-x64-%29
+	make a copy of this: GameData\KAS\Parts\winch1\winch_N.mbm   in here: GameData\KAS\Parts\cPort2
+
+Infernal Robotics 0.19.2
+	http://forum.kerbalspaceprogram.com/threads/37707-0-24-2-Magic-Smoke-Industries-Infernal-Robotics-0-19a
+	delete everything in GameData\MagicSmokeIndustries\Parts\Legacy
+	except: AdjustableRail, IR_HingeOpen, IR_HingeClosed, & IR_TweakScale.cfg
+
+IR Model Rework - Robotic, Structural, Struts
+	do not install everything; just add the folders shown below
+	http://forum.kerbalspaceprogram.com/threads/65365-WIP-MSI-s-Infernal-Robotics-Model-Rework-(Updated-27-08)-now-with-FOLDATRONS!!
+	from Robotic:
+		GameData\MagicSmokeIndustries\Parts\Rework\Robotic_ProbeRotational\IR_Pivotron_Basic
+	from Structural:
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Adapter_0625ToTrussLarge
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Adapter_0625ToTrussSmall
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Adapter_TrussLargeToTrussSmall
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Adapter_TrussLargeToTubeLarge
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Segment_TrussLarge_1m25
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Segment_TrussLarge_2m50
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Segment_TrussLarge_5m00
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Probe\IR_Structural.tga
+	from Struts:
+		GameData\MagicSmokeIndustries\Parts\Rework\Structural_Struts\IR_StrutDecoupler_Small
 
 
 ===================================================================================================

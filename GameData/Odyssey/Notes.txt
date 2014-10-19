@@ -102,6 +102,30 @@ Game values:
 
 
 ===================================================================================================
+=== LIFE SUPPORT
+===================================================================================================
+MRE used as base example: 12 meals per case, 2 meals per Kerbal per 24 hours
+48 cases per pallet = 288 meals per pallet (49 x 49 x 41 inches, 1098 lbs)
+so 288 meals of 498 kg fits in 1613 liters = 0.000308741476 t/unit
+life support is 620 g per 24 hours, so 1.729166667 - 0.62 = 1.109166667 extra Waste per day
+
+
+===================================================================================================
+=== COMMUNICATIONS
+===================================================================================================
+         km   purpose                 watts   drain   angle    art style
+-----------   ----------------------  -----   -----   -----    ---------
+        500   liftoff, always active     50   0.139    omni    tiny antenna
+      5,000   low orbit, basic          100   0.278    omni    extending antenna
+     25,000   near moons                200   0.556      50    AIES small flip-dish
+     50,000   mid moons                 300   0.833      35    SQUAD folding dish
+    500,000   far moons                 500   1.389      25    Reflectron KR-14
+  5,000,000   not used?                 700   1.944      10    ---
+ 50,000,000   near planets             1000   2.778       5    RT folding dish
+500,000,000   far planets              1500   4.167       2    RT folding dish (large)
+
+
+===================================================================================================
 === MISC INFO
 ===================================================================================================
 Fuel mass used per second = thrust / Isp / 9.81
