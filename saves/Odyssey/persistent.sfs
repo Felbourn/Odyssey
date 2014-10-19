@@ -9,7 +9,7 @@ GAME
 	Status = 1
 	scene = 5
 	flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-	launchID = 7
+	launchID = 8
 	PARAMETERS
 	{
 		preset = Moderate
@@ -987,8 +987,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 4182.6110626209
-		activeVessel = 0
+		UT = 4269.7110626228
+		activeVessel = 7
 		mapViewFiltering = 990
 		VESSEL
 		{
@@ -1534,6 +1534,252 @@ GAME
 			}
 			CTRLSTATE
 			{
+			}
+		}
+		VESSEL
+		{
+			pid = 05ffc43eacb342c794b25cc9731b59f2
+			name = Untitled Space Craft
+			type = Debris
+			sit = PRELAUNCH
+			landed = True
+			landedAt = KSC_LaunchPad_Platform
+			splashed = False
+			met = 0
+			lct = 4269.7110626228
+			root = 0
+			lat = -0.0972077826917515
+			lon = 285.442324499201
+			alt = 72.5258480227785
+			hgt = 1.490116E-08
+			nrm = 7.032531E-07,1,9.429125E-08
+			rot = -0.7009888,-0.09221771,-0.09726524,0.7004643
+			CoM = 7.69184E-10,-5.250693E-10,4.476766E-12
+			stg = 1
+			prst = False
+			ref = 1412317509
+			ctrl = False
+			cPch = 0.41
+			cHdg = 0.93
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300814.951059992
+				ECC = 0.994822811924846
+				INC = 0.0972077815573654
+				LPE = 90.0002221137852
+				LAN = 176.604630489981
+				MNA = 3.1415546913741
+				EPH = 4269.7110626228
+				REF = 1
+			}
+			PART
+			{
+				name = aerocam
+				uid = 1412317509
+				mid = 3656773903
+				launchID = 7
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				mass = 1E-05
+				temp = 19.46649
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
+				rTrf = aerocam
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = MuMechModuleHullCameraZoom
+					isEnabled = True
+					EVENTS
+					{
+						ActivateCamera
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Camera
+							guiName = Activate Camera
+							category = Activate Camera
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						EnableCamera
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable Camera
+							guiName = Disable Camera
+							category = Disable Camera
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ZoomInAction
+						{
+							actionGroup = None
+						}
+						ZoomOutAction
+						{
+							actionGroup = None
+						}
+						ActivateCameraAction
+						{
+							actionGroup = None
+						}
+						DeactivateCameraAction
+						{
+							actionGroup = None
+						}
+						NextCameraAction
+						{
+							actionGroup = None
+						}
+						PreviousCameraAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = JSIExternalCameraSelector
+					isEnabled = True
+					current = 1
+					showCones = False
+					showCones_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						IdPlus
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiIcon = ID +
+							guiName = ID +
+							category = ID +
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						IdMinus
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiIcon = ID -
+							guiName = ID -
+							category = ID -
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAeroReentry
+					isEnabled = True
+					adjustCollider = 0
+					crashTolerance = 8
+					damage = 0
+					dead = False
+					EVENTS
+					{
+						RepairDamage
+						{
+							active = True
+							guiActive = False
+							guiIcon = No Damage
+							guiName = No Damage
+							category = No Damage
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0.5
 			}
 		}
 	}

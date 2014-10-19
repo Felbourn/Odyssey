@@ -138,6 +138,18 @@ toolbars
 			buttonOrder = 
 			visibleButtons = KerbCam.toggle,VV.VVbutton,VVC.VVbuttonC
 		}
+		toolbar_671372023
+		{
+			x = 152
+			y = 2
+			width = 317
+			height = 81
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = AmbientLightAdjustment.adjustLevels,CrewManifest.CrewManifest,ferram4.FAREditorButton,Fusebox.FBToggle,KerbalAlarmClock.btnToolbarIcon,KerbCam.toggle,SCANsat.BigMap,SCANsat.SmallMap,SCANsat.UIMenu,SmokeScreen.main,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Trajectories.ToggleUI,VV.VVbutton,VVC.VVbuttonC
+		}
 	}
 	SPACECENTER
 	{
@@ -242,6 +254,21 @@ toolbars
 			useKSPSkin = False
 			buttonOrder = 
 			visibleButtons = AmbientLightAdjustment.adjustLevels,Fusebox.FBToggle,SCANsat.KSCMap,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Trajectories.ToggleUI,KerbalAlarmClock.btnToolbarIcon
+		}
+	}
+	FLIGHTMAP
+	{
+		toolbar_671372023
+		{
+			x = 152
+			y = 2
+			width = 317
+			height = 81
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = AmbientLightAdjustment.adjustLevels,CrewManifest.CrewManifest,ferram4.FAREditorButton,Fusebox.FBToggle,KerbalAlarmClock.btnToolbarIcon,KerbCam.toggle,SCANsat.BigMap,SCANsat.SmallMap,SCANsat.UIMenu,SmokeScreen.main,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Trajectories.ToggleUI,VV.VVbutton,VVC.VVbuttonC
 		}
 	}
 }
