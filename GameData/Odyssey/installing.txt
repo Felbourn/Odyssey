@@ -374,9 +374,14 @@ Kosmos 4.7.2
 
 Aerojet 3.0.2
 	http://forum.kerbalspaceprogram.com/threads/76170-0-24-x-Aerojet-Kerbodyne-3-0-(Sept5-Complete-Remodel-ICPS-Umbilicals-and-More!)
+	install: GameData\AerojetKerbodyne\FX
+	install: GameData\AerojetKerbodyne\Sounds
 
 TurboNisu Custom Parts
 	http://forum.kerbalspaceprogram.com/threads/69539-0-23-Stockalike-parts-for-useful-esthetics
+
+Kerbal Stock Launcher Overhaul 2.0
+	http://forum.kerbalspaceprogram.com/threads/76871-0-23-5-Kerbal-Stock-Launcher-Overhaul-6-13-Untested-(Kerbal-X-Pack-2-0)
 
 
 ===================================================================================================
@@ -413,15 +418,30 @@ Static Solar Panel
 Cool Satellite Fuel (by TurboNisu)
 	GameData\TurboNisu\Parts\largeAdapterTank (goes in GameData\Odyssey\Parts\Fuel\largeAdapterTank)
 
-OMS Engine
+OMS Engines & Various RCS Engines
+	GameData\AerojetKerbodyne\Parts\OrionThrusters
 
-Various RCS Engines
+Radial Mono Tanks
+	GameData\KOSMOS\Parts\FuelTank\Kosmos_TKS_RCS_Tank
+
+Liftoff Antenna
+	GameData\KOSMOS\Parts\Command\Kosmos_Pravilo_ASAS
+
+Radial Tritank
+	http://forum.kerbalspaceprogram.com/threads/77082-Open-Part-Mod-voting-poll?p=1102215&viewfull=1#post1102215
+	into: GameData\Odyssey\Parts\Fuel\Tritank
+
+Radial CPU
+	http://forum.kerbalspaceprogram.com/threads/78480-The-Open-Part-Mod-Week-2-Voting-Started%21?highlight=open+part
+	make sure the part.cfg is not named part.cfg.txt (rename it if it is)
+	install into: GameData\Odyssey\Parts\CPUs\RadialProbe
+
+Payload Decoupler
+	GameData\KerbalStockLauncherOverhaul\Parts\Structural\KXdecoupler
 
 Toroidal Fuel
 
 Fregat Fuel
-
-Payload Decoupler
 
 Fairings
 

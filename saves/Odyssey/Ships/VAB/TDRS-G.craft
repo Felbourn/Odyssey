@@ -4,7 +4,7 @@ description =
 type = VAB
 PART
 {
-	part = AntimatterTank_4294136266
+	part = AntimatterTank_4294447836
 	partName = Part
 	pos = -1.78989,10.11638,0.1160917
 	rot = 0,0,0,1
@@ -16,32 +16,32 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -1156.25
-	link = AMIReactor_4294136218
-	link = W485.SurfaceOmniLight_4294135916
-	link = W485.SurfaceOmniLight_4294135884
-	link = W485.SurfaceOmniLight_4294135852
-	link = W485.SurfaceOmniLight_4294135820
-	link = W485.SurfaceOmniLight_4294135788
-	link = W485.SurfaceOmniLight_4294135756
-	link = W485.SurfaceOmniLight_4294135724
-	link = W485.SurfaceOmniLight_4294135692
-	link = W485.SurfaceOmniLight_4294135660
-	link = W485.SurfaceOmniLight_4294135628
-	link = W485.SurfaceOmniLight_4294135596
-	link = W485.SurfaceOmniLight_4294135564
-	link = xenon-rad-125_4294135404
-	link = xenon-rad-125_4294135352
-	link = IR.Pivotron.Basic_4294135306
-	link = IR.Pivotron.Basic_4294134534
-	link = IRHingeClosedScaleable2_4294133762
-	link = IRHingeClosedScaleable2_4294132872
-	link = AJ10_4294131122
-	link = ESARCS_4294085034
-	link = ESARCS_4294084498
-	link = RCS_4294082394
-	link = RCS_4294082106
-	attN = top,AMIReactor_4294136218
-	attN = bottom,AJ10_4294131122
+	link = W485.SurfaceOmniLight_4294447788
+	link = W485.SurfaceOmniLight_4294447756
+	link = W485.SurfaceOmniLight_4294447724
+	link = W485.SurfaceOmniLight_4294447692
+	link = W485.SurfaceOmniLight_4294447660
+	link = W485.SurfaceOmniLight_4294447628
+	link = W485.SurfaceOmniLight_4294447596
+	link = W485.SurfaceOmniLight_4294447564
+	link = W485.SurfaceOmniLight_4294447532
+	link = W485.SurfaceOmniLight_4294447500
+	link = W485.SurfaceOmniLight_4294447468
+	link = W485.SurfaceOmniLight_4294447436
+	link = xenon-rad-125_4294447404
+	link = xenon-rad-125_4294447354
+	link = IR.Pivotron.Basic_4294447310
+	link = IR.Pivotron.Basic_4294446538
+	link = IRHingeClosedScaleable2_4294445766
+	link = IRHingeClosedScaleable2_4294444876
+	link = RCS_4294442998
+	link = RCS_4294442936
+	link = largeAdapterTank_4294442874
+	link = AMIReactor_4294442504
+	link = ESARCS_4294442002
+	link = ESARCS_4294441948
+	attN = top,AMIReactor_4294442504
+	attN = bottom,largeAdapterTank_4294442874
 	EVENTS
 	{
 	}
@@ -413,1096 +413,7 @@ PART
 }
 PART
 {
-	part = AMIReactor_4294136218
-	partName = Part
-	pos = -1.78989,11.0387,0.1160917
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	modCost = -78750
-	link = IR.Adapter.0625ToTrussSmall_4294136178
-	link = Dishcl1_4294136086
-	link = Dishcl1_4294136018
-	link = battery-rad-125_4294135532
-	link = battery-rad-125_4294135500
-	attN = bottom,AntimatterTank_4294136266
-	attN = top,IR.Adapter.0625ToTrussSmall_4294136178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.625
-		currentScale = 0.625
-		defaultScale = 2.5
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (0.8, 0.8, 0.8)
-		dryCost = 1250
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableReactionWheel
-		isEnabled = True
-		startEnabled = True
-		RollTorque = 10
-		PitchTorque = 10
-		YawTorque = 10
-		startEnabled_UIFlight
-		{
-			controlEnabled = True
-		}
-		RollTorque_UIFlight
-		{
-			controlEnabled = True
-			minValue = -3.402823E+38
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		PitchTorque_UIFlight
-		{
-			controlEnabled = True
-			minValue = -3.402823E+38
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		YawTorque_UIFlight
-		{
-			controlEnabled = True
-			minValue = -3.402823E+38
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = IR.Adapter.0625ToTrussSmall_4294136178
-	partName = Part
-	pos = -1.78989,11.4187,0.1160917
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	modCost = 0
-	link = RTLongAntenna3_4294136144
-	link = Kosmos.Pravilo.ASAS_4294135950
-	link = W485.SurfaceOmniLight_4294135468
-	link = W485.SurfaceOmniLight_4294135436
-	attN = bottom,AMIReactor_4294136218
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.625
-		currentScale = 0.625
-		defaultScale = 0.625
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 250
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = RTLongAntenna3_4294136144
-	partName = Part
-	pos = -1.78989,11.7187,0.1142567
-	rot = -4.371139E-08,1,0,0
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294136178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		status = Locked
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Toggle
-				guiName = Extend
-				category = Toggle
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleRTAntenna
-		isEnabled = True
-		IsRTAntenna = True
-		IsRTActive = False
-		IsRTPowered = True
-		IsRTBroken = False
-		RTDishRadians = 1
-		RTOmniRange = 0
-		RTDishRange = -1
-		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
-		EVENTS
-		{
-			EventToggle
-			{
-				active = True
-				guiActive = False
-				guiIcon = 
-				guiName = Toggle
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventTarget
-			{
-				active = False
-				guiActive = False
-				guiIcon = Target
-				guiName = Unknown Target
-				category = Target
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorOpen
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Start deployed
-				guiName = Start deployed
-				category = Start deployed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = Start retracted
-				guiName = Start retracted
-				category = Start retracted
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventOpen
-			{
-				active = True
-				guiActive = True
-				guiIcon = 
-				guiName = Activate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventClose
-			{
-				active = False
-				guiActive = False
-				guiIcon = 
-				guiName = Deactivate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OverrideTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Set Target
-				guiName = [EVA] Set Target
-				category = [EVA] Set Target
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Open
-				guiName = [EVA] Force Open
-				category = [EVA] Force Open
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Close
-				guiName = [EVA] Force Close
-				category = [EVA] Force Close
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionOpen
-			{
-				actionGroup = Custom01
-			}
-			ActionClose
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleSPUPassive
-		isEnabled = True
-		IsRTPowered = False
-		IsRTSignalProcessor = True
-		IsRTCommandStation = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableAnimateGeneric
-		isEnabled = True
-		startCompleted = False
-		startCompleted_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = Dishcl1_4294136086
-	partName = Part
-	pos = -2.065862,11.08607,0.1160917
-	rot = -0.500051,0.4999534,-0.5000467,-0.4999491
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = Dishcl1_4294136018
-	srfN = srfAttach,AMIReactor_4294136218
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		status = Locked
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Toggle
-				guiName = Extend
-				category = Toggle
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableAnimateGeneric
-		isEnabled = True
-		startCompleted = False
-		startCompleted_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSPUPassive
-		isEnabled = True
-		IsRTPowered = False
-		IsRTSignalProcessor = True
-		IsRTCommandStation = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRTAntenna
-		isEnabled = True
-		IsRTAntenna = True
-		IsRTActive = False
-		IsRTPowered = True
-		IsRTBroken = False
-		RTDishRadians = 0.90630778703665
-		RTOmniRange = 0
-		RTDishRange = 0
-		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
-		EVENTS
-		{
-			EventToggle
-			{
-				active = True
-				guiActive = False
-				guiIcon = 
-				guiName = Toggle
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventTarget
-			{
-				active = True
-				guiActive = True
-				guiIcon = Target
-				guiName = Unknown Target
-				category = Target
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorOpen
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Start deployed
-				guiName = Start deployed
-				category = Start deployed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = Start retracted
-				guiName = Start retracted
-				category = Start retracted
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventOpen
-			{
-				active = True
-				guiActive = True
-				guiIcon = 
-				guiName = Activate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventClose
-			{
-				active = False
-				guiActive = False
-				guiIcon = 
-				guiName = Deactivate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OverrideTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Set Target
-				guiName = [EVA] Set Target
-				category = [EVA] Set Target
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Open
-				guiName = [EVA] Force Open
-				category = [EVA] Force Open
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Close
-				guiName = [EVA] Force Close
-				category = [EVA] Force Close
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionOpen
-			{
-				actionGroup = Custom05
-			}
-			ActionClose
-			{
-				actionGroup = Custom06
-			}
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = Dishcl1_4294136018
-	partName = Part
-	pos = -1.513918,11.08607,0.1160917
-	rot = -0.5000467,-0.4999491,0.500051,-0.4999533
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = Dishcl1_4294136086
-	srfN = srfAttach,AMIReactor_4294136218
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleAnimateGeneric
-		isEnabled = True
-		status = Locked
-		animSwitch = True
-		animTime = 0
-		animSpeed = 1
-		EVENTS
-		{
-			Toggle
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Toggle
-				guiName = Extend
-				category = Toggle
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableAnimateGeneric
-		isEnabled = True
-		startCompleted = False
-		startCompleted_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSPUPassive
-		isEnabled = True
-		IsRTPowered = False
-		IsRTSignalProcessor = True
-		IsRTCommandStation = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRTAntenna
-		isEnabled = True
-		IsRTAntenna = True
-		IsRTActive = False
-		IsRTPowered = True
-		IsRTBroken = False
-		RTDishRadians = 0.90630778703665
-		RTOmniRange = 0
-		RTDishRange = 0
-		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
-		EVENTS
-		{
-			EventToggle
-			{
-				active = True
-				guiActive = False
-				guiIcon = 
-				guiName = Toggle
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventTarget
-			{
-				active = True
-				guiActive = True
-				guiIcon = Target
-				guiName = Unknown Target
-				category = Target
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorOpen
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Start deployed
-				guiName = Start deployed
-				category = Start deployed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = Start retracted
-				guiName = Start retracted
-				category = Start retracted
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventOpen
-			{
-				active = True
-				guiActive = True
-				guiIcon = 
-				guiName = Activate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventClose
-			{
-				active = False
-				guiActive = False
-				guiIcon = 
-				guiName = Deactivate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OverrideTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Set Target
-				guiName = [EVA] Set Target
-				category = [EVA] Set Target
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Open
-				guiName = [EVA] Force Open
-				category = [EVA] Force Open
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Close
-				guiName = [EVA] Force Close
-				category = [EVA] Force Close
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionOpen
-			{
-				actionGroup = Custom05
-			}
-			ActionClose
-			{
-				actionGroup = Custom06
-			}
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = Kosmos.Pravilo.ASAS_4294135950
-	partName = Part
-	pos = -1.987312,11.49575,-0.08133033
-	rot = -0.1253794,-0.8646681,-0.2663274,0.4070614
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294136178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1.25, 1.25, 1.25)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSPUPassive
-		isEnabled = True
-		IsRTPowered = False
-		IsRTSignalProcessor = True
-		IsRTCommandStation = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRTAntenna
-		isEnabled = True
-		IsRTAntenna = True
-		IsRTActive = True
-		IsRTPowered = True
-		IsRTBroken = False
-		RTDishRadians = 1
-		RTOmniRange = 500000
-		RTDishRange = -1
-		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
-		EVENTS
-		{
-			EventToggle
-			{
-				active = True
-				guiActive = False
-				guiIcon = 
-				guiName = Toggle
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventTarget
-			{
-				active = False
-				guiActive = False
-				guiIcon = Target
-				guiName = Unknown Target
-				category = Target
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = Start deployed
-				guiName = Start deployed
-				category = Start deployed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorClose
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Start retracted
-				guiName = Start retracted
-				category = Start retracted
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventOpen
-			{
-				active = False
-				guiActive = False
-				guiIcon = 
-				guiName = Activate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventClose
-			{
-				active = True
-				guiActive = True
-				guiIcon = 
-				guiName = Deactivate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OverrideTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Set Target
-				guiName = [EVA] Set Target
-				category = [EVA] Set Target
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Open
-				guiName = [EVA] Force Open
-				category = [EVA] Force Open
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Close
-				guiName = [EVA] Force Close
-				category = [EVA] Force Close
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionOpen
-			{
-				actionGroup = None
-			}
-			ActionClose
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294135916
+	part = W485.SurfaceOmniLight_4294447788
 	partName = Part
 	pos = -2.617077,10.5438,0.1160918
 	rot = 0,0.7071068,0,-0.7071068
@@ -1514,12 +425,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135884
-	sym = W485.SurfaceOmniLight_4294135852
-	sym = W485.SurfaceOmniLight_4294135820
-	sym = W485.SurfaceOmniLight_4294135788
-	sym = W485.SurfaceOmniLight_4294135756
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447756
+	sym = W485.SurfaceOmniLight_4294447724
+	sym = W485.SurfaceOmniLight_4294447692
+	sym = W485.SurfaceOmniLight_4294447660
+	sym = W485.SurfaceOmniLight_4294447628
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -1531,8 +442,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.3
+		lightG = 0.3
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -1639,7 +550,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135884
+	part = W485.SurfaceOmniLight_4294447756
 	partName = Part
 	pos = -2.203483,10.5438,0.8324568
 	rot = 0,0.258819,0,-0.9659259
@@ -1651,12 +562,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135916
-	sym = W485.SurfaceOmniLight_4294135852
-	sym = W485.SurfaceOmniLight_4294135820
-	sym = W485.SurfaceOmniLight_4294135788
-	sym = W485.SurfaceOmniLight_4294135756
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447788
+	sym = W485.SurfaceOmniLight_4294447724
+	sym = W485.SurfaceOmniLight_4294447692
+	sym = W485.SurfaceOmniLight_4294447660
+	sym = W485.SurfaceOmniLight_4294447628
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -1668,8 +579,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.3
+		lightG = 0.3
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -1776,7 +687,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135852
+	part = W485.SurfaceOmniLight_4294447724
 	partName = Part
 	pos = -1.376296,10.5438,0.8324567
 	rot = 0,-0.2588191,0,-0.9659259
@@ -1788,12 +699,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135916
-	sym = W485.SurfaceOmniLight_4294135884
-	sym = W485.SurfaceOmniLight_4294135820
-	sym = W485.SurfaceOmniLight_4294135788
-	sym = W485.SurfaceOmniLight_4294135756
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447788
+	sym = W485.SurfaceOmniLight_4294447756
+	sym = W485.SurfaceOmniLight_4294447692
+	sym = W485.SurfaceOmniLight_4294447660
+	sym = W485.SurfaceOmniLight_4294447628
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -1805,8 +716,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.3
+		lightG = 0.3
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -1913,7 +824,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135820
+	part = W485.SurfaceOmniLight_4294447692
 	partName = Part
 	pos = -0.9627028,10.5438,0.1160916
 	rot = 0,-0.7071068,0,-0.7071068
@@ -1925,12 +836,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135916
-	sym = W485.SurfaceOmniLight_4294135884
-	sym = W485.SurfaceOmniLight_4294135852
-	sym = W485.SurfaceOmniLight_4294135788
-	sym = W485.SurfaceOmniLight_4294135756
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447788
+	sym = W485.SurfaceOmniLight_4294447756
+	sym = W485.SurfaceOmniLight_4294447724
+	sym = W485.SurfaceOmniLight_4294447660
+	sym = W485.SurfaceOmniLight_4294447628
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -1942,8 +853,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.3
+		lightG = 0.3
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2050,7 +961,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135788
+	part = W485.SurfaceOmniLight_4294447660
 	partName = Part
 	pos = -1.376296,10.5438,-0.6002734
 	rot = 0,-0.9659259,0,-0.258819
@@ -2062,12 +973,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135916
-	sym = W485.SurfaceOmniLight_4294135884
-	sym = W485.SurfaceOmniLight_4294135852
-	sym = W485.SurfaceOmniLight_4294135820
-	sym = W485.SurfaceOmniLight_4294135756
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447788
+	sym = W485.SurfaceOmniLight_4294447756
+	sym = W485.SurfaceOmniLight_4294447724
+	sym = W485.SurfaceOmniLight_4294447692
+	sym = W485.SurfaceOmniLight_4294447628
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2079,8 +990,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.3
+		lightG = 0.3
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2187,7 +1098,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135756
+	part = W485.SurfaceOmniLight_4294447628
 	partName = Part
 	pos = -2.203483,10.5438,-0.6002733
 	rot = 0,-0.9659259,0,0.258819
@@ -2199,12 +1110,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135916
-	sym = W485.SurfaceOmniLight_4294135884
-	sym = W485.SurfaceOmniLight_4294135852
-	sym = W485.SurfaceOmniLight_4294135820
-	sym = W485.SurfaceOmniLight_4294135788
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447788
+	sym = W485.SurfaceOmniLight_4294447756
+	sym = W485.SurfaceOmniLight_4294447724
+	sym = W485.SurfaceOmniLight_4294447692
+	sym = W485.SurfaceOmniLight_4294447660
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2216,8 +1127,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.3
+		lightG = 0.3
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2324,7 +1235,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135724
+	part = W485.SurfaceOmniLight_4294447596
 	partName = Part
 	pos = -2.617769,9.990205,0.1160918
 	rot = -0.7071068,0,-0.7071068,0
@@ -2336,12 +1247,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135692
-	sym = W485.SurfaceOmniLight_4294135660
-	sym = W485.SurfaceOmniLight_4294135628
-	sym = W485.SurfaceOmniLight_4294135596
-	sym = W485.SurfaceOmniLight_4294135564
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447564
+	sym = W485.SurfaceOmniLight_4294447532
+	sym = W485.SurfaceOmniLight_4294447500
+	sym = W485.SurfaceOmniLight_4294447468
+	sym = W485.SurfaceOmniLight_4294447436
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2353,8 +1264,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.15
+		lightG = 0.15
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2461,7 +1372,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135692
+	part = W485.SurfaceOmniLight_4294447564
 	partName = Part
 	pos = -2.20383,9.990205,0.8330567
 	rot = -0.9659259,0,-0.258819,0
@@ -2473,12 +1384,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135724
-	sym = W485.SurfaceOmniLight_4294135660
-	sym = W485.SurfaceOmniLight_4294135628
-	sym = W485.SurfaceOmniLight_4294135596
-	sym = W485.SurfaceOmniLight_4294135564
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447596
+	sym = W485.SurfaceOmniLight_4294447532
+	sym = W485.SurfaceOmniLight_4294447500
+	sym = W485.SurfaceOmniLight_4294447468
+	sym = W485.SurfaceOmniLight_4294447436
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2490,8 +1401,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.15
+		lightG = 0.15
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2598,7 +1509,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135660
+	part = W485.SurfaceOmniLight_4294447532
 	partName = Part
 	pos = -1.37595,9.990205,0.8330567
 	rot = -0.9659258,0,0.2588191,0
@@ -2610,12 +1521,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135724
-	sym = W485.SurfaceOmniLight_4294135692
-	sym = W485.SurfaceOmniLight_4294135628
-	sym = W485.SurfaceOmniLight_4294135596
-	sym = W485.SurfaceOmniLight_4294135564
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447596
+	sym = W485.SurfaceOmniLight_4294447564
+	sym = W485.SurfaceOmniLight_4294447500
+	sym = W485.SurfaceOmniLight_4294447468
+	sym = W485.SurfaceOmniLight_4294447436
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2627,8 +1538,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.15
+		lightG = 0.15
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2735,7 +1646,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135628
+	part = W485.SurfaceOmniLight_4294447500
 	partName = Part
 	pos = -0.9620101,9.990205,0.1160916
 	rot = -0.7071068,0,0.7071068,0
@@ -2747,12 +1658,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135724
-	sym = W485.SurfaceOmniLight_4294135692
-	sym = W485.SurfaceOmniLight_4294135660
-	sym = W485.SurfaceOmniLight_4294135596
-	sym = W485.SurfaceOmniLight_4294135564
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447596
+	sym = W485.SurfaceOmniLight_4294447564
+	sym = W485.SurfaceOmniLight_4294447532
+	sym = W485.SurfaceOmniLight_4294447468
+	sym = W485.SurfaceOmniLight_4294447436
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2764,8 +1675,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.15
+		lightG = 0.15
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -2872,7 +1783,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135596
+	part = W485.SurfaceOmniLight_4294447468
 	partName = Part
 	pos = -1.37595,9.990205,-0.6008731
 	rot = -0.258819,0,0.9659259,0
@@ -2884,12 +1795,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135724
-	sym = W485.SurfaceOmniLight_4294135692
-	sym = W485.SurfaceOmniLight_4294135660
-	sym = W485.SurfaceOmniLight_4294135628
-	sym = W485.SurfaceOmniLight_4294135564
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447596
+	sym = W485.SurfaceOmniLight_4294447564
+	sym = W485.SurfaceOmniLight_4294447532
+	sym = W485.SurfaceOmniLight_4294447500
+	sym = W485.SurfaceOmniLight_4294447436
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -2901,8 +1812,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.15
+		lightG = 0.15
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -3009,7 +1920,7 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294135564
+	part = W485.SurfaceOmniLight_4294447436
 	partName = Part
 	pos = -2.20383,9.990205,-0.6008731
 	rot = 0.258819,0,0.9659259,0
@@ -3021,12 +1932,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294135724
-	sym = W485.SurfaceOmniLight_4294135692
-	sym = W485.SurfaceOmniLight_4294135660
-	sym = W485.SurfaceOmniLight_4294135628
-	sym = W485.SurfaceOmniLight_4294135596
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = W485.SurfaceOmniLight_4294447596
+	sym = W485.SurfaceOmniLight_4294447564
+	sym = W485.SurfaceOmniLight_4294447532
+	sym = W485.SurfaceOmniLight_4294447500
+	sym = W485.SurfaceOmniLight_4294447468
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -3038,8 +1949,8 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 0.5
-		lightG = 0.5
+		lightR = 0.15
+		lightG = 0.15
 		lightB = 0.5
 		lightR_UIFlight
 		{
@@ -3146,415 +2057,7 @@ PART
 }
 PART
 {
-	part = battery-rad-125_4294135532
-	partName = Part
-	pos = -1.951936,11.13518,-0.16458
-	rot = 2.93728E-05,-0.9659259,9.24423E-05,0.258819
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = -3062.5
-	sym = battery-rad-125_4294135500
-	srfN = srfAttach,AMIReactor_4294136218
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.5
-		currentScale = 0.5
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 0
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 8750.00078231099
-		maxAmount = 8750
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-}
-PART
-{
-	part = battery-rad-125_4294135500
-	partName = Part
-	pos = -1.627844,11.13518,0.3967634
-	rot = 9.244229E-05,0.2588191,-2.937281E-05,0.9659258
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = -3062.5
-	sym = battery-rad-125_4294135532
-	srfN = srfAttach,AMIReactor_4294136218
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.5
-		currentScale = 0.5
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 0
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 8750.00078231099
-		maxAmount = 8750
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294135468
-	partName = Part
-	pos = -1.78989,11.70603,0.2350895
-	rot = 0.7071068,0,0,0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4294135436
-	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294136178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 0.5
-		lightG = 0.5
-		lightB = 0.5
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.6
-		currentScale = 0.6
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 21.6
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294135436
-	partName = Part
-	pos = -1.78989,11.70603,-0.002905995
-	rot = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4294135468
-	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294136178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 0.5
-		lightG = 0.5
-		lightB = 0.5
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.6
-		currentScale = 0.6
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 21.6
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = xenon-rad-125_4294135404
+	part = xenon-rad-125_4294447404
 	partName = Part
 	pos = -2.164618,10.87076,0.4908198
 	rot = 0.6532818,0.2705981,0.2705979,-0.6532813
@@ -3565,9 +2068,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = -38188.84
-	sym = xenon-rad-125_4294135352
-	srfN = srfAttach,AntimatterTank_4294136266
+	modCost = -19094.25
+	sym = xenon-rad-125_4294447354
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -3576,39 +2079,12 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.35
-		currentScale = 0.35
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 855.3562
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleFuelTanks
 		isEnabled = True
 		type = Odyssey_ServiceModule
 		utilization = 86
 		mass = 0.003108
-		timestamp = 4456.7710626269
+		timestamp = 4488.5710626276
 		volume = 28
 		type_UIEditor
 		{
@@ -3631,6 +2107,17 @@ PART
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiIcon = 46.607% UDMH / 53.393% NTO
+				guiName = 46.607% UDMH / 53.393% NTO
+				category = 46.607% UDMH / 53.393% NTO
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -3707,7 +2194,7 @@ PART
 		name = Hydrazine
 		amount = 28
 		maxAmount = 28
-		flowState = True
+		flowState = False
 		isTweakable = True
 		hideFlow = False
 		flowMode = Both
@@ -3715,7 +2202,7 @@ PART
 }
 PART
 {
-	part = xenon-rad-125_4294135352
+	part = xenon-rad-125_4294447354
 	partName = Part
 	pos = -1.415162,10.87076,-0.2586363
 	rot = 0.2705979,-0.6532813,-0.6532818,-0.2705981
@@ -3726,9 +2213,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = -38188.84
-	sym = xenon-rad-125_4294135404
-	srfN = srfAttach,AntimatterTank_4294136266
+	modCost = -19094.25
+	sym = xenon-rad-125_4294447404
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -3737,39 +2224,12 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 0.35
-		currentScale = 0.35
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 855.3562
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleFuelTanks
 		isEnabled = True
 		type = Odyssey_ServiceModule
 		utilization = 86
 		mass = 0.003108
-		timestamp = 4456.7710626269
+		timestamp = 4488.5710626276
 		volume = 28
 		type_UIEditor
 		{
@@ -3792,6 +2252,17 @@ PART
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiIcon = 46.607% UDMH / 53.393% NTO
+				guiName = 46.607% UDMH / 53.393% NTO
+				category = 46.607% UDMH / 53.393% NTO
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -3868,7 +2339,7 @@ PART
 		name = Hydrazine
 		amount = 28
 		maxAmount = 28
-		flowState = True
+		flowState = False
 		isTweakable = True
 		hideFlow = False
 		flowMode = Both
@@ -3876,7 +2347,7 @@ PART
 }
 PART
 {
-	part = IR.Pivotron.Basic_4294135306
+	part = IR.Pivotron.Basic_4294447310
 	partName = Part
 	pos = -1.78989,10.85326,0.746516
 	rot = 0.008726419,0,0,-0.9999619
@@ -3888,10 +2359,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -164.25
-	link = IR.Segment.TrussLarge.1m25_4294135272
-	sym = IR.Pivotron.Basic_4294134534
-	srfN = srfAttach,AntimatterTank_4294136266
-	attN = top,IR.Segment.TrussLarge.1m25_4294135272
+	link = IR.Segment.TrussLarge.1m25_4294447276
+	sym = IR.Pivotron.Basic_4294446538
+	srfN = srfAttach,AntimatterTank_4294447836
+	attN = top,IR.Segment.TrussLarge.1m25_4294447276
 	EVENTS
 	{
 	}
@@ -4105,10 +2576,10 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4294135272
+	part = IR.Segment.TrussLarge.1m25_4294447276
 	partName = Part
 	pos = -1.78989,11.37568,0.7373974
-	rot = 0.008726419,-7.628873E-10,-8.741939E-08,-0.9999619
+	rot = 0.008726419,-7.628869E-10,-8.741932E-08,-0.9999619
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4117,10 +2588,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -218.75
-	link = IR.Pivotron.Basic_4294135238
-	sym = IR.Segment.TrussLarge.1m25_4294134500
-	attN = bottom,IR.Pivotron.Basic_4294135306
-	attN = top,IR.Pivotron.Basic_4294135238
+	link = IR.Pivotron.Basic_4294447242
+	link = W485.SurfaceOmniLight_4294442660
+	sym = IR.Segment.TrussLarge.1m25_4294446504
+	attN = bottom,IR.Pivotron.Basic_4294447310
+	attN = top,IR.Pivotron.Basic_4294447242
 	EVENTS
 	{
 	}
@@ -4168,7 +2640,7 @@ PART
 }
 PART
 {
-	part = IR.Pivotron.Basic_4294135238
+	part = IR.Pivotron.Basic_4294447242
 	partName = Part
 	pos = -1.78989,11.8981,0.7282786
 	rot = -0.01745199,-3.050954E-09,-8.736952E-08,-0.9998477
@@ -4180,10 +2652,10 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -164.25
-	link = commDish_4294135204
-	sym = IR.Pivotron.Basic_4294134466
-	attN = top,commDish_4294135204
-	attN = bottom,IR.Segment.TrussLarge.1m25_4294135272
+	link = commDish_4294447208
+	sym = IR.Pivotron.Basic_4294446470
+	attN = top,commDish_4294447208
+	attN = bottom,IR.Segment.TrussLarge.1m25_4294447276
 	EVENTS
 	{
 	}
@@ -4397,7 +2869,7 @@ PART
 }
 PART
 {
-	part = commDish_4294135204
+	part = commDish_4294447208
 	partName = Part
 	pos = -1.78989,12.10797,0.7356074
 	rot = -0.01745199,-3.050954E-09,-8.736952E-08,-0.9998477
@@ -4409,8 +2881,8 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	sym = commDish_4294134432
-	attN = bottom,IR.Pivotron.Basic_4294135238
+	sym = commDish_4294446436
+	attN = bottom,IR.Pivotron.Basic_4294447242
 	EVENTS
 	{
 	}
@@ -4670,7 +3142,7 @@ PART
 }
 PART
 {
-	part = IR.Pivotron.Basic_4294134534
+	part = IR.Pivotron.Basic_4294446538
 	partName = Part
 	pos = -1.78989,10.85326,-0.5143324
 	rot = 5.030771E-16,-1,5.680851E-08,4.37114E-08
@@ -4682,10 +3154,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -164.25
-	link = IR.Segment.TrussLarge.1m25_4294134500
-	sym = IR.Pivotron.Basic_4294135306
-	srfN = srfAttach,AntimatterTank_4294136266
-	attN = top,IR.Segment.TrussLarge.1m25_4294134500
+	link = IR.Segment.TrussLarge.1m25_4294446504
+	sym = IR.Pivotron.Basic_4294447310
+	srfN = srfAttach,AntimatterTank_4294447836
+	attN = top,IR.Segment.TrussLarge.1m25_4294446504
 	EVENTS
 	{
 	}
@@ -4899,7 +3371,7 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4294134500
+	part = IR.Segment.TrussLarge.1m25_4294446504
 	partName = Part
 	pos = -1.78989,11.37576,-0.5143327
 	rot = -8.742278E-08,-1,5.680852E-08,4.37114E-08
@@ -4911,10 +3383,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -218.75
-	link = IR.Pivotron.Basic_4294134466
-	sym = IR.Segment.TrussLarge.1m25_4294135272
-	attN = bottom,IR.Pivotron.Basic_4294134534
-	attN = top,IR.Pivotron.Basic_4294134466
+	link = IR.Pivotron.Basic_4294446470
+	link = W485.SurfaceOmniLight_4294442628
+	sym = IR.Segment.TrussLarge.1m25_4294447276
+	attN = bottom,IR.Pivotron.Basic_4294446538
+	attN = top,IR.Pivotron.Basic_4294446470
 	EVENTS
 	{
 	}
@@ -4962,7 +3435,7 @@ PART
 }
 PART
 {
-	part = IR.Pivotron.Basic_4294134466
+	part = IR.Pivotron.Basic_4294446470
 	partName = Part
 	pos = -1.78989,11.89826,-0.5143328
 	rot = -8.664662E-08,-0.9998477,0.01745194,4.523044E-08
@@ -4974,10 +3447,10 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -164.25
-	link = commDish_4294134432
-	sym = IR.Pivotron.Basic_4294135238
-	attN = top,commDish_4294134432
-	attN = bottom,IR.Segment.TrussLarge.1m25_4294134500
+	link = commDish_4294446436
+	sym = IR.Pivotron.Basic_4294447242
+	attN = top,commDish_4294446436
+	attN = bottom,IR.Segment.TrussLarge.1m25_4294446504
 	EVENTS
 	{
 	}
@@ -5191,7 +3664,7 @@ PART
 }
 PART
 {
-	part = commDish_4294134432
+	part = commDish_4294446436
 	partName = Part
 	pos = -1.78989,12.10813,-0.5216614
 	rot = -8.664662E-08,-0.9998477,0.01745194,4.523044E-08
@@ -5203,8 +3676,8 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	sym = commDish_4294135204
-	attN = bottom,IR.Pivotron.Basic_4294134466
+	sym = commDish_4294447208
+	attN = bottom,IR.Pivotron.Basic_4294446470
 	EVENTS
 	{
 	}
@@ -5464,7 +3937,7 @@ PART
 }
 PART
 {
-	part = IRHingeClosedScaleable2_4294133762
+	part = IRHingeClosedScaleable2_4294445766
 	partName = Part
 	pos = -1.78989,9.929384,1.100486
 	rot = 0.4956177,0.5043443,0.4956178,0.5043442
@@ -5476,9 +3949,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -49.6
-	link = AdjustableRailScaleable_4294133728
-	sym = IRHingeClosedScaleable2_4294132872
-	srfN = srfAttach,AntimatterTank_4294136266
+	link = AdjustableRailScaleable_4294445732
+	sym = IRHingeClosedScaleable2_4294444876
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -5692,10 +4165,10 @@ PART
 }
 PART
 {
-	part = AdjustableRailScaleable_4294133728
+	part = AdjustableRailScaleable_4294445732
 	partName = Part
 	pos = -1.789895,10.07056,1.212545
-	rot = 3.032022E-08,0.00872621,0.9999621,-1.484892E-07
+	rot = 3.032023E-08,0.00872618,0.999962,-1.484892E-07
 	attRot = 0,0,0.9999999,0
 	mir = 1,1,1
 	istg = 0
@@ -5704,9 +4177,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -93.6
-	link = structuralPanel1_4294133694
-	sym = AdjustableRailScaleable_4294132838
-	srfN = srfAttach,IRHingeClosedScaleable2_4294133762
+	link = structuralPanel1_4294445698
+	sym = AdjustableRailScaleable_4294444842
+	srfN = srfAttach,IRHingeClosedScaleable2_4294445766
 	EVENTS
 	{
 	}
@@ -5920,10 +4393,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133694
+	part = structuralPanel1_4294445698
 	partName = Part
 	pos = -1.789895,10.07891,1.237406
-	rot = 0.4956178,0.5043442,0.4956181,0.5043442
+	rot = 0.4956178,0.5043442,0.4956181,0.5043441
 	attRot = 0,-0.7071067,-0.7071067,0
 	mir = 1,1,1
 	istg = 0
@@ -5932,11 +4405,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 9.536743E-06
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133672
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133634
-	link = structuralPanel1_4294133596
-	sym = structuralPanel1_4294132804
-	srfN = srfAttach,AdjustableRailScaleable_4294133728
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445676
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445638
+	link = structuralPanel1_4294445600
+	sym = structuralPanel1_4294444808
+	srfN = srfAttach,AdjustableRailScaleable_4294445732
 	EVENTS
 	{
 	}
@@ -5984,10 +4457,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133672
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445676
 	partName = Part
 	pos = -1.789895,10.08419,1.206105
-	rot = -6.402586E-08,0.7009096,-0.7132503,6.202948E-08
+	rot = -1.903535E-07,0.7009095,-0.7132504,5.374086E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5996,8 +4469,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132782
-	srfN = srfAttach,structuralPanel1_4294133694
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444786
+	srfN = srfAttach,structuralPanel1_4294445698
 	EVENTS
 	{
 	}
@@ -6115,10 +4588,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133634
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445638
 	partName = Part
 	pos = -1.789895,10.07337,1.269828
-	rot = -0.7009096,-6.402586E-08,-6.202948E-08,-0.7132503
+	rot = -0.7009095,-1.903535E-07,-5.374086E-08,-0.7132504
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6127,8 +4600,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132744
-	srfN = srfAttach,structuralPanel1_4294133694
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444748
+	srfN = srfAttach,structuralPanel1_4294445698
 	EVENTS
 	{
 	}
@@ -6246,10 +4719,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133596
+	part = structuralPanel1_4294445600
 	partName = Part
 	pos = -1.786813,11.0787,1.216872
-	rot = -0.4956177,-0.5043441,-0.4956183,-0.504344
+	rot = -0.4956177,-0.5043443,-0.4956184,-0.504344
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -6258,13 +4731,13 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133574
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133536
-	link = structuralPanel1_4294133498
-	link = IRHingeOpenScaleable_4294133302
-	link = IRHingeOpenScaleable_4294131982
-	sym = structuralPanel1_4294132706
-	srfN = srfAttach,structuralPanel1_4294133694
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445578
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445540
+	link = structuralPanel1_4294445502
+	link = IRHingeOpenScaleable_4294445306
+	link = IRHingeOpenScaleable_4294443986
+	sym = structuralPanel1_4294444710
+	srfN = srfAttach,structuralPanel1_4294445698
 	EVENTS
 	{
 	}
@@ -6312,10 +4785,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133574
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445578
 	partName = Part
 	pos = -1.786813,11.08399,1.185571
-	rot = 1.518457E-07,-0.7009096,0.7132503,-2.733218E-07
+	rot = 3.293047E-07,-0.7009097,0.7132503,-2.731332E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6324,8 +4797,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132684
-	srfN = srfAttach,structuralPanel1_4294133596
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444688
+	srfN = srfAttach,structuralPanel1_4294445600
 	EVENTS
 	{
 	}
@@ -6443,10 +4916,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133536
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445540
 	partName = Part
 	pos = -1.786813,11.07316,1.249295
-	rot = 0.7009096,1.518457E-07,2.733218E-07,0.7132503
+	rot = 0.7009097,3.293047E-07,2.731332E-07,0.7132503
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6455,8 +4928,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132646
-	srfN = srfAttach,structuralPanel1_4294133596
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444650
+	srfN = srfAttach,structuralPanel1_4294445600
 	EVENTS
 	{
 	}
@@ -6574,10 +5047,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133498
+	part = structuralPanel1_4294445502
 	partName = Part
 	pos = -1.783182,12.07844,1.193132
-	rot = -0.4956175,-0.5043444,-0.495618,-0.5043443
+	rot = -0.4956174,-0.5043446,-0.4956179,-0.5043443
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -6586,11 +5059,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133476
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133438
-	link = structuralPanel1_4294133400
-	sym = structuralPanel1_4294132608
-	srfN = srfAttach,structuralPanel1_4294133596
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445480
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445442
+	link = structuralPanel1_4294445404
+	sym = structuralPanel1_4294444612
+	srfN = srfAttach,structuralPanel1_4294445600
 	EVENTS
 	{
 	}
@@ -6638,10 +5111,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133476
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445480
 	partName = Part
 	pos = -1.783182,12.08372,1.161831
-	rot = 2.369898E-08,-0.7009093,0.7132506,-5.239881E-07
+	rot = 1.293209E-07,-0.7009095,0.7132505,-5.367699E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6650,8 +5123,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132586
-	srfN = srfAttach,structuralPanel1_4294133498
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444590
+	srfN = srfAttach,structuralPanel1_4294445502
 	EVENTS
 	{
 	}
@@ -6769,10 +5242,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133438
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445442
 	partName = Part
 	pos = -1.783182,12.0729,1.225554
-	rot = 0.7009093,2.369898E-08,5.239881E-07,0.7132506
+	rot = 0.7009095,1.293209E-07,5.367699E-07,0.7132505
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6781,8 +5254,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132548
-	srfN = srfAttach,structuralPanel1_4294133498
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444552
+	srfN = srfAttach,structuralPanel1_4294445502
 	EVENTS
 	{
 	}
@@ -6900,10 +5373,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133400
+	part = structuralPanel1_4294445404
 	partName = Part
-	pos = -1.784288,13.07832,1.177594
-	rot = -0.5043445,-0.4956179,0.5043443,0.4956175
+	pos = -1.784288,13.07832,1.177593
+	rot = -0.5043446,-0.495618,0.5043443,0.4956174
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -6912,10 +5385,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133378
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133340
-	sym = structuralPanel1_4294132510
-	srfN = srfAttach,structuralPanel1_4294133498
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445382
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445344
+	sym = structuralPanel1_4294444514
+	srfN = srfAttach,structuralPanel1_4294445502
 	EVENTS
 	{
 	}
@@ -6963,10 +5436,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133378
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445382
 	partName = Part
-	pos = -1.784288,13.08469,1.208691
-	rot = 0.7009094,-1.148005E-07,3.041361E-07,0.7132506
+	pos = -1.784288,13.08469,1.20869
+	rot = 0.7009093,1.034735E-08,3.571798E-07,0.7132506
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6975,8 +5448,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132488
-	srfN = srfAttach,structuralPanel1_4294133400
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444492
+	srfN = srfAttach,structuralPanel1_4294445404
 	EVENTS
 	{
 	}
@@ -7094,10 +5567,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133340
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445344
 	partName = Part
-	pos = -1.784288,13.07165,1.145385
-	rot = 1.148005E-07,0.7009094,-0.7132506,3.041361E-07
+	pos = -1.784287,13.07165,1.145384
+	rot = -1.034735E-08,0.7009093,-0.7132506,3.571798E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -7106,8 +5579,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132450
-	srfN = srfAttach,structuralPanel1_4294133400
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444454
+	srfN = srfAttach,structuralPanel1_4294445404
 	EVENTS
 	{
 	}
@@ -7225,10 +5698,10 @@ PART
 }
 PART
 {
-	part = IRHingeOpenScaleable_4294133302
+	part = IRHingeOpenScaleable_4294445306
 	partName = Part
-	pos = -1.286691,11.1219,1.176112
-	rot = 0.3451446,-0.6100407,0.6207816,0.3512212
+	pos = -1.286689,11.1219,1.176112
+	rot = 0.3451445,-0.6100404,0.6207817,0.3512212
 	attRot = 0,0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -7237,9 +5710,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -49.6
-	link = structuralPanel1_4294133264
-	sym = IRHingeOpenScaleable_4294132412
-	srfN = srfAttach,structuralPanel1_4294133596
+	link = structuralPanel1_4294445268
+	sym = IRHingeOpenScaleable_4294444416
+	srfN = srfAttach,structuralPanel1_4294445600
 	EVENTS
 	{
 	}
@@ -7453,10 +5926,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133264
+	part = structuralPanel1_4294445268
 	partName = Part
-	pos = -0.9833149,11.08743,0.7488627
-	rot = -0.6100407,-0.3451447,0.3512209,-0.6207815
+	pos = -0.9833105,11.08743,0.7488607
+	rot = -0.6100405,-0.3451447,0.3512209,-0.6207815
 	attRot = 0.3535535,0.3535535,0.6123726,0.6123726
 	mir = 1,1,1
 	istg = 0
@@ -7465,12 +5938,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133242
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133204
-	link = structuralPanel1_4294133166
-	link = structuralPanel1_4294132970
-	sym = structuralPanel1_4294132374
-	srfN = srfAttach,IRHingeOpenScaleable_4294133302
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445246
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445208
+	link = structuralPanel1_4294445170
+	link = structuralPanel1_4294444974
+	sym = structuralPanel1_4294444378
+	srfN = srfAttach,IRHingeOpenScaleable_4294445306
 	EVENTS
 	{
 	}
@@ -7518,10 +5991,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133242
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445246
 	partName = Part
-	pos = -1.007059,11.08707,0.7277969
-	rot = -0.1949047,-0.1830133,0.6830129,0.6797149
+	pos = -1.007054,11.08707,0.7277948
+	rot = -0.1949046,-0.1830133,0.683013,0.6797146
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -7530,8 +6003,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132352
-	srfN = srfAttach,structuralPanel1_4294133264
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444356
+	srfN = srfAttach,structuralPanel1_4294445268
 	EVENTS
 	{
 	}
@@ -7649,10 +6122,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133204
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445208
 	partName = Part
-	pos = -0.958756,11.08782,0.7707409
-	rot = 0.1830133,-0.1949047,-0.6797149,0.6830129
+	pos = -0.9587513,11.08782,0.770739
+	rot = 0.1830133,-0.1949046,-0.6797146,0.683013
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -7661,8 +6134,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132314
-	srfN = srfAttach,structuralPanel1_4294133264
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444318
+	srfN = srfAttach,structuralPanel1_4294445268
 	EVENTS
 	{
 	}
@@ -7780,10 +6253,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133166
+	part = structuralPanel1_4294445170
 	partName = Part
-	pos = -0.9779986,12.08738,0.736914
-	rot = -0.1949041,-0.1830128,0.6830131,0.6797149
+	pos = -0.9779933,12.08738,0.7369118
+	rot = -0.194904,-0.1830127,0.6830133,0.6797147
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -7792,11 +6265,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133144
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133106
-	link = structuralPanel1_4294133068
-	sym = structuralPanel1_4294132276
-	srfN = srfAttach,structuralPanel1_4294133264
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445148
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445110
+	link = structuralPanel1_4294445072
+	sym = structuralPanel1_4294444280
+	srfN = srfAttach,structuralPanel1_4294445268
 	EVENTS
 	{
 	}
@@ -7844,10 +6317,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133144
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445148
 	partName = Part
-	pos = -0.9512517,12.09349,0.7528811
-	rot = 0.6100408,0.3451449,-0.3512216,0.6207813
+	pos = -0.9512462,12.09349,0.7528789
+	rot = 0.6100403,0.3451449,-0.3512217,0.6207813
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -7856,8 +6329,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132254
-	srfN = srfAttach,structuralPanel1_4294133166
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444258
+	srfN = srfAttach,structuralPanel1_4294445170
 	EVENTS
 	{
 	}
@@ -7975,10 +6448,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133106
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445110
 	partName = Part
-	pos = -1.005703,12.08098,0.7203768
-	rot = -0.3451449,0.6100408,-0.6207813,-0.3512216
+	pos = -1.005698,12.08098,0.7203746
+	rot = -0.3451449,0.6100403,-0.6207813,-0.3512217
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -7987,8 +6460,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132216
-	srfN = srfAttach,structuralPanel1_4294133166
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444220
+	srfN = srfAttach,structuralPanel1_4294445170
 	EVENTS
 	{
 	}
@@ -8106,10 +6579,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294133068
+	part = structuralPanel1_4294445072
 	partName = Part
-	pos = -0.9754548,13.08727,0.7220955
-	rot = -0.1949053,-0.1830132,0.6830134,0.6797141
+	pos = -0.9754496,13.08727,0.7220939
+	rot = -0.1949053,-0.1830131,0.6830136,0.679714
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -8118,11 +6591,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133046
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294133008
-	link = W485.SurfaceOmniLight_4294086464
-	sym = structuralPanel1_4294132178
-	srfN = srfAttach,structuralPanel1_4294133166
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445050
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294445012
+	link = W485.SurfaceOmniLight_4294443062
+	sym = structuralPanel1_4294444182
+	srfN = srfAttach,structuralPanel1_4294445170
 	EVENTS
 	{
 	}
@@ -8170,10 +6643,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133046
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445050
 	partName = Part
-	pos = -0.9487079,13.09338,0.7380624
-	rot = 0.6100404,0.3451447,-0.3512207,0.6207823
+	pos = -0.9487023,13.09338,0.7380608
+	rot = 0.6100402,0.3451448,-0.3512208,0.6207821
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -8182,8 +6655,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132156
-	srfN = srfAttach,structuralPanel1_4294133068
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444160
+	srfN = srfAttach,structuralPanel1_4294445072
 	EVENTS
 	{
 	}
@@ -8301,10 +6774,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294133008
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294445012
 	partName = Part
-	pos = -1.003159,13.08088,0.7055578
-	rot = -0.3451447,0.6100404,-0.6207823,-0.3512207
+	pos = -1.003154,13.08088,0.7055563
+	rot = -0.3451448,0.6100402,-0.6207821,-0.3512208
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -8313,8 +6786,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132118
-	srfN = srfAttach,structuralPanel1_4294133068
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444122
+	srfN = srfAttach,structuralPanel1_4294445072
 	EVENTS
 	{
 	}
@@ -8432,10 +6905,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132970
+	part = structuralPanel1_4294444974
 	partName = Part
-	pos = -0.9867389,10.08758,0.7662554
-	rot = -0.6830125,0.6797151,-0.1949049,0.1830133
+	pos = -0.9867357,10.08758,0.7662537
+	rot = -0.6830126,0.679715,-0.1949048,0.1830133
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -8444,10 +6917,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132948
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132910
-	sym = structuralPanel1_4294132080
-	srfN = srfAttach,structuralPanel1_4294133264
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444952
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444914
+	sym = structuralPanel1_4294444084
+	srfN = srfAttach,structuralPanel1_4294445268
 	EVENTS
 	{
 	}
@@ -8495,10 +6968,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132948
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444952
 	partName = Part
-	pos = -0.9599918,10.08203,0.7824255
-	rot = -0.3512211,-0.6207814,-0.610041,0.3451442
+	pos = -0.9599884,10.08203,0.7824242
+	rot = -0.3512211,-0.6207814,-0.610041,0.3451443
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -8507,8 +6980,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132058
-	srfN = srfAttach,structuralPanel1_4294132970
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444062
+	srfN = srfAttach,structuralPanel1_4294444974
 	EVENTS
 	{
 	}
@@ -8626,10 +7099,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132910
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444914
 	partName = Part
-	pos = -1.014444,10.0934,0.7495047
-	rot = 0.6207814,-0.3512211,-0.3451442,-0.610041
+	pos = -1.01444,10.0934,0.7495028
+	rot = 0.6207814,-0.3512211,-0.3451443,-0.610041
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -8638,8 +7111,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132020
-	srfN = srfAttach,structuralPanel1_4294132970
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444024
+	srfN = srfAttach,structuralPanel1_4294444974
 	EVENTS
 	{
 	}
@@ -8757,7 +7230,7 @@ PART
 }
 PART
 {
-	part = IRHingeClosedScaleable2_4294132872
+	part = IRHingeClosedScaleable2_4294444876
 	partName = Part
 	pos = -1.78989,9.929384,-0.8683028
 	rot = 0.4999999,0.5000001,-0.4999999,-0.5000002
@@ -8769,9 +7242,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -49.6
-	link = AdjustableRailScaleable_4294132838
-	sym = IRHingeClosedScaleable2_4294133762
-	srfN = srfAttach,AntimatterTank_4294136266
+	link = AdjustableRailScaleable_4294444842
+	sym = IRHingeClosedScaleable2_4294445766
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -8985,7 +7458,7 @@ PART
 }
 PART
 {
-	part = AdjustableRailScaleable_4294132838
+	part = AdjustableRailScaleable_4294444842
 	partName = Part
 	pos = -1.789885,10.06859,-0.9828084
 	rot = 1,-1.043081E-07,-1.490119E-08,1.490117E-08
@@ -8997,9 +7470,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -93.6
-	link = structuralPanel1_4294132804
-	sym = AdjustableRailScaleable_4294133728
-	srfN = srfAttach,IRHingeClosedScaleable2_4294132872
+	link = structuralPanel1_4294444808
+	sym = AdjustableRailScaleable_4294445732
+	srfN = srfAttach,IRHingeClosedScaleable2_4294444876
 	EVENTS
 	{
 	}
@@ -9213,7 +7686,7 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132804
+	part = structuralPanel1_4294444808
 	partName = Part
 	pos = -1.789885,10.0765,-1.007811
 	rot = 0.5000001,0.5000001,-0.5000002,-0.5000001
@@ -9225,11 +7698,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 9.536743E-06
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132782
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132744
-	link = structuralPanel1_4294132706
-	sym = structuralPanel1_4294133694
-	srfN = srfAttach,AdjustableRailScaleable_4294132838
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444786
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444748
+	link = structuralPanel1_4294444710
+	sym = structuralPanel1_4294445698
+	srfN = srfAttach,AdjustableRailScaleable_4294444842
 	EVENTS
 	{
 	}
@@ -9277,10 +7750,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132782
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444786
 	partName = Part
 	pos = -1.789885,10.08233,-0.9766067
-	rot = -0.7071069,8.429363E-08,-4.214675E-08,-0.7071068
+	rot = -0.707107,3.510168E-07,-7.04512E-08,-0.7071067
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -9289,8 +7762,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133672
-	srfN = srfAttach,structuralPanel1_4294132804
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445676
+	srfN = srfAttach,structuralPanel1_4294444808
 	EVENTS
 	{
 	}
@@ -9408,10 +7881,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132744
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444748
 	partName = Part
 	pos = -1.789885,10.07039,-1.040132
-	rot = -8.429363E-08,-0.7071069,0.7071068,-4.214675E-08
+	rot = -3.510168E-07,-0.707107,0.7071067,-7.04512E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -9420,8 +7893,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133634
-	srfN = srfAttach,structuralPanel1_4294132804
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445638
+	srfN = srfAttach,structuralPanel1_4294444808
 	EVENTS
 	{
 	}
@@ -9539,10 +8012,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132706
+	part = structuralPanel1_4294444710
 	partName = Part
-	pos = -1.79297,11.0765,-1.004728
-	rot = -0.5000005,-0.5000002,0.4999998,0.5
+	pos = -1.792971,11.0765,-1.004728
+	rot = -0.5000005,-0.5000002,0.4999996,0.5000001
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -9551,13 +8024,13 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132684
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132646
-	link = structuralPanel1_4294132608
-	link = IRHingeOpenScaleable_4294132412
-	link = IRHingeOpenScaleable_4294131944
-	sym = structuralPanel1_4294133596
-	srfN = srfAttach,structuralPanel1_4294132804
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444688
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444650
+	link = structuralPanel1_4294444612
+	link = IRHingeOpenScaleable_4294444416
+	link = IRHingeOpenScaleable_4294443948
+	sym = structuralPanel1_4294445600
+	srfN = srfAttach,structuralPanel1_4294444808
 	EVENTS
 	{
 	}
@@ -9605,10 +8078,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132684
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444688
 	partName = Part
-	pos = -1.79297,11.08233,-0.9735246
-	rot = 0.7071069,-2.667234E-07,-1.384209E-08,0.7071068
+	pos = -1.792971,11.08233,-0.9735241
+	rot = 0.707107,-3.335596E-07,1.722033E-07,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -9617,8 +8090,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133574
-	srfN = srfAttach,structuralPanel1_4294132706
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445578
+	srfN = srfAttach,structuralPanel1_4294444710
 	EVENTS
 	{
 	}
@@ -9736,10 +8209,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132646
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444650
 	partName = Part
-	pos = -1.79297,11.07039,-1.037049
-	rot = 2.667234E-07,0.7071069,-0.7071068,-1.384209E-08
+	pos = -1.792971,11.07039,-1.037049
+	rot = 3.335596E-07,0.707107,-0.7071068,1.722033E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -9748,8 +8221,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133536
-	srfN = srfAttach,structuralPanel1_4294132706
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445540
+	srfN = srfAttach,structuralPanel1_4294444710
 	EVENTS
 	{
 	}
@@ -9867,10 +8340,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132608
+	part = structuralPanel1_4294444612
 	partName = Part
-	pos = -1.796603,12.0765,-0.9984388
-	rot = -0.5000002,-0.5000002,0.4999997,0.5000002
+	pos = -1.796609,12.0765,-0.9984379
+	rot = -0.5000002,-0.5000002,0.4999998,0.5000002
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -9879,11 +8352,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132586
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132548
-	link = structuralPanel1_4294132510
-	sym = structuralPanel1_4294133498
-	srfN = srfAttach,structuralPanel1_4294132706
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444590
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444552
+	link = structuralPanel1_4294444514
+	sym = structuralPanel1_4294445502
+	srfN = srfAttach,structuralPanel1_4294444710
 	EVENTS
 	{
 	}
@@ -9931,10 +8404,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132586
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444590
 	partName = Part
-	pos = -1.796603,12.08233,-0.9672348
-	rot = 0.7071072,-3.738984E-07,1.529375E-07,0.7071066
+	pos = -1.796609,12.08233,-0.9672338
+	rot = 0.7071074,-5.475993E-07,1.478244E-07,0.7071064
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -9943,8 +8416,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133476
-	srfN = srfAttach,structuralPanel1_4294132608
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445480
+	srfN = srfAttach,structuralPanel1_4294444612
 	EVENTS
 	{
 	}
@@ -10062,10 +8535,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132548
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444552
 	partName = Part
-	pos = -1.796603,12.07039,-1.03076
-	rot = 3.738984E-07,0.7071072,-0.7071066,1.529375E-07
+	pos = -1.796609,12.07039,-1.03076
+	rot = 5.475993E-07,0.7071074,-0.7071064,1.478244E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -10074,8 +8547,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133438
-	srfN = srfAttach,structuralPanel1_4294132608
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445442
+	srfN = srfAttach,structuralPanel1_4294444612
 	EVENTS
 	{
 	}
@@ -10193,10 +8666,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132510
+	part = structuralPanel1_4294444514
 	partName = Part
-	pos = -1.795498,13.07649,-1.000354
-	rot = 0.5000001,0.4999996,0.5000005,0.5000002
+	pos = -1.795505,13.07649,-1.000353
+	rot = 0.5000002,0.4999995,0.5000005,0.5000002
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -10205,10 +8678,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132488
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132450
-	sym = structuralPanel1_4294133400
-	srfN = srfAttach,structuralPanel1_4294132608
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444492
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444454
+	sym = structuralPanel1_4294445404
+	srfN = srfAttach,structuralPanel1_4294444612
 	EVENTS
 	{
 	}
@@ -10256,10 +8729,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132488
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444492
 	partName = Part
-	pos = -1.795498,13.08232,-1.031558
-	rot = 1.547457E-07,0.7071073,-0.7071066,3.510173E-07
+	pos = -1.795505,13.08232,-1.031557
+	rot = 2.303111E-07,0.7071074,-0.7071064,4.861873E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -10268,8 +8741,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133378
-	srfN = srfAttach,structuralPanel1_4294132510
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445382
+	srfN = srfAttach,structuralPanel1_4294444514
 	EVENTS
 	{
 	}
@@ -10387,10 +8860,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132450
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444454
 	partName = Part
-	pos = -1.795498,13.07038,-0.968033
-	rot = -0.7071073,1.547457E-07,-3.510173E-07,-0.7071066
+	pos = -1.795505,13.07038,-0.9680322
+	rot = -0.7071074,2.303111E-07,-4.861873E-07,-0.7071064
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -10399,8 +8872,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133340
-	srfN = srfAttach,structuralPanel1_4294132510
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445344
+	srfN = srfAttach,structuralPanel1_4294444514
 	EVENTS
 	{
 	}
@@ -10518,10 +8991,10 @@ PART
 }
 PART
 {
-	part = IRHingeOpenScaleable_4294132412
+	part = IRHingeOpenScaleable_4294444416
 	partName = Part
-	pos = -2.29309,11.1204,-0.9647284
-	rot = 0.6154345,0.348196,-0.3481961,0.6154346
+	pos = -2.293093,11.1204,-0.9647275
+	rot = 0.6154346,0.348196,-0.3481959,0.6154346
 	attRot = 0,0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -10530,9 +9003,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -49.6
-	link = structuralPanel1_4294132374
-	sym = IRHingeOpenScaleable_4294133302
-	srfN = srfAttach,structuralPanel1_4294132706
+	link = structuralPanel1_4294444378
+	sym = IRHingeOpenScaleable_4294445306
+	srfN = srfAttach,structuralPanel1_4294444710
 	EVENTS
 	{
 	}
@@ -10746,10 +9219,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132374
+	part = structuralPanel1_4294444378
 	partName = Part
-	pos = -2.596465,11.09339,-0.5369438
-	rot = 0.3481959,-0.6154346,0.6154346,0.3481961
+	pos = -2.59647,11.09339,-0.5369412
+	rot = 0.3481958,-0.6154348,0.6154345,0.3481961
 	attRot = 0.3535535,0.3535535,0.6123726,0.6123726
 	mir = 1,1,1
 	istg = 0
@@ -10758,12 +9231,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132352
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132314
-	link = structuralPanel1_4294132276
-	link = structuralPanel1_4294132080
-	sym = structuralPanel1_4294133264
-	srfN = srfAttach,IRHingeOpenScaleable_4294132412
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444356
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444318
+	link = structuralPanel1_4294444280
+	link = structuralPanel1_4294444084
+	sym = structuralPanel1_4294445268
+	srfN = srfAttach,IRHingeOpenScaleable_4294444416
 	EVENTS
 	{
 	}
@@ -10811,10 +9284,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132352
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444356
 	partName = Part
-	pos = -2.572723,11.09339,-0.5158749
-	rot = 0.68139,0.6813896,0.1889661,0.1889661
+	pos = -2.57273,11.09339,-0.5158719
+	rot = 0.6813903,0.6813893,0.1889663,0.1889661
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -10823,8 +9296,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133242
-	srfN = srfAttach,structuralPanel1_4294132374
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445246
+	srfN = srfAttach,structuralPanel1_4294444378
 	EVENTS
 	{
 	}
@@ -10942,10 +9415,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132314
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444318
 	partName = Part
-	pos = -2.621025,11.09339,-0.5588254
-	rot = -0.6813896,0.68139,-0.1889661,0.1889661
+	pos = -2.621032,11.09339,-0.5588229
+	rot = -0.6813893,0.6813903,-0.1889661,0.1889663
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -10954,8 +9427,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133204
-	srfN = srfAttach,structuralPanel1_4294132374
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445208
+	srfN = srfAttach,structuralPanel1_4294444378
 	EVENTS
 	{
 	}
@@ -11073,10 +9546,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132276
+	part = structuralPanel1_4294444280
 	partName = Part
-	pos = -2.601784,12.09339,-0.5424476
-	rot = 0.68139,0.6813899,0.1889654,0.1889656
+	pos = -2.601792,12.09339,-0.5424436
+	rot = 0.6813902,0.6813896,0.1889656,0.1889656
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -11085,11 +9558,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132254
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132216
-	link = structuralPanel1_4294132178
-	sym = structuralPanel1_4294133166
-	srfN = srfAttach,structuralPanel1_4294132374
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444258
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444220
+	link = structuralPanel1_4294444182
+	sym = structuralPanel1_4294445170
+	srfN = srfAttach,structuralPanel1_4294444378
 	EVENTS
 	{
 	}
@@ -11137,10 +9610,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132254
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444258
 	partName = Part
-	pos = -2.628531,12.09922,-0.5585185
-	rot = -0.3481964,0.6154343,-0.6154345,-0.3481966
+	pos = -2.628539,12.09922,-0.5585146
+	rot = -0.3481962,0.6154342,-0.6154345,-0.3481966
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -11149,8 +9622,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133144
-	srfN = srfAttach,structuralPanel1_4294132276
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445148
+	srfN = srfAttach,structuralPanel1_4294444280
 	EVENTS
 	{
 	}
@@ -11268,10 +9741,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132216
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444220
 	partName = Part
-	pos = -2.57408,12.08729,-0.5258011
-	rot = -0.6154343,-0.3481964,0.3481966,-0.6154345
+	pos = -2.574088,12.08729,-0.5257968
+	rot = -0.6154342,-0.3481962,0.3481966,-0.6154345
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -11280,8 +9753,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133106
-	srfN = srfAttach,structuralPanel1_4294132276
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445110
+	srfN = srfAttach,structuralPanel1_4294444280
 	EVENTS
 	{
 	}
@@ -11399,10 +9872,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132178
+	part = structuralPanel1_4294444182
 	partName = Part
-	pos = -2.60433,13.09339,-0.5450816
-	rot = 0.6813903,0.6813892,0.1889665,0.1889663
+	pos = -2.60434,13.09341,-0.5450784
+	rot = 0.6813903,0.6813892,0.1889663,0.1889663
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -11411,11 +9884,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132156
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132118
-	link = W485.SurfaceOmniLight_4294086212
-	sym = structuralPanel1_4294133068
-	srfN = srfAttach,structuralPanel1_4294132276
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444160
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444122
+	link = W485.SurfaceOmniLight_4294443030
+	sym = structuralPanel1_4294445072
+	srfN = srfAttach,structuralPanel1_4294444280
 	EVENTS
 	{
 	}
@@ -11463,10 +9936,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132156
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444160
 	partName = Part
-	pos = -2.631077,13.09923,-0.5611532
-	rot = -0.3481956,0.6154354,-0.6154342,-0.348196
+	pos = -2.631088,13.09924,-0.5611495
+	rot = -0.3481956,0.6154351,-0.6154342,-0.3481961
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -11475,8 +9948,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133046
-	srfN = srfAttach,structuralPanel1_4294132178
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445050
+	srfN = srfAttach,structuralPanel1_4294444182
 	EVENTS
 	{
 	}
@@ -11594,10 +10067,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132118
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444122
 	partName = Part
-	pos = -2.576626,13.08729,-0.5284351
-	rot = -0.6154354,-0.3481956,0.348196,-0.6154342
+	pos = -2.576637,13.0873,-0.5284318
+	rot = -0.6154351,-0.3481956,0.3481961,-0.6154342
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -11606,8 +10079,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294133008
-	srfN = srfAttach,structuralPanel1_4294132178
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294445012
+	srfN = srfAttach,structuralPanel1_4294444182
 	EVENTS
 	{
 	}
@@ -11725,10 +10198,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294132080
+	part = structuralPanel1_4294444084
 	partName = Part
-	pos = -2.59304,10.09339,-0.5368849
-	rot = -0.1889662,0.1889661,0.6813896,-0.6813899
+	pos = -2.59304,10.09339,-0.536883
+	rot = -0.1889664,0.188966,0.6813897,-0.6813897
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -11737,10 +10210,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132058
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294132020
-	sym = structuralPanel1_4294132970
-	srfN = srfAttach,structuralPanel1_4294132374
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444062
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294444024
+	sym = structuralPanel1_4294444974
+	srfN = srfAttach,structuralPanel1_4294444378
 	EVENTS
 	{
 	}
@@ -11788,10 +10261,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132058
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444062
 	partName = Part
-	pos = -2.619788,10.08756,-0.5529561
-	rot = -0.6154349,0.348196,0.3481961,0.6154345
+	pos = -2.619789,10.08756,-0.5529546
+	rot = -0.6154349,0.3481961,0.348196,0.6154343
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -11800,8 +10273,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132948
-	srfN = srfAttach,structuralPanel1_4294132080
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444952
+	srfN = srfAttach,structuralPanel1_4294444084
 	EVENTS
 	{
 	}
@@ -11919,10 +10392,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294132020
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294444024
 	partName = Part
-	pos = -2.565335,10.0995,-0.5202384
-	rot = -0.348196,-0.6154349,-0.6154345,0.3481961
+	pos = -2.565336,10.0995,-0.5202364
+	rot = -0.3481961,-0.6154349,-0.6154343,0.348196
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -11931,8 +10404,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294132910
-	srfN = srfAttach,structuralPanel1_4294132080
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294444914
+	srfN = srfAttach,structuralPanel1_4294444084
 	EVENTS
 	{
 	}
@@ -12050,10 +10523,10 @@ PART
 }
 PART
 {
-	part = IRHingeOpenScaleable_4294131982
+	part = IRHingeOpenScaleable_4294443986
 	partName = Part
-	pos = -2.286978,11.09344,1.176872
-	rot = -0.6154348,-0.348196,-0.3481957,0.6154345
+	pos = -2.286979,11.09344,1.176872
+	rot = -0.6154349,-0.3481959,-0.3481956,0.6154346
 	attRot = 0.7071067,0,-0.7071067,0
 	mir = 1,1,1
 	istg = 0
@@ -12062,9 +10535,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -49.6
-	link = structuralPanel1_4294131906
-	sym = IRHingeOpenScaleable_4294131944
-	srfN = srfAttach,structuralPanel1_4294133596
+	link = structuralPanel1_4294443910
+	sym = IRHingeOpenScaleable_4294443948
+	srfN = srfAttach,structuralPanel1_4294445600
 	EVENTS
 	{
 	}
@@ -12278,10 +10751,10 @@ PART
 }
 PART
 {
-	part = IRHingeOpenScaleable_4294131944
+	part = IRHingeOpenScaleable_4294443948
 	partName = Part
-	pos = -1.292804,11.09192,-0.9649911
-	rot = -0.3512211,0.6207815,0.6100408,0.3451445
+	pos = -1.292804,11.09192,-0.9649905
+	rot = -0.3512212,0.6207814,0.6100407,0.3451445
 	attRot = 0.7071067,0,-0.7071067,0
 	mir = 1,1,1
 	istg = 0
@@ -12290,9 +10763,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -49.6
-	link = structuralPanel1_4294131514
-	sym = IRHingeOpenScaleable_4294131982
-	srfN = srfAttach,structuralPanel1_4294132706
+	link = structuralPanel1_4294443518
+	sym = IRHingeOpenScaleable_4294443986
+	srfN = srfAttach,structuralPanel1_4294444710
 	EVENTS
 	{
 	}
@@ -12506,10 +10979,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131906
+	part = structuralPanel1_4294443910
 	partName = Part
-	pos = -2.58704,11.0757,0.7490301
-	rot = 0.348196,0.6154346,-0.6154346,0.3481962
+	pos = -2.587041,11.0757,0.7490289
+	rot = 0.3481961,0.6154346,-0.6154346,0.3481962
 	attRot = -0.3535535,-0.3535535,0.6123726,0.6123726
 	mir = 1,1,1
 	istg = 0
@@ -12518,12 +10991,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131884
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131846
-	link = structuralPanel1_4294131808
-	link = structuralPanel1_4294131612
-	sym = structuralPanel1_4294131514
-	srfN = srfAttach,IRHingeOpenScaleable_4294131982
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443888
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443850
+	link = structuralPanel1_4294443812
+	link = structuralPanel1_4294443616
+	sym = structuralPanel1_4294443518
+	srfN = srfAttach,IRHingeOpenScaleable_4294443986
 	EVENTS
 	{
 	}
@@ -12571,10 +11044,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131884
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443888
 	partName = Part
-	pos = -2.616791,11.0757,0.7601036
-	rot = -0.1889661,-0.1889663,-0.6813901,-0.6813896
+	pos = -2.616792,11.0757,0.7601023
+	rot = -0.188966,-0.1889661,-0.68139,-0.6813896
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -12583,8 +11056,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131492
-	srfN = srfAttach,structuralPanel1_4294131906
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443496
+	srfN = srfAttach,structuralPanel1_4294443910
 	EVENTS
 	{
 	}
@@ -12702,10 +11175,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131846
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443850
 	partName = Part
-	pos = -2.55619,11.0757,0.7376181
-	rot = 0.1889663,-0.1889661,0.6813896,-0.6813901
+	pos = -2.556191,11.0757,0.7376165
+	rot = 0.1889661,-0.188966,0.6813896,-0.68139
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -12714,8 +11187,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131454
-	srfN = srfAttach,structuralPanel1_4294131906
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443458
+	srfN = srfAttach,structuralPanel1_4294443910
 	EVENTS
 	{
 	}
@@ -12833,10 +11306,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131808
+	part = structuralPanel1_4294443812
 	partName = Part
-	pos = -2.587018,12.0757,0.7504768
-	rot = -0.188966,-0.1889664,-0.68139,-0.6813896
+	pos = -2.58702,12.07571,0.7504746
+	rot = -0.188966,-0.1889661,-0.68139,-0.6813896
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -12845,11 +11318,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131786
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131748
-	link = structuralPanel1_4294131710
-	sym = structuralPanel1_4294131416
-	srfN = srfAttach,structuralPanel1_4294131906
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443790
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443752
+	link = structuralPanel1_4294443714
+	sym = structuralPanel1_4294443420
+	srfN = srfAttach,structuralPanel1_4294443910
 	EVENTS
 	{
 	}
@@ -12897,10 +11370,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131786
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443790
 	partName = Part
-	pos = -2.56027,12.08153,0.7344055
-	rot = -0.348196,-0.6154346,0.6154346,-0.3481964
+	pos = -2.560272,12.08154,0.7344027
+	rot = -0.3481958,-0.6154345,0.6154346,-0.3481965
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -12909,8 +11382,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131394
-	srfN = srfAttach,structuralPanel1_4294131808
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443398
+	srfN = srfAttach,structuralPanel1_4294443812
 	EVENTS
 	{
 	}
@@ -13028,10 +11501,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131748
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443752
 	partName = Part
-	pos = -2.614722,12.06959,0.7671235
-	rot = 0.6154346,-0.348196,0.3481964,0.6154346
+	pos = -2.614724,12.0696,0.7671211
+	rot = 0.6154345,-0.3481958,0.3481965,0.6154346
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -13040,8 +11513,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131356
-	srfN = srfAttach,structuralPanel1_4294131808
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443360
+	srfN = srfAttach,structuralPanel1_4294443812
 	EVENTS
 	{
 	}
@@ -13159,10 +11632,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131710
+	part = structuralPanel1_4294443714
 	partName = Part
-	pos = -2.592149,13.0757,0.7455226
-	rot = 0.6813899,0.6813897,-0.1889667,-0.1889659
+	pos = -2.592153,13.07571,0.7455193
+	rot = 0.6813899,0.6813896,-0.1889668,-0.1889658
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -13171,11 +11644,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131688
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131650
-	link = W485.SurfaceOmniLight_4294087650
-	sym = structuralPanel1_4294131318
-	srfN = srfAttach,structuralPanel1_4294131808
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443692
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443654
+	link = W485.SurfaceOmniLight_4294443126
+	sym = structuralPanel1_4294443322
+	srfN = srfAttach,structuralPanel1_4294443812
 	EVENTS
 	{
 	}
@@ -13223,10 +11696,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131688
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443692
 	partName = Part
-	pos = -2.618896,13.08153,0.7615937
-	rot = -0.6154343,0.3481959,-0.3481965,-0.6154349
+	pos = -2.6189,13.08154,0.7615905
+	rot = -0.6154342,0.3481957,-0.3481966,-0.6154348
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -13235,8 +11708,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131296
-	srfN = srfAttach,structuralPanel1_4294131710
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443300
+	srfN = srfAttach,structuralPanel1_4294443714
 	EVENTS
 	{
 	}
@@ -13354,10 +11827,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131650
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443654
 	partName = Part
-	pos = -2.564445,13.06959,0.728876
-	rot = -0.3481959,-0.6154343,0.6154349,-0.3481965
+	pos = -2.564449,13.0696,0.7288724
+	rot = -0.3481957,-0.6154342,0.6154348,-0.3481966
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -13366,8 +11839,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131258
-	srfN = srfAttach,structuralPanel1_4294131710
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443262
+	srfN = srfAttach,structuralPanel1_4294443714
 	EVENTS
 	{
 	}
@@ -13485,10 +11958,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131612
+	part = structuralPanel1_4294443616
 	partName = Part
-	pos = -2.586997,10.0757,0.7515205
-	rot = -0.6813902,0.6813896,0.1889658,-0.1889664
+	pos = -2.586998,10.0757,0.7515211
+	rot = -0.6813901,0.6813896,0.1889657,-0.1889662
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -13497,10 +11970,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131590
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131552
-	sym = structuralPanel1_4294131220
-	srfN = srfAttach,structuralPanel1_4294131906
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443594
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443556
+	sym = structuralPanel1_4294443224
+	srfN = srfAttach,structuralPanel1_4294443910
 	EVENTS
 	{
 	}
@@ -13548,10 +12021,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131590
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443594
 	partName = Part
-	pos = -2.560251,10.06987,0.7354494
-	rot = -0.6154347,-0.3481964,-0.348196,0.6154345
+	pos = -2.560251,10.06987,0.7354499
+	rot = -0.6154345,-0.3481964,-0.3481959,0.6154349
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -13560,8 +12033,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131198
-	srfN = srfAttach,structuralPanel1_4294131612
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443202
+	srfN = srfAttach,structuralPanel1_4294443616
 	EVENTS
 	{
 	}
@@ -13679,10 +12152,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131552
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443556
 	partName = Part
-	pos = -2.614702,10.08181,0.7681669
-	rot = 0.3481964,-0.6154347,-0.6154345,-0.348196
+	pos = -2.614702,10.08181,0.7681675
+	rot = 0.3481964,-0.6154345,-0.6154349,-0.3481959
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -13691,8 +12164,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131160
-	srfN = srfAttach,structuralPanel1_4294131612
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443164
+	srfN = srfAttach,structuralPanel1_4294443616
 	EVENTS
 	{
 	}
@@ -13810,10 +12283,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131514
+	part = structuralPanel1_4294443518
 	partName = Part
-	pos = -0.9927408,11.08166,-0.5369041
-	rot = -0.6100407,0.3451446,-0.3512213,-0.6207815
+	pos = -0.9927394,11.08166,-0.5369012
+	rot = -0.6100405,0.3451447,-0.3512212,-0.6207815
 	attRot = -0.3535535,-0.3535535,0.6123726,0.6123726
 	mir = 1,1,1
 	istg = 0
@@ -13822,12 +12295,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131492
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131454
-	link = structuralPanel1_4294131416
-	link = structuralPanel1_4294131220
-	sym = structuralPanel1_4294131906
-	srfN = srfAttach,IRHingeOpenScaleable_4294131944
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443496
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443458
+	link = structuralPanel1_4294443420
+	link = structuralPanel1_4294443224
+	sym = structuralPanel1_4294443910
+	srfN = srfAttach,IRHingeOpenScaleable_4294443948
 	EVENTS
 	{
 	}
@@ -13875,10 +12348,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131492
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443496
 	partName = Part
-	pos = -0.9629906,11.08146,-0.5479755
-	rot = -0.683013,-0.6797149,0.1949045,0.1830129
+	pos = -0.962989,11.08146,-0.5479724
+	rot = -0.683013,-0.6797149,0.1949041,0.183013
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -13887,8 +12360,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131884
-	srfN = srfAttach,structuralPanel1_4294131514
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443888
+	srfN = srfAttach,structuralPanel1_4294443518
 	EVENTS
 	{
 	}
@@ -14006,10 +12479,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131454
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443458
 	partName = Part
-	pos = -1.023591,11.08186,-0.5254941
-	rot = 0.6797149,-0.683013,-0.1830129,0.1949045
+	pos = -1.02359,11.08186,-0.5254912
+	rot = 0.6797149,-0.683013,-0.183013,0.1949041
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14018,8 +12491,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131846
-	srfN = srfAttach,structuralPanel1_4294131514
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443850
+	srfN = srfAttach,structuralPanel1_4294443518
 	EVENTS
 	{
 	}
@@ -14137,10 +12610,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131416
+	part = structuralPanel1_4294443420
 	partName = Part
-	pos = -0.9927664,12.08148,-0.5558029
-	rot = -0.6830131,-0.6797147,0.1949047,0.183013
+	pos = -0.9927657,12.08148,-0.5557986
+	rot = -0.683013,-0.6797147,0.1949044,0.1830131
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -14149,11 +12622,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131394
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131356
-	link = structuralPanel1_4294131318
-	sym = structuralPanel1_4294131808
-	srfN = srfAttach,structuralPanel1_4294131514
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443398
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443360
+	link = structuralPanel1_4294443322
+	sym = structuralPanel1_4294443812
+	srfN = srfAttach,structuralPanel1_4294443518
 	EVENTS
 	{
 	}
@@ -14201,10 +12674,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131394
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443398
 	partName = Part
-	pos = -1.019513,12.08759,-0.5398357
-	rot = 0.6100408,-0.3451447,0.3512212,0.6207815
+	pos = -1.019512,12.08759,-0.5398313
+	rot = 0.6100408,-0.3451447,0.3512211,0.6207815
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14213,8 +12686,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131786
-	srfN = srfAttach,structuralPanel1_4294131416
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443790
+	srfN = srfAttach,structuralPanel1_4294443420
 	EVENTS
 	{
 	}
@@ -14332,10 +12805,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131356
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443360
 	partName = Part
-	pos = -0.965062,12.07508,-0.5723404
-	rot = 0.3451447,0.6100408,-0.6207815,0.3512212
+	pos = -0.9650612,12.07508,-0.5723361
+	rot = 0.3451447,0.6100408,-0.6207815,0.3512211
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14344,8 +12817,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131748
-	srfN = srfAttach,structuralPanel1_4294131416
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443752
+	srfN = srfAttach,structuralPanel1_4294443420
 	EVENTS
 	{
 	}
@@ -14463,10 +12936,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131318
+	part = structuralPanel1_4294443322
 	partName = Part
-	pos = -0.9876367,13.08142,-0.5683016
-	rot = -0.1830133,-0.1949044,-0.679715,-0.6830128
+	pos = -0.9876377,13.08142,-0.5682975
+	rot = -0.1830133,-0.1949043,-0.6797149,-0.6830128
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -14475,11 +12948,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131296
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131258
-	link = W485.SurfaceOmniLight_4294086620
-	sym = structuralPanel1_4294131710
-	srfN = srfAttach,structuralPanel1_4294131416
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443300
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443262
+	link = W485.SurfaceOmniLight_4294443094
+	sym = structuralPanel1_4294443714
+	srfN = srfAttach,structuralPanel1_4294443420
 	EVENTS
 	{
 	}
@@ -14527,10 +13000,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131296
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443300
 	partName = Part
-	pos = -0.9608899,13.08697,-0.5844722
-	rot = -0.3451446,-0.6100411,0.6207813,-0.3512212
+	pos = -0.9608908,13.08697,-0.584468
+	rot = -0.3451446,-0.6100411,0.6207812,-0.3512211
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14539,8 +13012,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131688
-	srfN = srfAttach,structuralPanel1_4294131318
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443692
+	srfN = srfAttach,structuralPanel1_4294443322
 	EVENTS
 	{
 	}
@@ -14658,10 +13131,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131258
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443262
 	partName = Part
-	pos = -1.015342,13.0756,-0.551551
-	rot = 0.6100411,-0.3451446,0.3512212,0.6207813
+	pos = -1.015342,13.0756,-0.5515468
+	rot = 0.6100411,-0.3451446,0.3512211,0.6207812
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14670,8 +13143,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131650
-	srfN = srfAttach,structuralPanel1_4294131318
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443654
+	srfN = srfAttach,structuralPanel1_4294443322
 	EVENTS
 	{
 	}
@@ -14789,10 +13262,10 @@ PART
 }
 PART
 {
-	part = structuralPanel1_4294131220
+	part = structuralPanel1_4294443224
 	partName = Part
-	pos = -0.9927838,10.08177,-0.5219417
-	rot = 0.1949043,-0.1830129,0.683013,-0.6797149
+	pos = -0.9927819,10.08177,-0.5219402
+	rot = 0.1949039,-0.1830131,0.683013,-0.679715
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -14801,10 +13274,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131198
-	link = 62cm.BoxSat.Fixed.SolarPanel_4294131160
-	sym = structuralPanel1_4294131612
-	srfN = srfAttach,structuralPanel1_4294131514
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443202
+	link = 62cm.BoxSat.Fixed.SolarPanel_4294443164
+	sym = structuralPanel1_4294443616
+	srfN = srfAttach,structuralPanel1_4294443518
 	EVENTS
 	{
 	}
@@ -14852,10 +13325,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131198
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443202
 	partName = Part
-	pos = -1.019531,10.07622,-0.5057709
-	rot = -0.3512211,0.6207814,0.6100407,0.3451447
+	pos = -1.01953,10.07622,-0.5057695
+	rot = -0.3512211,0.6207815,0.6100408,0.3451447
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14864,8 +13337,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131590
-	srfN = srfAttach,structuralPanel1_4294131220
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443594
+	srfN = srfAttach,structuralPanel1_4294443224
 	EVENTS
 	{
 	}
@@ -14983,10 +13456,10 @@ PART
 }
 PART
 {
-	part = 62cm.BoxSat.Fixed.SolarPanel_4294131160
+	part = 62cm.BoxSat.Fixed.SolarPanel_4294443164
 	partName = Part
-	pos = -0.9650792,10.08758,-0.5386924
-	rot = -0.6207814,-0.3512211,-0.3451447,0.6100407
+	pos = -0.965077,10.08758,-0.538691
+	rot = -0.6207815,-0.3512211,-0.3451447,0.6100408
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -14995,8 +13468,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 475
-	sym = 62cm.BoxSat.Fixed.SolarPanel_4294131552
-	srfN = srfAttach,structuralPanel1_4294131220
+	sym = 62cm.BoxSat.Fixed.SolarPanel_4294443556
+	srfN = srfAttach,structuralPanel1_4294443224
 	EVENTS
 	{
 	}
@@ -15114,9 +13587,1787 @@ PART
 }
 PART
 {
-	part = AJ10_4294131122
+	part = W485.SurfaceOmniLight_4294443126
 	partName = Part
-	pos = -1.78989,9.68013,0.1160917
+	pos = -2.585025,13.57572,0.7383929
+	rot = -1.019026E-06,0.7071066,-5.367689E-07,0.7071074
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294443094
+	srfN = srfAttach,structuralPanel1_4294443714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294443094
+	partName = Part
+	pos = -0.994767,13.58148,-0.5698982
+	rot = 0.006169612,0.7070804,-0.006169107,-0.7070796
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294443126
+	srfN = srfAttach,structuralPanel1_4294443322
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294443062
+	partName = Part
+	pos = -0.9808546,13.58718,0.7127301
+	rot = 0.002224985,-0.7161625,0.00843876,0.6978794
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294443030
+	srfN = srfAttach,structuralPanel1_4294445072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294443030
+	partName = Part
+	pos = -2.598938,13.59341,-0.5444404
+	rot = 0.0021893,0.6978331,-0.008314236,0.7162091
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294443062
+	srfN = srfAttach,structuralPanel1_4294444182
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RCS_4294442998
+	partName = Part
+	pos = -2.616999,10.44918,0.1160918
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = RCS_4294442936
+	srfN = srfAttach,AntimatterTank_4294447836
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = False
+		EVENTS
+		{
+			Disable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = False
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = Custom02
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 450
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RCS_4294442936
+	partName = Part
+	pos = -0.9627812,10.44918,0.1160916
+	rot = -0.5000001,-0.5000001,-0.4999999,-0.4999999
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = RCS_4294442998
+	srfN = srfAttach,AntimatterTank_4294447836
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = False
+		EVENTS
+		{
+			Disable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = False
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = Custom02
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 450
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = largeAdapterTank_4294442874
+	partName = Part
+	pos = -1.78989,9.315379,0.1160917
+	rot = 0,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = -683.7263
+	link = ESARCS_4294442832
+	link = ESARCS_4294442778
+	link = W485.SurfaceOmniLight_4294442724
+	link = W485.SurfaceOmniLight_4294442692
+	link = OME_4294442596
+	attN = top,OME_4294442596
+	attN = bottom,AntimatterTank_4294447836
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_ServiceModule
+		utilization = 86
+		mass = 0.09834599
+		timestamp = 4488.5710626276
+		volume = 886
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiIcon = 46.607% UDMH / 53.393% NTO
+				guiName = 46.607% UDMH / 53.393% NTO
+				category = 46.607% UDMH / 53.393% NTO
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 2.5
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 506.25
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Hydrazine
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = UDMH
+		amount = 366.333453297615
+		maxAmount = 366.333453297615
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = NTO
+		amount = 419.666546702385
+		maxAmount = 419.666546702385
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = ESARCS_4294442832
+	partName = Part
+	pos = -2.192976,8.757908,0.1160917
+	rot = 0.7071068,8.42937E-08,-0.7071068,4.214685E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -437.5
+	sym = ESARCS_4294442778
+	srfN = srfAttach,largeAdapterTank_4294442874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = False
+		EVENTS
+		{
+			Disable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = False
+		thrustLimit = 40
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = Custom02
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.5
+		currentScale = 0.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 62.50003
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294442778
+	partName = Part
+	pos = -1.386805,8.757908,0.1160916
+	rot = -0.7071069,4.214685E-08,-0.7071067,-8.42937E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -437.5
+	sym = ESARCS_4294442832
+	srfN = srfAttach,largeAdapterTank_4294442874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = False
+		EVENTS
+		{
+			Disable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = False
+		thrustLimit = 40
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = Custom02
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.5
+		currentScale = 0.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 62.50003
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294442724
+	partName = Part
+	pos = -2.22986,8.799766,0.1160917
+	rot = -0.600863,0.3727784,-0.600863,-0.3727784
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -78.4
+	sym = W485.SurfaceOmniLight_4294442692
+	srfN = srfAttach,largeAdapterTank_4294442874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.5
+		lightG = 0.25
+		lightB = 0.25
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.6
+		currentScale = 0.6
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 21.6
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294442692
+	partName = Part
+	pos = -1.34992,8.799766,0.1160916
+	rot = -0.600863,-0.3727784,0.600863,-0.3727783
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -78.4
+	sym = W485.SurfaceOmniLight_4294442724
+	srfN = srfAttach,largeAdapterTank_4294442874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.5
+		lightG = 0.25
+		lightB = 0.25
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.6
+		currentScale = 0.6
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 21.6
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294442660
+	partName = Part
+	pos = -1.78989,11.59948,0.614397
+	rot = -2.990851E-08,0.7193396,-0.6946587,-3.195385E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -78.4
+	sym = W485.SurfaceOmniLight_4294442628
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294447276
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.25
+		lightG = 0.5
+		lightB = 0.25
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.6
+		currentScale = 0.6
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 21.6
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294442628
+	partName = Part
+	pos = -1.78989,11.60168,-0.3952564
+	rot = -0.6883548,-6.339863E-08,6.027522E-08,-0.7253742
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -78.4
+	sym = W485.SurfaceOmniLight_4294442660
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294446504
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.25
+		lightG = 0.5
+		lightB = 0.25
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.6
+		currentScale = 0.6
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 21.6
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = OME_4294442596
+	partName = Part
+	pos = -1.78989,8.850629,0.1160917
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -15125,8 +15376,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	modCost = 6.103516E-05
-	attN = top,AntimatterTank_4294136266
+	modCost = 0.0001220703
+	attN = top1,largeAdapterTank_4294442874
 	EVENTS
 	{
 	}
@@ -15205,76 +15456,9 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleGimbal
-		isEnabled = True
-		gimbalLock = False
-		EVENTS
-		{
-			LockGimbal
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lock Gimbal
-				guiName = Lock Gimbal
-				category = Lock Gimbal
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			FreeGimbal
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Free Gimbal
-				guiName = Free Gimbal
-				category = Free Gimbal
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 750.0001
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleTweakableGimbal
 		isEnabled = True
-		gimbalRange = 0.5
+		gimbalRange = 0
 		reverseGimbalControl = False
 		gimbalRange_UIFlight
 		{
@@ -15300,6 +15484,33 @@ PART
 	}
 	MODULE
 	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.25
+		currentScale = 1.25
+		defaultScale = 1.25
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 700.0001
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = FARBasicDragModel
 		isEnabled = True
 		EVENTS
@@ -15312,10 +15523,218 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294087650
+	part = AMIReactor_4294442504
 	partName = Part
-	pos = -2.585021,13.57571,0.7383965
-	rot = -1.05228E-06,0.7071069,-8.611293E-07,0.7071071
+	pos = -1.78989,11.0387,0.1160917
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = -78750
+	link = IR.Adapter.0625ToTrussSmall_4294442464
+	link = Dishcl1_4294442274
+	link = Dishcl1_4294442206
+	link = Dishcl1_4294442138
+	link = Dishcl1_4294442070
+	link = battery-rad-125_4294434678
+	link = battery-rad-125_4294432696
+	attN = bottom,AntimatterTank_4294447836
+	attN = top,IR.Adapter.0625ToTrussSmall_4294442464
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.625
+		currentScale = 0.625
+		defaultScale = 2.5
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (0.8, 0.8, 0.8)
+		dryCost = 1250
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableReactionWheel
+		isEnabled = True
+		startEnabled = True
+		RollTorque = 10
+		PitchTorque = 10
+		YawTorque = 10
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		RollTorque_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		PitchTorque_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		YawTorque_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.Adapter.0625ToTrussSmall_4294442464
+	partName = Part
+	pos = -1.78989,11.4187,0.1160917
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = RTLongAntenna3_4294442430
+	link = Kosmos.Pravilo.ASAS_4294442372
+	link = W485.SurfaceOmniLight_4294442338
+	link = W485.SurfaceOmniLight_4294442306
+	attN = bottom,AMIReactor_4294442504
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.625
+		currentScale = 0.625
+		defaultScale = 0.625
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 250
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RTLongAntenna3_4294442430
+	partName = Part
+	pos = -1.78989,11.71871,0.1142567
+	rot = -4.371139E-08,1,0,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -15324,8 +15743,439 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294086620
-	srfN = srfAttach,structuralPanel1_4294131710
+	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294442464
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = False
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 1
+		RTOmniRange = 0
+		RTDishRange = -1
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = False
+				guiActive = False
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = Custom01
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableAnimateGeneric
+		isEnabled = True
+		startCompleted = False
+		startCompleted_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Kosmos.Pravilo.ASAS_4294442372
+	partName = Part
+	pos = -1.987312,11.49576,-0.08133033
+	rot = -0.1253794,-0.8646681,-0.2663274,0.4070614
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294442464
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = True
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 1
+		RTOmniRange = 500000
+		RTDishRange = -1
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = False
+				guiActive = False
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = None
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294442338
+	partName = Part
+	pos = -1.78989,11.70603,0.2350895
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -78.4
+	sym = W485.SurfaceOmniLight_4294442306
+	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294442464
 	EVENTS
 	{
 	}
@@ -15337,9 +16187,9 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
+		lightR = 0.5
+		lightG = 0.5
+		lightB = 0.5
 		lightR_UIFlight
 		{
 			controlEnabled = True
@@ -15408,13 +16258,13 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
+		tweakScale = 0.6
+		currentScale = 0.6
 		defaultScale = 1
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
+		dryCost = 21.6
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -15445,10 +16295,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294086620
+	part = W485.SurfaceOmniLight_4294442306
 	partName = Part
-	pos = -0.9947646,13.58148,-0.5699028
-	rot = 0.006169614,0.7070804,-0.006169343,-0.7070798
+	pos = -1.78989,11.70603,-0.002905995
+	rot = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -15456,9 +16306,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294087650
-	srfN = srfAttach,structuralPanel1_4294131318
+	modCost = -78.4
+	sym = W485.SurfaceOmniLight_4294442338
+	srfN = srfAttach,IR.Adapter.0625ToTrussSmall_4294442464
 	EVENTS
 	{
 	}
@@ -15470,9 +16320,9 @@ PART
 		name = ModuleLight
 		isEnabled = True
 		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
+		lightR = 0.5
+		lightG = 0.5
+		lightB = 0.5
 		lightR_UIFlight
 		{
 			controlEnabled = True
@@ -15541,13 +16391,13 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
+		tweakScale = 0.6
+		currentScale = 0.6
 		defaultScale = 1
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
+		dryCost = 21.6
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -15578,10 +16428,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294086464
+	part = Dishcl1_4294442274
 	partName = Part
-	pos = -0.9808598,13.58718,0.7127315
-	rot = 0.002224745,-0.7161628,0.008438759,0.6978793
+	pos = -2.05627,11.07623,0.1874681
+	rot = -0.5609856,0.4304594,-0.4304594,-0.5609854
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -15590,8 +16440,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294086212
-	srfN = srfAttach,structuralPanel1_4294133068
+	sym = Dishcl1_4294442206
+	srfN = srfAttach,AMIReactor_4294442504
 	EVENTS
 	{
 	}
@@ -15600,71 +16450,30 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleLight
+		name = ModuleAnimateGeneric
 		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
 		EVENTS
 		{
-			LightsOff
+			Toggle
 			{
 				active = True
-				guiActive = True
+				guiActive = False
 				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
 				externalToEVAOnly = True
 			}
 		}
 		ACTIONS
 		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
+			ToggleAction
 			{
 				actionGroup = None
 			}
@@ -15672,29 +16481,163 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleTweakableAnimateGeneric
 		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
+		startCompleted = False
+		startCompleted_UIFlight
 		{
 			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
 		}
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = False
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 0.90630778703665
+		RTOmniRange = 0
+		RTDishRange = 0
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = True
+				guiActive = True
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = Custom05
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
 		}
 	}
 	MODULE
@@ -15711,10 +16654,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294086212
+	part = Dishcl1_4294442206
 	partName = Part
-	pos = -2.598927,13.59339,-0.5444434
-	rot = 0.002188933,0.6978332,-0.008314345,0.7162091
+	pos = -1.52351,11.07623,0.04471532
+	rot = -0.4304594,-0.5609855,0.5609856,-0.4304593
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -15723,8 +16666,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294086464
-	srfN = srfAttach,structuralPanel1_4294132178
+	sym = Dishcl1_4294442274
+	srfN = srfAttach,AMIReactor_4294442504
 	EVENTS
 	{
 	}
@@ -15733,71 +16676,30 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleLight
+		name = ModuleAnimateGeneric
 		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
 		EVENTS
 		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
+			Toggle
 			{
 				active = False
-				guiActive = True
+				guiActive = False
 				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
 				externalToEVAOnly = True
 			}
 		}
 		ACTIONS
 		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
+			ToggleAction
 			{
 				actionGroup = None
 			}
@@ -15805,29 +16707,163 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleTweakableAnimateGeneric
 		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
+		startCompleted = False
+		startCompleted_UIFlight
 		{
 			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
 		}
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = False
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 0.90630778703665
+		RTOmniRange = 0
+		RTDishRange = 0
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = True
+				guiActive = True
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = Custom05
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
 		}
 	}
 	MODULE
@@ -15844,10 +16880,462 @@ PART
 }
 PART
 {
-	part = ESARCS_4294085034
+	part = Dishcl1_4294442138
 	partName = Part
-	pos = -2.625203,10.56858,-0.1077296
-	rot = 1.945103E-07,0.7933534,1.911445E-07,-0.6087615
+	pos = -2.056799,11.07593,0.04457358
+	rot = -0.4304592,0.5609857,-0.5609854,-0.4304595
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = Dishcl1_4294442070
+	srfN = srfAttach,AMIReactor_4294442504
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableAnimateGeneric
+		isEnabled = True
+		startCompleted = False
+		startCompleted_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = False
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 0.90630778703665
+		RTOmniRange = 0
+		RTDishRange = 0
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = True
+				guiActive = True
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = Custom05
+			}
+			ActionClose
+			{
+				actionGroup = Custom06
+			}
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Dishcl1_4294442070
+	partName = Part
+	pos = -1.522981,11.07593,0.1876098
+	rot = -0.5609854,-0.4304596,0.4304592,-0.5609857
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = Dishcl1_4294442138
+	srfN = srfAttach,AMIReactor_4294442504
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = False
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableAnimateGeneric
+		isEnabled = True
+		startCompleted = False
+		startCompleted_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = False
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 0.90630778703665
+		RTOmniRange = 0
+		RTDishRange = 0
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = True
+				guiActive = True
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = Custom05
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294442002
+	partName = Part
+	pos = -2.624888,10.56853,-0.1076452
+	rot = 2.746893E-07,0.7933534,2.699362E-07,-0.6087615
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -15856,8 +17344,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -437.5
-	sym = ESARCS_4294084498
-	srfN = srfAttach,AntimatterTank_4294136266
+	sym = ESARCS_4294441948
+	srfN = srfAttach,AntimatterTank_4294447836
 	EVENTS
 	{
 	}
@@ -15868,12 +17356,12 @@ PART
 	{
 		name = ModuleRCS
 		isEnabled = True
-		isEnabled = True
+		isEnabled = False
 		EVENTS
 		{
 			Disable
 			{
-				active = True
+				active = False
 				guiActive = True
 				guiIcon = Disable RCS Port
 				guiName = Disable RCS Port
@@ -15884,7 +17372,7 @@ PART
 			}
 			Enable
 			{
-				active = False
+				active = True
 				guiActive = True
 				guiIcon = Enable RCS Port
 				guiName = Enable RCS Port
@@ -15917,8 +17405,150 @@ PART
 	{
 		name = ModuleTweakableRCS
 		isEnabled = True
-		startEnabled = True
-		thrustLimit = 100
+		startEnabled = False
+		thrustLimit = 40
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = Custom02
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.5
+		currentScale = 0.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 62.5
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294441948
+	partName = Part
+	pos = -0.9548924,10.56853,0.3398286
+	rot = 2.699361E-07,-0.6087615,-2.746893E-07,-0.7933533
+	attRot = -0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -437.5
+	sym = ESARCS_4294442002
+	srfN = srfAttach,AntimatterTank_4294447836
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = False
+		EVENTS
+		{
+			Disable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = False
+		thrustLimit = 40
 		startEnabled_UIFlight
 		{
 			controlEnabled = True
@@ -15986,106 +17616,25 @@ PART
 }
 PART
 {
-	part = ESARCS_4294084498
+	part = battery-rad-125_4294434678
 	partName = Part
-	pos = -0.9545774,10.56858,0.3399129
-	rot = 1.911444E-07,-0.6087615,-1.945103E-07,-0.7933533
-	attRot = -0.7071068,0,0,0.7071068
+	pos = -1.78989,11.12534,-0.2225156
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = -437.5
-	sym = ESARCS_4294085034
-	srfN = srfAttach,AntimatterTank_4294136266
+	modCost = -3062.5
+	sym = battery-rad-125_4294432696
+	srfN = srfAttach,AMIReactor_4294442504
 	EVENTS
 	{
 	}
 	ACTIONS
 	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = RcsSounds
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableRCS
-		isEnabled = True
-		startEnabled = True
-		thrustLimit = 100
-		startEnabled_UIFlight
-		{
-			controlEnabled = True
-		}
-		thrustLimit_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionEnableThruster
-			{
-				actionGroup = None
-			}
-			ActionDisableThruster
-			{
-				actionGroup = None
-			}
-		}
 	}
 	MODULE
 	{
@@ -16097,7 +17646,7 @@ PART
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1, 1, 1)
-		dryCost = 62.5
+		dryCost = 0
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -16125,23 +17674,33 @@ PART
 		{
 		}
 	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 8750
+		maxAmount = 8750
+		flowState = False
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
 }
 PART
 {
-	part = RCS_4294082394
+	part = battery-rad-125_4294432696
 	partName = Part
-	pos = -2.616999,10.44918,0.1160918
-	rot = 0.5,0.5,-0.5,-0.5
-	attRot = 0,0,0.7071068,0.7071068
+	pos = -1.78989,11.12534,0.454699
+	rot = 0,-8.742278E-08,0,-1
+	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
 	dstg = 0
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = 0
-	sym = RCS_4294082106
-	srfN = srfAttach,AntimatterTank_4294136266
+	modCost = -3062.5
+	sym = battery-rad-125_4294434678
+	srfN = srfAttach,AMIReactor_4294442504
 	EVENTS
 	{
 	}
@@ -16150,96 +17709,15 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = RcsSounds
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableRCS
-		isEnabled = True
-		startEnabled = True
-		thrustLimit = 100
-		startEnabled_UIFlight
-		{
-			controlEnabled = True
-		}
-		thrustLimit_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionEnableThruster
-			{
-				actionGroup = None
-			}
-			ActionDisableThruster
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
 		name = TweakScale
 		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
+		tweakScale = 0.5
+		currentScale = 0.5
 		defaultScale = 1
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1, 1, 1)
-		dryCost = 450
+		dryCost = 0
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -16267,146 +17745,14 @@ PART
 		{
 		}
 	}
-}
-PART
-{
-	part = RCS_4294082106
-	partName = Part
-	pos = -0.9627812,10.44918,0.1160916
-	rot = -0.5000001,-0.5000001,-0.5,-0.5
-	attRot = 0,0,0.7071068,0.7071068
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = RCS_4294082394
-	srfN = srfAttach,AntimatterTank_4294136266
-	EVENTS
+	RESOURCE
 	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCS
-		isEnabled = True
-		isEnabled = True
-		EVENTS
-		{
-			Disable
-			{
-				active = True
-				guiActive = True
-				guiIcon = Disable RCS Port
-				guiName = Disable RCS Port
-				category = Disable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Enable
-			{
-				active = False
-				guiActive = True
-				guiIcon = Enable RCS Port
-				guiName = Enable RCS Port
-				category = Enable RCS Port
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = RcsSounds
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableRCS
-		isEnabled = True
-		startEnabled = True
-		thrustLimit = 100
-		startEnabled_UIFlight
-		{
-			controlEnabled = True
-		}
-		thrustLimit_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 100
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionEnableThruster
-			{
-				actionGroup = None
-			}
-			ActionDisableThruster
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 450
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
+		name = ElectricCharge
+		amount = 8750.00078231099
+		maxAmount = 8750
+		flowState = False
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
 	}
 }
