@@ -1,4 +1,26 @@
 ===================================================================================================
+=== MISC INFO
+===================================================================================================
+Fuel mass used per second = thrust / Isp / 9.81
+
+HotRockets:
+      energy   - particles lifetime (set in Unity)
+      emission - particles quantity (go as small as looks good)
+
+Ideal gas law: 0.0446175159318548 moles per liter at 1 atm 0 deg C
+
+attachment: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+
+ fuel masses, tons per liter:
+      UDMH            0.00079100
+      NTO             0.00145000
+      LqdHydrogen     0.00007085
+      LqdOxygen       0.00114100
+      Hydrazine       0.00100400
+      Kerosene        0.00082000
+
+
+===================================================================================================
 === INTERNAL SPACES
 ===================================================================================================
 Sizes and INTERNAL name, plus notes about the spaces.
@@ -102,6 +124,32 @@ Game values:
 
 
 ===================================================================================================
+=== ELECTRICAL
+===================================================================================================
+To simplify things, all votages have been normalized to one specific constant which then allows 
+us to track power storage as watts (or more accurately Wh). Balancing becomes easier because lots
+of real world things rate their power (and power storage) in watts. For example, an early TDRS
+satellite lists its solar panels as ~1700 watts but says nothing about the voltage. Newer TDRS
+satellites generate 3000 or more watts.
+
+Storing Wh for ElectricCharge would make very small power drain values, so instead all values
+will be multiplied by 10. For example, if something drains 200 watts then it really drains 
+2000 e per hour. Power drains are therefore divided by 360 to get e per second. Batteries
+that store 1000 Wh actually holod 10000 e, and so on.
+
+KSP batteries are huge compared to real batteries. A real world 12 volt 35 Ah (420 Wh) battery
+might weight 24 pounds and be 8 x 5 x 7 inches. That's 4200 e at 10.8862 kg and 0.00458838 cu-m.
+Such a battery would be over 900,000 e and ~2400 kg per cu-m.
+
+Round these values our for balance and we might use 1,000,000 e and 2.5 ton per cu-m.
+
+Real solar panels generate around 150 to 250 watts per square meter. We'll go with 150. Mass
+will be set to 5 kg per static panel sq-m plus 5 more kg per sq-m for sun tracking.
+
+Control Moment Gyros are 250 watts and 200 kg per 1 torque.
+
+
+===================================================================================================
 === LIFE SUPPORT
 ===================================================================================================
 MRE used as base example: 12 meals per case, 2 meals per Kerbal per 24 hours
@@ -123,25 +171,3 @@ life support is 620 g per 24 hours, so 1.729166667 - 0.62 = 1.109166667 extra Wa
   5,000,000   not used?                 700   1.944      10    ---
  50,000,000   near planets             1000   2.778       5    RT folding dish
 500,000,000   far planets              1500   4.167       2    RT folding dish (large)
-
-
-===================================================================================================
-=== MISC INFO
-===================================================================================================
-Fuel mass used per second = thrust / Isp / 9.81
-
-HotRockets:
-      energy   - particles lifetime (set in Unity)
-      emission - particles quantity (go as small as looks good)
-
-Ideal gas law: 0.0446175159318548 moles per liter at 1 atm 0 deg C
-
-attachment: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
-
- fuel masses, tons per liter:
-      UDMH            0.00079100
-      NTO             0.00145000
-      LqdHydrogen     0.00007085
-      LqdOxygen       0.00114100
-      Hydrazine       0.00100400
-      Kerosene        0.00082000

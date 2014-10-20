@@ -132,8 +132,8 @@ Kerinside 0.37
 KSC++ V3
 	http://forum.kerbalspaceprogram.com/threads/79542-23-5-LLL-LackLuster-Labs-LLL-Full-12-2-10MAY2014-SXT-16-5-28JUN2014-KSC-v2
 
-Ambient Light 1.2.0 (blizzy)
-	http://forum.kerbalspaceprogram.com/threads/71536
+PlanetShine 0.2.1
+	http://forum.kerbalspaceprogram.com/threads/96497-0-24-2-0-25-PlanetShine-v0-2-1
 
 HotRockets 7.25 (core pack only)
 	http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement
@@ -351,8 +351,87 @@ These mods are all about the parts, models, and textures. Do not install any of 
 a list of the many mods that will be needed for the many parts we'll be taking from them.
 Install just the parts indicated in the section after this one.
 
+Surface Lights
+	http://forum.kerbalspaceprogram.com/threads/57778-0-24-Surface-Mounted-Stock-Alike-Lights-for-Self-Illumination
+
+KW Rocketry 2.6d2
+	http://forum.kerbalspaceprogram.com/threads/51037-0-25-KW-Rocketry-v2-6d-Available-0-25-Compatability!-14-10-2014
+
+Interstellar Lite 0.12.3
+	http://forum.kerbalspaceprogram.com/threads/91867-0-24-2-Interstellar-Lite-Tweakscale-Integration-v0-12-3-Sept-7
+
+AIES 1.5.1
+	http://forum.kerbalspaceprogram.com/threads/35383-0-23-AIES-Aerospace-v1-5-1
+
+Near Future Electrical 0.3.0
+	http://forum.kerbalspaceprogram.com/threads/52042-0-24-2-Near-Future-Technologies-(16-08-14-All-packs-new-parts-balance-fixes)
+
+Near Future Propulsion 0.3.0
+	http://forum.kerbalspaceprogram.com/threads/52042-0-25-Near-Future-Technologies-(10-10-14-All-packs-0-25-update-fixes)
+
+Kosmos 4.7.2
+	http://forum.kerbalspaceprogram.com/threads/24970-0-21-Kosmos-Spacecraft-Design-Bureau-Updated-%289-27-13%29?p=1402290&viewfull=1#post1402290	
+
+Aerojet 3.0.2
+	http://forum.kerbalspaceprogram.com/threads/76170-0-24-x-Aerojet-Kerbodyne-3-0-(Sept5-Complete-Remodel-ICPS-Umbilicals-and-More!)
+
+TurboNisu Custom Parts
+	http://forum.kerbalspaceprogram.com/threads/69539-0-23-Stockalike-parts-for-useful-esthetics
+
 
 ===================================================================================================
 === PARTS
 ===================================================================================================
+Lights
+	GameData\SurfaceLights\Parts\SurfaceLight
+	GameData\SurfaceLights\Parts\SurfaceOmniLight
 
+Computer Core
+	GameData\Interstellar\Parts\FuelTank\AntimatterTank
+
+CMG
+	GameData\Interstellar\Parts\Electrical\AMIReactor
+
+Radial Battery
+	GameData\NearFutureElectrical\Parts\Batteries\battery-rad-125
+
+Radial Mono
+	GameData\NearFuturePropulsion\Parts\XenonTanks\xenon-rad-125
+
+Short Range Comm Antenna
+	GameData\KOSMOS\Parts\Command\Kosmos_Pravilo_ASAS
+
+Short Range Comm Dish
+	GameData\AIES_Aerospace\Antenna\AIESdishCL1
+
+Fuel Tank
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\3mL4A.cfg
+
+Static Solar Panel
+	GameData\BoxSat alpha\62cm_BoxSat
+
+Cool Satellite Fuel (by TurboNisu)
+	GameData\TurboNisu\Parts\largeAdapterTank (goes in GameData\Odyssey\Parts\Fuel\largeAdapterTank)
+
+OMS Engine
+
+Various RCS Engines
+
+Toroidal Fuel
+
+Fregat Fuel
+
+Payload Decoupler
+
+Fairings
+
+Fuel Tanks
+
+Liftoff Engine
+
+Separation Booster
+
+Launch Clamps
+
+Engine
+	GameData\AerojetKerbodyne\Parts\Engine\HG10B2
