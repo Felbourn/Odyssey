@@ -1,6 +1,37 @@
 ===================================================================================================
+=== CHECKLIST
+===================================================================================================
+CONTROL
+ -CPU
+ -Gyro
+ -Mono
+ -RCS & Balance
+
+PROPULSION
+ -Fuel
+ -Engine
+
+UTILITIES
+ -Solar
+ -Battery & Backup
+ -Communications
+ -Cooling
+ -Life Support
+
+EXTRAS
+ -Lights
+ -Retros
+ -Pipe Ends
+ -Camera
+ -Handrails & Ladders
+
+
+===================================================================================================
 === MISC INFO
 ===================================================================================================
+Problems regex:
+(\[exc )|(\[err )|(\[wrn )
+
 Fuel mass used per second = thrust / Isp / 9.81
 
 HotRockets:
@@ -18,6 +49,9 @@ attachment: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
       LqdOxygen       0.00114100
       Hydrazine       0.00100400
       Kerosene        0.00082000
+
+
+master mod list: http://forum.kerbalspaceprogram.com/threads/55401-Community-Mods-and-Plugins-Library
 
 
 ===================================================================================================

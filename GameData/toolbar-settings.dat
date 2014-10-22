@@ -20,7 +20,7 @@ toolbars
 			x = 445
 			y = 48
 			width = 250
-			height = 38
+			height = 81
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
@@ -88,7 +88,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon,Trajectories.ToggleUI,ferram4.FAREditorButton
+			visibleButtons = AmbientLightAdjustment.adjustLevels,SmokeScreen.main,EnhancedNavball.btnEnhancedNavballToolbarIcon,Trajectories.ToggleUI,ferram4.FAREditorButton,sirkut2.IREditorGroupButton,PlanetShine.Gui
 		}
 		toolbar_1525673845
 		{
@@ -112,7 +112,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = KerbalAlarmClock.btnToolbarIcon
+			visibleButtons = KerbalAlarmClock.btnToolbarIcon,MechJeb2.Flight_Computer,MechJeb2.Rendezvous_Planner,MechJeb2.Maneuver_Planner,MechJeb2.Smart_A_S_S_
 		}
 		toolbar_2101262639
 		{
@@ -136,7 +136,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = KerbCam.toggle,VV.VVbutton,VVC.VVbuttonC
+			visibleButtons = KerbCam.toggle,VV.VVbutton,VVC.VVbuttonC,sirkut.IREditorButton
 		}
 		toolbar_671372023
 		{
@@ -226,7 +226,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = KerbalAlarmClock.btnToolbarIcon
+			visibleButtons = KerbalAlarmClock.btnToolbarIcon,MechJeb2.Flight_Computer,MechJeb2.Rendezvous_Planner,MechJeb2.Maneuver_Planner,MechJeb2.Smart_A_S_S_
 		}
 		toolbar_2101262639
 		{
@@ -274,13 +274,61 @@ toolbars
 		{
 			x = 152
 			y = 2
-			width = 317
-			height = 81
+			width = 241
+			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = AmbientLightAdjustment.adjustLevels,CrewManifest.CrewManifest,ferram4.FAREditorButton,Fusebox.FBToggle,KerbalAlarmClock.btnToolbarIcon,KerbCam.toggle,SCANsat.BigMap,SCANsat.SmallMap,SCANsat.UIMenu,SmokeScreen.main,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Trajectories.ToggleUI,VV.VVbutton,VVC.VVbuttonC
+			visibleButtons = AmbientLightAdjustment.adjustLevels,KerbalAlarmClock.btnToolbarIcon,Trajectories.ToggleUI,VV.VVbutton,VVC.VVbuttonC
+		}
+		toolbar_1299368856
+		{
+			x = 5
+			y = 72
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = MechJeb2.Flight_Computer,MechJeb2.Maneuver_Planner,MechJeb2.Rendezvous_Planner,MechJeb2.Smart_A_S_S_
+		}
+		toolbar_1610203057
+		{
+			x = 479
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB
+		}
+		toolbar_1075078203
+		{
+			x = 955
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,SCANsat.SmallMap,SCANsat.BigMap,SCANsat.UIMenu
+			visibleButtons = SCANsat.SmallMap,SCANsat.BigMap,SCANsat.UIMenu
+		}
+		toolbar_2062001793
+		{
+			x = 1128
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = CrewManifest.CrewManifest,Fusebox.FBToggle,Tac.LS
 		}
 	}
 }

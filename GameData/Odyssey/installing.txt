@@ -132,8 +132,8 @@ Kerinside 0.37
 KSC++ V3
 	http://forum.kerbalspaceprogram.com/threads/79542-23-5-LLL-LackLuster-Labs-LLL-Full-12-2-10MAY2014-SXT-16-5-28JUN2014-KSC-v2
 
-PlanetShine 0.2.1
-	http://forum.kerbalspaceprogram.com/threads/96497-0-24-2-0-25-PlanetShine-v0-2-1
+Ambient Light 1.2.0
+	http://forum.kerbalspaceprogram.com/threads/71536
 
 HotRockets 7.25 (core pack only)
 	http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement
@@ -163,15 +163,9 @@ Real Solar System 8.0 (plugin only)
 	don't install it, just create the directory and copy in the Plugins folder
 	http://forum.kerbalspaceprogram.com/threads/55145-0-25-Real-Solar-System-v8-0-Oct-7-14
 
-// did not do this yet
 Better Atmo V5 (we need some files from it)
 	just download this, don't install it
 	http://forum.kerbalspaceprogram.com/threads/77523-0-24-2-Better-Atmospheres-V5-June-14th-2014
-	copy into: GameData\BoulderCo\Clouds\Textures
-		Sun.png
-		muncraters.png
-		Stratus.png
-		atmo.png
 	fix the sun:
 		download UnityAssetsExplorer 1.2
 		use it to open KSP_Data\sharedassets10.assets
@@ -180,6 +174,16 @@ Better Atmo V5 (we need some files from it)
 		extract the ZIP sun_flare.dds to copy over your extracted sun_flare.dds (goes in Users subdirectory)
 		select and import that DDS back into sharedassets10.assets as sun_flare.tex
 		save and exit
+	copy into: GameData\BoulderCo\Clouds\Textures
+		Sun.png
+		muncraters.png
+		Stratus.png
+		atmo.png
+	copy into: GameData\BoulderCo\CityLights\Textures
+		detail.tga
+		main.tga
+	delete: GameData\BoulderCo\CityLights\Textures\detail.png
+	delete: GameData\BoulderCo\CityLights\Textures\main.png
 
 RCS Sounds 4.2
 	http://forum.kerbalspaceprogram.com/threads/52896-RCS-Sound-Effects
@@ -340,8 +344,17 @@ EngineThrustController
 TweakScale 1.44
 	http://forum.kerbalspaceprogram.com/threads/80234-24-2-TweakScale-Rescale-Everything!-(v1-43-2014-08-23-52-UTC)
 
-INSTALL - Tweakable Everything 1.4.1 (and ToadicusTools)
+Tweakable Everything 1.5 (and ToadicusTools)
 	http://forum.kerbalspaceprogram.com/threads/64711
+	delete these due to conflicts with TweakScale:
+		TweakableDecouplers.cfg
+		TweakableReactionWheels.dll
+		TweakableReactionWheels.cfg
+		TweakableEngineFairings.dll
+		TweakableEngineFairings.cfg
+
+Firespitter 6.3.5 (plugin only)
+	http://forum.kerbalspaceprogram.com/threads/24551-Firespitter-propeller-plane-and-helicopter-parts-v6-3-5-(Sep-1st)-for-KSP-0-24-2
 
 
 ===================================================================================================
@@ -372,7 +385,7 @@ Near Future Propulsion 0.3.0
 Kosmos 4.7.2
 	http://forum.kerbalspaceprogram.com/threads/24970-0-21-Kosmos-Spacecraft-Design-Bureau-Updated-%289-27-13%29?p=1402290&viewfull=1#post1402290	
 
-Aerojet 3.0.2
+Aerojet Kerbodyne 3.0.2
 	http://forum.kerbalspaceprogram.com/threads/76170-0-24-x-Aerojet-Kerbodyne-3-0-(Sept5-Complete-Remodel-ICPS-Umbilicals-and-More!)
 	install: GameData\AerojetKerbodyne\FX
 	install: GameData\AerojetKerbodyne\Sounds
@@ -437,21 +450,55 @@ Radial CPU
 	install into: GameData\Odyssey\Parts\CPUs\RadialProbe
 
 Payload Decoupler
-	GameData\KerbalStockLauncherOverhaul\Parts\Structural\KXdecoupler
+	GameData\KerbalStockLauncherOverhaul\Parts\Aero\KXpayloaddecoupler
 
 Toroidal Fuel
+	GameData\ModsByTal\Parts\FuelTank\Toroidal\Configs\Fuel Tanks
+	GameData\ModsByTal\Parts\FuelTank\Toroidal\Models
+	GameData\ModsByTal\Parts\FuelTank\Toroidal\Textures
 
 Fregat Fuel
+	GameData\AIES_Aerospace\FuelTank\AIESTOEmtank
 
 Fairings
+	GameData\KWRocketry\Parts\Fairings\UnifiedFairings5m
+	GameData\KWRocketry\Parts\Fairings\KW5mExpandedFairingCone
+	GameData\KWRocketry\Parts\Fairings\KW5mFairingCone
+	and this while we're here anyway: GameData\KWRocketry\Soundbank
+	then these files alone:
+		GameData\KWRocketry\Parts\Fairings\UnifiedFairings\KW_Struct_3mShroudDecoupler.mu
+		GameData\KWRocketry\Parts\Fairings\UnifiedFairings\part3mDecouplerShroud.cfg
+		GameData\KWRocketry\Parts\Fairings\UnifiedFairings\UnifiedFairingF1_Normal.mbm
+		GameData\KWRocketry\Parts\Fairings\UnifiedFairings\UnifiedFairingF18Bit.mbm
 
-Fuel Tanks
+Fuel Tanks (several loose files)
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\3_75ShaftsF1.mbm
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\3_75ShaftsF1Normal.mbm
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\3mL4A.cfg
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\EndCapF1.mbm
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\EndCapF1Norm.mbm
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\KW_Fuel_1mL0_5RCS.mu
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\KW_Fuel_3mL4A.mu
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\RCSInnerF1.mbm
+	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\RCSInnerF1Normal.mbm
 
 Liftoff Engine
+	GameData\KWRocketry\Parts\Engines\3mTitanI
+
+Fuel Tanks
+	GameData\AerojetKerbodyne\Parts\ICPS
 
 Separation Booster
+	GameData\KerbalStockLauncherOverhaul\Parts\Engine\KX sepmotor
 
 Launch Clamps
+	GameData\FASA\Misc\FASA_Launch_Tower
+	GameData\FASA\Misc\FASA_Launch_Clamp_125\FASA_Launch_Clamp_25.cfg
+	GameData\FASA\Misc\FASA_Launch_Clamp_125\FASA_Launch_Clamp_125.mu
+	GameData\FASA\Misc\FASA_Launch_Clamp_125\Launch_Clamp_125.tga
+	GameData\FASA\Misc\FASA_Launch_Clamp_125\Launch_Clamp_125_n_NRM.tga
+	GameData\FASA\Misc\FASA_Launch_Clamp_125\Launch_Clamp_125_Tower.tga
+	GameData\FASA\Misc\FASA_Launch_Clamp_125\Launch_Clamp_125_Tower_n_NRM.tga
 
 Engine
 	GameData\AerojetKerbodyne\Parts\Engine\HG10B2

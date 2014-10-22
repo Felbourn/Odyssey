@@ -77,9 +77,14 @@
     <string name="SelectedPresetdefault 2 (SANDBOX)">0</string>
     <string name="IspPreset9Name">Odyssey</string>
     <string name="SelectedPresetOdyssey (SANDBOX)">9</string>
-    <string name="IspPreset9Description">Describe this preset here!</string>
-    <string name="IspPreset9Vac">0.8</string>
-    <string name="IspPreset9Atm">0.8</string>
+    <string name="IspPreset9Description">Project Odyssey has reduced ISPs on all parts, so while I was originally
+thinking I would use "modern" values and scale them here, I eventually
+decided I'd rather see the values from the configs than do math to 
+figure out if they scaling had been done properly after launch.
+
+The thrust varies with ISP to be more realistic with fuel flow per second.</string>
+    <string name="IspPreset9Vac">1</string>
+    <string name="IspPreset9Atm">1</string>
     <bool name="IspPreset9Extend">0</bool>
     <bool name="IspPreset9ThrustCorrection">1</bool>
     <string name="IspPreset9RatingIspCutoff">330</string>
