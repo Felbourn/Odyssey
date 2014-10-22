@@ -218,8 +218,8 @@ toolbars
 		}
 		toolbar_1343515002
 		{
-			x = 39
-			y = 66
+			x = 7
+			y = 70
 			width = 250
 			height = 38
 			autoHide = False
@@ -249,8 +249,8 @@ toolbars
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
-			buttonOrder = 
-			visibleButtons = KerbCam.toggle,VV.VVbutton,VVC.VVbuttonC,sirkut.IREditorButton
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
+			visibleButtons = KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
 		}
 	}
 	TRACKSTATION
