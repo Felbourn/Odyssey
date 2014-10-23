@@ -106,16 +106,13 @@ Odyssey Station (~300km):
       ~400 orbit (with ~200 slush)
 
 Mun L4 & L5 + LKO:
-      ~2500 stage 1
-      ~2000 payload booster
-          ~1000 LKO
+      ~2000 stage 1
+      ~2500 payload booster
+          ~1500 LKO
           ~760 raise orbit of both satellites, decouple L4
           ~110 raise L5 orbit after one orbit
           ~130 decouple booster stage, crash into Mun, plus buffer fuel
-      ~500 satellite L4
-          ~130 raise orbit
-          ~370 complete orbit
-      ~370 satellite L5
+      ~370 satellites
           ~370 complete orbit
 
 
@@ -199,9 +196,24 @@ life support is 620 g per 24 hours, so 1.729166667 - 0.62 = 1.109166667 extra Wa
 -----------   ----------------------  -----   -----   -----    ---------
         500   liftoff, always active     50   0.139    omni    tiny antenna
       5,000   low orbit, basic          100   0.278    omni    extending antenna
+      8,000   mid orbit, basic          250   0.694    omni    DMagic antenna
      25,000   near moons                200   0.556      50    AIES small flip-dish
      50,000   mid moons                 300   0.833      35    SQUAD folding dish
     500,000   far moons                 500   1.389      25    Reflectron KR-14
   5,000,000   not used?                 700   1.944      10    ---
  50,000,000   near planets             1000   2.778       5    RT folding dish
 500,000,000   far planets              1500   4.167       2    RT folding dish (large)
+
+
+===================================================================================================
+=== MASS CALCULATIONS
+===================================================================================================
+The honeycomb panels I used for Juno in RSS were not more than 20 kg/sq-m. I'm using 30 for KSP
+so they're even stonger. Also, I've added a factor based on the sturdniess I desire.
+Stock panels are factor=1 so 30 kg each.
+Space station modules are factor=2 for outside surface plus 20% of volume as interior mass.
+	Example: 2.5 diam by 3.0 long = 33.38 surface * 60 kg = ~2.00 tons
+     		 plus volume = 14.73 cu-m so 20% = 2.95 additional tons for a total of ~4.95 tons
+Decouplers are strong to support their upper stages and payloads, factor=7
+	Example: 2.5m base diam, 1.25m top diam, tappered and hollow
+			 surface area (pi * (r+R) * sqrt(r+R)^2 + hgt^2) = 5.75 sq-m * 7 * 30 = ~1.2 tons
