@@ -4,9 +4,9 @@ description = No description.
 type = VAB
 PART
 {
-	part = PayloadDec_4293855822
+	part = PayloadDec_4294540364
 	partName = Part
-	pos = -0.7207394,14.48927,16.23716
+	pos = -1.852432,26.53744,13.35683
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -16,13 +16,13 @@ PART
 	sqor = 0
 	attm = 0
 	modCost = -635.9374
-	link = RadialProbeCore_4293855764
-	link = battery-rad-125_4293855712
-	link = battery-rad-125_4293855672
-	link = battery-rad-125_4293855632
-	link = Kosmos.Pravilo.ASAS_4293855592
-	link = KzInterstageAdapter2_4293855550
-	attN = bottom,KzInterstageAdapter2_4293855550
+	link = RadialProbeCore_4294540316
+	link = battery-rad-125_4294540270
+	link = battery-rad-125_4294540236
+	link = battery-rad-125_4294540202
+	link = Kosmos.Pravilo.ASAS_4294540168
+	link = KzInterstageAdapter2_4294540132
+	attN = bottom,KzInterstageAdapter2_4294540132
 	EVENTS
 	{
 	}
@@ -198,9 +198,9 @@ PART
 }
 PART
 {
-	part = RadialProbeCore_4293855764
+	part = RadialProbeCore_4294540316
 	partName = Part
-	pos = -1.089995,14.39273,16.87673
+	pos = -2.221688,26.4409,13.99641
 	rot = 0.3303661,0.2432104,0.08852137,-0.9076734
 	attRot = -0.3420202,0,0,0.9396927
 	mir = 1,1,1
@@ -210,7 +210,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -525
-	srfN = srfAttach,PayloadDec_4293855822
+	srfN = srfAttach,PayloadDec_4294540364
 	EVENTS
 	{
 	}
@@ -450,9 +450,9 @@ PART
 }
 PART
 {
-	part = battery-rad-125_4293855712
+	part = battery-rad-125_4294540270
 	partName = Part
-	pos = -1.260103,14.38069,15.69783
+	pos = -2.391796,26.42886,12.81751
 	rot = -0.1213595,-0.8800991,-0.2754682,0.3671715
 	attRot = -0.2164396,0,0,0.9762961
 	mir = 1,1,1
@@ -462,8 +462,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -3500
-	sym = battery-rad-125_4293855672
-	srfN = srfAttach,PayloadDec_4293855822
+	sym = battery-rad-125_4294540236
+	srfN = srfAttach,PayloadDec_4294540364
 	EVENTS
 	{
 	}
@@ -540,9 +540,9 @@ PART
 }
 PART
 {
-	part = battery-rad-125_4293855672
+	part = battery-rad-125_4294540236
 	partName = Part
-	pos = -0.1813754,14.38069,16.77648
+	pos = -1.313068,26.42886,13.89616
 	rot = -0.2754682,0.3671716,0.1213595,0.880099
 	attRot = -0.2164396,0,0,0.9762961
 	mir = 1,1,1
@@ -552,8 +552,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -3500
-	sym = battery-rad-125_4293855712
-	srfN = srfAttach,PayloadDec_4293855822
+	sym = battery-rad-125_4294540270
+	srfN = srfAttach,PayloadDec_4294540364
 	EVENTS
 	{
 	}
@@ -630,9 +630,9 @@ PART
 }
 PART
 {
-	part = battery-rad-125_4293855632
+	part = battery-rad-125_4294540202
 	partName = Part
-	pos = -0.1887934,14.3882,15.70608
+	pos = -1.320486,26.43637,12.82576
 	rot = -0.1428972,0.8514177,0.3553136,0.3583581
 	attRot = -0.3007059,0,0,0.953717
 	mir = 1,1,1
@@ -642,7 +642,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -3500
-	srfN = srfAttach,PayloadDec_4293855822
+	srfN = srfAttach,PayloadDec_4294540364
 	EVENTS
 	{
 	}
@@ -719,9 +719,9 @@ PART
 }
 PART
 {
-	part = Kosmos.Pravilo.ASAS_4293855592
+	part = Kosmos.Pravilo.ASAS_4294540168
 	partName = Part
-	pos = -1.115439,14.62402,16.63186
+	pos = -2.247132,26.67219,13.75153
 	rot = 0.2705985,0.2705977,-0.6532815,-0.6532815
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
@@ -731,7 +731,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,PayloadDec_4293855822
+	srfN = srfAttach,PayloadDec_4294540364
 	EVENTS
 	{
 	}
@@ -943,9 +943,9 @@ PART
 }
 PART
 {
-	part = KzInterstageAdapter2_4293855550
+	part = KzInterstageAdapter2_4294540132
 	partName = Part
-	pos = -0.7207394,13.47927,16.23716
+	pos = -1.852432,25.68494,13.35683
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -954,10 +954,10 @@ PART
 	sidx = 0
 	sqor = 1
 	attm = 0
-	modCost = 169.1788
-	link = ICPSUpperTank_4293855500
-	attN = bottom,ICPSUpperTank_4293855500
-	attN = top,PayloadDec_4293855822
+	modCost = 152.6272
+	link = ICPSUpperTank_4294540092
+	attN = bottom,ICPSUpperTank_4294540092
+	attN = top,PayloadDec_4294540364
 	EVENTS
 	{
 	}
@@ -970,8 +970,8 @@ PART
 		isEnabled = True
 		extraHeight = 0
 		baseSize = 2.5
-		topSize = 2.5
-		height = 3.7
+		topSize = 3.75
+		height = 4.6
 		extraHeight_UIEditor
 		{
 			controlEnabled = True
@@ -1132,11 +1132,11 @@ PART
 		Thrust = 0
 		MaxTemp = 1650
 		CrashTol = 10
-		BreakForce = 8001.125
-		BreakTorque = 8001.125
+		BreakForce = 1500
+		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 0.1691788
+		Mass = 0.15
 		EVENTS
 		{
 		}
@@ -1180,9 +1180,9 @@ PART
 }
 PART
 {
-	part = ICPSUpperTank_4293855500
+	part = ICPSUpperTank_4294540092
 	partName = Part
-	pos = -0.7207394,12.84927,16.23716
+	pos = -1.852432,25.05494,13.35683
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1191,16 +1191,16 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	modCost = 62.12368
-	link = ICPSAdapter_4293855450
-	link = W485.SurfaceOmniLight_4293854206
-	link = W485.SurfaceOmniLight_4293854166
-	link = W485.SurfaceOmniLight_4293854126
-	link = W485.SurfaceOmniLight_4293854086
-	link = W485.SurfaceOmniLight_4293854046
-	link = W485.SurfaceOmniLight_4293854006
-	attN = top,KzInterstageAdapter2_4293855550
-	attN = bottom,ICPSAdapter_4293855450
+	modCost = 63.24736
+	link = ICPSAdapter_4294540048
+	link = W485.SurfaceOmniLight_4294539110
+	link = W485.SurfaceOmniLight_4294539076
+	link = W485.SurfaceOmniLight_4294539042
+	link = W485.SurfaceOmniLight_4294539008
+	link = W485.SurfaceOmniLight_4294538974
+	link = W485.SurfaceOmniLight_4294538940
+	attN = top,KzInterstageAdapter2_4294540132
+	attN = bottom,ICPSAdapter_4294540048
 	EVENTS
 	{
 	}
@@ -1218,7 +1218,7 @@ PART
 		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 0.541985
+		Mass = 0.632185
 		EVENTS
 		{
 		}
@@ -1232,7 +1232,7 @@ PART
 		isEnabled = True
 		type = Odyssey_Core
 		utilization = 86
-		mass = 0.0976
+		mass = 0.1098
 		timestamp = 0
 		volume = 6100
 		type_UIEditor
@@ -1252,6 +1252,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
@@ -1263,7 +1264,6 @@ PART
 			{
 				active = True
 				guiActive = False
-				guiActiveEditor = True
 				guiIcon = 76.308% LqdHydrogen / 23.692% LqdOxygen
 				guiName = 76.308% LqdHydrogen / 23.692% LqdOxygen
 				category = 76.308% LqdHydrogen / 23.692% LqdOxygen
@@ -1327,9 +1327,9 @@ PART
 }
 PART
 {
-	part = ICPSAdapter_4293855450
+	part = ICPSAdapter_4294540048
 	partName = Part
-	pos = -0.7207394,11.58927,16.23716
+	pos = -1.852432,23.79494,13.35683
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1339,9 +1339,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = ICPSLowerTank_4293855406
-	attN = bottom,ICPSLowerTank_4293855406
-	attN = top,ICPSUpperTank_4293855500
+	link = ICPSLowerTank_4294540010
+	attN = bottom,ICPSLowerTank_4294540010
+	attN = top,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
@@ -1408,9 +1408,9 @@ PART
 }
 PART
 {
-	part = ICPSLowerTank_4293855406
+	part = ICPSLowerTank_4294540010
 	partName = Part
-	pos = -0.7207394,10.58927,16.23716
+	pos = -1.852432,22.79494,13.35683
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1419,25 +1419,25 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	modCost = 19.09672
-	link = W485.SurfaceOmniLight_4293855356
-	link = W485.SurfaceOmniLight_4293855316
-	link = RCS_4293855276
-	link = RCS_4293855166
-	link = Kosmos.Parom.RCS.Tank_4293855056
-	link = Kosmos.Parom.RCS.Tank_4293855008
-	link = RTLongAntenna3_4293854960
-	link = ESARCS_4293854894
-	link = ESARCS_4293854812
-	link = ESARCS_4293854730
-	link = ESARCS_4293854648
-	link = 2009RCS_4293854566
-	link = 2009RCS_4293854484
-	link = W485.SurfaceOmniLight_4293854402
-	link = W485.SurfaceOmniLight_4293854362
-	link = HG10B2_4293854322
-	attN = top,ICPSAdapter_4293855450
-	attN = bottom,HG10B2_4293854322
+	modCost = 19.18343
+	link = W485.SurfaceOmniLight_4294539966
+	link = W485.SurfaceOmniLight_4294539932
+	link = RCS_4294539898
+	link = RCS_4294539834
+	link = Kosmos.Parom.RCS.Tank_4294539770
+	link = Kosmos.Parom.RCS.Tank_4294539726
+	link = RTLongAntenna3_4294539682
+	link = ESARCS_4294539622
+	link = ESARCS_4294539566
+	link = ESARCS_4294539510
+	link = ESARCS_4294539454
+	link = 2009RCS_4294539398
+	link = 2009RCS_4294539342
+	link = W485.SurfaceOmniLight_4294539286
+	link = W485.SurfaceOmniLight_4294539252
+	link = HG10B2_4294539218
+	attN = top,ICPSAdapter_4294540048
+	attN = bottom,HG10B2_4294539218
 	EVENTS
 	{
 	}
@@ -1455,7 +1455,7 @@ PART
 		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 2.224916
+		Mass = 2.2329
 		EVENTS
 		{
 		}
@@ -1469,7 +1469,7 @@ PART
 		isEnabled = True
 		type = Odyssey_Core
 		utilization = 86
-		mass = 0.030416
+		mass = 0.057016
 		timestamp = 0
 		volume = 1901
 		type_UIEditor
@@ -1489,6 +1489,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
@@ -1564,9 +1565,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293855356
+	part = W485.SurfaceOmniLight_4294539966
 	partName = Part
-	pos = -0.7207394,10.62294,17.02617
+	pos = -1.852432,22.82861,14.14585
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1576,8 +1577,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293855316
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = W485.SurfaceOmniLight_4294539932
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -1716,9 +1717,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293855316
+	part = W485.SurfaceOmniLight_4294539932
 	partName = Part
-	pos = -0.7207394,10.62294,15.44814
+	pos = -1.852432,22.82861,12.56782
 	rot = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1728,8 +1729,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293855356
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = W485.SurfaceOmniLight_4294539966
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -1868,9 +1869,9 @@ PART
 }
 PART
 {
-	part = RCS_4293855276
+	part = RCS_4294539898
 	partName = Part
-	pos = -0.7207394,10.88667,17.02203
+	pos = -1.852432,23.09234,14.1417
 	rot = -3.050216E-08,3.050216E-08,0.7071068,0.7071068
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
@@ -1880,8 +1881,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = RCS_4293855166
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = RCS_4294539834
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -2029,9 +2030,9 @@ PART
 }
 PART
 {
-	part = RCS_4293855166
+	part = RCS_4294539834
 	partName = Part
-	pos = -0.7207394,10.88667,15.45229
+	pos = -1.852432,23.09234,12.57197
 	rot = 0.7071068,0.7071068,-4.064568E-10,-6.141079E-08
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
@@ -2041,8 +2042,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = RCS_4293855276
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = RCS_4294539898
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -2190,9 +2191,9 @@ PART
 }
 PART
 {
-	part = Kosmos.Parom.RCS.Tank_4293855056
+	part = Kosmos.Parom.RCS.Tank_4294539770
 	partName = Part
-	pos = -1.021101,10.92459,16.95984
+	pos = -2.152794,23.13026,14.07951
 	rot = -0.8526402,6.008505E-09,0.5224986,-3.682016E-09
 	attRot = 0,0,0.9999999,0
 	mir = 1,1,1
@@ -2201,9 +2202,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = -699.38
-	sym = Kosmos.Parom.RCS.Tank_4293855008
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	modCost = -699.131
+	sym = Kosmos.Parom.RCS.Tank_4294539726
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -2221,7 +2222,7 @@ PART
 		BreakTorque = 375
 		Torque = 0
 		Decouple = 0
-		Mass = 0.00186
+		Mass = 0.069123
 		EVENTS
 		{
 		}
@@ -2259,7 +2260,7 @@ PART
 		isEnabled = True
 		type = Odyssey_ServiceModule
 		utilization = 86
-		mass = 0.00186
+		mass = 0.006882
 		timestamp = 0
 		volume = 62
 		type_UIEditor
@@ -2279,6 +2280,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
@@ -2290,7 +2292,6 @@ PART
 			{
 				active = True
 				guiActive = False
-				guiActiveEditor = True
 				guiIcon = 76.308% LqdHydrogen / 23.692% LqdOxygen
 				guiName = 76.308% LqdHydrogen / 23.692% LqdOxygen
 				category = 76.308% LqdHydrogen / 23.692% LqdOxygen
@@ -2341,12 +2342,22 @@ PART
 		{
 		}
 	}
+	RESOURCE
+	{
+		name = Hydrazine
+		amount = 62
+		maxAmount = 62
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
 }
 PART
 {
-	part = Kosmos.Parom.RCS.Tank_4293855008
+	part = Kosmos.Parom.RCS.Tank_4294539726
 	partName = Part
-	pos = -0.4203774,10.92459,15.51448
+	pos = -1.55207,23.13026,12.63415
 	rot = 0.5224987,-3.682016E-09,0.8526401,-6.008504E-09
 	attRot = 0,0,0.9999999,0
 	mir = 1,1,1
@@ -2355,9 +2366,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	modCost = -699.38
-	sym = Kosmos.Parom.RCS.Tank_4293855056
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	modCost = -699.131
+	sym = Kosmos.Parom.RCS.Tank_4294539770
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -2375,7 +2386,7 @@ PART
 		BreakTorque = 375
 		Torque = 0
 		Decouple = 0
-		Mass = 0.00186
+		Mass = 0.069123
 		EVENTS
 		{
 		}
@@ -2413,7 +2424,7 @@ PART
 		isEnabled = True
 		type = Odyssey_ServiceModule
 		utilization = 86
-		mass = 0.00186
+		mass = 0.006882
 		timestamp = 0
 		volume = 62
 		type_UIEditor
@@ -2433,6 +2444,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
@@ -2444,7 +2456,6 @@ PART
 			{
 				active = True
 				guiActive = False
-				guiActiveEditor = True
 				guiIcon = 76.308% LqdHydrogen / 23.692% LqdOxygen
 				guiName = 76.308% LqdHydrogen / 23.692% LqdOxygen
 				category = 76.308% LqdHydrogen / 23.692% LqdOxygen
@@ -2495,12 +2506,22 @@ PART
 		{
 		}
 	}
+	RESOURCE
+	{
+		name = Hydrazine
+		amount = 62
+		maxAmount = 62
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
 }
 PART
 {
-	part = RTLongAntenna3_4293854960
+	part = RTLongAntenna3_4294539682
 	partName = Part
-	pos = -1.509427,10.79708,16.23716
+	pos = -2.641119,23.00275,13.35683
 	rot = -0.5,0.5,-0.5,-0.5
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2510,7 +2531,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -2690,7 +2711,7 @@ PART
 			}
 			ActionOpen
 			{
-				actionGroup = None
+				actionGroup = Custom01
 			}
 			ActionClose
 			{
@@ -2742,9 +2763,9 @@ PART
 }
 PART
 {
-	part = ESARCS_4293854894
+	part = ESARCS_4294539622
 	partName = Part
-	pos = -1.272791,10.22134,16.78921
+	pos = -2.404484,22.42701,13.90889
 	rot = -0.6532815,0.2705981,-0.2705981,-0.6532815
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2754,10 +2775,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 1187.5
-	sym = ESARCS_4293854812
-	sym = ESARCS_4293854730
-	sym = ESARCS_4293854648
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = ESARCS_4294539566
+	sym = ESARCS_4294539510
+	sym = ESARCS_4294539454
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -2905,9 +2926,9 @@ PART
 }
 PART
 {
-	part = ESARCS_4293854812
+	part = ESARCS_4294539566
 	partName = Part
-	pos = -0.1686875,10.22134,16.78921
+	pos = -1.30038,22.42701,13.90889
 	rot = -0.6532815,-0.270598,0.270598,-0.6532815
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2917,10 +2938,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 1187.5
-	sym = ESARCS_4293854894
-	sym = ESARCS_4293854730
-	sym = ESARCS_4293854648
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = ESARCS_4294539622
+	sym = ESARCS_4294539510
+	sym = ESARCS_4294539454
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -3068,9 +3089,9 @@ PART
 }
 PART
 {
-	part = ESARCS_4293854730
+	part = ESARCS_4294539510
 	partName = Part
-	pos = -0.1686875,10.22134,15.68511
+	pos = -1.30038,22.42701,12.80478
 	rot = -0.2705981,-0.6532815,0.6532815,-0.2705981
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3080,10 +3101,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 1187.5
-	sym = ESARCS_4293854894
-	sym = ESARCS_4293854812
-	sym = ESARCS_4293854648
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = ESARCS_4294539622
+	sym = ESARCS_4294539566
+	sym = ESARCS_4294539454
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -3231,9 +3252,9 @@ PART
 }
 PART
 {
-	part = ESARCS_4293854648
+	part = ESARCS_4294539454
 	partName = Part
-	pos = -1.272791,10.22134,15.68511
+	pos = -2.404484,22.42701,12.80478
 	rot = 0.270598,-0.6532815,0.6532815,0.270598
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3243,10 +3264,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 1187.5
-	sym = ESARCS_4293854894
-	sym = ESARCS_4293854812
-	sym = ESARCS_4293854730
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = ESARCS_4294539622
+	sym = ESARCS_4294539566
+	sym = ESARCS_4294539510
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -3394,9 +3415,9 @@ PART
 }
 PART
 {
-	part = 2009RCS_4293854566
+	part = 2009RCS_4294539398
 	partName = Part
-	pos = -0.7207394,10.30163,16.99658
+	pos = -1.852432,22.5073,14.11626
 	rot = 4.313657E-08,-8.742278E-08,-3.394929E-09,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3406,8 +3427,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = 2009RCS_4293854484
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = 2009RCS_4294539342
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -3555,9 +3576,9 @@ PART
 }
 PART
 {
-	part = 2009RCS_4293854484
+	part = 2009RCS_4294539342
 	partName = Part
-	pos = -0.7207394,10.30163,15.47774
+	pos = -1.852432,22.5073,12.59741
 	rot = -3.394931E-09,-1,-4.313657E-08,1.311342E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3567,8 +3588,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = 2009RCS_4293854566
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = 2009RCS_4294539398
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -3716,9 +3737,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854402
+	part = W485.SurfaceOmniLight_4294539286
 	partName = Part
-	pos = -1.451241,10.15153,16.23716
+	pos = -2.582933,22.3572,13.35683
 	rot = -0.6532816,0.2705979,-0.6532816,-0.2705979
 	attRot = -0.3826835,0,0,0.9238796
 	mir = 1,1,1
@@ -3728,8 +3749,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293854362
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = W485.SurfaceOmniLight_4294539252
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -3868,9 +3889,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854362
+	part = W485.SurfaceOmniLight_4294539252
 	partName = Part
-	pos = 0.009762287,10.15153,16.23716
+	pos = -1.12193,22.3572,13.35683
 	rot = -0.6532816,-0.2705979,0.6532816,-0.2705979
 	attRot = -0.3826835,0,0,0.9238796
 	mir = 1,1,1
@@ -3880,8 +3901,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293854402
-	srfN = srfAttach,ICPSLowerTank_4293855406
+	sym = W485.SurfaceOmniLight_4294539286
+	srfN = srfAttach,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -4020,9 +4041,9 @@ PART
 }
 PART
 {
-	part = HG10B2_4293854322
+	part = HG10B2_4294539218
 	partName = Part
-	pos = -0.7207394,9.409273,16.23716
+	pos = -1.852432,21.61494,13.35683
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4032,7 +4053,7 @@ PART
 	sqor = 2
 	attm = 0
 	modCost = 0
-	attN = top1,ICPSLowerTank_4293855406
+	attN = top1,ICPSLowerTank_4294540010
 	EVENTS
 	{
 	}
@@ -4263,9 +4284,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854206
+	part = W485.SurfaceOmniLight_4294539110
 	partName = Part
-	pos = -1.970584,12.83481,16.23716
+	pos = -3.102277,25.04048,13.35683
 	rot = -0.4999999,0.5000001,-0.4999999,-0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4275,12 +4296,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4293854166
-	sym = W485.SurfaceOmniLight_4293854126
-	sym = W485.SurfaceOmniLight_4293854086
-	sym = W485.SurfaceOmniLight_4293854046
-	sym = W485.SurfaceOmniLight_4293854006
-	srfN = srfAttach,ICPSUpperTank_4293855500
+	sym = W485.SurfaceOmniLight_4294539076
+	sym = W485.SurfaceOmniLight_4294539042
+	sym = W485.SurfaceOmniLight_4294539008
+	sym = W485.SurfaceOmniLight_4294538974
+	sym = W485.SurfaceOmniLight_4294538940
+	srfN = srfAttach,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
@@ -4419,9 +4440,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854166
+	part = W485.SurfaceOmniLight_4294539076
 	partName = Part
-	pos = -1.345661,12.83481,17.31956
+	pos = -2.477354,25.04048,14.43923
 	rot = -0.6830127,0.1830127,-0.1830127,-0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4431,12 +4452,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4293854206
-	sym = W485.SurfaceOmniLight_4293854126
-	sym = W485.SurfaceOmniLight_4293854086
-	sym = W485.SurfaceOmniLight_4293854046
-	sym = W485.SurfaceOmniLight_4293854006
-	srfN = srfAttach,ICPSUpperTank_4293855500
+	sym = W485.SurfaceOmniLight_4294539110
+	sym = W485.SurfaceOmniLight_4294539042
+	sym = W485.SurfaceOmniLight_4294539008
+	sym = W485.SurfaceOmniLight_4294538974
+	sym = W485.SurfaceOmniLight_4294538940
+	srfN = srfAttach,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
@@ -4575,9 +4596,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854126
+	part = W485.SurfaceOmniLight_4294539042
 	partName = Part
-	pos = -0.09581637,12.83481,17.31955
+	pos = -1.227509,25.04048,14.43923
 	rot = -0.6830127,-0.1830128,0.1830127,-0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4587,12 +4608,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4293854206
-	sym = W485.SurfaceOmniLight_4293854166
-	sym = W485.SurfaceOmniLight_4293854086
-	sym = W485.SurfaceOmniLight_4293854046
-	sym = W485.SurfaceOmniLight_4293854006
-	srfN = srfAttach,ICPSUpperTank_4293855500
+	sym = W485.SurfaceOmniLight_4294539110
+	sym = W485.SurfaceOmniLight_4294539076
+	sym = W485.SurfaceOmniLight_4294539008
+	sym = W485.SurfaceOmniLight_4294538974
+	sym = W485.SurfaceOmniLight_4294538940
+	srfN = srfAttach,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
@@ -4731,9 +4752,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854086
+	part = W485.SurfaceOmniLight_4294539008
 	partName = Part
-	pos = 0.5291054,12.83481,16.23716
+	pos = -0.6025871,25.04048,13.35683
 	rot = -0.4999999,-0.5000001,0.4999999,-0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4743,12 +4764,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4293854206
-	sym = W485.SurfaceOmniLight_4293854166
-	sym = W485.SurfaceOmniLight_4293854126
-	sym = W485.SurfaceOmniLight_4293854046
-	sym = W485.SurfaceOmniLight_4293854006
-	srfN = srfAttach,ICPSUpperTank_4293855500
+	sym = W485.SurfaceOmniLight_4294539110
+	sym = W485.SurfaceOmniLight_4294539076
+	sym = W485.SurfaceOmniLight_4294539042
+	sym = W485.SurfaceOmniLight_4294538974
+	sym = W485.SurfaceOmniLight_4294538940
+	srfN = srfAttach,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
@@ -4887,9 +4908,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854046
+	part = W485.SurfaceOmniLight_4294538974
 	partName = Part
-	pos = -0.09581637,12.83481,15.15476
+	pos = -1.227509,25.04048,12.27444
 	rot = -0.1830127,-0.6830128,0.6830127,-0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4899,12 +4920,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4293854206
-	sym = W485.SurfaceOmniLight_4293854166
-	sym = W485.SurfaceOmniLight_4293854126
-	sym = W485.SurfaceOmniLight_4293854086
-	sym = W485.SurfaceOmniLight_4293854006
-	srfN = srfAttach,ICPSUpperTank_4293855500
+	sym = W485.SurfaceOmniLight_4294539110
+	sym = W485.SurfaceOmniLight_4294539076
+	sym = W485.SurfaceOmniLight_4294539042
+	sym = W485.SurfaceOmniLight_4294539008
+	sym = W485.SurfaceOmniLight_4294538940
+	srfN = srfAttach,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
@@ -5043,9 +5064,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293854006
+	part = W485.SurfaceOmniLight_4294538940
 	partName = Part
-	pos = -1.345661,12.83481,15.15476
+	pos = -2.477354,25.04048,12.27444
 	rot = 0.1830127,-0.6830128,0.6830127,0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5055,12 +5076,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -78.4
-	sym = W485.SurfaceOmniLight_4293854206
-	sym = W485.SurfaceOmniLight_4293854166
-	sym = W485.SurfaceOmniLight_4293854126
-	sym = W485.SurfaceOmniLight_4293854086
-	sym = W485.SurfaceOmniLight_4293854046
-	srfN = srfAttach,ICPSUpperTank_4293855500
+	sym = W485.SurfaceOmniLight_4294539110
+	sym = W485.SurfaceOmniLight_4294539076
+	sym = W485.SurfaceOmniLight_4294539042
+	sym = W485.SurfaceOmniLight_4294539008
+	sym = W485.SurfaceOmniLight_4294538974
+	srfN = srfAttach,ICPSUpperTank_4294540092
 	EVENTS
 	{
 	}
