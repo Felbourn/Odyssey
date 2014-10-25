@@ -242,8 +242,6 @@ RemoteTech 1.5.1
 KIDS 1.4.1a
 	http://forum.kerbalspaceprogram.com/threads/52882-0-24-2-Kerbal-Isp-Difficulty-Scaler-v1-4-8-14-14
 	use it to add a config:
-		Atm Isp multipliter: 0.8
-		Vac Isp multipliter: 0.8
 		Thrust varies with Isp = true
 		Va/Atm engine Isp rating cutoff = 330
 
@@ -326,7 +324,8 @@ Camera Tools 1.1
 
 HullCameraVDS 0.32
 	http://www.curse.com/ksp-mods/kerbal/220258-hullcam-vds
-	delete GameData\HullCameraVDS\Parts   except: aerocam
+	delete GameData\HullCameraVDS\Parts  
+		except: aerocam
 
 
 ===================================================================================================
@@ -395,13 +394,24 @@ TurboNisu Custom Parts
 Kerbal Stock Launcher Overhaul 2.0
 	http://forum.kerbalspaceprogram.com/threads/76871-0-23-5-Kerbal-Stock-Launcher-Overhaul-6-13-Untested-(Kerbal-X-Pack-2-0)
 
-Procdedural Fairings
+Procedural Fairings
 	http://forum.kerbalspaceprogram.com/threads/39512-0-24-2-Procedural-Fairings-3-09-procedural-costs-Win64-decoupler-fix-(August-3)
 
 DMagic science 0.8.6.1
 	http://forum.kerbalspaceprogram.com/threads/64972-0-24-x-DMagic-Orbital-Science-New-Science-Parts-V0-8-5-1-%289-16-14%29
 	GameData\DMagic Orbital Science\Plugins
 	and one part: GameData\DMagic Orbital Science\Probe Science\Imaging Platform	
+
+Stockalike Station Parts 0.2.0
+	http://forum.kerbalspaceprogram.com/threads/91814-0-24-2-Stockalike-Station-Parts-Expansion-%2825-08-2014%29
+	install: GameData\StationPartsExpansion\Spaces
+	it includes NearFutureProps which you CAN install now
+
+MIR Parts
+	http://forum.kerbalspaceprogram.com/threads/81754-Release-BobCat-Ind-Space-Planet-products
+
+MEPS 0.2.1
+	http://forum.kerbalspaceprogram.com/threads/92684-MEPS-Multipurpose-Express-Pallet-System-v0-2-1-NEW-Cargo-Bay-Flooring%21-12-09
 
 
 ===================================================================================================
@@ -521,6 +531,10 @@ Interstages
 	GameData\ProceduralFairings\baseRingTex.tga
 	GameData\ProceduralFairings\blackRingTex.tga
 	GameData\ProceduralFairings\fairing1.tga
+	GameData\ProceduralFairings\baseTex.tga
+	GameData\ProceduralFairings\thrustPlate.mu
+	GameData\ProceduralFairings\thrustPlate1.tga
+	GameData\ProceduralFairings\thrustPlate1bump_Normal_NRM.tga
 
 Mid-Range Antenna
 	GameData\DMagic Orbital Science\Probe Science\Mag Boom
@@ -539,3 +553,96 @@ Centaur Interstage
 	GameData\AerojetKerbodyne\Parts\FairingSet\Interstage25.mu
 	GameData\AerojetKerbodyne\Parts\FairingSet\FairingSetDiffuse.mbm
 	GameData\AerojetKerbodyne\Parts\FairingSet\FairingSet_NRM.mbm
+
+Space Station Parts
+	GameData\StationPartsExpansion\Parts\Command\crewpod-habitation-25
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-125-1
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-125-2
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-125-25
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-airlock-125
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-attach-125
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-docking-25
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-docking-125
+	GameData\StationPartsExpansion\Parts\Structural\crewtube-hub-125
+
+Handrails
+	GameData\AIES_Aerospace\Utility\AIESescaleralad1
+
+Station RCS
+	GameData\SovietPack\Parts\MIR\MIR_RCS
+
+Station & Lander Engine
+	GameData\BahaSP\Parts\sRadialEngine
+	GameData\BahaSP\Plugins
+
+External Logistics Carriers
+	GameData\MEPS
+
+Station Communications & Scanners
+	GameData\LLL\Parts\Science\CommTower
+	GameData\LLL\Parts\Science\Radar
+	GameData\LLL\Parts\Science\RotatingDish1
+	GameData\LLL\Models\Science\64.mu
+	GameData\LLL\Models\Science\CommTower.mu
+	GameData\LLL\Models\Science\radar.mu
+	GameData\LLL\Models\Science\RotatingDish.mu
+	GameData\LLL\Models\Science\material.tga
+	GameData\LLL\Models\Science\unwrap2.tga
+
+Station Airlock
+	GameData\LLL\Parts\Utility\Airlock
+	GameData\LLL\Models\Structural\2x1Cargo\dock.mu
+	GameData\LLL\Models\Structural\2x1Cargo\model000.tga
+	GameData\LLL\Models\Structural\2x1Cargo\untitled.tga
+	GameData\LLL\Models\Structural\2x1Cargo\Untitled-1.png
+	GameData\LLL\Models\Structural\2x1Cargo\untitledb_NRM.tga
+
+Station Generic Living Space
+	GameData\LLL/Parts/FuelTank/2x1/2x1xDualFuel
+	GameData\LLL/Models/Propulsion/LLL2x1/modelTank.mu
+	GameData\LLL/Models/Propulsion/LLL2x1/stripe.mu
+	GameData\LLL/Models/Propulsion/LLL2x1/detail.mu
+	GameData\LLL/Models/Propulsion/LLL2x1/model000.tga
+	GameData\LLL/Models/Propulsion/LLL2x1/model001_NRM.tga
+	GameData\LLL/Models/Propulsion/LLL2x1/StripeLFO.tga
+	GameData\NearFutureElectrical\Parts\Capacitors\capacitor-rad-0625-2\capacitor-rad-0625-2.mu
+	GameData\NearFutureElectrical\Parts\Capacitors\capacitor-rad-0625-2\capacitor-rad-0625-2.tga
+	GameData\NearFutureElectrical\Parts\Capacitors\capacitor-rad-0625-2\capacitor-rad-0625-2-e.tga
+	GameData\LLL\Models\Utility\WindowLong\windowtriple.mu
+	GameData\LLL\Models\Utility\WindowLong\EMSS.tga
+	GameData\LLL\Models\Utility\WindowLong\untitled.tga
+	GameData\LLL\Parts\Utility\RadialPipes
+
+Station Modules & Hull Pieces
+	GameData\LLL\Parts\Structural\1x1\0HullShort
+	GameData\LLL\Parts\Structural\2x1\FlatEndCap
+	GameData\LLL\Parts\Structural\Adapters\2x1to125Adaptor
+	GameData\LLL\Models\Propulsion\LLL2x1\model1x1third.mu
+	GameData\LLL\Models\Structural\2x1x25New\1x1to1_25.mu
+	GameData\LLL\Models\Structural\2x1x25New\2to1.mu
+	GameData\LLL\Models\Structural\2x1x25New\Flatendcap.mu
+	GameData\LLL\Models\Structural\2x1x25New\Untitled-2.tga
+
+Observation Deck
+	GameData\LLL\Parts\Command\MkVHog\MkVHog
+	GameData\LLL\Parts\Command\MkVHog\model.mu
+	GameData\LLL\Parts\Command\MkVHog\untitled_.003.tga
+	GameData\LLL\Parts\Command\MkVHog\untitled_.004.tga
+	GameData\LLL\Parts\Command\MkVII\hatchdoor.mu
+	GameData\LLL\Parts\Command\MkVII\EMSS.tga
+	GameData\LLL\Parts\Command\MkVII\norm_NRM.tga
+	GameData\LLL\Parts\Command\MkVII\railing.tga
+	GameData\LLL\Parts\Command\MkVII\untitled.tga
+	GameData\LLL\Spaces\Hog
+
+Station Core
+	GameData\Interstellar\Parts\Electrical\AntimatterReactor
+
+Ship Docking Port
+	GameData\HGR\Parts\Utility\SJDock
+
+Module Docking
+	GameData\LLL\Parts\Utility\CBM\CBM	
+	GameData\LLL\Parts\Utility\CBM\2x1DockingEnd
+	GameData\LLL\Parts\Utility\CBM\model.mu
+	GameData\LLL\Parts\Utility\CBM\model000.tga

@@ -72,12 +72,42 @@ Squad:
 	1 GenericSpace1 			- boring, bad
 
 Stock Station Expansion:
-	8 habitation375internals	- 
+	8 habitation375internals	- all untextured :(
 	6 habitation25internals		- 
 	4 cupola375internals		- 
 	4 observation25internals	- 
 	4 habitation25-375internals	- 
 	2 crewtestInternals			- 
+
+NFS:
+	2 mk3-9podinternals			- decent cockpit view
+	2 crewUtilityPodInternals	- decent module space
+
+	6 inlineCmdPodinternals		- incomplete textures
+
+HGR:
+	2 Onion_RPM 				- basic module
+	2 RadishInt_RPM 			- basic cockpit
+	3 SoyInt_RPM 				- basic capsule
+	1 SpudInterior_RPM			- basic capsule or module
+
+Use for station internals:
+	1 cupolaInternal or landerCabinSmallInternal
+	2 crewUtilityPodInternals
+	3 crewCabinInternals
+	4 crewCabinInternals
+	5 habitation25internals
+	6 habitation25internals
+	7 habitation375internals
+	8 habitation375internals
+
+Living space assumptions:
+	a 2.5 diam by 2.5 tall section with 50% living space is ~6 cu-m for crew 
+	every 2x cu-m is room for 1 crew (so 1 crew per 4 total internal cu-m)
+	total station size 20x CrewCapacity per 1 actual crew to be comfortable long durations
+	10x CrewCapacity per crew for medium duration (up to 6 weeks)
+	2x CrewCapacity per crew for short duration (up to 2 weeks)
+	1x CrewCapacity per crew for short travel (up to 3 days)
 
 
 ===================================================================================================
@@ -203,6 +233,16 @@ life support is 620 g per 24 hours, so 1.729166667 - 0.62 = 1.109166667 extra Wa
   5,000,000   not used?                 700   1.944      10    ---
  50,000,000   near planets             1000   2.778       5    RT folding dish
 500,000,000   far planets              1500   4.167       2       ??? RT folding dish (large)
+
+
+===================================================================================================
+=== SCANSAT SENSORS
+===================================================================================================
+1 	5000, 5000, 500000, altimetry (low res)
+2 	5000, 750000, 800000, altimetry (high res)
+8 	5000, 250000, 500000, terrain & biomes?
+16 	5000, 250000, 500000, anomalies?
+32  0, 0, 2000, local anomalies
 
 
 ===================================================================================================
