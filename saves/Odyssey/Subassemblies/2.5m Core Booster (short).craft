@@ -4,50 +4,50 @@ description = No description.
 type = VAB
 PART
 {
-	part = KW3mtankL4A_4294536504
+	part = KW3mtankL4A_4294283674
 	partName = Part
-	pos = 1.402107,5.525574,16.99078
+	pos = -3.741636,22.5027,14.68321
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 0
-	modCost = -36136.27
-	link = KW3mengineTitanT1_4294536444
-	link = KXsepmotor_4294536254
-	link = KXsepmotor_4294536192
-	link = KXsepmotor_4294536130
-	link = KXsepmotor_4294536068
-	link = KXsepmotor_4294536006
-	link = KXsepmotor_4294535944
-	link = W485.SurfaceOmniLight_4294535882
-	link = W485.SurfaceOmniLight_4294535848
-	link = W485.SurfaceOmniLight_4294535814
-	link = W485.SurfaceOmniLight_4294535780
-	link = W485.SurfaceOmniLight_4294535746
-	link = W485.SurfaceOmniLight_4294535712
-	link = W485.SurfaceOmniLight_4294535678
-	link = W485.SurfaceOmniLight_4294535644
-	link = W485.SurfaceOmniLight_4294535610
-	link = W485.SurfaceOmniLight_4294535576
-	link = W485.SurfaceOmniLight_4294535542
-	link = W485.SurfaceOmniLight_4294535508
-	link = W485.SurfaceOmniLight_4294535474
-	link = W485.SurfaceOmniLight_4294535440
-	link = W485.SurfaceOmniLight_4294535406
-	link = W485.SurfaceOmniLight_4294535372
-	link = W485.SurfaceOmniLight_4294535338
-	link = W485.SurfaceOmniLight_4294535304
-	link = W485.SurfaceOmniLight_4294535270
-	link = W485.SurfaceOmniLight_4294535236
-	link = W485.SurfaceOmniLight_4294535202
-	link = W485.SurfaceOmniLight_4294535168
-	link = W485.SurfaceOmniLight_4294535134
-	link = W485.SurfaceOmniLight_4294535100
-	attN = bottom,KW3mengineTitanT1_4294536444
+	modCost = 1412.284
+	link = KW3mengineTitanT1_4294283614
+	link = KXsepmotor_4294283424
+	link = KXsepmotor_4294283362
+	link = KXsepmotor_4294283300
+	link = KXsepmotor_4294283238
+	link = KXsepmotor_4294283176
+	link = KXsepmotor_4294283114
+	link = W485.SurfaceOmniLight_4294283052
+	link = W485.SurfaceOmniLight_4294283018
+	link = W485.SurfaceOmniLight_4294282984
+	link = W485.SurfaceOmniLight_4294282950
+	link = W485.SurfaceOmniLight_4294282916
+	link = W485.SurfaceOmniLight_4294282882
+	link = W485.SurfaceOmniLight_4294282848
+	link = W485.SurfaceOmniLight_4294282814
+	link = W485.SurfaceOmniLight_4294282780
+	link = W485.SurfaceOmniLight_4294282746
+	link = W485.SurfaceOmniLight_4294282712
+	link = W485.SurfaceOmniLight_4294282678
+	link = W485.SurfaceOmniLight_4294282644
+	link = W485.SurfaceOmniLight_4294282610
+	link = W485.SurfaceOmniLight_4294282576
+	link = W485.SurfaceOmniLight_4294282542
+	link = W485.SurfaceOmniLight_4294282508
+	link = W485.SurfaceOmniLight_4294282474
+	link = W485.SurfaceOmniLight_4294282440
+	link = W485.SurfaceOmniLight_4294282406
+	link = W485.SurfaceOmniLight_4294282372
+	link = W485.SurfaceOmniLight_4294282338
+	link = W485.SurfaceOmniLight_4294282304
+	link = W485.SurfaceOmniLight_4294282270
+	attN = bottom,KW3mengineTitanT1_4294283614
 	EVENTS
 	{
 	}
@@ -61,11 +61,11 @@ PART
 		Thrust = 0
 		MaxTemp = 1550
 		CrashTol = 10
-		BreakForce = 666.6667
-		BreakTorque = 666.6667
+		BreakForce = 1500
+		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 35.70594
+		Mass = 145.9747
 		EVENTS
 		{
 		}
@@ -79,9 +79,9 @@ PART
 		isEnabled = True
 		type = Odyssey_Core
 		utilization = 86
-		mass = 0.9962508
-		timestamp = 0
-		volume = 34074
+		mass = 4.0933
+		timestamp = 94949.247884966
+		volume = 140000
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -127,13 +127,13 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		tweakScale = 2.5
-		currentScale = 2.5
+		tweakScale = 3.75
+		currentScale = 3.75
 		defaultScale = 3.75
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1, 1, 1)
-		dryCost = 15360
+		dryCost = 51840
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -164,8 +164,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 12984.5818179846
-		maxAmount = 12984.5818179846
+		amount = 53349.8108386993
+		maxAmount = 53349.8108386993
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -174,8 +174,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 21089.4181820154
-		maxAmount = 21089.4181820154
+		amount = 86650.1891613007
+		maxAmount = 86650.1891613007
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -184,21 +184,21 @@ PART
 }
 PART
 {
-	part = KW3mengineTitanT1_4294536444
+	part = KW3mengineTitanT1_4294283614
 	partName = Part
-	pos = 1.402107,-1.814426,16.99078
+	pos = -3.741636,11.4927,14.68321
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = 0
-	sqor = 2
+	istg = 6
+	dstg = 8
+	sidx = 1
+	sqor = 6
 	attm = 0
-	modCost = -7037.037
-	link = FASAlaunchClamp25_4294536370
-	attN = top2,KW3mtankL4A_4294536504
-	attN = bottom,FASAlaunchClamp25_4294536370
+	modCost = 0
+	link = FASAlaunchClamp25_4294283540
+	attN = top2,KW3mtankL4A_4294283674
+	attN = bottom,FASAlaunchClamp25_4294283540
 	EVENTS
 	{
 	}
@@ -214,7 +214,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 61.5
+		thrustPercentage = 100
 		manuallyOverridden = False
 		thrustPercentage_UIFlight
 		{
@@ -345,14 +345,14 @@ PART
 	{
 		name = ExtendedPartInfo
 		isEnabled = True
-		Thrust = 1177.778
+		Thrust = 2650
 		MaxTemp = 2300
 		CrashTol = 10
-		BreakForce = 666.6667
-		BreakTorque = 666.6667
+		BreakForce = 1500
+		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 1.244444
+		Mass = 4
 		EVENTS
 		{
 		}
@@ -392,13 +392,13 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		tweakScale = 2.5
-		currentScale = 2.5
+		tweakScale = 3.75
+		currentScale = 3.75
 		defaultScale = 3.75
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1.25, 1.25, 1.25)
-		dryCost = 2962.963
+		dryCost = 10000
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -439,19 +439,19 @@ PART
 }
 PART
 {
-	part = FASAlaunchClamp25_4294536370
+	part = FASAlaunchClamp25_4294283540
 	partName = Strut
-	pos = 1.402107,-3.107759,16.99078
+	pos = -3.741636,9.675194,14.68321
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = 1
-	sqor = 2
+	istg = 6
+	dstg = 8
+	sidx = 2
+	sqor = 6
 	attm = 0
-	modCost = -28.90625
-	attN = top,KW3mengineTitanT1_4294536444
+	modCost = 0
+	attN = top,KW3mengineTitanT1_4294283614
 	EVENTS
 	{
 	}
@@ -462,8 +462,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = -4.915656
-		height = -2.582415
+		scaleFactor = 14.81266
+		height = 10.37565
 		towerRot = 0,0,0,1
 		EVENTS
 		{
@@ -494,11 +494,11 @@ PART
 		Thrust = 0
 		MaxTemp = 2600
 		CrashTol = 10
-		BreakForce = 843.75
-		BreakTorque = 843.75
+		BreakForce = 1500
+		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 0.0421875
+		Mass = 0.1
 		EVENTS
 		{
 		}
@@ -512,7 +512,7 @@ PART
 		isEnabled = True
 		enablePump = False
 		pump_rate = 100
-		timestamp = 0
+		timestamp = 94949.247884966
 		EVENTS
 		{
 			TogglePump
@@ -554,13 +554,13 @@ PART
 	{
 		name = TweakScale
 		isEnabled = True
-		tweakScale = 1.875
-		currentScale = 1.875
+		tweakScale = 2.5
+		currentScale = 2.5
 		defaultScale = 2.5
 		isFreeScale = False
 		version = 1.44.0.0
 		defaultTransformScale = (1.4, 1.4, 1.4)
-		dryCost = 21.09375
+		dryCost = 50
 		tweakScale_UIEditor
 		{
 			controlEnabled = True
@@ -580,24 +580,24 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4294536254
+	part = KXsepmotor_4294283424
 	partName = Part
-	pos = 0.3551095,0.7209511,17.59527
+	pos = -5.322519,15.27904,15.59594
 	rot = 0.4995242,0.0377755,-0.8652011,0.0218097
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
-	istg = 1
-	dstg = 2
-	sidx = 1
-	sqor = 1
+	istg = 5
+	dstg = 8
+	sidx = 4
+	sqor = 5
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4294536192
-	sym = KXsepmotor_4294536130
-	sym = KXsepmotor_4294536068
-	sym = KXsepmotor_4294536006
-	sym = KXsepmotor_4294535944
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = KXsepmotor_4294283362
+	sym = KXsepmotor_4294283300
+	sym = KXsepmotor_4294283238
+	sym = KXsepmotor_4294283176
+	sym = KXsepmotor_4294283114
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -749,7 +749,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 0
+		timestamp = 94949.247884966
 		volume = 3
 		type_UIEditor
 		{
@@ -911,24 +911,24 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4294536192
+	part = KXsepmotor_4294283362
 	partName = Part
-	pos = 1.402107,0.7209511,18.19975
-	rot = 6.075658E-08,0.04361939,-0.9990482,6.383445E-10
+	pos = -3.741636,15.27904,16.50866
+	rot = 6.075657E-08,0.04361939,-0.9990482,2.251443E-09
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
-	istg = 1
-	dstg = 2
-	sidx = 2
-	sqor = 1
+	istg = 5
+	dstg = 8
+	sidx = 5
+	sqor = 5
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4294536254
-	sym = KXsepmotor_4294536130
-	sym = KXsepmotor_4294536068
-	sym = KXsepmotor_4294536006
-	sym = KXsepmotor_4294535944
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = KXsepmotor_4294283424
+	sym = KXsepmotor_4294283300
+	sym = KXsepmotor_4294283238
+	sym = KXsepmotor_4294283176
+	sym = KXsepmotor_4294283114
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -1080,7 +1080,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 0
+		timestamp = 94949.247884966
 		volume = 3
 		type_UIEditor
 		{
@@ -1242,24 +1242,24 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4294536130
+	part = KXsepmotor_4294283300
 	partName = Part
-	pos = 2.449106,0.7209511,17.59527
-	rot = -0.4995241,0.0377755,-0.8652012,-0.0218097
+	pos = -2.160753,15.27904,15.59594
+	rot = -0.4995241,0.03777551,-0.8652012,-0.0218097
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
-	istg = 1
-	dstg = 2
-	sidx = 3
-	sqor = 1
+	istg = 5
+	dstg = 8
+	sidx = 6
+	sqor = 5
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4294536254
-	sym = KXsepmotor_4294536192
-	sym = KXsepmotor_4294536068
-	sym = KXsepmotor_4294536006
-	sym = KXsepmotor_4294535944
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = KXsepmotor_4294283424
+	sym = KXsepmotor_4294283362
+	sym = KXsepmotor_4294283238
+	sym = KXsepmotor_4294283176
+	sym = KXsepmotor_4294283114
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -1411,7 +1411,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 0
+		timestamp = 94949.247884966
 		volume = 3
 		type_UIEditor
 		{
@@ -1573,24 +1573,24 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4294536068
+	part = KXsepmotor_4294283238
 	partName = Part
-	pos = 2.449106,0.7209511,16.3863
+	pos = -2.160753,15.27904,13.77049
 	rot = -0.8652012,0.0218097,-0.4995241,-0.03777551
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
-	istg = 1
-	dstg = 2
-	sidx = 4
-	sqor = 1
+	istg = 5
+	dstg = 8
+	sidx = 7
+	sqor = 5
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4294536254
-	sym = KXsepmotor_4294536192
-	sym = KXsepmotor_4294536130
-	sym = KXsepmotor_4294536006
-	sym = KXsepmotor_4294535944
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = KXsepmotor_4294283424
+	sym = KXsepmotor_4294283362
+	sym = KXsepmotor_4294283300
+	sym = KXsepmotor_4294283176
+	sym = KXsepmotor_4294283114
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -1742,7 +1742,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 0
+		timestamp = 94949.247884966
 		volume = 3
 		type_UIEditor
 		{
@@ -1904,24 +1904,24 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4294536006
+	part = KXsepmotor_4294283176
 	partName = Part
-	pos = 1.402107,0.7209511,15.78181
-	rot = -0.9990482,-1.613251E-09,-9.186543E-09,-0.04361939
+	pos = -3.741636,15.27904,12.85777
+	rot = -0.9990482,-1.528777E-13,-9.186542E-09,-0.04361939
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
-	istg = 1
-	dstg = 2
-	sidx = 5
-	sqor = 1
+	istg = 5
+	dstg = 8
+	sidx = 8
+	sqor = 5
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4294536254
-	sym = KXsepmotor_4294536192
-	sym = KXsepmotor_4294536130
-	sym = KXsepmotor_4294536068
-	sym = KXsepmotor_4294535944
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = KXsepmotor_4294283424
+	sym = KXsepmotor_4294283362
+	sym = KXsepmotor_4294283300
+	sym = KXsepmotor_4294283238
+	sym = KXsepmotor_4294283114
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -2073,7 +2073,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 0
+		timestamp = 94949.247884966
 		volume = 3
 		type_UIEditor
 		{
@@ -2235,24 +2235,24 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4294535944
+	part = KXsepmotor_4294283114
 	partName = Part
-	pos = 0.3551095,0.7209511,16.3863
+	pos = -5.322519,15.27904,13.77049
 	rot = -0.8652012,-0.02180969,0.499524,-0.03777551
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
-	istg = 1
-	dstg = 2
-	sidx = 6
-	sqor = 1
+	istg = 5
+	dstg = 8
+	sidx = 9
+	sqor = 5
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4294536254
-	sym = KXsepmotor_4294536192
-	sym = KXsepmotor_4294536130
-	sym = KXsepmotor_4294536068
-	sym = KXsepmotor_4294536006
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = KXsepmotor_4294283424
+	sym = KXsepmotor_4294283362
+	sym = KXsepmotor_4294283300
+	sym = KXsepmotor_4294283238
+	sym = KXsepmotor_4294283176
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -2404,7 +2404,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 0
+		timestamp = 94949.247884966
 		volume = 3
 		type_UIEditor
 		{
@@ -2566,24 +2566,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535882
+	part = W485.SurfaceOmniLight_4294283052
 	partName = Part
-	pos = 0.1945286,0.6845627,16.99078
+	pos = -5.558868,15.25489,14.68321
 	rot = -0.5,0.5,-0.5,-0.5
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535848
-	sym = W485.SurfaceOmniLight_4294535814
-	sym = W485.SurfaceOmniLight_4294535780
-	sym = W485.SurfaceOmniLight_4294535746
-	sym = W485.SurfaceOmniLight_4294535712
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294283018
+	sym = W485.SurfaceOmniLight_4294282984
+	sym = W485.SurfaceOmniLight_4294282950
+	sym = W485.SurfaceOmniLight_4294282916
+	sym = W485.SurfaceOmniLight_4294282882
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -2722,24 +2722,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535848
+	part = W485.SurfaceOmniLight_4294283018
 	partName = Part
-	pos = 0.7983174,0.6845627,18.03658
+	pos = -4.650252,15.25489,16.25698
 	rot = -0.6830127,0.1830127,-0.1830127,-0.6830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535882
-	sym = W485.SurfaceOmniLight_4294535814
-	sym = W485.SurfaceOmniLight_4294535780
-	sym = W485.SurfaceOmniLight_4294535746
-	sym = W485.SurfaceOmniLight_4294535712
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294283052
+	sym = W485.SurfaceOmniLight_4294282984
+	sym = W485.SurfaceOmniLight_4294282950
+	sym = W485.SurfaceOmniLight_4294282916
+	sym = W485.SurfaceOmniLight_4294282882
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -2878,24 +2878,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535814
+	part = W485.SurfaceOmniLight_4294282984
 	partName = Part
-	pos = 2.005897,0.6845627,18.03658
+	pos = -2.833019,15.25489,16.25698
 	rot = -0.6830127,-0.1830127,0.1830127,-0.6830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535882
-	sym = W485.SurfaceOmniLight_4294535848
-	sym = W485.SurfaceOmniLight_4294535780
-	sym = W485.SurfaceOmniLight_4294535746
-	sym = W485.SurfaceOmniLight_4294535712
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294283052
+	sym = W485.SurfaceOmniLight_4294283018
+	sym = W485.SurfaceOmniLight_4294282950
+	sym = W485.SurfaceOmniLight_4294282916
+	sym = W485.SurfaceOmniLight_4294282882
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3034,24 +3034,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535780
+	part = W485.SurfaceOmniLight_4294282950
 	partName = Part
-	pos = 2.609686,0.6845627,16.99078
+	pos = -1.924404,15.25489,14.68321
 	rot = -0.4999999,-0.5000001,0.5000001,-0.4999999
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535882
-	sym = W485.SurfaceOmniLight_4294535848
-	sym = W485.SurfaceOmniLight_4294535814
-	sym = W485.SurfaceOmniLight_4294535746
-	sym = W485.SurfaceOmniLight_4294535712
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294283052
+	sym = W485.SurfaceOmniLight_4294283018
+	sym = W485.SurfaceOmniLight_4294282984
+	sym = W485.SurfaceOmniLight_4294282916
+	sym = W485.SurfaceOmniLight_4294282882
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3190,24 +3190,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535746
+	part = W485.SurfaceOmniLight_4294282916
 	partName = Part
-	pos = 2.005897,0.6845627,15.94499
+	pos = -2.83302,15.25489,13.10944
 	rot = -0.1830127,-0.6830127,0.6830127,-0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535882
-	sym = W485.SurfaceOmniLight_4294535848
-	sym = W485.SurfaceOmniLight_4294535814
-	sym = W485.SurfaceOmniLight_4294535780
-	sym = W485.SurfaceOmniLight_4294535712
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294283052
+	sym = W485.SurfaceOmniLight_4294283018
+	sym = W485.SurfaceOmniLight_4294282984
+	sym = W485.SurfaceOmniLight_4294282950
+	sym = W485.SurfaceOmniLight_4294282882
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3346,24 +3346,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535712
+	part = W485.SurfaceOmniLight_4294282882
 	partName = Part
-	pos = 0.7983174,0.6845627,15.94499
+	pos = -4.650252,15.25489,13.10944
 	rot = 0.1830127,-0.6830127,0.6830127,0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535882
-	sym = W485.SurfaceOmniLight_4294535848
-	sym = W485.SurfaceOmniLight_4294535814
-	sym = W485.SurfaceOmniLight_4294535780
-	sym = W485.SurfaceOmniLight_4294535746
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294283052
+	sym = W485.SurfaceOmniLight_4294283018
+	sym = W485.SurfaceOmniLight_4294282984
+	sym = W485.SurfaceOmniLight_4294282950
+	sym = W485.SurfaceOmniLight_4294282916
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3502,24 +3502,1896 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535678
+	part = W485.SurfaceOmniLight_4294282848
 	partName = Part
-	pos = 0.1945205,10.35861,16.99078
+	pos = -5.321029,19.732,15.59508
+	rot = -0.6123725,0.3535534,-0.3535534,-0.6123725
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282814
+	sym = W485.SurfaceOmniLight_4294282780
+	sym = W485.SurfaceOmniLight_4294282746
+	sym = W485.SurfaceOmniLight_4294282712
+	sym = W485.SurfaceOmniLight_4294282678
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282814
+	partName = Part
+	pos = -3.741636,19.732,16.50694
+	rot = -0.7071068,2.974082E-08,-2.974082E-08,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282848
+	sym = W485.SurfaceOmniLight_4294282780
+	sym = W485.SurfaceOmniLight_4294282746
+	sym = W485.SurfaceOmniLight_4294282712
+	sym = W485.SurfaceOmniLight_4294282678
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282780
+	partName = Part
+	pos = -2.162244,19.732,15.59508
+	rot = -0.6123725,-0.3535534,0.3535534,-0.6123725
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282848
+	sym = W485.SurfaceOmniLight_4294282814
+	sym = W485.SurfaceOmniLight_4294282746
+	sym = W485.SurfaceOmniLight_4294282712
+	sym = W485.SurfaceOmniLight_4294282678
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282746
+	partName = Part
+	pos = -2.162244,19.732,13.77135
+	rot = -0.3535534,-0.6123725,0.6123725,-0.3535534
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282848
+	sym = W485.SurfaceOmniLight_4294282814
+	sym = W485.SurfaceOmniLight_4294282780
+	sym = W485.SurfaceOmniLight_4294282712
+	sym = W485.SurfaceOmniLight_4294282678
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282712
+	partName = Part
+	pos = -3.741636,19.732,12.85949
+	rot = 6.75942E-09,-0.7071068,0.7071068,6.75942E-09
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282848
+	sym = W485.SurfaceOmniLight_4294282814
+	sym = W485.SurfaceOmniLight_4294282780
+	sym = W485.SurfaceOmniLight_4294282746
+	sym = W485.SurfaceOmniLight_4294282678
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282678
+	partName = Part
+	pos = -5.321029,19.732,13.77135
+	rot = 0.3535534,-0.6123725,0.6123725,0.3535534
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282848
+	sym = W485.SurfaceOmniLight_4294282814
+	sym = W485.SurfaceOmniLight_4294282780
+	sym = W485.SurfaceOmniLight_4294282746
+	sym = W485.SurfaceOmniLight_4294282712
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282644
+	partName = Part
+	pos = -5.318789,24.08414,15.59378
+	rot = -0.6123725,0.3535534,-0.3535534,-0.6123725
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282610
+	sym = W485.SurfaceOmniLight_4294282576
+	sym = W485.SurfaceOmniLight_4294282542
+	sym = W485.SurfaceOmniLight_4294282508
+	sym = W485.SurfaceOmniLight_4294282474
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282610
+	partName = Part
+	pos = -3.741636,24.08414,16.50435
+	rot = -0.7071068,2.974082E-08,-2.974082E-08,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282644
+	sym = W485.SurfaceOmniLight_4294282576
+	sym = W485.SurfaceOmniLight_4294282542
+	sym = W485.SurfaceOmniLight_4294282508
+	sym = W485.SurfaceOmniLight_4294282474
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282576
+	partName = Part
+	pos = -2.164484,24.08414,15.59378
+	rot = -0.6123725,-0.3535534,0.3535534,-0.6123725
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282644
+	sym = W485.SurfaceOmniLight_4294282610
+	sym = W485.SurfaceOmniLight_4294282542
+	sym = W485.SurfaceOmniLight_4294282508
+	sym = W485.SurfaceOmniLight_4294282474
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282542
+	partName = Part
+	pos = -2.164484,24.08414,13.77264
+	rot = -0.3535534,-0.6123725,0.6123725,-0.3535534
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282644
+	sym = W485.SurfaceOmniLight_4294282610
+	sym = W485.SurfaceOmniLight_4294282576
+	sym = W485.SurfaceOmniLight_4294282508
+	sym = W485.SurfaceOmniLight_4294282474
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282508
+	partName = Part
+	pos = -3.741636,24.08414,12.86208
+	rot = 6.75942E-09,-0.7071068,0.7071068,6.75942E-09
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282644
+	sym = W485.SurfaceOmniLight_4294282610
+	sym = W485.SurfaceOmniLight_4294282576
+	sym = W485.SurfaceOmniLight_4294282542
+	sym = W485.SurfaceOmniLight_4294282474
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282474
+	partName = Part
+	pos = -5.318789,24.08414,13.77264
+	rot = 0.3535534,-0.6123725,0.6123725,0.3535534
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294282644
+	sym = W485.SurfaceOmniLight_4294282610
+	sym = W485.SurfaceOmniLight_4294282576
+	sym = W485.SurfaceOmniLight_4294282542
+	sym = W485.SurfaceOmniLight_4294282508
+	srfN = srfAttach,KW3mtankL4A_4294283674
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294282440
+	partName = Part
+	pos = -5.557512,29.76478,14.68321
 	rot = -0.5000001,0.4999999,-0.5000001,-0.4999999
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535644
-	sym = W485.SurfaceOmniLight_4294535610
-	sym = W485.SurfaceOmniLight_4294535576
-	sym = W485.SurfaceOmniLight_4294535542
-	sym = W485.SurfaceOmniLight_4294535508
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294282406
+	sym = W485.SurfaceOmniLight_4294282372
+	sym = W485.SurfaceOmniLight_4294282338
+	sym = W485.SurfaceOmniLight_4294282304
+	sym = W485.SurfaceOmniLight_4294282270
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3658,24 +5530,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535644
+	part = W485.SurfaceOmniLight_4294282406
 	partName = Part
-	pos = 0.7983146,10.35861,18.03658
+	pos = -4.649574,29.76478,16.25581
 	rot = -0.6830128,0.1830127,-0.1830127,-0.6830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535678
-	sym = W485.SurfaceOmniLight_4294535610
-	sym = W485.SurfaceOmniLight_4294535576
-	sym = W485.SurfaceOmniLight_4294535542
-	sym = W485.SurfaceOmniLight_4294535508
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294282440
+	sym = W485.SurfaceOmniLight_4294282372
+	sym = W485.SurfaceOmniLight_4294282338
+	sym = W485.SurfaceOmniLight_4294282304
+	sym = W485.SurfaceOmniLight_4294282270
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3814,24 +5686,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535610
+	part = W485.SurfaceOmniLight_4294282372
 	partName = Part
-	pos = 2.005901,10.35861,18.03658
+	pos = -2.833698,29.76478,16.25581
 	rot = -0.6830128,-0.1830127,0.1830128,-0.6830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535678
-	sym = W485.SurfaceOmniLight_4294535644
-	sym = W485.SurfaceOmniLight_4294535576
-	sym = W485.SurfaceOmniLight_4294535542
-	sym = W485.SurfaceOmniLight_4294535508
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294282440
+	sym = W485.SurfaceOmniLight_4294282406
+	sym = W485.SurfaceOmniLight_4294282338
+	sym = W485.SurfaceOmniLight_4294282304
+	sym = W485.SurfaceOmniLight_4294282270
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -3970,24 +5842,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535576
+	part = W485.SurfaceOmniLight_4294282338
 	partName = Part
-	pos = 2.609694,10.35861,16.99078
+	pos = -1.92576,29.76478,14.68321
 	rot = -0.5000001,-0.4999999,0.5000001,-0.4999999
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535678
-	sym = W485.SurfaceOmniLight_4294535644
-	sym = W485.SurfaceOmniLight_4294535610
-	sym = W485.SurfaceOmniLight_4294535542
-	sym = W485.SurfaceOmniLight_4294535508
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294282440
+	sym = W485.SurfaceOmniLight_4294282406
+	sym = W485.SurfaceOmniLight_4294282372
+	sym = W485.SurfaceOmniLight_4294282304
+	sym = W485.SurfaceOmniLight_4294282270
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -4126,24 +5998,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535542
+	part = W485.SurfaceOmniLight_4294282304
 	partName = Part
-	pos = 2.005901,10.35861,15.94498
+	pos = -2.833698,29.76478,13.11062
 	rot = -0.1830127,-0.6830127,0.6830128,-0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535678
-	sym = W485.SurfaceOmniLight_4294535644
-	sym = W485.SurfaceOmniLight_4294535610
-	sym = W485.SurfaceOmniLight_4294535576
-	sym = W485.SurfaceOmniLight_4294535508
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294282440
+	sym = W485.SurfaceOmniLight_4294282406
+	sym = W485.SurfaceOmniLight_4294282372
+	sym = W485.SurfaceOmniLight_4294282338
+	sym = W485.SurfaceOmniLight_4294282270
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
@@ -4282,1896 +6154,24 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294535508
+	part = W485.SurfaceOmniLight_4294282270
 	partName = Part
-	pos = 0.7983146,10.35861,15.94498
-	rot = 0.1830127,-0.6830127,0.6830128,0.1830126
+	pos = -4.649574,29.76478,13.11062
+	rot = 0.1830127,-0.6830127,0.6830128,0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 2
-	dstg = 2
+	istg = 8
+	dstg = 8
 	sidx = -1
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535678
-	sym = W485.SurfaceOmniLight_4294535644
-	sym = W485.SurfaceOmniLight_4294535610
-	sym = W485.SurfaceOmniLight_4294535576
-	sym = W485.SurfaceOmniLight_4294535542
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535474
-	partName = Part
-	pos = 0.3541555,7.031975,17.59582
-	rot = -0.6123725,0.3535534,-0.3535534,-0.6123725
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535440
-	sym = W485.SurfaceOmniLight_4294535406
-	sym = W485.SurfaceOmniLight_4294535372
-	sym = W485.SurfaceOmniLight_4294535338
-	sym = W485.SurfaceOmniLight_4294535304
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535440
-	partName = Part
-	pos = 1.402107,7.031975,18.20085
-	rot = -0.7071068,2.974082E-08,-2.974082E-08,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535474
-	sym = W485.SurfaceOmniLight_4294535406
-	sym = W485.SurfaceOmniLight_4294535372
-	sym = W485.SurfaceOmniLight_4294535338
-	sym = W485.SurfaceOmniLight_4294535304
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535406
-	partName = Part
-	pos = 2.450059,7.031975,17.59582
-	rot = -0.6123725,-0.3535534,0.3535534,-0.6123725
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535474
-	sym = W485.SurfaceOmniLight_4294535440
-	sym = W485.SurfaceOmniLight_4294535372
-	sym = W485.SurfaceOmniLight_4294535338
-	sym = W485.SurfaceOmniLight_4294535304
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535372
-	partName = Part
-	pos = 2.450059,7.031975,16.38575
-	rot = -0.3535534,-0.6123725,0.6123725,-0.3535534
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535474
-	sym = W485.SurfaceOmniLight_4294535440
-	sym = W485.SurfaceOmniLight_4294535406
-	sym = W485.SurfaceOmniLight_4294535338
-	sym = W485.SurfaceOmniLight_4294535304
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535338
-	partName = Part
-	pos = 1.402107,7.031975,15.78071
-	rot = 6.75942E-09,-0.7071068,0.7071068,6.75942E-09
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535474
-	sym = W485.SurfaceOmniLight_4294535440
-	sym = W485.SurfaceOmniLight_4294535406
-	sym = W485.SurfaceOmniLight_4294535372
-	sym = W485.SurfaceOmniLight_4294535304
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535304
-	partName = Part
-	pos = 0.3541555,7.031975,16.38575
-	rot = 0.3535534,-0.6123725,0.6123725,0.3535534
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535474
-	sym = W485.SurfaceOmniLight_4294535440
-	sym = W485.SurfaceOmniLight_4294535406
-	sym = W485.SurfaceOmniLight_4294535372
-	sym = W485.SurfaceOmniLight_4294535338
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535270
-	partName = Part
-	pos = 0.3536036,3.97492,17.59614
-	rot = -0.6123725,0.3535534,-0.3535534,-0.6123725
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535236
-	sym = W485.SurfaceOmniLight_4294535202
-	sym = W485.SurfaceOmniLight_4294535168
-	sym = W485.SurfaceOmniLight_4294535134
-	sym = W485.SurfaceOmniLight_4294535100
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535236
-	partName = Part
-	pos = 1.402107,3.97492,18.20149
-	rot = -0.7071068,2.974082E-08,-2.974082E-08,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535270
-	sym = W485.SurfaceOmniLight_4294535202
-	sym = W485.SurfaceOmniLight_4294535168
-	sym = W485.SurfaceOmniLight_4294535134
-	sym = W485.SurfaceOmniLight_4294535100
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535202
-	partName = Part
-	pos = 2.45061,3.97492,17.59614
-	rot = -0.6123725,-0.3535534,0.3535534,-0.6123725
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535270
-	sym = W485.SurfaceOmniLight_4294535236
-	sym = W485.SurfaceOmniLight_4294535168
-	sym = W485.SurfaceOmniLight_4294535134
-	sym = W485.SurfaceOmniLight_4294535100
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535168
-	partName = Part
-	pos = 2.45061,3.97492,16.38543
-	rot = -0.3535534,-0.6123725,0.6123725,-0.3535534
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535270
-	sym = W485.SurfaceOmniLight_4294535236
-	sym = W485.SurfaceOmniLight_4294535202
-	sym = W485.SurfaceOmniLight_4294535134
-	sym = W485.SurfaceOmniLight_4294535100
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535134
-	partName = Part
-	pos = 1.402107,3.97492,15.78008
-	rot = 6.75942E-09,-0.7071068,0.7071068,6.75942E-09
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535270
-	sym = W485.SurfaceOmniLight_4294535236
-	sym = W485.SurfaceOmniLight_4294535202
-	sym = W485.SurfaceOmniLight_4294535168
-	sym = W485.SurfaceOmniLight_4294535100
-	srfN = srfAttach,KW3mtankL4A_4294536504
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleLight
-		isEnabled = True
-		isOn = True
-		lightR = 1
-		lightG = 1
-		lightB = 1
-		lightR_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightG_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		lightB_UIFlight
-		{
-			controlEnabled = True
-			minValue = 0
-			maxValue = 1
-			stepIncrement = 0.05
-		}
-		EVENTS
-		{
-			LightsOff
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights Off
-				guiName = Lights Off
-				category = Lights Off
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			LightsOn
-			{
-				active = False
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Lights On
-				guiName = Lights On
-				category = Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleLightAction
-			{
-				actionGroup = Light
-			}
-			LightOnAction
-			{
-				actionGroup = None
-			}
-			LightOffAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1400
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.001
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1
-		currentScale = 1
-		defaultScale = 1
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 100
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = W485.SurfaceOmniLight_4294535100
-	partName = Part
-	pos = 0.3536046,3.97492,16.38543
-	rot = 0.3535534,-0.6123725,0.6123725,0.3535534
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	attm = 1
-	modCost = 0
-	sym = W485.SurfaceOmniLight_4294535270
-	sym = W485.SurfaceOmniLight_4294535236
-	sym = W485.SurfaceOmniLight_4294535202
-	sym = W485.SurfaceOmniLight_4294535168
-	sym = W485.SurfaceOmniLight_4294535134
-	srfN = srfAttach,KW3mtankL4A_4294536504
+	sym = W485.SurfaceOmniLight_4294282440
+	sym = W485.SurfaceOmniLight_4294282406
+	sym = W485.SurfaceOmniLight_4294282372
+	sym = W485.SurfaceOmniLight_4294282338
+	sym = W485.SurfaceOmniLight_4294282304
+	srfN = srfAttach,KW3mtankL4A_4294283674
 	EVENTS
 	{
 	}
