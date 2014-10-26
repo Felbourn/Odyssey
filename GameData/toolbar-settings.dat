@@ -298,7 +298,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
-			visibleButtons = KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
+			visibleButtons = KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton,AGM.AGMMainSwitch
 		}
 	}
 	TRACKSTATION
@@ -308,7 +308,7 @@ toolbars
 			x = 207
 			y = 34
 			width = 250
-			height = 38
+			height = 81
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False

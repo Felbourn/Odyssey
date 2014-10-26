@@ -9,7 +9,7 @@ GAME
 	Status = 1
 	scene = 7
 	flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-	launchID = 31
+	launchID = 35
 	PARAMETERS
 	{
 		preset = Moderate
@@ -421,50 +421,6 @@ GAME
 					Actioned = False
 					AlarmWindowClosed = False
 				}
-				Item
-				{
-					VesselID = 518631d2-da7f-4bf0-add7-dea8e2ab6354
-					ID = bd51824345f34494aa18518d6b101231
-					Name = Odyssey Core
-					NotesStorage = Time to pay attention to\r\n    Odyssey Core\r\nNearing Maneuver Node
-					TypeOfAlarm = ManeuverAuto
-					AlarmTimeStorage = 95354.3867267375
-					AlarmMarginSecs = 180
-					Enabled = True
-					AlarmAction = KillWarp
-					ManNodesStorage = 95534.3867267375,0.0782008493319619,-4.44089209850063E-15,135.763510163156,-0.0200922,0.05799724,0.01495287,0.9980025
-					XferOriginBodyName = 
-					XferTargetBodyName = 
-					TargetObjectStorage = 
-					ContractGUIDStorage = 00000000-0000-0000-0000-000000000000
-					ContractAlarmType = Expire
-					DeleteOnClose = False
-					Triggered = False
-					Actioned = False
-					AlarmWindowClosed = False
-				}
-				Item
-				{
-					VesselID = 86b10036-183b-45ea-8bc6-2d29989216ba
-					ID = a9f88f46e0344e44a44407572cc5c10f
-					Name = Odyssey Core
-					NotesStorage = Time to pay attention to\r\n    Odyssey Core\r\nNearing Maneuver Node
-					TypeOfAlarm = ManeuverAuto
-					AlarmTimeStorage = 95832.6451918609
-					AlarmMarginSecs = 180
-					Enabled = True
-					AlarmAction = KillWarp
-					ManNodesStorage = 96012.6451918609,0.0957949914434408,8.88178419700125E-15,179.988028692359,-0.02057629,0.4311833,-0.002359566,0.9020266
-					XferOriginBodyName = 
-					XferTargetBodyName = 
-					TargetObjectStorage = 
-					ContractGUIDStorage = 00000000-0000-0000-0000-000000000000
-					ContractAlarmType = Expire
-					DeleteOnClose = False
-					Triggered = False
-					Actioned = False
-					AlarmWindowClosed = False
-				}
 			}
 		}
 	}
@@ -484,31 +440,21 @@ GAME
 			Enabled = True
 			HibernateInsteadOfKill = False
 			RespawnDelay = 9203545
-			CrewMemberInfo
-			{
-				name = Bill Kerman
-				lastUpdate = 94768.007884929
-				lastFood = 94767.827884929
-				lastWater = 94767.827884929
-				vesselName = Odyssey Core
-				vesselId = 86b10036-183b-45ea-8bc6-2d29989216ba
-				hibernating = False
-			}
 			VesselInfo
 			{
 				vesselName = Odyssey Core
 				vesselType = Station
 				numCrew = 0
 				numOccupiedParts = 0
-				lastUpdate = 95306.9657951744
-				lastFood = 95306.9657951744
-				lastWater = 95306.9657951744
-				lastOxygen = 95306.9657951744
-				lastElectricity = 95306.9657951744
+				lastUpdate = 99914.5002760985
+				lastFood = 99914.5002760985
+				lastWater = 99914.5002760985
+				lastOxygen = 99914.5002760985
+				lastElectricity = 99914.5002760985
 				remainingFood = 0
 				remainingWater = 0
 				remainingOxygen = 0
-				remainingElectricity = 65123.3530382295
+				remainingElectricity = 74761.1903612214
 				remainingCO2 = 0
 				remainingWaste = 0
 				remainingWasteWater = 0
@@ -518,7 +464,7 @@ GAME
 				maxElectricity = 100080
 				estimatedElectricityConsumptionRate = 0
 				hibernating = False
-				Guid = 86b10036-183b-45ea-8bc6-2d29989216ba
+				Guid = 35b621c5-a23c-483b-91ca-4ee627b5c47a
 			}
 		}
 	}
@@ -552,7 +498,7 @@ GAME
 		{
 			Vessel
 			{
-				guid = 86b10036-183b-45ea-8bc6-2d29989216ba
+				guid = 35b621c5-a23c-483b-91ca-4ee627b5c47a
 				name = Odyssey Core
 				Sensor
 				{
@@ -570,7 +516,7 @@ GAME
 			{
 				Name = Kerbin
 				Disabled = False
-				Map = CAABAAAA-----0AHQAAAD0AIBYD0AwACAOD-AOBGAAAIIE-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4P8A4JMAQq-gFwPg-wDg-wDgkwDiF8tAH+D-AOD-AOCTAEKv4BcD4P8A4P8A4JMA4hfLQB-g-wDg-wDgkwBCr+AXA+D-AOD-AOCTAOIXy0Af4P8A4EIAAQAL
+				Map = CAABAAAA-----0AHQAAAD0AIBYD0AwACAOD-AOBGAAAIIE-gHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDi-8vg-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDiG8-g-wDg-wDgkwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgtwDi-8-g-wDgswDiG8tAI+D-AOD-AOCPAEKr4BsD4P8A4P8A4I8A4hvLQCPg-wDg-wDgjwBCq+AbA+D-AOD-AOCPAOIby0Aj4P8A4P8A4I8AQqvgGwPg-wDg-wDgjwDiG8tAI+D-AOD-AOCPAEKr4BsD4P8A4P8A4I8A4hvLQCPg-wDg-wDgjwBCq+AbA+D-AOD-AOCPAOIby0Aj4P8A4P8A4I8AQqvgGwPg-wDg-wDgjwDiG8tAI+D-AOD-AOCPAEKr4BsD4P8A4P8A4I8A4hvLQCPg-wDg-wDgjwBCq+AbA+D-AOD-AOCPAOIby0Aj4P8A4P8A4I8AQqvgGwPg-wDg-wDgjwDiG8tAI+D-AOD-AOCPAEKr4BsD4P8A4P8A4I8A4hvLQCPg-wDg-wDgjwBCq+AbA+D-AOD-AOCPAOIby0Aj4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCLAOIfy0An4P8A4P8A4IsAQqfgHwPg-wDg-wDgiwDiH8tAJ+D-AOD-AOCLAEKn4B8D4P8A4P8A4IsA4h-LQCfg-wDg-wDgiwBCp+AfA+D-AOD-AOCHAOIfx8An4P8A4P8A4IcAwqfgHwfg-wDg-wDghwDiH8fAJ+D-AOD-AOCHAMKn4B8H4P8A4P8A4IcA4h-HwCfg-wDg-wDghwDCp+AfB+D-AOD-AOBPAOIHj+AfAOAHN+AXD+D-AOD-AOBLAOILg+AfAOALO+ATE+D-AOD-AOBHAOIPe+AfAOAPP+APF+D-AOD-AOBHAOI3d+APP+APF+D-AOD-AOBDAOIPc0AX4B8AQCvgIwPg-wDg-wDgNwDiG3vgIwDgG0-gAyPg-wDg-wDgNwDiA1vgCwvgJwDgC0PgExPg-wDg-wDgMwDiE2dAG+ArAEA34CMD4P8A4P8A4DMA4hd34CsA4BdT4Acf4P8A4P8A4C8A4gdX4AcP4C8A4AdH4BcP4P8A4P8A4CsA4lNj4Bdb4Acf4P8A4P8A4CsA4gdT4AcP4DMA4AdL4BcP4P8A4P8A4CcA4ldf4Bdf4Acf4P8A4P8A4CcA4gdP4AcP4DcA4AdP4BcP4P8A4P8A4CMA4ltb4Bdj4Acf4P8A4P8A4CMA4gdL4AMP4D8A4ANT4BsL4P8A4P8A4B8A4hdb4D8A4Bdn4Acf4P8A4P8A4B8A4gdH4AMP4EMA4ANX4BsL4P8A4P8A4BsA4hdX4EMA4Bdr4Acf4P8A4P8A4BsA4gdD4AcP4EMA4Adb4BcP4P8A4P8A4BcA4hdPQB-gQwBAT+AjA+D-AOD-AOAXAOIbW+BDAOAbb+ADI+D-AOD-AOATAOIDN+APC+BHAOAPZ+APF+D-AOD-AOATAOIPQ+ADF+BHAOADW+AbC+D-AOD-AOALAOIbR0Aj4EsAQFfgIwPg-wDg-wDgCwDiH0-gSwDgH3vAJ+D-AOD-AOALAMIr4BMH4E8A4BNz4Asb4P8A4P8A4AcA4gsz4AsT4E8A4Atr4BMT4P8A4P8A4AcA4hM7wBvgUwDAY+AfB+D-AOD-AOAHAOIbR+BTAOAbf+ADI+D-AOD-AOADAOIDJ+ATC+BTAOATd+ALG+D-AOD-AOADAOILL+AHE+BXAOAHb+AXD+D-AOD-AOADAOIXO0Af4FcAQGPgIwPg-wDg-wDgAwDiG0fgVwDgG4PgAyPg-wDg-wDAAOIDI+APC+BbAOAPe+APF+D-AOD-AMAA4g8v4AMX4FsA4ANv4BsL4P8A4P8AwADifzvgG4fgAyPg-wDg-wDAAOIDI+ALC+BfAOALe+ATE+D-AOD-AEAA4hMvwBvgXwDAb+AfB+D-AOD-AEAA4hs74F8A4BuL4AMj4P8A4P8AQADiAx-gDwvgXwDgD3-gDxfg-wDg-wBAAOIPK+ADF+BfAOADc+AbC+D-AOD-AEAA4oM34BuL4AMj4P8A4P8AQADiAx-gDwvgXwDgD3-gDxfg-wDg-wDiDyfgBxfgXwDgB3fgFw-g-wDg-wDiFy-AH+BfAMBv4B8H4P8A4P8A4hs34GMA4BuP4AMj4P8A4P8A4gMb4A8L4GMA4A+D4A8X4P8A4PsA4g8j4AcX4GMA4Ad74BcP4P8A4PsA4hcrwB-gYwDAc+AfB+D-AOD7AOKLM+Afk8An4P8A4PsAwhPgFwfgYwDgF4vgBx-g-wDg+wDiBxvgCw-gZwDgC4PgExPg-wDg+wDiEyfAG+BnAMB34B8H4P8A4PsA4hsz4GsA4BuXwCPg-wDg+wDCE+ATB+BrAOATj+AHG+D-AOD7AOIHG+ALD+BrAOALh+APE+D-AOD7AOIPI+ADF+BrAOADf+AXC+D-AOD7AOIXK0Af4GsAQHfgHwPg-wDg+wDiGzPgawDgG5fAI+D-AOD7AMIT4BMH4GsA4BOP4Acb4P8A4PsA4gcb4AsP4GsA4AuH4A8T4P8A4PsA4g8j4AMX4GsA4AN-4BcL4P8A4PsA4hcrQB-gawBAd+AfA+D-AOD7AOIbM+BrAOAbl8Aj4P8A4PsAwhPgEwfgawDgE4-gBxvg-wDg+wDiBxvgCw-gawDgC4fgDxPg-wDg+wDiDyPgAxfgawDgA3-gFwvg-wDg+wDiFyvAH+BnAMB34BsH4P8A4PsA4hsvQCPgZwBAc+AfA+D-AOD7AOKPM+Afl0An4P8A4PsAQg-gGwPgZwDgG5PAI+D-AOD7AMIT4BcH4GcA4BeP4AMf4P8A4PsA4gMX4BcL4GMA4BeL4AMf4P8A4PsA4gMX4BcL4GMA4BeL4AMf4P8A4PsA4gMX4BcL4GMA4BeL4AMf4P8A4P8A4gMb4BML4GMA4BOH4Acb4P8A4P8A4gcf4A8P4GMA4A+D4AsX4P8A4P8A4gsj4AsT4GMA4At-4A8T4P8A4P8A4g8n4AcX4F8A4Ad34BcP4P8A4P8A4hcvwB-gXwDAb+AfB+D-AOD-AOKHN+Afj8An4P8A4P8AQADCG+ATB+BfAOATg+ALG+D-AOD-AEAA4gsn4AcT4F8A4Ad34BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4AMf4P8A4P8A4IsA4gOv4BcL4P8A4P8A4IsA4hfD4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IcA4gev4BcP4P8A4P8A4IcA4he-4Acf4P8A4P8A4IsA4gez4A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4I8A4ge34A8P4P8A4P8A4I8A4g+-4AcX4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AcT4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AcT4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AcT4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AcT4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AcT4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AcT4P8A4P8A4JMA4ge74AsP4P8A4P8A4JMA4gu-4AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74AsT4P8A4P8A4I8A4gu74A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4P8A4IsA4g+74AsX4P8A4P8A4IsA4gu34A8T4P8A4DoAAQAL
 			}
 			Body
 			{
@@ -1132,10 +1078,21 @@ GAME
 			}
 		}
 	}
+	SCENARIO
+	{
+		name = AGextScenario
+		scene = 7
+		LastSave = 9
+	}
+	SCENARIO
+	{
+		name = AGextScenarioEditor
+		scene = 6, 9
+	}
 	FLIGHTSTATE
 	{
 		version = 0.25.0
-		UT = 95306.9657951744
+		UT = 99914.5002760985
 		activeVessel = 24
 		mapViewFiltering = 990
 		VESSEL
@@ -2869,7 +2826,7 @@ GAME
 					RTDishRadians = 0.90630778703665
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
-					RTAntennaTarget = 340f83e6-1793-4228-ad9d-84e97f4b4e6b
+					RTAntennaTarget = 4b657262-696e-4b65-7262-696e4b657262
 					EVENTS
 					{
 						EventToggle
@@ -3151,7 +3108,7 @@ GAME
 					RTDishRadians = 0.90630778703665
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
-					RTAntennaTarget = a04a1689-78e9-4e42-8900-1b920d8d7e44
+					RTAntennaTarget = 00000000-0000-0000-0000-000000000000
 					EVENTS
 					{
 						EventToggle
@@ -56311,7 +56268,7 @@ GAME
 					RTDishRadians = 0.90630778703665
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
-					RTAntennaTarget = 677b1435-cd44-49d2-a936-538a3e9d626e
+					RTAntennaTarget = 4d756e4d-756e-4d75-6e4d-756e4d756e4d
 					EVENTS
 					{
 						EventToggle
@@ -56886,7 +56843,7 @@ GAME
 					RTDishRadians = 0.90630778703665
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
-					RTAntennaTarget = d3c12fe2-563e-462d-846c-6cce3bf6053d
+					RTAntennaTarget = 00000000-0000-0000-0000-000000000000
 					EVENTS
 					{
 						EventToggle
@@ -57377,32 +57334,32 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 45899.0344420349
+			met = 64897.7721342999
 			lct = 33964.8681415842
 			root = 0
-			lat = -0.0228100260543176
-			lon = -366.084330739485
-			alt = 11392294.9882855
+			lat = -0.122649973874108
+			lon = -273.358797368472
+			alt = 11371182.9280328
 			hgt = -1
-			nrm = 0.1997604,0.9511025,-0.2355842
-			rot = 0.6761042,0.5843704,0.1450079,-0.4246967
-			CoM = 0.0001217177,1.239758,-0.0006283752
+			nrm = 0.7045375,-0.3603714,-0.6113587
+			rot = 0.6769677,0.5815163,0.1422492,-0.4281576
+			CoM = 1.683048E-05,1.337849,-0.0004336683
 			stg = 3
 			prst = False
 			ref = 2258754979
 			ctrl = True
-			cPch = 0
-			cHdg = 0
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 12000625.8389971
-				ECC = 0.00272924453506297
-				INC = 0.143853206748353
-				LPE = 264.541449938485
-				LAN = 145.863333925372
-				MNA = 4.97217451510078
-				EPH = 79863.9425836191
+				SMA = 12003488.8875449
+				ECC = 0.00293739191744794
+				INC = 0.143845916570251
+				LPE = 262.182614738581
+				LAN = 145.858615704903
+				MNA = 5.8722139268446
+				EPH = 98862.6802758842
 				REF = 1
 			}
 			PART
@@ -57426,7 +57383,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.01875
-				temp = -170.6671
+				temp = -40.38789
 				expt = 0.0625
 				state = 1
 				connected = False
@@ -57641,7 +57598,7 @@ GAME
 				attN = top, 0
 				attN = bottom, 2
 				mass = 0.02875
-				temp = -170.8546
+				temp = -40.42764
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -57681,7 +57638,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.029193
-					timestamp = 79861.7425836187
+					timestamp = 98821.1402758757
 					volume = 263
 					type_UIEditor
 					{
@@ -57827,7 +57784,7 @@ GAME
 				attN = top, 5
 				attN = bottom, 1
 				mass = 0.25
-				temp = -171.87
+				temp = -40.64627
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -58181,7 +58138,7 @@ GAME
 							markUT = 33964.8881415842
 							deltaVExpended = 548.605501526977
 							dragLosses = 0
-							gravityLosses = 396.618924516139
+							gravityLosses = 396.628035224584
 							steeringLosses = 821.037597477566
 							markLatitude = 0.124004373783306
 							markLongitude = -13.3254239113708
@@ -58311,7 +58268,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 729.425280944808
+					amount = 736.1648321031
 					maxAmount = 937.5
 					flowState = True
 					isTweakable = True
@@ -58337,7 +58294,7 @@ GAME
 				sym = 4
 				srfN = srfAttach, 2
 				mass = 0.000375
-				temp = -170.5835
+				temp = -40.35092
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -58534,7 +58491,7 @@ GAME
 				sym = 3
 				srfN = srfAttach, 2
 				mass = 0.000375
-				temp = -170.4138
+				temp = -40.30363
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -58731,8 +58688,8 @@ GAME
 				srfN = None, -1
 				attN = bottom, 2
 				attN = top, 13
-				mass = 0.03125
-				temp = -172.424
+				mass = 0.3125
+				temp = -40.77327
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -58782,9 +58739,9 @@ GAME
 					CrashTol = 10
 					BreakForce = 93.75
 					BreakTorque = 93.75
-					Torque = 0.15625
+					Torque = 1.5625
 					Decouple = 0
-					Mass = 0.03125
+					Mass = 0.3125
 					EVENTS
 					{
 					}
@@ -58883,7 +58840,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 5
 				mass = 0.001
-				temp = -170.8185
+				temp = -40.41438
 				expt = 0.5
 				state = 1
 				connected = True
@@ -59144,7 +59101,7 @@ GAME
 				sym = 8
 				srfN = srfAttach, 5
 				mass = 0.021875
-				temp = -170.6463
+				temp = -40.36643
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -59244,7 +59201,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 7700.5596552413
+					amount = 7707.29920640033
 					maxAmount = 8750
 					flowState = True
 					isTweakable = True
@@ -59270,7 +59227,7 @@ GAME
 				sym = 7
 				srfN = srfAttach, 5
 				mass = 0.021875
-				temp = -170.4728
+				temp = -40.31813
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -59370,7 +59327,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 7700.5596552413
+					amount = 7707.29920640033
 					maxAmount = 8750
 					flowState = True
 					isTweakable = True
@@ -59397,7 +59354,7 @@ GAME
 				srfN = srfAttach, 5
 				attN = None, -1
 				mass = 0.01
-				temp = -170.2996
+				temp = -40.26999
 				expt = 0.5
 				state = 1
 				connected = True
@@ -59499,7 +59456,7 @@ GAME
 					IsRTActive = True
 					IsRTPowered = True
 					IsRTBroken = False
-					RTDishRadians = 0.90630778703665
+					RTDishRadians = 0.707106781186548
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
 					RTAntennaTarget = 340f83e6-1793-4228-ad9d-84e97f4b4e6b
@@ -59650,17 +59607,6 @@ GAME
 				}
 				MODULE
 				{
-					name = ModuleRTDataTransmitter
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
 					name = FARBasicDragModel
 					isEnabled = True
 					EVENTS
@@ -59690,7 +59636,7 @@ GAME
 				srfN = srfAttach, 5
 				attN = None, -1
 				mass = 0.01
-				temp = -170.1265
+				temp = -40.22184
 				expt = 0.5
 				state = 1
 				connected = True
@@ -59792,7 +59738,7 @@ GAME
 					IsRTActive = True
 					IsRTPowered = True
 					IsRTBroken = False
-					RTDishRadians = 0.90630778703665
+					RTDishRadians = 0.707106781186548
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
 					RTAntennaTarget = a04a1689-78e9-4e42-8900-1b920d8d7e44
@@ -59971,7 +59917,7 @@ GAME
 				sym = 12
 				srfN = srfAttach, 5
 				mass = 0.002734375
-				temp = -169.9549
+				temp = -40.174
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -60097,7 +60043,7 @@ GAME
 				sym = 11
 				srfN = srfAttach, 5
 				mass = 0.002734375
-				temp = -169.7838
+				temp = -40.12641
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -60223,7 +60169,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 5
 				mass = 0.01
-				temp = -169.615
+				temp = -40.07932
 				expt = 0.5
 				state = 1
 				connected = True
@@ -60677,7 +60623,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.00234375
-				temp = -170.3996
+				temp = -40.26681
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -60795,7 +60741,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.009375
-				temp = -170.2177
+				temp = -40.22012
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -60911,7 +60857,7 @@ GAME
 				sym = 21
 				srfN = srfAttach, 15
 				mass = 0.000375
-				temp = -169.9191
+				temp = -40.1412
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -61108,7 +61054,7 @@ GAME
 				sym = 22
 				srfN = srfAttach, 14
 				mass = 0.12
-				temp = -169.8184
+				temp = -40.11606
 				expt = 4
 				state = 1
 				connected = True
@@ -61126,7 +61072,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.3180313, 0.3180432, 0.6315733, -0.631522)
+					currentRotation = (-0.00481145, -0.004768067, 0.7071096, -0.7070715)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -61294,7 +61240,7 @@ GAME
 				sym = 23
 				srfN = srfAttach, 14
 				mass = 0.001
-				temp = -169.6458
+				temp = -40.06807
 				expt = 0.5
 				state = 1
 				connected = True
@@ -61484,7 +61430,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.00234375
-				temp = -170.3056
+				temp = -40.24079
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -61602,7 +61548,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.009375
-				temp = -170.1883
+				temp = -40.20984
 				expt = 0.0078125
 				state = 1
 				connected = True
@@ -61718,7 +61664,7 @@ GAME
 				sym = 16
 				srfN = srfAttach, 20
 				mass = 0.000375
-				temp = -169.9088
+				temp = -40.13614
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -61915,7 +61861,7 @@ GAME
 				sym = 17
 				srfN = srfAttach, 19
 				mass = 0.12
-				temp = -169.7814
+				temp = -40.10308
 				expt = 4
 				state = 1
 				connected = True
@@ -61933,7 +61879,7 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.6315238, -0.6315721, -0.318042, 0.318031)
+					currentRotation = (-0.7070711, -0.7071101, 0.004768984, -0.004809842)
 					stateString = EXTENDED
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
@@ -62101,7 +62047,7 @@ GAME
 				sym = 18
 				srfN = srfAttach, 19
 				mass = 0.001
-				temp = -169.6088
+				temp = -40.05514
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62289,7 +62235,7 @@ GAME
 				sym = 25
 				srfN = srfAttach, 2
 				mass = 0.002109375
-				temp = -170.0759
+				temp = -40.2095
 				expt = 0.2109375
 				state = 1
 				connected = True
@@ -62486,7 +62432,7 @@ GAME
 				sym = 24
 				srfN = srfAttach, 2
 				mass = 0.002109375
-				temp = -169.9061
+				temp = -40.16218
 				expt = 0.2109375
 				state = 1
 				connected = True
@@ -62683,7 +62629,7 @@ GAME
 				sym = 27
 				srfN = srfAttach, 2
 				mass = 0.001
-				temp = -169.7366
+				temp = -40.11501
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62871,7 +62817,7 @@ GAME
 				sym = 26
 				srfN = srfAttach, 2
 				mass = 0.001
-				temp = -169.5675
+				temp = -40.06792
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63079,9 +63025,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0.006257428
-				yaw = 0.01121175
-				roll = -0.00824994
+				pitch = 0
+				yaw = 0
+				roll = 0
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -89130,7 +89076,7 @@ GAME
 					RTDishRadians = 0.90630778703665
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
-					RTAntennaTarget = 677b1435-cd44-49d2-a936-538a3e9d626e
+					RTAntennaTarget = 4d756e4d-756e-4d75-6e4d-756e4d756e4d
 					EVENTS
 					{
 						EventToggle
@@ -89412,7 +89358,7 @@ GAME
 					RTDishRadians = 0.90630778703665
 					RTOmniRange = 0
 					RTDishRange = 2.5E+07
-					RTAntennaTarget = d3c12fe2-563e-462d-846c-6cce3bf6053d
+					RTAntennaTarget = 00000000-0000-0000-0000-000000000000
 					EVENTS
 					{
 						EventToggle
@@ -92712,47 +92658,47 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 86b10036183b45ea8bc62d29989216ba
+			pid = 35b621c5a23c483b91ca4ee627b5c47a
 			name = Odyssey Core
 			type = Station
 			sit = SUB_ORBITAL
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 525.546035243751
-			lct = 94775.9478849306
+			met = 854.060000174024
+			lct = 99060.3202759244
 			root = 0
-			lat = -1.93165501449121
-			lon = -373.857497870348
-			alt = 136677.454453273
+			lat = -37.5342547896419
+			lon = -333.991393207668
+			alt = 296341.001002995
 			hgt = -1
-			nrm = 0.01199169,-0.929867,0.3677005
-			rot = -0.6913992,0.7163523,0.07945043,-0.04994169
-			CoM = 0.1415006,4.413369,-3.278914E-05
+			nrm = 0.4117502,-0.4008716,-0.818391
+			rot = -0.4964559,0.7666012,0.2650937,-0.3091592
+			CoM = 0.1384486,4.330545,-0.0004350491
 			stg = 0
 			prst = False
-			ref = 2584701749
+			ref = 1430619360
 			ctrl = True
-			cPch = 0.1423287
-			cHdg = 2.438065
-			cMod = 2
+			cPch = 0.7179999
+			cHdg = 0.456
+			cMod = 0
 			ORBIT
 			{
-				SMA = 767432.394931248
-				ECC = 0.173567013943213
-				INC = 2.37364363801175
-				LPE = 147.90204521906
-				LAN = 350.145193535152
-				MNA = 0.885356303154044
-				EPH = 95205.5317912681
+				SMA = 748773.155672841
+				ECC = 0.211241715743975
+				INC = 39.8141732504348
+				LPE = 125.015573477223
+				LAN = 48.4259128710278
+				MNA = 2.69731717629
+				EPH = 99914.5002760985
 				REF = 1
 			}
 			PART
 			{
 				name = AntimatterReactor
-				uid = 2584701749
-				mid = 3266616047
-				launchID = 30
+				uid = 1430619360
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -92766,13 +92712,13 @@ GAME
 				attN = top, 1
 				attN = bottom, 30
 				mass = 5.6049
-				temp = -184.036
+				temp = -38.20267
 				expt = 0.5
 				state = 1
 				connected = True
 				attached = True
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = AntimatterReactor
+				rTrf = AntimatterReactor (Odyssey Core)
 				modCost = 5048.781
 				EVENTS
 				{
@@ -92818,7 +92764,7 @@ GAME
 					BreakTorque = 1500
 					Torque = 0
 					Decouple = 0
-					Mass = 9.385664
+					Mass = 10.06205
 					EVENTS
 					{
 					}
@@ -93117,14 +93063,14 @@ GAME
 						}
 						MechJebModuleFlightRecorder
 						{
-							markUT = 94775.9478849306
-							deltaVExpended = 4791.70714883899
+							markUT = 99060.3202759244
+							deltaVExpended = 4192.84152926193
 							dragLosses = 0
-							gravityLosses = 1556.71883422712
-							steeringLosses = 132.982829962402
-							markLatitude = -0.0971648808114144
-							markLongitude = -74.5577832655754
-							markAltitude = 89.8347312585567
+							gravityLosses = 1438.44321072052
+							steeringLosses = 28.9898937820901
+							markLatitude = -0.0971646217954288
+							markLongitude = -74.5577850952373
+							markAltitude = 89.8757055868511
 							markBodyIndex = 1
 							maxDragGees = 0
 							unlockParts = 
@@ -93165,7 +93111,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 5.6049
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 4000
 					type_UIEditor
 					{
@@ -93224,6 +93170,28 @@ GAME
 					SubOrbited
 					{
 						at = Kerbin
+					}
+				}
+				MODULE
+				{
+					name = UIRootManager
+					isEnabled = True
+					EVENTS
+					{
+						RootButtonClicked
+						{
+							active = True
+							guiActive = True
+							guiIcon = 
+							guiName = AGM : Enable
+							category = 
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
 					}
 				}
 				MODULE
@@ -93288,7 +93256,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 65123.3530382295
+					amount = 74705.7311609811
 					maxAmount = 100000
 					flowState = True
 					isTweakable = True
@@ -93298,7 +93266,7 @@ GAME
 				RESOURCE
 				{
 					name = UDMH
-					amount = 1541.84746072288
+					amount = 1817.68507361412
 					maxAmount = 1817.68507361412
 					flowState = True
 					isTweakable = True
@@ -93308,7 +93276,7 @@ GAME
 				RESOURCE
 				{
 					name = NTO
-					amount = 1766.31916511783
+					amount = 2082.31492638588
 					maxAmount = 2082.31492638588
 					flowState = True
 					isTweakable = True
@@ -93319,9 +93287,9 @@ GAME
 			PART
 			{
 				name = Dual2x1fuel
-				uid = 16866702
-				mid = 3266616047
-				launchID = 30
+				uid = 124198055
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,2.53775024414063,0
 				rotation = 0,-0.7071068,0,0.7071068
@@ -93339,7 +93307,7 @@ GAME
 				attN = bottom1, 23
 				attN = bottom2, 22
 				mass = 4.25
-				temp = -186.5719
+				temp = -38.1124
 				expt = 0.5
 				state = 1
 				connected = True
@@ -93512,11 +93480,11 @@ GAME
 			PART
 			{
 				name = LLLRotDish
-				uid = 2247834618
-				mid = 3266616047
-				launchID = 30
+				uid = 4014440099
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = 1.29794597625732,2.48147201538086,8.94069671630859E-08
+				position = 1.29794669151306,2.48147201538086,8.94069671630859E-08
 				rotation = 0.5000001,0.5000001,-0.5000001,0.5000001
 				mirror = 1,1,1
 				istg = 0
@@ -93527,7 +93495,7 @@ GAME
 				srfN = srfAttach, 1
 				attN = None, -1
 				mass = 0.05
-				temp = -185.1162
+				temp = -37.77006
 				expt = 0.5
 				state = 1
 				connected = True
@@ -93546,7 +93514,7 @@ GAME
 					name = ExtendedPartInfo
 					isEnabled = True
 					Thrust = 0
-					MaxTemp = 1300
+					MaxTemp = 1050
 					CrashTol = 10
 					BreakForce = 1500
 					BreakTorque = 1500
@@ -93572,7 +93540,7 @@ GAME
 							active = False
 							guiActive = True
 							guiIcon = Start RADAR Scan
-							guiName = Start Multispectral Scan
+							guiName = Start Biome Scan
 							category = Start RADAR Scan
 							guiActiveUnfocused = False
 							unfocusedRange = 2
@@ -93583,7 +93551,7 @@ GAME
 							active = True
 							guiActive = True
 							guiIcon = Stop RADAR Scan
-							guiName = Stop Multispectral Scan
+							guiName = Stop Biome Scan
 							category = Stop RADAR Scan
 							guiActiveUnfocused = False
 							unfocusedRange = 2
@@ -93708,9 +93676,9 @@ GAME
 			PART
 			{
 				name = MkVHog
-				uid = 3185446293
-				mid = 3266616047
-				launchID = 30
+				uid = 105691900
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -0.648751139640808,4.27270126342773,-8.94069671630859E-08
 				rotation = 0,0.7071068,0,0.7071068
@@ -93723,7 +93691,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 1
 				mass = 2.5
-				temp = -184.9215
+				temp = -37.72952
 				expt = 0.5
 				state = 1
 				connected = True
@@ -94135,11 +94103,11 @@ GAME
 			PART
 			{
 				name = 2x1to1-25mAdaptor
-				uid = 890041184
-				mid = 3266616047
-				launchID = 30
+				uid = 366897579
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = 0.648756444454193,4.13336181640625,8.94069671630859E-08
+				position = 0.648756742477417,4.13336181640625,8.94069671630859E-08
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				istg = 0
@@ -94151,7 +94119,7 @@ GAME
 				attN = top, 5
 				attN = bottom, 1
 				mass = 0.8
-				temp = -185.8778
+				temp = -37.8292
 				expt = 0.5
 				state = 1
 				connected = True
@@ -94252,11 +94220,11 @@ GAME
 			PART
 			{
 				name = crewtube-125-1
-				uid = 4099052468
-				mid = 3266616047
-				launchID = 30
+				uid = 3594788236
+				mid = 918758309
+				launchID = 31
 				parent = 4
-				position = 0.648756742477417,5.64044952392578,8.94069671630859E-08
+				position = 0.648757040500641,5.64044952392578,8.94069671630859E-08
 				rotation = 0,0.7071069,0,0.7071069
 				mirror = 1,1,1
 				istg = 0
@@ -94268,7 +94236,7 @@ GAME
 				attN = top, 6
 				attN = bottom, 4
 				mass = 0.3
-				temp = -185.9921
+				temp = -37.78872
 				expt = 0.5
 				state = 1
 				connected = True
@@ -94416,11 +94384,11 @@ GAME
 			PART
 			{
 				name = crewtube-125-25
-				uid = 3922959561
-				mid = 3266616047
-				launchID = 30
+				uid = 2068020448
+				mid = 918758309
+				launchID = 31
 				parent = 5
-				position = 0.648756861686707,7.22064208984375,8.94069671630859E-08
+				position = 0.64875715970993,7.22064208984375,8.94069671630859E-08
 				rotation = 0,0,1,0
 				mirror = 1,1,1
 				istg = 0
@@ -94432,7 +94400,7 @@ GAME
 				attN = top, 5
 				attN = bottom, 7
 				mass = 1.5
-				temp = -185.78
+				temp = -37.71793
 				expt = 0.5
 				state = 1
 				connected = True
@@ -94580,11 +94548,11 @@ GAME
 			PART
 			{
 				name = crewpod-habitation-25
-				uid = 2547057577
-				mid = 3266616047
-				launchID = 30
+				uid = 2332078137
+				mid = 918758309
+				launchID = 31
 				parent = 6
-				position = 0.648757457733154,9.70368957519531,8.94069671630859E-08
+				position = 0.648757755756378,9.70368957519531,8.94069671630859E-08
 				rotation = 0,0.707107,0,-0.707107
 				mirror = 1,1,1
 				istg = 0
@@ -94596,7 +94564,7 @@ GAME
 				attN = bottom, 6
 				attN = top, 8
 				mass = 6.5
-				temp = -186.2346
+				temp = -37.801
 				expt = 0.5
 				state = 1
 				connected = True
@@ -94877,11 +94845,11 @@ GAME
 			PART
 			{
 				name = crewtube-docking-25
-				uid = 872781612
-				mid = 3266616047
-				launchID = 30
+				uid = 2127982786
+				mid = 918758309
+				launchID = 31
 				parent = 7
-				position = 0.648757457733154,12.1782913208008,8.94069671630859E-08
+				position = 0.648757755756378,12.1782913208008,8.94069671630859E-08
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				istg = -1
@@ -94893,7 +94861,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 7
 				mass = 2
-				temp = -186.2873
+				temp = -37.81226
 				expt = 0.5
 				state = 0
 				connected = True
@@ -95213,11 +95181,11 @@ GAME
 			PART
 			{
 				name = Mir.RCS.ThrusterBlock
-				uid = 461877278
-				mid = 3266616047
-				launchID = 30
+				uid = 402596729
+				mid = 918758309
+				launchID = 31
 				parent = 8
-				position = 0.648761332035065,12.1686630249023,1.20965003967285
+				position = 0.648761928081512,12.1686630249023,1.20965301990509
 				rotation = 0,-8.42937E-08,0,-1
 				mirror = 1,1,1
 				istg = 0
@@ -95228,7 +95196,7 @@ GAME
 				sym = 10
 				srfN = srfAttach, 8
 				mass = 0.27
-				temp = -185.4897
+				temp = -37.64577
 				expt = 1.6875
 				state = 1
 				connected = True
@@ -95410,11 +95378,11 @@ GAME
 			PART
 			{
 				name = Mir.RCS.ThrusterBlock
-				uid = 3239126797
-				mid = 3266616047
-				launchID = 30
+				uid = 2290690438
+				mid = 918758309
+				launchID = 31
 				parent = 8
-				position = 0.648762941360474,12.1686630249023,-1.20964467525482
+				position = 0.648763537406921,12.1686630249023,-1.20964705944061
 				rotation = 0,-1,0,1.685874E-07
 				mirror = 1,1,1
 				istg = 0
@@ -95425,7 +95393,7 @@ GAME
 				sym = 9
 				srfN = srfAttach, 8
 				mass = 0.27
-				temp = -185.2953
+				temp = -37.60936
 				expt = 1.6875
 				state = 1
 				connected = True
@@ -95607,11 +95575,11 @@ GAME
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 255887806
-				mid = 3266616047
-				launchID = 30
+				uid = 451041992
+				mid = 918758309
+				launchID = 31
 				parent = 8
-				position = -0.582317590713501,12.4475936889648,-2.08616256713867E-07
+				position = -0.582319617271423,12.4475936889648,-2.08616256713867E-07
 				rotation = -0.5000002,0.5000002,-0.5000002,-0.5000002
 				mirror = 1,1,1
 				istg = 0
@@ -95621,7 +95589,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 8
 				mass = 0.001
-				temp = -185.1027
+				temp = -37.57332
 				expt = 0.5
 				state = 1
 				connected = True
@@ -95794,11 +95762,11 @@ GAME
 			PART
 			{
 				name = aerocam
-				uid = 338843890
-				mid = 3266616047
-				launchID = 30
+				uid = 687627812
+				mid = 918758309
+				launchID = 31
 				parent = 8
-				position = 0.107043743133545,12.2730331420898,-1.10540115833282
+				position = 0.107043743133545,12.2730331420898,-1.1054048538208
 				rotation = -0.6935207,0.1379496,0.1379497,0.6935198
 				mirror = 1,1,1
 				istg = 0
@@ -95808,7 +95776,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 8
 				mass = 0.002
-				temp = -184.91
+				temp = -37.53724
 				expt = 0.5
 				state = 1
 				connected = True
@@ -95980,11 +95948,11 @@ GAME
 			PART
 			{
 				name = dockingPortHGR
-				uid = 1067741237
-				mid = 3266616047
-				launchID = 30
+				uid = 3804699328
+				mid = 918758309
+				launchID = 31
 				parent = 7
-				position = 1.90470719337463,8.55170059204102,5.96046447753906E-07
+				position = 1.90470933914185,8.55170059204102,5.96046447753906E-07
 				rotation = -0.5000002,-0.5000002,0.5000002,-0.5000002
 				mirror = 1,1,1
 				istg = -1
@@ -95996,7 +95964,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.4
-				temp = -185.3149
+				temp = -37.6098
 				expt = 0.5
 				state = 0
 				connected = True
@@ -96329,11 +96297,11 @@ GAME
 			PART
 			{
 				name = AMIReactor
-				uid = 1132965499
-				mid = 3266616047
-				launchID = 30
+				uid = 4164836727
+				mid = 918758309
+				launchID = 31
 				parent = 7
-				position = -0.680114507675171,9.719970703125,-3.87430191040039E-07
+				position = -0.680114388465881,9.719970703125,-3.87430191040039E-07
 				rotation = 0.707107,0,0,-0.707107
 				mirror = 1,1,1
 				istg = 0
@@ -96345,7 +96313,7 @@ GAME
 				attN = bottom, 15
 				attN = top, 16
 				mass = 2.5
-				temp = -185.641
+				temp = -37.68413
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -96482,11 +96450,11 @@ GAME
 			PART
 			{
 				name = LargeFlatAdapter
-				uid = 1000754212
-				mid = 3266616047
-				launchID = 30
+				uid = 2668416394
+				mid = 918758309
+				launchID = 31
 				parent = 14
-				position = -0.680150032043457,9.719970703125,0.813631653785706
+				position = -0.680152893066406,9.719970703125,0.813631653785706
 				rotation = 0.707107,0,0,0.707107
 				mirror = 1,1,1
 				istg = 0
@@ -96498,7 +96466,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 14
 				mass = 0.02636719
-				temp = -185.183
+				temp = -37.59197
 				expt = 0.02636719
 				state = 1
 				connected = True
@@ -96599,11 +96567,11 @@ GAME
 			PART
 			{
 				name = LargeFlatAdapter
-				uid = 1858442221
-				mid = 3266616047
-				launchID = 30
+				uid = 1471861484
+				mid = 918758309
+				launchID = 31
 				parent = 14
-				position = -0.680148959159851,9.719970703125,-0.813644826412201
+				position = -0.68015193939209,9.719970703125,-0.813646376132965
 				rotation = 0,-0.707107,0.707107,0
 				mirror = 1,1,1
 				istg = 0
@@ -96615,7 +96583,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 14
 				mass = 0.02636719
-				temp = -184.9793
+				temp = -37.55367
 				expt = 0.02636719
 				state = 1
 				connected = True
@@ -96716,11 +96684,11 @@ GAME
 			PART
 			{
 				name = LLLCBM
-				uid = 428278308
-				mid = 3266616047
-				launchID = 30
+				uid = 1422188080
+				mid = 918758309
+				launchID = 31
 				parent = 5
-				position = 0.64876115322113,5.60916137695313,0.620177388191223
+				position = 0.648761749267578,5.60916137695313,0.620177388191223
 				rotation = -0.5000001,0.5000001,0.5000001,-0.5000001
 				mirror = 1,1,1
 				istg = -1
@@ -96733,7 +96701,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.5
-				temp = -185.0979
+				temp = -37.59656
 				expt = 0.5
 				state = 0
 				connected = True
@@ -97019,11 +96987,11 @@ GAME
 			PART
 			{
 				name = LLLCBM
-				uid = 178247822
-				mid = 3266616047
-				launchID = 30
+				uid = 2040387436
+				mid = 918758309
+				launchID = 31
 				parent = 5
-				position = 0.648760437965393,5.60916137695313,-0.620184481143951
+				position = 0.648760914802551,5.60916137695313,-0.620185434818268
 				rotation = 0.5000001,-0.5000001,0.5000001,-0.5000001
 				mirror = 1,1,1
 				istg = -1
@@ -97036,7 +97004,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.5
-				temp = -184.8907
+				temp = -37.55749
 				expt = 0.5
 				state = 0
 				connected = True
@@ -97322,11 +97290,11 @@ GAME
 			PART
 			{
 				name = mepsperp
-				uid = 3101116003
-				mid = 3266616047
-				launchID = 30
+				uid = 739662416
+				mid = 918758309
+				launchID = 31
 				parent = 4
-				position = 1.60722613334656,4.27193069458008,8.94069671630859E-08
+				position = 1.60722756385803,4.27193069458008,8.94069671630859E-08
 				rotation = -0.5000001,0.5000001,0.5000001,-0.5000001
 				mirror = 1,1,1
 				istg = 0
@@ -97341,7 +97309,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.03125
-				temp = -185.4971
+				temp = -37.70829
 				expt = 0.0625
 				state = 1
 				connected = True
@@ -97442,11 +97410,11 @@ GAME
 			PART
 			{
 				name = KAS.ContainerBay1
-				uid = 1920756517
-				mid = 3266616047
-				launchID = 30
+				uid = 3353279878
+				mid = 918758309
+				launchID = 31
 				parent = 19
-				position = 2.04722738265991,4.29047012329102,0.378533035516739
+				position = 2.04722881317139,4.29047012329102,0.378533035516739
 				rotation = 0.5,0.5,0.4999999,-0.5000003
 				mirror = 1,1,1
 				istg = 0
@@ -97458,7 +97426,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.01
-				temp = -185.0321
+				temp = -37.59986
 				expt = 0.5
 				state = 1
 				connected = True
@@ -97669,11 +97637,11 @@ GAME
 			PART
 			{
 				name = KAS.ContainerBay1
-				uid = 3541048530
-				mid = 3266616047
-				launchID = 30
+				uid = 3121378127
+				mid = 918758309
+				launchID = 31
 				parent = 19
-				position = 2.04722785949707,4.28874969482422,-0.370525002479553
+				position = 2.04722929000854,4.28874969482422,-0.370525270700455
 				rotation = 0.5000001,0.4999999,0.5000004,-0.4999999
 				mirror = 1,1,1
 				istg = 0
@@ -97685,7 +97653,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.01
-				temp = -184.8245
+				temp = -37.56068
 				expt = 0.5
 				state = 1
 				connected = True
@@ -97896,11 +97864,11 @@ GAME
 			PART
 			{
 				name = 2x1noseconeflat
-				uid = 4082982404
-				mid = 3266616047
-				launchID = 30
+				uid = 2577853643
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = 0.648756146430969,1.29150009155273,8.94069671630859E-08
+				position = 0.648756444454193,1.29150009155273,8.94069671630859E-08
 				rotation = -0.7071068,0,0.7071068,0
 				mirror = 1,1,1
 				istg = 0
@@ -97911,7 +97879,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 1
 				mass = 0.35
-				temp = -184.5719
+				temp = -37.66655
 				expt = 0.5
 				state = 1
 				connected = True
@@ -97984,7 +97952,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0
+					amount = 27.729600120152
 					maxAmount = 40
 					flowState = True
 					isTweakable = True
@@ -97995,9 +97963,9 @@ GAME
 			PART
 			{
 				name = 2x1noseconeflat
-				uid = 520543047
-				mid = 3266616047
-				launchID = 30
+				uid = 2478175573
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -0.648750185966492,1.29150009155273,-8.94069671630859E-08
 				rotation = -0.7071068,0,0.7071068,0
@@ -98010,7 +97978,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 1
 				mass = 0.35
-				temp = -184.3861
+				temp = -37.63142
 				expt = 0.5
 				state = 1
 				connected = True
@@ -98083,7 +98051,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0
+					amount = 27.729600120152
 					maxAmount = 40
 					flowState = True
 					isTweakable = True
@@ -98094,12 +98062,12 @@ GAME
 			PART
 			{
 				name = IRHingeOpenScaleable
-				uid = 146032294
-				mid = 3266616047
-				launchID = 30
+				uid = 4060701819
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = -1.33760690689087,1.47011530399323,-2.89217714453116E-05
-				rotation = 1.597765E-07,-2.362666E-07,0.7071055,0.707108
+				position = -1.33778059482574,1.47022783756256,-0.000149365281686187
+				rotation = 2.939814E-05,-1.237914E-05,-0.7070931,-0.7071205
 				mirror = 1,1,1
 				istg = 0
 				dstg = 0
@@ -98108,7 +98076,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.025
-				temp = -184.6505
+				temp = -37.65211
 				expt = 0.004
 				state = 1
 				connected = True
@@ -98140,7 +98108,7 @@ GAME
 					rotateMax = 180
 					reversedRotationOn = False
 					reversedRotationKey = False
-					rotationDelta = 113
+					rotationDelta = 22
 					rotation = 22
 					rotationEuler = 113
 					translateLimits = False
@@ -98375,12 +98343,12 @@ GAME
 			PART
 			{
 				name = Commtow
-				uid = 3570340359
-				mid = 3266616047
-				launchID = 30
+				uid = 1823914193
+				mid = 918758309
+				launchID = 31
 				parent = 24
-				position = -1.3434966802597,1.36645138263702,-0.0059138904325664
-				rotation = 0.4999969,-0.5000028,-0.4999961,-0.5000043
+				position = -1.34333050251007,1.36658525466919,-0.00612961454316974
+				rotation = -0.5000142,0.5000166,0.4999748,0.4999945
 				mirror = 1,1,1
 				istg = 0
 				dstg = 0
@@ -98389,7 +98357,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 24
 				mass = 0.02
-				temp = -184.4248
+				temp = -37.57631
 				expt = 0.5
 				state = 1
 				connected = True
@@ -98646,9 +98614,9 @@ GAME
 			PART
 			{
 				name = Kosmos.TKS.RCS.Tank
-				uid = 2424661112
-				mid = 3266616047
-				launchID = 30
+				uid = 1940001273
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -0.633583307266235,3.00519180297852,1.29743754863739
 				rotation = -7.383461E-08,0.7071068,-7.383461E-08,0.7071069
@@ -98660,7 +98628,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.24
-				temp = -184.0293
+				temp = -37.56351
 				expt = 0.5
 				state = 1
 				connected = True
@@ -98685,7 +98653,7 @@ GAME
 					BreakTorque = 1500
 					Torque = 0
 					Decouple = 0
-					Mass = 1.369228
+					Mass = 1.435798
 					EVENTS
 					{
 					}
@@ -98724,7 +98692,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.20125
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 1250
 					type_UIEditor
 					{
@@ -98823,7 +98791,7 @@ GAME
 				RESOURCE
 				{
 					name = Hydrazine
-					amount = 1124.72888928201
+					amount = 1191.03297187845
 					maxAmount = 1250
 					flowState = True
 					isTweakable = True
@@ -98834,12 +98802,12 @@ GAME
 			PART
 			{
 				name = Kosmos.TKS.RCS.Tank
-				uid = 144490650
-				mid = 3266616047
-				launchID = 30
+				uid = 2632266023
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = 0.665527403354645,2.31991195678711,-1.29744577407837
-				rotation = 9.040281E-08,0.7071069,-9.040279E-08,-0.7071068
+				position = 0.665527999401093,2.31991195678711,-1.2974466085434
+				rotation = 9.040276E-08,0.7071069,-9.040274E-08,-0.7071068
 				mirror = 1,1,1
 				istg = 0
 				dstg = 0
@@ -98848,7 +98816,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.24
-				temp = -183.8457
+				temp = -37.529
 				expt = 0.5
 				state = 1
 				connected = True
@@ -98873,7 +98841,7 @@ GAME
 					BreakTorque = 1500
 					Torque = 0
 					Decouple = 0
-					Mass = 1.369228
+					Mass = 1.435798
 					EVENTS
 					{
 					}
@@ -98912,7 +98880,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.20125
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 1250
 					type_UIEditor
 					{
@@ -99011,7 +98979,7 @@ GAME
 				RESOURCE
 				{
 					name = Hydrazine
-					amount = 1124.72888928201
+					amount = 1191.03297187845
 					maxAmount = 1250
 					flowState = True
 					isTweakable = True
@@ -99022,11 +98990,11 @@ GAME
 			PART
 			{
 				name = Kosmos.TKS.RCS.Tank
-				uid = 2713899321
-				mid = 3266616047
-				launchID = 30
+				uid = 831941934
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = 0.628101825714111,2.3160514831543,1.29743850231171
+				position = 0.628102421760559,2.3160514831543,1.29743850231171
 				rotation = -9.040338E-08,0.7071067,-9.04034E-08,0.7071069
 				mirror = 1,1,1
 				istg = 0
@@ -99036,7 +99004,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.24
-				temp = -183.6626
+				temp = -37.49446
 				expt = 0.5
 				state = 1
 				connected = True
@@ -99061,7 +99029,7 @@ GAME
 					BreakTorque = 1500
 					Torque = 0
 					Decouple = 0
-					Mass = 1.369228
+					Mass = 1.435798
 					EVENTS
 					{
 					}
@@ -99100,7 +99068,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.20125
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 1250
 					type_UIEditor
 					{
@@ -99199,7 +99167,7 @@ GAME
 				RESOURCE
 				{
 					name = Hydrazine
-					amount = 1124.72888928201
+					amount = 1191.03297187845
 					maxAmount = 1250
 					flowState = True
 					isTweakable = True
@@ -99210,11 +99178,11 @@ GAME
 			PART
 			{
 				name = Kosmos.TKS.RCS.Tank
-				uid = 2448623739
-				mid = 3266616047
-				launchID = 30
+				uid = 298094630
+				mid = 918758309
+				launchID = 31
 				parent = 1
-				position = -0.64259934425354,2.98114013671875,-1.29744577407837
+				position = -0.64259934425354,2.98114013671875,-1.2974466085434
 				rotation = 7.383463E-08,0.7071069,-7.383461E-08,-0.7071067
 				mirror = 1,1,1
 				istg = 0
@@ -99224,7 +99192,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.24
-				temp = -183.4859
+				temp = -37.46091
 				expt = 0.5
 				state = 1
 				connected = True
@@ -99249,7 +99217,7 @@ GAME
 					BreakTorque = 1500
 					Torque = 0
 					Decouple = 0
-					Mass = 1.369228
+					Mass = 1.435798
 					EVENTS
 					{
 					}
@@ -99288,7 +99256,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.20125
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 1250
 					type_UIEditor
 					{
@@ -99387,7 +99355,7 @@ GAME
 				RESOURCE
 				{
 					name = Hydrazine
-					amount = 1124.72888928201
+					amount = 1191.03297187845
 					maxAmount = 1250
 					flowState = True
 					isTweakable = True
@@ -99398,9 +99366,9 @@ GAME
 			PART
 			{
 				name = crewtube-docking-125
-				uid = 1215016080
-				mid = 3266616047
-				launchID = 30
+				uid = 3294206145
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,-1.65644836425781,0
 				rotation = 0,0,1,0
@@ -99414,7 +99382,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 0
 				mass = 0.5
-				temp = -183.5524
+				temp = -37.84756
 				expt = 0.5
 				state = 0
 				connected = True
@@ -99734,9 +99702,9 @@ GAME
 			PART
 			{
 				name = Mir.RCS.ThrusterBlock
-				uid = 3990360747
-				mid = 3266616047
-				launchID = 30
+				uid = 2492214658
+				mid = 918758309
+				launchID = 31
 				parent = 30
 				position = 0,-1.65351867675781,0.636797189712524
 				rotation = -8.742278E-08,-6.58886E-08,-1,-6.48945E-09
@@ -99749,7 +99717,7 @@ GAME
 				sym = 32
 				srfN = srfAttach, 30
 				mass = 0.27
-				temp = -182.9522
+				temp = -37.65759
 				expt = 1.6875
 				state = 1
 				connected = True
@@ -99931,9 +99899,9 @@ GAME
 			PART
 			{
 				name = Mir.RCS.ThrusterBlock
-				uid = 4159048988
-				mid = 3266616047
-				launchID = 30
+				uid = 2070810614
+				mid = 918758309
+				launchID = 31
 				parent = 30
 				position = 0,-1.65351867675781,-0.636797428131104
 				rotation = -1,-6.489447E-09,1.311342E-07,6.58886E-08
@@ -99946,7 +99914,7 @@ GAME
 				sym = 31
 				srfN = srfAttach, 30
 				mass = 0.27
-				temp = -182.7506
+				temp = -37.61851
 				expt = 1.6875
 				state = 1
 				connected = True
@@ -100128,9 +100096,9 @@ GAME
 			PART
 			{
 				name = aerocam
-				uid = 2201850006
-				mid = 3266616047
-				launchID = 30
+				uid = 1191194722
+				mid = 918758309
+				launchID = 31
 				parent = 30
 				position = -0.466235041618347,-1.73070907592773,0.466235488653183
 				rotation = 0.6532815,-0.2705981,0.2705981,0.6532815
@@ -100142,7 +100110,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 30
 				mass = 0.002
-				temp = -182.55
+				temp = -37.57953
 				expt = 0.5
 				state = 1
 				connected = True
@@ -100314,9 +100282,9 @@ GAME
 			PART
 			{
 				name = bahaSRadialEngine
-				uid = 391402621
-				mid = 3266616047
-				launchID = 30
+				uid = 2492755811
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = -0.708710074424744,-0.0118789672851563,1.22752118110657
 				rotation = 0.2588191,4.715989E-08,-0.9659258,-2.911408E-09
@@ -100329,7 +100297,7 @@ GAME
 				sym = 35
 				srfN = srfAttach, 0
 				mass = 0.1481482
-				temp = -181.3576
+				temp = -37.74492
 				expt = 0.1481482
 				state = 1
 				connected = True
@@ -100589,9 +100557,9 @@ GAME
 			PART
 			{
 				name = bahaSRadialEngine
-				uid = 831751679
-				mid = 3266616047
-				launchID = 30
+				uid = 1065169283
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0.708710670471191,-0.0118789672851563,-1.22752165794373
 				rotation = -0.9659258,-2.91141E-09,-0.2588191,-4.715989E-08
@@ -100604,7 +100572,7 @@ GAME
 				sym = 34
 				srfN = srfAttach, 0
 				mass = 0.1481482
-				temp = -181.1785
+				temp = -37.7097
 				expt = 0.1481482
 				state = 1
 				connected = True
@@ -100624,7 +100592,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -100640,7 +100608,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -100651,7 +100619,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -100864,9 +100832,9 @@ GAME
 			PART
 			{
 				name = bahaSRadialEngine
-				uid = 795046802
-				mid = 3266616047
-				launchID = 30
+				uid = 3719603476
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0.706785202026367,-0.00481796264648438,1.22418618202209
 				rotation = 0.258819,-6.023143E-08,0.9659259,3.477463E-08
@@ -100879,7 +100847,7 @@ GAME
 				sym = 37
 				srfN = srfAttach, 0
 				mass = 0.1481482
-				temp = -181.0006
+				temp = -37.67453
 				expt = 0.1481482
 				state = 1
 				connected = True
@@ -100899,7 +100867,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -100915,7 +100883,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -100926,7 +100894,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -101139,9 +101107,9 @@ GAME
 			PART
 			{
 				name = bahaSRadialEngine
-				uid = 3624836962
-				mid = 3266616047
-				launchID = 30
+				uid = 1313325260
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = -0.706785082817078,-0.00481796264648438,-1.22418665885925
 				rotation = 0.9659259,3.477464E-08,-0.2588191,6.023143E-08
@@ -101154,7 +101122,7 @@ GAME
 				sym = 36
 				srfN = srfAttach, 0
 				mass = 0.1481482
-				temp = -180.8223
+				temp = -37.63946
 				expt = 0.1481482
 				state = 1
 				connected = True
@@ -101174,7 +101142,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -101190,7 +101158,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -101201,7 +101169,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -101414,9 +101382,9 @@ GAME
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 2203669967
-				mid = 3266616047
-				launchID = 30
+				uid = 2402097172
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = -1.24422597885132,-1.11420059204102,8.94069671630859E-08
 				rotation = -0.4999999,0.5000001,-0.4999999,-0.5000001
@@ -101429,7 +101397,7 @@ GAME
 				sym = 39
 				srfN = srfAttach, 0
 				mass = 0.001
-				temp = -180.9635
+				temp = -37.60533
 				expt = 0.5
 				state = 1
 				connected = True
@@ -101602,9 +101570,9 @@ GAME
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 3525539226
-				mid = 3266616047
-				launchID = 30
+				uid = 2866604957
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 1.24422609806061,-1.11420059204102,-2.08616256713867E-07
 				rotation = -0.4999999,-0.5000001,0.4999999,-0.5000001
@@ -101617,7 +101585,7 @@ GAME
 				sym = 38
 				srfN = srfAttach, 0
 				mass = 0.001
-				temp = -180.7954
+				temp = -37.57232
 				expt = 0.5
 				state = 1
 				connected = True
@@ -101790,9 +101758,9 @@ GAME
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 3164444536
-				mid = 3266616047
-				launchID = 30
+				uid = 1348606663
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,1.24734878540039,1.21362721920013
 				rotation = 0,0,0,-1
@@ -101805,7 +101773,7 @@ GAME
 				sym = 41
 				srfN = srfAttach, 0
 				mass = 0.001
-				temp = -180.632
+				temp = -37.54014
 				expt = 0.5
 				state = 1
 				connected = True
@@ -101978,9 +101946,9 @@ GAME
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 3270959580
-				mid = 3266616047
-				launchID = 30
+				uid = 3300459394
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,1.24734878540039,-1.21362781524658
 				rotation = 0,-1,0,4.371139E-08
@@ -101993,7 +101961,7 @@ GAME
 				sym = 40
 				srfN = srfAttach, 0
 				mass = 0.001
-				temp = -180.4674
+				temp = -37.50788
 				expt = 0.5
 				state = 1
 				connected = True
@@ -102166,9 +102134,9 @@ GAME
 			PART
 			{
 				name = solarpanels-modern02
-				uid = 2037603332
-				mid = 3266616047
-				launchID = 30
+				uid = 2590294742
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = -1.24703907966614,-0.751609802246094,8.94069671630859E-08
 				rotation = 5.310544E-09,0,-2.617857E-08,-1
@@ -102181,7 +102149,7 @@ GAME
 				sym = 43
 				srfN = srfAttach, 0
 				mass = 0.405
-				temp = -180.2793
+				temp = -37.47116
 				expt = 13.5
 				state = 1
 				connected = True
@@ -102199,10 +102167,10 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.5000001, 0.5, -0.5000001, 0.5)
+					currentRotation = (0.7051638, 0.7051598, 0.05241021, -0.05241052)
 					stateString = EXTENDED
 					storedAnimationTime = 0
-					storedAnimationSpeed = 1
+					storedAnimationSpeed = 0
 					EVENTS
 					{
 						Extend
@@ -102352,9 +102320,9 @@ GAME
 			PART
 			{
 				name = solarpanels-modern02
-				uid = 872903440
-				mid = 3266616047
-				launchID = 30
+				uid = 2541771924
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 1.24703931808472,-0.751609802246094,-2.08616256713867E-07
 				rotation = -2.617857E-08,-1,-5.310542E-09,4.371139E-08
@@ -102367,7 +102335,7 @@ GAME
 				sym = 42
 				srfN = srfAttach, 0
 				mass = 0.405
-				temp = -180.1046
+				temp = -37.43683
 				expt = 13.5
 				state = 1
 				connected = True
@@ -102385,10 +102353,10 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.5000001, 0.5, -0.5000001, 0.5)
+					currentRotation = (-0.05241045, -0.05241007, -0.7051606, 0.7051631)
 					stateString = EXTENDED
 					storedAnimationTime = 0
-					storedAnimationSpeed = 1
+					storedAnimationSpeed = 0
 					EVENTS
 					{
 						Extend
@@ -102537,16 +102505,16 @@ GAME
 			}
 			ACTIONGROUPS
 			{
-				Stage = False, 95121.6678850011
+				Stage = False, 99469.2202760077
 				Gear = True, 0
-				Light = True, 94779.0278849313
-				RCS = True, 94931.7078849624
-				SAS = True, 95196.7478850164
+				Light = False, 0
+				RCS = True, 99201.8002759532
+				SAS = True, 99440.6802760018
 				Brakes = False, 0
 				Abort = False, 0
-				Custom01 = False, 94998.2678849759
-				Custom02 = True, 95127.0678850022
-				Custom03 = True, 95135.0078850038
+				Custom01 = False, 99365.7002759866
+				Custom02 = True, 99371.1002759877
+				Custom03 = True, 99434.4402760006
 				Custom04 = False, 0
 				Custom05 = False, 0
 				Custom06 = False, 0
@@ -102567,15 +102535,15 @@ GAME
 			{
 				MANEUVER
 				{
-					UT = 96012.6451918609
-					dV = 0.0957949914434408,8.88178419700125E-15,179.988028692359
+					UT = 100067.698416233
+					dV = 0.0966880208278056,-3.5527136788005E-15,220.701310767279
 				}
 			}
 			CTRLSTATE
 			{
-				pitch = 0
-				yaw = 0
-				roll = 0
+				pitch = 0.001853111
+				yaw = 0.0007185657
+				roll = 0.0002937578
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -102584,47 +102552,47 @@ GAME
 		}
 		VESSEL
 		{
-			pid = a1909fc175d842d2b465b67c44e71cd6
+			pid = f98fac16a94f456bb1911393b07e3435
 			name = Odyssey Core Debris
 			type = Debris
 			sit = SUB_ORBITAL
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 80.5400000164082
-			lct = 95121.6678850011
+			met = 545.680000111228
+			lct = 99368.7002759872
 			root = 0
-			lat = -1.37171606812409
-			lon = -391.237735078163
-			alt = 97292.5009615264
+			lat = -37.5312282159718
+			lon = -333.956315614553
+			alt = 294782.371307644
 			hgt = -1
-			nrm = 0.31258,-0.869488,0.3824717
-			rot = -0.4617432,0.6849076,0.3649261,0.4295624
-			CoM = -0.001115405,-3.303826,-0.000949182
+			nrm = 0.3597953,0.4912955,-0.7932063
+			rot = 0.3131731,-0.145491,-0.8124456,0.4697735
+			CoM = 7.280328E-05,-4.608281,-1.884533E-05
 			stg = 2
 			prst = False
 			ref = 0
 			ctrl = False
 			cPch = 0
 			cHdg = 0
-			cMod = -1
+			cMod = 0
 			ORBIT
 			{
-				SMA = 725742.330138279
-				ECC = 0.145576579749444
-				INC = 2.37173240966363
-				LPE = 132.741122973302
-				LAN = 350.15014159905
-				MNA = 1.15803864044239
-				EPH = 95202.2078850175
+				SMA = 747192.733760906
+				ECC = 0.21076438842816
+				INC = 39.8176091296296
+				LPE = 124.491625194185
+				LAN = 48.4294483069804
+				MNA = 1.4867317929512
+				EPH = 99493.5002760126
 				REF = 1
 			}
 			PART
 			{
 				name = KW5mExpandedFairingBase
-				uid = 1215328672
-				mid = 3266616047
-				launchID = 30
+				uid = 2378840640
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -102644,13 +102612,13 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 1.51875
-				temp = -40.57668
+				temp = -11.58411
 				expt = 0.2109375
 				state = 1
 				connected = False
 				attached = False
 				flag = Odyssey/Flags/kerbal_space_logo_by_hayoo
-				rTrf = KW5mExpandedFairingBase
+				rTrf = KW5mExpandedFairingBase (Odyssey Core Debris)
 				modCost = -2775
 				EVENTS
 				{
@@ -102830,9 +102798,9 @@ GAME
 			PART
 			{
 				name = FelbournFuel2
-				uid = 3219013339
-				mid = 3266616047
-				launchID = 30
+				uid = 2445851134
+				mid = 918758309
+				launchID = 31
 				parent = 0
 				position = 0,-2.72169876098633,0
 				rotation = 0,0,0,1
@@ -102846,7 +102814,7 @@ GAME
 				attN = top, 0
 				attN = bottom, 24
 				mass = 1.023325
-				temp = -40.9293
+				temp = -11.66477
 				expt = 0.5
 				state = 1
 				connected = False
@@ -102894,7 +102862,7 @@ GAME
 					type = Odyssey_Core
 					utilization = 86
 					mass = 1.023325
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 35000
 					type_UIEditor
 					{
@@ -102937,7 +102905,18 @@ GAME
 					BreakTorque = 1500
 					Torque = 0
 					Decouple = 0
-					Mass = 6.525889
+					Mass = 10.21469
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = FARBasicDragModel
+					isEnabled = True
 					EVENTS
 					{
 					}
@@ -102971,21 +102950,10 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 2066.614567584
+					amount = 3446.10281354805
 					maxAmount = 13337.4527096748
 					flowState = True
 					isTweakable = True
@@ -102995,7 +102963,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 3337.371299319
+					amount = 5578.92921723758
 					maxAmount = 21662.5472903252
 					flowState = True
 					isTweakable = True
@@ -103006,9 +102974,9 @@ GAME
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 3588096796
-				mid = 3266616047
-				launchID = 30
+				uid = 3195800858
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -1.60966110229492,-0.983188629150391,0.929338216781616
 				rotation = -0.6123724,0.3535534,-0.3535534,-0.6123725
@@ -103025,7 +102993,7 @@ GAME
 				sym = 7
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.48545
+				temp = -11.54755
 				expt = 0.5
 				state = 1
 				connected = False
@@ -103159,6 +103127,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -103183,24 +103162,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 3759085432
-				mid = 3266616047
-				launchID = 30
+				uid = 2319208252
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-0.983188629150391,1.85867619514465
 				rotation = -0.7071068,2.974082E-08,-3.373358E-08,-0.7071068
@@ -103217,7 +103185,7 @@ GAME
 				sym = 7
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.45451
+				temp = -11.53504
 				expt = 0.5
 				state = 1
 				connected = False
@@ -103351,6 +103319,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -103375,24 +103354,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 704938311
-				mid = 3266616047
-				launchID = 30
+				uid = 920389996
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 1.60966157913208,-0.983188629150391,0.929338216781616
 				rotation = -0.6123725,-0.3535534,0.3535534,-0.6123725
@@ -103409,7 +103377,7 @@ GAME
 				sym = 7
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.42367
+				temp = -11.52254
 				expt = 0.5
 				state = 1
 				connected = False
@@ -103543,6 +103511,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -103567,24 +103546,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 4215340877
-				mid = 3266616047
-				launchID = 30
+				uid = 3067220935
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 1.60966157913208,-0.983188629150391,-0.929338395595551
 				rotation = -0.3535534,-0.6123725,0.6123724,-0.3535534
@@ -103601,7 +103569,7 @@ GAME
 				sym = 7
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.39286
+				temp = -11.51005
 				expt = 0.5
 				state = 1
 				connected = False
@@ -103735,6 +103703,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -103759,24 +103738,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 1821223327
-				mid = 3266616047
-				launchID = 30
+				uid = 2982188724
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-0.983188629150391,-1.8586767911911
 				rotation = 2.766662E-09,-0.7071068,0.7071068,6.75942E-09
@@ -103793,7 +103761,7 @@ GAME
 				sym = 7
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.36213
+				temp = -11.49762
 				expt = 0.5
 				state = 1
 				connected = False
@@ -103927,6 +103895,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -103951,24 +103930,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 2245301055
-				mid = 3266616047
-				launchID = 30
+				uid = 2196543766
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -1.60966110229492,-0.983188629150391,-0.929339528083801
 				rotation = 0.3535533,-0.6123725,0.6123725,0.3535534
@@ -103985,7 +103953,7 @@ GAME
 				sym = 6
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.33148
+				temp = -11.48518
 				expt = 0.5
 				state = 1
 				connected = False
@@ -104119,6 +104087,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -104143,24 +104122,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 1024075992
-				mid = 3266616047
-				launchID = 30
+				uid = 1670379639
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -1.61834001541138,-4.35735893249512,0.934348225593567
 				rotation = -0.6123723,0.3535535,-0.3535534,-0.6123726
@@ -104177,7 +104145,7 @@ GAME
 				sym = 13
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.3012
+				temp = -11.473
 				expt = 0.5
 				state = 1
 				connected = False
@@ -104311,6 +104279,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -104335,24 +104314,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 1209102274
-				mid = 3266616047
-				launchID = 30
+				uid = 3961889925
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-4.35735893249512,1.86869716644287
 				rotation = -0.7071067,4.756488E-08,-3.772633E-08,-0.7071069
@@ -104369,7 +104337,7 @@ GAME
 				sym = 13
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.2698
+				temp = -11.46028
 				expt = 0.5
 				state = 1
 				connected = False
@@ -104503,6 +104471,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -104527,24 +104506,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 4246615764
-				mid = 3266616047
-				launchID = 30
+				uid = 1485785416
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 1.61834013462067,-4.35735893249512,0.934349179267883
 				rotation = -0.6123723,-0.3535534,0.3535533,-0.6123726
@@ -104561,7 +104529,7 @@ GAME
 				sym = 13
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.23847
+				temp = -11.44759
 				expt = 0.5
 				state = 1
 				connected = False
@@ -104695,6 +104663,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -104719,24 +104698,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 38967369
-				mid = 3266616047
-				launchID = 30
+				uid = 1369241337
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 1.61834001541138,-4.35735893249512,-0.934348404407501
 				rotation = -0.3535534,-0.6123726,0.6123723,-0.3535535
@@ -104753,7 +104721,7 @@ GAME
 				sym = 13
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.20721
+				temp = -11.43491
 				expt = 0.5
 				state = 1
 				connected = False
@@ -104887,6 +104855,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -104911,24 +104890,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 4278464331
-				mid = 3266616047
-				launchID = 30
+				uid = 2740386444
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-4.35735893249512,-1.86869883537292
 				rotation = -1.226096E-09,-0.7071069,0.7071066,-1.106463E-08
@@ -104945,7 +104913,7 @@ GAME
 				sym = 13
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.17601
+				temp = -11.42226
 				expt = 0.5
 				state = 1
 				connected = False
@@ -105079,6 +105047,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -105103,24 +105082,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = W485.SurfaceOmniLight
-				uid = 3557211445
-				mid = 3266616047
-				launchID = 30
+				uid = 2062921224
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -1.61833906173706,-4.35735893249512,-0.934349536895752
 				rotation = 0.3535533,-0.6123726,0.6123724,0.3535534
@@ -105137,7 +105105,7 @@ GAME
 				sym = 12
 				srfN = srfAttach, 1
 				mass = 0.001
-				temp = -40.14486
+				temp = -11.40963
 				expt = 0.5
 				state = 1
 				connected = False
@@ -105271,6 +105239,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -105295,24 +105274,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = IR.Segment.TrussLarge.1m25
-				uid = 4084305175
-				mid = 3266616047
-				launchID = 30
+				uid = 3204048515
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = -1.10842394828796,-5.22919845581055,2.08616256713867E-07
 				rotation = -0.7071068,-1.264406E-07,-0.7071068,-2.107343E-08
@@ -105329,7 +105297,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.15
-				temp = -40.20545
+				temp = -11.43552
 				expt = 0.5
 				state = 1
 				connected = False
@@ -105391,6 +105359,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -105415,24 +105394,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = ESARCS
-				uid = 3623882346
-				mid = 3266616047
-				launchID = 30
+				uid = 3931051582
+				mid = 918758309
+				launchID = 31
 				parent = 14
 				position = -1.34629702568054,-5.83596992492676,4.4703483581543E-07
 				rotation = -0.5000001,0.5,-0.5000001,-0.5
@@ -105447,7 +105415,7 @@ GAME
 				sym = 22
 				srfN = srfAttach, 14
 				mass = 0.024
-				temp = -40.16119
+				temp = -11.41509
 				expt = 4
 				state = 1
 				connected = False
@@ -105590,6 +105558,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -105614,24 +105593,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = IR.Segment.TrussLarge.1m25
-				uid = 3271280557
-				mid = 3266616047
-				launchID = 30
+				uid = 2439312861
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-5.22919845581055,1.10842311382294
 				rotation = -1,-1.043081E-07,4.214685E-08,7.450581E-08
@@ -105648,7 +105616,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.15
-				temp = -40.25956
+				temp = -11.45549
 				expt = 0.5
 				state = 1
 				connected = False
@@ -105710,6 +105678,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -105734,24 +105713,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = ESARCS
-				uid = 3162886396
-				mid = 3266616047
-				launchID = 30
+				uid = 1537952053
+				mid = 918758309
+				launchID = 31
 				parent = 16
 				position = 0,-5.83596992492676,1.34629714488983
 				rotation = -0.7071068,-1.240367E-15,1.771483E-15,-0.7071068
@@ -105766,7 +105734,7 @@ GAME
 				sym = 22
 				srfN = srfAttach, 16
 				mass = 0.024
-				temp = -40.18793
+				temp = -11.42748
 				expt = 4
 				state = 1
 				connected = False
@@ -105909,6 +105877,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -105933,27 +105912,16 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = Kosmos.Parom.RCS.Tank
-				uid = 488805742
-				mid = 3266616047
-				launchID = 30
+				uid = 2125738812
+				mid = 918758309
+				launchID = 31
 				parent = 16
 				position = -0.199530005455017,-5.83180999755859,1.30795419216156
-				rotation = 3.267524E-14,-0.3826834,8.553564E-15,-0.9238796
+				rotation = 3.800432E-14,-0.3826834,8.553564E-15,-0.9238796
 				mirror = 1,1,1
 				istg = 2
 				dstg = 2
@@ -105962,7 +105930,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 16
 				mass = 0.006875
-				temp = -40.14108
+				temp = -11.40838
 				expt = 0.0625
 				state = 1
 				connected = False
@@ -106026,7 +105994,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.006993
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 63
 					type_UIEditor
 					{
@@ -106087,6 +106055,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -106106,17 +106085,6 @@ GAME
 							unfocusedRange = 4
 							externalToEVAOnly = True
 						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
 					}
 					ACTIONS
 					{
@@ -106136,9 +106104,9 @@ GAME
 			PART
 			{
 				name = IR.Segment.TrussLarge.1m25
-				uid = 1503650235
-				mid = 3266616047
-				launchID = 30
+				uid = 1033722211
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 1.10842370986938,-5.22919845581055,-2.98023223876953E-07
 				rotation = -0.7071067,-2.107342E-08,0.7071069,1.264406E-07
@@ -106155,7 +106123,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.15
-				temp = -40.16272
+				temp = -11.41905
 				expt = 0.5
 				state = 1
 				connected = False
@@ -106217,6 +106185,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -106241,24 +106220,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = ESARCS
-				uid = 4077135044
-				mid = 3266616047
-				launchID = 30
+				uid = 2539884563
+				mid = 918758309
+				launchID = 31
 				parent = 19
 				position = 1.3462975025177,-5.83596992492676,-2.68220901489258E-07
 				rotation = -0.5,-0.5000001,0.5000001,-0.4999999
@@ -106273,7 +106241,7 @@ GAME
 				sym = 22
 				srfN = srfAttach, 19
 				mass = 0.024
-				temp = -40.14001
+				temp = -11.40688
 				expt = 4
 				state = 1
 				connected = False
@@ -106416,6 +106384,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -106440,24 +106419,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = IR.Segment.TrussLarge.1m25
-				uid = 557668923
-				mid = 3266616047
-				launchID = 30
+				uid = 260632965
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-5.22919845581055,-1.1084235906601
 				rotation = 4.214685E-08,7.450581E-08,1,1.043081E-07
@@ -106474,7 +106442,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.15
-				temp = -40.2249
+				temp = -11.44259
 				expt = 0.5
 				state = 1
 				connected = False
@@ -106536,6 +106504,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -106560,24 +106539,13 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = ESARCS
-				uid = 1269419129
-				mid = 3266616047
-				launchID = 30
+				uid = 3924440262
+				mid = 918758309
+				launchID = 31
 				parent = 21
 				position = 0,-5.83596992492676,-1.34629738330841
 				rotation = 1.771483E-15,-0.7071068,0.7071068,1.240367E-15
@@ -106592,7 +106560,7 @@ GAME
 				sym = 20
 				srfN = srfAttach, 21
 				mass = 0.024
-				temp = -40.17068
+				temp = -11.42085
 				expt = 4
 				state = 1
 				connected = False
@@ -106735,6 +106703,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -106759,27 +106738,16 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 			}
 			PART
 			{
 				name = Kosmos.Parom.RCS.Tank
-				uid = 3769322721
-				mid = 3266616047
-				launchID = 30
+				uid = 621068041
+				mid = 918758309
+				launchID = 31
 				parent = 21
 				position = 0.19965136051178,-5.80970001220703,-1.30807495117188
-				rotation = -1.032992E-14,0.9238796,3.267524E-14,-0.3826835
+				rotation = -1.032992E-14,0.9238796,3.800432E-14,-0.3826835
 				mirror = 1,1,1
 				istg = 2
 				dstg = 2
@@ -106788,7 +106756,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 21
 				mass = 0.006875
-				temp = -40.12375
+				temp = -11.40171
 				expt = 0.0625
 				state = 1
 				connected = False
@@ -106852,7 +106820,7 @@ GAME
 					type = Odyssey_ServiceModule
 					utilization = 86
 					mass = 0.006993
-					timestamp = 95121.7878850011
+					timestamp = 99904.9602760965
 					volume = 63
 					type_UIEditor
 					{
@@ -106913,6 +106881,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -106932,17 +106911,6 @@ GAME
 							unfocusedRange = 4
 							externalToEVAOnly = True
 						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
 					}
 					ACTIONS
 					{
@@ -106962,9 +106930,9 @@ GAME
 			PART
 			{
 				name = Size3AdvancedEngine
-				uid = 398283164
-				mid = 3266616047
-				launchID = 30
+				uid = 3701599660
+				mid = 918758309
+				launchID = 31
 				parent = 1
 				position = 0,-6.09966850280762,0
 				rotation = 0,0,0,1
@@ -106979,7 +106947,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 2.65
-				temp = -40.044
+				temp = -11.36904
 				expt = 0.5
 				state = 1
 				connected = False
@@ -107179,7 +107147,7 @@ GAME
 				{
 					name = ExtendedPartInfo
 					isEnabled = True
-					Thrust = 699.6528
+					Thrust = 1679.167
 					MaxTemp = 2300
 					CrashTol = 10
 					BreakForce = 1500
@@ -107278,6 +107246,17 @@ GAME
 				}
 				MODULE
 				{
+					name = FARBasicDragModel
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
 					name = ModuleAeroReentry
 					isEnabled = True
 					adjustCollider = 0
@@ -107302,17 +107281,6 @@ GAME
 					{
 					}
 				}
-				MODULE
-				{
-					name = FARBasicDragModel
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
 				RESOURCE
 				{
 					name = ElectricCharge
@@ -107326,14 +107294,14 @@ GAME
 			}
 			ACTIONGROUPS
 			{
-				Stage = False, 95121.6678850011
+				Stage = False, 99368.7002759872
 				Gear = True, 0
-				Light = True, 94779.0278849313
-				RCS = True, 94931.7078849624
-				SAS = True, 94773.7678849302
+				Light = False, 0
+				RCS = True, 99201.8002759532
+				SAS = True, 99059.8402759243
 				Brakes = False, 0
 				Abort = False, 0
-				Custom01 = False, 94998.2678849759
+				Custom01 = False, 99365.7002759866
 				Custom02 = False, 0
 				Custom03 = False, 0
 				Custom04 = False, 0
@@ -107376,9 +107344,9 @@ GAME
 			brave = 0.6942797
 			dumb = 0.2727294
 			badS = True
-			state = Missing
+			state = Available
 			ToD = 95201.6145629182
-			idx = 0
+			idx = -1
 		}
 		KERBAL
 		{
