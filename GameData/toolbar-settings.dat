@@ -44,15 +44,15 @@ toolbars
 		}
 		toolbar_603346423
 		{
-			x = 9
+			x = 2
 			y = 7
-			width = 250
+			width = 338
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS
+			visibleButtons = test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,Fusebox.FBToggle,test.buttonDOSettings,Tac.LS,AmbientLightAdjustment.adjustLevels,SCANsat.KSCMap,KerbalAlarmClock.btnToolbarIcon,ferram4.FARDebugButtonBlizzy,Trajectories.ToggleUI,Kethane.toggle,sirkut.IREditorButton,sirkut2.IREditorGroupButton
 		}
 		toolbar_1993518187
 		{
@@ -377,6 +377,21 @@ toolbars
 			useKSPSkin = False
 			buttonOrder = 
 			visibleButtons = CrewManifest.CrewManifest,Fusebox.FBToggle,Tac.LS
+		}
+	}
+	SPH
+	{
+		toolbar_1491128418
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
 		}
 	}
 }
