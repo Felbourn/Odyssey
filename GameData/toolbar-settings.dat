@@ -76,7 +76,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,Fusebox.FBToggle,CrewManifest.CrewManifest
-			visibleButtons = Fusebox.FBToggle,CrewManifest.CrewManifest
+			visibleButtons = Fusebox.FBToggle,CrewManifest.CrewManifest,Tac.LS
 		}
 		toolbar_2039378269
 		{
@@ -104,15 +104,15 @@ toolbars
 		}
 		toolbar_1343515002
 		{
-			x = 7
-			y = 70
+			x = 49
+			y = 69
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = KerbalAlarmClock.btnToolbarIcon,MechJeb2.Flight_Computer,MechJeb2.Rendezvous_Planner,MechJeb2.Maneuver_Planner,MechJeb2.Smart_A_S_S_
+			visibleButtons = KerbalAlarmClock.btnToolbarIcon,MechJeb2.Flight_Computer,MechJeb2.Rendezvous_Planner,MechJeb2.Maneuver_Planner,MechJeb2.Smart_A_S_S_,Trajectories.ToggleUI
 		}
 		toolbar_2101262639
 		{
@@ -136,7 +136,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
-			visibleButtons = KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
+			visibleButtons = sirkut2.IREditorGroupButton,sirkut.IREditorButton,AGM.AGMMainSwitch
 		}
 		toolbar_671372023
 		{
@@ -218,7 +218,7 @@ toolbars
 			x = 2
 			y = 7
 			width = 338
-			height = 38
+			height = 81
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
@@ -250,7 +250,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,Fusebox.FBToggle,CrewManifest.CrewManifest
-			visibleButtons = Fusebox.FBToggle,CrewManifest.CrewManifest
+			visibleButtons = Fusebox.FBToggle,CrewManifest.CrewManifest,Tac.LS
 		}
 		toolbar_2039378269
 		{
@@ -266,15 +266,15 @@ toolbars
 		}
 		toolbar_1343515002
 		{
-			x = 7
-			y = 70
+			x = 49
+			y = 69
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = KerbalAlarmClock.btnToolbarIcon,MechJeb2.Flight_Computer,MechJeb2.Rendezvous_Planner,MechJeb2.Maneuver_Planner,MechJeb2.Smart_A_S_S_
+			visibleButtons = KerbalAlarmClock.btnToolbarIcon,MechJeb2.Flight_Computer,MechJeb2.Rendezvous_Planner,MechJeb2.Maneuver_Planner,MechJeb2.Smart_A_S_S_,Trajectories.ToggleUI
 		}
 		toolbar_2101262639
 		{
@@ -298,7 +298,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton
-			visibleButtons = KerbCam.toggle,sirkut2.IREditorGroupButton,sirkut.IREditorButton,AGM.AGMMainSwitch
+			visibleButtons = sirkut2.IREditorGroupButton,sirkut.IREditorButton,AGM.AGMMainSwitch
 		}
 	}
 	TRACKSTATION
