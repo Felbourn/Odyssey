@@ -25,7 +25,19 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = Fusebox.FBToggle,RCSBuildAid.mainButton,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,sirkut.IREditorButton,sirkut2.IREditorGroupButton
+			visibleButtons = RCSBuildAid.mainButton,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,sirkut.IREditorButton,sirkut2.IREditorGroupButton
+		}
+		toolbar_1228532562
+		{
+			x = 1080
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = CIT_NodeHelper.NodeHelperButton,Fusebox.FBToggle,Tac.LS
 		}
 	}
 	MAINMENU
@@ -100,7 +112,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = Fusebox.FBToggle,RCSBuildAid.mainButton,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,sirkut.IREditorButton,sirkut2.IREditorGroupButton
+			visibleButtons = RCSBuildAid.mainButton,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB,sirkut.IREditorButton,sirkut2.IREditorGroupButton
 		}
 		toolbar_1343515002
 		{
@@ -234,6 +246,18 @@ toolbars
 			buttonOrder = 
 			visibleButtons = 
 		}
+		toolbar_1228532562
+		{
+			x = 1080
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = CIT_NodeHelper.NodeHelperButton,Fusebox.FBToggle,Tac.LS
+		}
 	}
 	SPACECENTER
 	{
@@ -332,7 +356,7 @@ toolbars
 			x = 207
 			y = 34
 			width = 250
-			height = 81
+			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
