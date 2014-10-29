@@ -221,13 +221,13 @@ satellites generate 3000 or more watts.
 Storing Wh for ElectricCharge would make very small power drain values, so instead all values
 will be multiplied by 10. For example, if something drains 200 watts then it really drains 
 2000 e per hour. Power drains are therefore divided by 360 to get e per second. Batteries
-that store 1000 Wh actually holod 10000 e, and so on.
+that store 1000 Wh actually hold 10000 e, and so on.
 
 KSP batteries are huge compared to real batteries. A real world 12 volt 35 Ah (420 Wh) battery
 might weight 24 pounds and be 8 x 5 x 7 inches. That's 4200 e at 10.8862 kg and 0.00458838 cu-m.
 Such a battery would be over 900,000 e and ~2400 kg per cu-m.
 
-Round these values our for balance and we might use 1,000,000 e and 2.5 ton per cu-m.
+Round these values out for balance and we might use 1,000,000 e and 2.5 ton per cu-m.
 
 Real solar panels generate around 150 to 250 watts per square meter. We'll go with 150. Mass
 will be set to 5 kg per static panel sq-m plus 5 more kg per sq-m for sun tracking.
