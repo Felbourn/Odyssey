@@ -4,7 +4,7 @@ description =
 type = VAB
 PART
 {
-	part = 1x1xthirdhullnew_4293783728
+	part = 1x1xthirdhullnew_4294077278
 	partName = Part
 	pos = 0.2658116,36.46249,0.4732555
 	rot = 0,0,0,1
@@ -16,11 +16,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = mepsoffs_4293783410
-	link = LargeFlatAdapter_4293783348
-	link = Airlockdoors_4293783458
-	attN = top,LargeFlatAdapter_4293783348
-	attN = bottom,Airlockdoors_4293783458
+	link = mepsoffs_4294077246
+	link = LargeFlatAdapter_4294077184
+	link = Airlockdoors_4294075930
+	attN = top,LargeFlatAdapter_4294077184
+	attN = bottom,Airlockdoors_4294075930
 	EVENTS
 	{
 	}
@@ -87,9 +87,9 @@ PART
 }
 PART
 {
-	part = mepsoffs_4293783410
+	part = mepsoffs_4294077246
 	partName = Part
-	pos = -0.8393449,36.79083,-0.6319015
+	pos = -0.839345,36.79083,-0.6319015
 	rot = 0.2705981,0.6532815,0.6532815,-0.2705981
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -99,9 +99,9 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -105
-	link = KAS.ContainerBay1_4293782542
-	link = KAS.ContainerBay1_4293782514
-	srfN = srfAttach,1x1xthirdhullnew_4293783728
+	link = KAS.ContainerBay1_4294076458
+	link = KAS.ContainerBay1_4294076430
+	srfN = srfAttach,1x1xthirdhullnew_4294077278
 	EVENTS
 	{
 	}
@@ -168,7 +168,7 @@ PART
 }
 PART
 {
-	part = LargeFlatAdapter_4293783348
+	part = LargeFlatAdapter_4294077184
 	partName = Strut
 	pos = 0.2658116,36.9935,0.4732555
 	rot = 0,0,1,0
@@ -180,9 +180,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -202.3437
-	link = scienceModule_4293783300
-	attN = top,1x1xthirdhullnew_4293783728
-	attN = bottom,scienceModule_4293783300
+	link = scienceModule_4294077136
+	attN = top,1x1xthirdhullnew_4294077278
+	attN = bottom,scienceModule_4294077136
 	EVENTS
 	{
 	}
@@ -249,7 +249,7 @@ PART
 }
 PART
 {
-	part = scienceModule_4293783300
+	part = scienceModule_4294077136
 	partName = Part
 	pos = 0.2658116,38.86104,0.4732555
 	rot = 0,0,-1,0
@@ -261,12 +261,12 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = LLLRadar_4293783152
-	link = LargeFlatAdapter_4293783100
-	link = mepsperp_4293782604
-	link = KA.DetectionArray.01_4293782188
-	attN = top,LargeFlatAdapter_4293783348
-	attN = bottom,LargeFlatAdapter_4293783100
+	link = LLLRadar_4294076988
+	link = LargeFlatAdapter_4294076936
+	link = mepsperp_4294076520
+	link = KA.DetectionArray.01_4294076104
+	attN = top,LargeFlatAdapter_4294077184
+	attN = bottom,LargeFlatAdapter_4294076936
 	EVENTS
 	{
 	}
@@ -278,8 +278,8 @@ PART
 		name = ModuleAnimateGeneric
 		isEnabled = True
 		status = Locked
-		animSwitch = True
-		animTime = 0
+		animSwitch = False
+		animTime = 1
 		animSpeed = -1
 		EVENTS
 		{
@@ -288,7 +288,7 @@ PART
 				active = True
 				guiActive = True
 				guiIcon = Toggle
-				guiName = Lights ON
+				guiName = Lights OFF
 				category = Toggle
 				guiActiveUnfocused = True
 				unfocusedRange = 5
@@ -595,7 +595,7 @@ PART
 	{
 		name = ModuleTweakableAnimateGeneric
 		isEnabled = True
-		startCompleted = False
+		startCompleted = True
 		startCompleted_UIFlight
 		{
 			controlEnabled = True
@@ -720,7 +720,7 @@ PART
 }
 PART
 {
-	part = LLLRadar_4293783152
+	part = LLLRadar_4294076988
 	partName = Part
 	pos = -1.008847,38.80871,0.4732624
 	rot = -0.5,0.5,0.5,0.5
@@ -732,7 +732,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,scienceModule_4293783300
+	srfN = srfAttach,scienceModule_4294077136
 	EVENTS
 	{
 	}
@@ -880,7 +880,7 @@ PART
 }
 PART
 {
-	part = LargeFlatAdapter_4293783100
+	part = LargeFlatAdapter_4294076936
 	partName = Strut
 	pos = 0.2658116,40.75413,0.4732555
 	rot = 0,0,0,-1
@@ -892,9 +892,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = 1x1xthirdhullnew_4293783052
-	attN = top,1x1xthirdhullnew_4293783052
-	attN = bottom,scienceModule_4293783300
+	link = 1x1xthirdhullnew_4294076888
+	attN = top,1x1xthirdhullnew_4294076888
+	attN = bottom,scienceModule_4294077136
 	EVENTS
 	{
 	}
@@ -961,7 +961,7 @@ PART
 }
 PART
 {
-	part = 1x1xthirdhullnew_4293783052
+	part = 1x1xthirdhullnew_4294076888
 	partName = Part
 	pos = 0.2658116,41.32089,0.4732555
 	rot = 0,0,0,1
@@ -973,11 +973,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = LLLWalkwayNEW_4293783020
-	link = RCS_4293782732
-	link = RCS_4293782668
-	attN = top,LLLWalkwayNEW_4293783020
-	attN = bottom,LargeFlatAdapter_4293783100
+	link = LLLWalkwayNEW_4294076856
+	link = RCS_4294076648
+	link = RCS_4294076584
+	attN = top,LLLWalkwayNEW_4294076856
+	attN = bottom,LargeFlatAdapter_4294076936
 	EVENTS
 	{
 	}
@@ -1044,7 +1044,7 @@ PART
 }
 PART
 {
-	part = LLLWalkwayNEW_4293783020
+	part = LLLWalkwayNEW_4294076856
 	partName = Part
 	pos = 0.2658116,43.01589,0.4732555
 	rot = 0,0.7071068,0,0.7071068
@@ -1056,11 +1056,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = 1x1xthirdhullnew_4293782920
-	link = Kosmos.TKS.RCS.Tank_4293782832
-	link = Kosmos.TKS.RCS.Tank_4293782782
-	attN = top,1x1xthirdhullnew_4293782920
-	attN = bottom,1x1xthirdhullnew_4293783052
+	link = Kosmos.TKS.RCS.Tank_4294076756
+	link = Kosmos.TKS.RCS.Tank_4294076698
+	link = 1x1xthirdhullnew_4294073480
+	attN = top,1x1xthirdhullnew_4294073480
+	attN = bottom,1x1xthirdhullnew_4294076888
 	EVENTS
 	{
 	}
@@ -1071,7 +1071,7 @@ PART
 	{
 		name = ModuleLight
 		isEnabled = True
-		isOn = False
+		isOn = True
 		lightR = 1
 		lightG = 1
 		lightB = 1
@@ -1100,7 +1100,7 @@ PART
 		{
 			LightsOff
 			{
-				active = False
+				active = True
 				guiActive = True
 				guiActiveEditor = True
 				guiIcon = Lights Off
@@ -1112,7 +1112,7 @@ PART
 			}
 			LightsOn
 			{
-				active = True
+				active = False
 				guiActive = True
 				guiActiveEditor = True
 				guiIcon = Lights On
@@ -1172,356 +1172,9 @@ PART
 }
 PART
 {
-	part = 1x1xthirdhullnew_4293782920
+	part = Kosmos.TKS.RCS.Tank_4294076756
 	partName = Part
-	pos = 0.2658116,44.71092,0.4732555
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	modCost = 0
-	link = LLLCBM_4293782888
-	attN = top,LLLCBM_4293782888
-	attN = bottom,LLLWalkwayNEW_4293783020
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1000
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.6
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		tweakScale = 1.25
-		currentScale = 1.25
-		defaultScale = 1.25
-		isFreeScale = False
-		version = 1.44.0.0
-		defaultTransformScale = (1, 1, 1)
-		dryCost = 220
-		tweakScale_UIEditor
-		{
-			controlEnabled = True
-			minValue = 0.625
-			maxValue = 5
-			incrementLarge = 1.25
-			incrementSmall = 0.125
-			incrementSlide = 0.001
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = LLLCBM_4293782888
-	partName = Part
-	pos = 0.2658116,45.13468,0.4732555
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	modCost = 0
-	link = IR.StrutDecoupler.Small_4293781970
-	link = IR.StrutDecoupler.Small_4293762614
-	attN = bottom,1x1xthirdhullnew_4293782920
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleDockingNode
-		isEnabled = True
-		state = Ready
-		dockUId = 0
-		dockNodeIdx = 0
-		EVENTS
-		{
-			Undock
-			{
-				active = False
-				guiActive = True
-				guiIcon = Undock
-				guiName = Undock
-				category = Undock
-				guiActiveUnfocused = True
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			UndockSameVessel
-			{
-				active = False
-				guiActive = True
-				guiIcon = Undock
-				guiName = Undock
-				category = Undock
-				guiActiveUnfocused = True
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Decouple
-			{
-				active = False
-				guiActive = True
-				guiIcon = Decouple Node
-				guiName = Decouple Node
-				category = Decouple Node
-				guiActiveUnfocused = True
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			SetAsTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = Set as Target
-				guiName = Set as Target
-				category = Set as Target
-				guiActiveUnfocused = True
-				unfocusedRange = 200
-				externalToEVAOnly = False
-			}
-			UnsetTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = Unset Target
-				guiName = Unset Target
-				category = Unset Target
-				guiActiveUnfocused = True
-				unfocusedRange = 200
-				externalToEVAOnly = False
-			}
-			EnableXFeed
-			{
-				active = False
-				guiActive = False
-				guiIcon = Enable Crossfeed
-				guiName = Enable Crossfeed
-				category = Enable Crossfeed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			DisableXFeed
-			{
-				active = False
-				guiActive = False
-				guiIcon = Disable Crossfeed
-				guiName = Disable Crossfeed
-				category = Disable Crossfeed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			MakeReferenceTransform
-			{
-				active = True
-				guiActive = True
-				guiIcon = Control from Here
-				guiName = Control from Here
-				category = Control from Here
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			UndockAction
-			{
-				actionGroup = None
-			}
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = ExtendedPartInfo
-		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1500
-		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 0
-		Decouple = 0
-		Mass = 0.5
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDockingNodeNamed
-		isEnabled = True
-		portName = Odyssey Station CBM
-		initialized = True
-		EVENTS
-		{
-			renameDockingPort
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Rename Port
-				guiName = Rename Port
-				category = Rename Port
-				guiActiveUnfocused = True
-				unfocusedRange = 2000
-				externalToEVAOnly = False
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleStagingToggle
-		isEnabled = True
-		stagingEnabled = False
-		stagingEnabled_UIFlight
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableDockingNode
-		isEnabled = True
-		fuelCrossFeed = True
-		acquireRange = 0.5
-		acquireForce = 2
-		acquireTorque = 2
-		undockEjectionForce = 10
-		minDistanceToReEngage = 1
-		isDecoupled = False
-		fuelCrossFeed_UIFlight
-		{
-			controlEnabled = True
-		}
-		acquireRange_UIFlight
-		{
-			controlEnabled = True
-			minValue = -1
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		acquireForce_UIFlight
-		{
-			controlEnabled = True
-			minValue = -1
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		acquireTorque_UIFlight
-		{
-			controlEnabled = True
-			minValue = -1
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		undockEjectionForce_UIFlight
-		{
-			controlEnabled = True
-			minValue = -1
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		minDistanceToReEngage_UIFlight
-		{
-			controlEnabled = True
-			minValue = -1
-			maxValue = 3.402823E+38
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			MakeReferenceTransformAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = Kosmos.TKS.RCS.Tank_4293782832
-	partName = Part
-	pos = -0.3829043,43.68524,0.4732595
+	pos = -0.3829052,43.68524,0.4732595
 	rot = 0,0,0,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1531,8 +1184,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 17.52
-	sym = Kosmos.TKS.RCS.Tank_4293782782
-	srfN = srfAttach,LLLWalkwayNEW_4293783020
+	sym = Kosmos.TKS.RCS.Tank_4294076698
+	srfN = srfAttach,LLLWalkwayNEW_4294076856
 	EVENTS
 	{
 	}
@@ -1589,7 +1242,7 @@ PART
 		type = Odyssey_ServiceModule
 		utilization = 86
 		mass = 0.20125
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 1250
 		type_UIEditor
 		{
@@ -1683,9 +1336,9 @@ PART
 }
 PART
 {
-	part = Kosmos.TKS.RCS.Tank_4293782782
+	part = Kosmos.TKS.RCS.Tank_4294076698
 	partName = Part
-	pos = 0.9145277,43.68524,0.4732517
+	pos = 0.9145285,43.68524,0.4732517
 	rot = 0,-1,0,8.42937E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1695,8 +1348,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 17.52
-	sym = Kosmos.TKS.RCS.Tank_4293782832
-	srfN = srfAttach,LLLWalkwayNEW_4293783020
+	sym = Kosmos.TKS.RCS.Tank_4294076756
+	srfN = srfAttach,LLLWalkwayNEW_4294076856
 	EVENTS
 	{
 	}
@@ -1753,7 +1406,7 @@ PART
 		type = Odyssey_ServiceModule
 		utilization = 86
 		mass = 0.20125
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 1250
 		type_UIEditor
 		{
@@ -1847,7 +1500,7 @@ PART
 }
 PART
 {
-	part = RCS_4293782732
+	part = RCS_4294076648
 	partName = Part
 	pos = 0.2658082,41.34646,1.122113
 	rot = -8.42937E-08,-8.42937E-08,-0.7071068,-0.7071068
@@ -1859,8 +1512,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3150
-	sym = RCS_4293782668
-	srfN = srfAttach,1x1xthirdhullnew_4293783052
+	sym = RCS_4294076584
+	srfN = srfAttach,1x1xthirdhullnew_4294076888
 	EVENTS
 	{
 	}
@@ -2008,7 +1661,7 @@ PART
 }
 PART
 {
-	part = RCS_4293782668
+	part = RCS_4294076584
 	partName = Part
 	pos = 0.265815,41.34646,-0.1756028
 	rot = -0.7071068,-0.7071068,8.42937E-08,8.42937E-08
@@ -2020,8 +1673,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3150
-	sym = RCS_4293782732
-	srfN = srfAttach,1x1xthirdhullnew_4293783052
+	sym = RCS_4294076648
+	srfN = srfAttach,1x1xthirdhullnew_4294076888
 	EVENTS
 	{
 	}
@@ -2169,7 +1822,7 @@ PART
 }
 PART
 {
-	part = mepsperp_4293782604
+	part = mepsperp_4294076520
 	partName = Part
 	pos = 1.759287,37.6977,0.4732475
 	rot = -0.5,0.5,0.5,-0.5
@@ -2181,8 +1834,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -118.125
-	link = dmImagingPlatform_4293782486
-	srfN = srfAttach,scienceModule_4293783300
+	link = dmImagingPlatform_4294076402
+	srfN = srfAttach,scienceModule_4294077136
 	EVENTS
 	{
 	}
@@ -2249,10 +1902,10 @@ PART
 }
 PART
 {
-	part = KAS.ContainerBay1_4293782542
+	part = KAS.ContainerBay1_4294076458
 	partName = Part
-	pos = -1.11689,36.43132,-0.9090399
-	rot = 0.9238797,-2.236105E-07,0.3826835,-4.423578E-08
+	pos = -1.11689,36.43132,-0.9090396
+	rot = 0.9238796,-2.122056E-07,0.3826834,-7.176953E-08
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2261,7 +1914,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -97.6
-	srfN = srfAttach,mepsoffs_4293783410
+	srfN = srfAttach,mepsoffs_4294077246
 	EVENTS
 	{
 	}
@@ -2411,10 +2064,10 @@ PART
 }
 PART
 {
-	part = KAS.ContainerBay1_4293782514
+	part = KAS.ContainerBay1_4294076430
 	partName = Part
-	pos = -0.6263529,36.43132,-0.4115922
-	rot = 0.9238796,2.261403E-07,0.3826834,-3.901966E-07
+	pos = -0.6263523,36.43132,-0.4115912
+	rot = 0.9238796,2.147355E-07,0.3826834,-3.626629E-07
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2423,7 +2076,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -97.6
-	srfN = srfAttach,mepsoffs_4293783410
+	srfN = srfAttach,mepsoffs_4294077246
 	EVENTS
 	{
 	}
@@ -2573,10 +2226,10 @@ PART
 }
 PART
 {
-	part = dmImagingPlatform_4293782486
+	part = dmImagingPlatform_4294076402
 	partName = Part
 	pos = 1.778042,37.69799,0.4660459
-	rot = 0.4999998,0.5,0.5000004,-0.4999998
+	rot = 0.4999998,0.5,0.5000005,-0.4999998
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2585,7 +2238,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,mepsperp_4293782604
+	srfN = srfAttach,mepsperp_4294076520
 	EVENTS
 	{
 	}
@@ -2732,7 +2385,7 @@ PART
 }
 PART
 {
-	part = KA.DetectionArray.01_4293782188
+	part = KA.DetectionArray.01_4294076104
 	partName = Part
 	pos = 1.607028,39.16498,0.4732521
 	rot = 0.5,0.5,-0.5,0.5
@@ -2744,7 +2397,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,scienceModule_4293783300
+	srfN = srfAttach,scienceModule_4294077136
 	EVENTS
 	{
 	}
@@ -2892,7 +2545,7 @@ PART
 }
 PART
 {
-	part = Airlockdoors_4293783458
+	part = Airlockdoors_4294075930
 	partName = Part
 	pos = 0.2658116,36.00761,0.4732555
 	rot = 0.7071068,0,0.7071068,0
@@ -2904,9 +2557,13 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = LLLCBM_4293783630
-	attN = top,LLLCBM_4293783630
-	attN = bottom,1x1xthirdhullnew_4293783728
+	link = LLLCBM_4294075882
+	link = W485.SurfaceOmniLight_4294073548
+	link = W485.SurfaceOmniLight_4294073514
+	link = IR.StrutDecoupler.Small_4294070160
+	link = IR.StrutDecoupler.Small_4294070116
+	attN = top,LLLCBM_4294075882
+	attN = bottom,1x1xthirdhullnew_4294077278
 	EVENTS
 	{
 	}
@@ -2957,7 +2614,7 @@ PART
 }
 PART
 {
-	part = LLLCBM_4293783630
+	part = LLLCBM_4294075882
 	partName = Part
 	pos = 0.2658116,35.70817,0.4732555
 	rot = 0,0,0,1
@@ -2969,9 +2626,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = LargeFlatAdapter_4293783574
-	attN = top,Airlockdoors_4293783458
-	attN = bottom,LargeFlatAdapter_4293783574
+	link = LargeFlatAdapter_4294075826
+	attN = top,Airlockdoors_4294075930
+	attN = bottom,LargeFlatAdapter_4294075826
 	EVENTS
 	{
 	}
@@ -3223,7 +2880,7 @@ PART
 }
 PART
 {
-	part = LargeFlatAdapter_4293783574
+	part = LargeFlatAdapter_4294075826
 	partName = Strut
 	pos = 0.2658116,35.56517,0.4732555
 	rot = 0,0,0,1
@@ -3235,11 +2892,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = W485.SurfaceLight_4293783526
-	link = W485.SurfaceLight_4293783492
-	link = crewtube-hub-125_4293774478
-	attN = top,LLLCBM_4293783630
-	attN = bottom,crewtube-hub-125_4293774478
+	link = W485.SurfaceLight_4294075778
+	link = W485.SurfaceLight_4294075744
+	link = crewtube-hub-125_4294075710
+	attN = top,LLLCBM_4294075882
+	attN = bottom,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -3306,9 +2963,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceLight_4293783526
+	part = W485.SurfaceLight_4294075778
 	partName = Part
-	pos = 0.2658113,35.44406,1.659522
+	pos = 0.2658069,35.44406,1.659523
 	rot = -0.4884503,0,0,-0.8725919
 	attRot = 0.1305262,0,0,0.9914449
 	mir = 1,1,1
@@ -3318,8 +2975,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceLight_4293783492
-	srfN = srfAttach,LargeFlatAdapter_4293783574
+	sym = W485.SurfaceLight_4294075744
+	srfN = srfAttach,LargeFlatAdapter_4294075826
 	EVENTS
 	{
 	}
@@ -3458,9 +3115,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceLight_4293783492
+	part = W485.SurfaceLight_4294075744
 	partName = Part
-	pos = 0.2658118,35.44406,-0.7130104
+	pos = 0.2658162,35.44406,-0.7130119
 	rot = 2.107343E-08,-0.8725919,0.4884503,4.214685E-08
 	attRot = 0.1305262,0,0,0.9914449
 	mir = 1,1,1
@@ -3470,8 +3127,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceLight_4293783526
-	srfN = srfAttach,LargeFlatAdapter_4293783574
+	sym = W485.SurfaceLight_4294075778
+	srfN = srfAttach,LargeFlatAdapter_4294075826
 	EVENTS
 	{
 	}
@@ -3610,7 +3267,7 @@ PART
 }
 PART
 {
-	part = crewtube-hub-125_4293774478
+	part = crewtube-hub-125_4294075710
 	partName = Part
 	pos = 0.2658116,33.9632,0.4732555
 	rot = 0,0,0,1
@@ -3621,43 +3278,43 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	modCost = 70080.01
-	link = LargeFlatAdapter_4293947606
-	link = RTLongAntenna3_4293946206
-	link = Kosmos.Pravilo.ASAS_4293946146
-	link = W485.SurfaceOmniLight_4293946076
-	link = W485.SurfaceOmniLight_4293770876
-	link = W485.SurfaceOmniLight_4293770836
-	link = W485.SurfaceOmniLight_4293770796
-	link = W485.SurfaceOmniLight_4293770756
-	link = W485.SurfaceOmniLight_4293770716
-	link = W485.SurfaceOmniLight_4293770676
-	link = W485.SurfaceOmniLight_4293770636
-	link = Dishcl1_4293945582
-	link = bahaTrrEngine_4293947414
-	link = bahaTrrEngine_4293769004
-	link = bahaTrrEngine_4293947018
-	link = bahaTrrEngine_4293768522
-	link = escaleralad1_4293945838
-	link = escaleralad1_4293767992
-	link = escaleralad1_4293945766
-	link = escaleralad1_4293767538
-	link = RCS_4293947146
-	link = RCS_4293767058
-	link = 2009RCS_4293947258
-	link = 2009RCS_4293766374
-	link = 2009RCS_4293945694
-	link = 2009RCS_4293766012
-	link = solarpanels-curved01-2_4293946534
-	link = solarpanels-curved01-2_4293765374
-	link = solarpanels-curved01-2_4293765286
-	link = solarpanels-curved01-2_4293765198
-	link = solarpanels-curved01-2_4293946862
-	link = solarpanels-curved01-2_4293764710
-	link = solarpanels-curved01-2_4293764622
-	link = solarpanels-curved01-2_4293764534
-	attN = top,LargeFlatAdapter_4293783574
-	attN = bottom,LargeFlatAdapter_4293947606
+	modCost = 80100.62
+	link = LargeFlatAdapter_4294075642
+	link = RTLongAntenna3_4294075450
+	link = Kosmos.Pravilo.ASAS_4294075390
+	link = W485.SurfaceOmniLight_4294075354
+	link = W485.SurfaceOmniLight_4294075320
+	link = W485.SurfaceOmniLight_4294075286
+	link = W485.SurfaceOmniLight_4294075252
+	link = W485.SurfaceOmniLight_4294075218
+	link = W485.SurfaceOmniLight_4294075184
+	link = W485.SurfaceOmniLight_4294075150
+	link = W485.SurfaceOmniLight_4294075116
+	link = Dishcl1_4294075082
+	link = bahaTrrEngine_4294075012
+	link = bahaTrrEngine_4294074934
+	link = bahaTrrEngine_4294074856
+	link = bahaTrrEngine_4294074778
+	link = escaleralad1_4294074700
+	link = escaleralad1_4294074664
+	link = escaleralad1_4294074628
+	link = escaleralad1_4294074592
+	link = RCS_4294074556
+	link = RCS_4294074492
+	link = 2009RCS_4294074428
+	link = 2009RCS_4294074372
+	link = 2009RCS_4294074316
+	link = 2009RCS_4294074260
+	link = solarpanels-curved01-2_4294074204
+	link = solarpanels-curved01-2_4294074122
+	link = solarpanels-curved01-2_4294074040
+	link = solarpanels-curved01-2_4294073958
+	link = solarpanels-curved01-2_4294073876
+	link = solarpanels-curved01-2_4294073794
+	link = solarpanels-curved01-2_4294073712
+	link = solarpanels-curved01-2_4294073630
+	attN = top,LargeFlatAdapter_4294075826
+	attN = bottom,LargeFlatAdapter_4294075642
 	EVENTS
 	{
 	}
@@ -3702,7 +3359,7 @@ PART
 	{
 		name = ModuleReactionWheel
 		isEnabled = True
-		stateString = 
+		stateString = Active
 		WheelState = Active
 		EVENTS
 		{
@@ -3752,11 +3409,11 @@ PART
 		Thrust = 0
 		MaxTemp = 1100
 		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
-		Torque = 1
+		BreakForce = 6000
+		BreakTorque = 6000
+		Torque = 8
 		Decouple = 0
-		Mass = 0.6
+		Mass = 12.77543
 		EVENTS
 		{
 		}
@@ -3840,6 +3497,199 @@ PART
 		ACTIONS
 		{
 		}
+		MechJebLocalSettings
+		{
+			MechJebModuleJoke
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleMenu
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleTargetController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSettings
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSmartASS
+			{
+				mode = ORBITAL
+				target = OFF
+				advReference = INERTIAL
+				advDirection = FORWARD
+				forceRol = False
+				unlockParts = 
+				unlockTechs = 
+				srfHdg
+				{
+					_val = 90
+					_text = 90
+				}
+				srfPit
+				{
+					_val = 90
+					_text = 90
+				}
+				srfRol
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelYaw
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelPit
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelRol
+				{
+					_val = 0
+					_text = 0
+				}
+				rol
+				{
+					_val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleStageStats
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleWaypointWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWaypointHelpWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			ModExtensionDemo
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleManeuverPlanner
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleNodeExecutor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleJokeObscurePanel
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomWindowEditor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleInfoItems
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRCSBalancerWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRendezvousGuidance
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWarpController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustController
+			{
+				limitThrottle = False
+				unlockParts = 
+				unlockTechs = 
+				maxThrottle
+				{
+					_val = 1
+					_text = 100
+				}
+			}
+			MechJebModuleRCSController
+			{
+				unlockParts = 
+				unlockTechs = 
+				Tf
+				{
+					_val = 1
+					_text = 1
+				}
+			}
+			MechJebModuleRCSBalancer
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAttitudeController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleStagingController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleFlightRecorder
+			{
+				markUT = 0
+				deltaVExpended = 0
+				dragLosses = 0
+				gravityLosses = 0
+				steeringLosses = 0
+				markLatitude = 0
+				markLongitude = 0
+				markAltitude = 0
+				markBodyIndex = 1
+				maxDragGees = 0
+				unlockParts = 
+				unlockTechs = 
+			}
+		}
 	}
 	MODULE
 	{
@@ -3847,8 +3697,8 @@ PART
 		isEnabled = True
 		type = Odyssey_ServiceModule
 		utilization = 86
-		mass = 4.8
-		timestamp = 121533.15668911
+		mass = 6.0098
+		timestamp = 186548.084361037
 		volume = 8000
 		type_UIEditor
 		{
@@ -3867,6 +3717,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiIcon = Remove All Tanks
 				guiName = Remove All Tanks
 				category = Remove All Tanks
@@ -3878,7 +3729,6 @@ PART
 			{
 				active = True
 				guiActive = False
-				guiActiveEditor = True
 				guiIcon = 46.607% UDMH / 53.393% NTO
 				guiName = 46.607% UDMH / 53.393% NTO
 				category = 46.607% UDMH / 53.393% NTO
@@ -3935,137 +3785,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRTAntenna
-		isEnabled = True
-		IsRTAntenna = True
-		IsRTActive = True
-		IsRTPowered = True
-		IsRTBroken = False
-		RTDishRadians = 1
-		RTOmniRange = 3000
-		RTDishRange = -1
-		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
-		EVENTS
-		{
-			EventToggle
-			{
-				active = True
-				guiActive = False
-				guiIcon = 
-				guiName = Toggle
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventTarget
-			{
-				active = False
-				guiActive = False
-				guiIcon = Target
-				guiName = Unknown Target
-				category = Target
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = Start deployed
-				guiName = Start deployed
-				category = Start deployed
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventEditorClose
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiIcon = Start retracted
-				guiName = Start retracted
-				category = Start retracted
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventOpen
-			{
-				active = False
-				guiActive = False
-				guiIcon = 
-				guiName = Activate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			EventClose
-			{
-				active = True
-				guiActive = True
-				guiIcon = 
-				guiName = Deactivate
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OverrideTarget
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Set Target
-				guiName = [EVA] Set Target
-				category = [EVA] Set Target
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideOpen
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Open
-				guiName = [EVA] Force Open
-				category = [EVA] Force Open
-				guiActiveUnfocused = False
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-			OverrideClose
-			{
-				active = True
-				guiActive = False
-				guiIcon = [EVA] Force Close
-				guiName = [EVA] Force Close
-				category = [EVA] Force Close
-				guiActiveUnfocused = True
-				unfocusedRange = 5
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = None
-			}
-			ActionOpen
-			{
-				actionGroup = None
-			}
-			ActionClose
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
 		name = FARBasicDragModel
 		isEnabled = True
 		EVENTS
@@ -4075,10 +3794,50 @@ PART
 		{
 		}
 	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 200000
+		maxAmount = 200000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Hydrazine
+		amount = 1000
+		maxAmount = 1000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = UDMH
+		amount = 3169.29705142975
+		maxAmount = 3169.29705142975
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = NTO
+		amount = 3630.70294857025
+		maxAmount = 3630.70294857025
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
 }
 PART
 {
-	part = LargeFlatAdapter_4293947606
+	part = LargeFlatAdapter_4294075642
 	partName = Strut
 	pos = 0.2658116,32.36713,0.4732555
 	rot = 0,0,1,0
@@ -4090,11 +3849,11 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = W485.SurfaceLight_4293947558
-	link = W485.SurfaceLight_4293947524
-	link = dockingPortHGR_4293947490
-	attN = top,dockingPortHGR_4293947490
-	attN = bottom,crewtube-hub-125_4293774478
+	link = W485.SurfaceLight_4294075594
+	link = W485.SurfaceLight_4294075560
+	link = dockingPortHGR_4294075526
+	attN = top,dockingPortHGR_4294075526
+	attN = bottom,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -4161,9 +3920,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceLight_4293947558
+	part = W485.SurfaceLight_4294075594
 	partName = Part
-	pos = 0.2658115,32.48199,1.653597
+	pos = 0.2658071,32.48199,1.653597
 	rot = -1.264406E-07,-0.4884503,-0.8725919,4.214685E-08
 	attRot = 0,0.1305262,0.9914449,0
 	mir = 1,1,1
@@ -4173,8 +3932,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceLight_4293947524
-	srfN = srfAttach,LargeFlatAdapter_4293947606
+	sym = W485.SurfaceLight_4294075560
+	srfN = srfAttach,LargeFlatAdapter_4294075642
 	EVENTS
 	{
 	}
@@ -4313,9 +4072,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceLight_4293947524
+	part = W485.SurfaceLight_4294075560
 	partName = Part
-	pos = 0.2658116,32.48199,-0.7070854
+	pos = 0.265816,32.48199,-0.7070872
 	rot = -0.8725919,8.42937E-08,1.685874E-07,0.4884503
 	attRot = 0,0.1305262,0.9914449,0
 	mir = 1,1,1
@@ -4325,8 +4084,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceLight_4293947558
-	srfN = srfAttach,LargeFlatAdapter_4293947606
+	sym = W485.SurfaceLight_4294075594
+	srfN = srfAttach,LargeFlatAdapter_4294075642
 	EVENTS
 	{
 	}
@@ -4465,7 +4224,7 @@ PART
 }
 PART
 {
-	part = dockingPortHGR_4293947490
+	part = dockingPortHGR_4294075526
 	partName = Part
 	pos = 0.2658116,32.09913,0.4732555
 	rot = 0,0,1,0
@@ -4477,9 +4236,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 0
-	link = KW5mExpandedFairingBase_4293944508
-	attN = top,KW5mExpandedFairingBase_4293944508
-	attN = bottom,LargeFlatAdapter_4293947606
+	link = KW5mExpandedFairingBase_4294073304
+	attN = top,KW5mExpandedFairingBase_4294073304
+	attN = bottom,LargeFlatAdapter_4294075642
 	EVENTS
 	{
 	}
@@ -4777,9 +4536,9 @@ PART
 }
 PART
 {
-	part = RTLongAntenna3_4293946206
+	part = RTLongAntenna3_4294075450
 	partName = Part
-	pos = 0.2658112,33.96164,1.797508
+	pos = 0.2658066,33.96164,1.797508
 	rot = -0.7071069,-8.42937E-08,8.42937E-08,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4789,7 +4548,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -5021,9 +4780,9 @@ PART
 }
 PART
 {
-	part = Kosmos.Pravilo.ASAS_4293946146
+	part = Kosmos.Pravilo.ASAS_4294075390
 	partName = Part
-	pos = 0.2658112,34.14017,1.803102
+	pos = 0.2658066,34.14017,1.803102
 	rot = 0,-8.42937E-08,0,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5033,7 +4792,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -5245,9 +5004,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293946076
+	part = W485.SurfaceOmniLight_4294075354
 	partName = Part
-	pos = -0.9507543,33.95908,0.9951787
+	pos = -0.9507599,33.95908,0.9951832
 	rot = 0.587938,-0.3928474,0.3928475,0.5879379
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5257,14 +5016,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770676
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075150
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -5403,9 +5162,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770876
+	part = W485.SurfaceOmniLight_4294075320
 	partName = Part
-	pos = -0.2253755,33.95908,1.702553
+	pos = -0.2253808,33.95908,1.70256
 	rot = 0.6935202,-0.1379496,0.1379496,0.69352
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5415,14 +5174,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770676
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075150
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -5561,9 +5320,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770836
+	part = W485.SurfaceOmniLight_4294075286
 	partName = Part
-	pos = 0.7877338,33.95908,1.689821
+	pos = 0.7877308,33.95908,1.689821
 	rot = 0.6935201,0.1379498,-0.1379498,0.69352
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5573,14 +5332,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770676
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075150
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -5719,9 +5478,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770796
+	part = W485.SurfaceOmniLight_4294075252
 	partName = Part
-	pos = 1.495108,33.95908,0.9644414
+	pos = 1.495108,33.95908,0.9644379
 	rot = 0.5879379,0.3928476,-0.3928477,0.5879378
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5731,14 +5490,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770676
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075150
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -5877,9 +5636,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770756
+	part = W485.SurfaceOmniLight_4294075218
 	partName = Part
-	pos = 1.482377,33.95908,-0.04866788
+	pos = 1.482384,33.95908,-0.04867241
 	rot = 0.3928475,0.5879379,-0.587938,0.3928474
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5889,14 +5648,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770676
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075150
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6035,10 +5794,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770716
+	part = W485.SurfaceOmniLight_4294075184
 	partName = Part
-	pos = 0.7569987,33.95908,-0.7560418
-	rot = 0.1379496,0.6935201,-0.6935202,0.1379496
+	pos = 0.7570041,33.95908,-0.7560471
+	rot = 0.1379496,0.69352,-0.6935202,0.1379496
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6047,14 +5806,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770676
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075150
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6193,9 +5952,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770676
+	part = W485.SurfaceOmniLight_4294075150
 	partName = Part
-	pos = -0.2561108,33.95908,-0.7433097
+	pos = -0.2561083,33.95908,-0.7433114
 	rot = -0.1379498,0.69352,-0.6935201,-0.1379498
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -6205,14 +5964,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770636
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075116
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6351,10 +6110,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293770636
+	part = W485.SurfaceOmniLight_4294075116
 	partName = Part
-	pos = -0.9634854,33.95908,-0.01793012
-	rot = -0.3928477,0.5879377,-0.5879378,-0.3928477
+	pos = -0.9634876,33.95908,-0.0179266
+	rot = -0.3928477,0.5879378,-0.5879378,-0.3928477
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -6363,14 +6122,14 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293946076
-	sym = W485.SurfaceOmniLight_4293770876
-	sym = W485.SurfaceOmniLight_4293770836
-	sym = W485.SurfaceOmniLight_4293770796
-	sym = W485.SurfaceOmniLight_4293770756
-	sym = W485.SurfaceOmniLight_4293770716
-	sym = W485.SurfaceOmniLight_4293770676
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = W485.SurfaceOmniLight_4294075354
+	sym = W485.SurfaceOmniLight_4294075320
+	sym = W485.SurfaceOmniLight_4294075286
+	sym = W485.SurfaceOmniLight_4294075252
+	sym = W485.SurfaceOmniLight_4294075218
+	sym = W485.SurfaceOmniLight_4294075184
+	sym = W485.SurfaceOmniLight_4294075150
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6509,9 +6268,9 @@ PART
 }
 PART
 {
-	part = Dishcl1_4293945582
+	part = Dishcl1_4294075082
 	partName = Part
-	pos = 0.2658121,33.94415,-0.8504626
+	pos = 0.2658167,33.94415,-0.8504635
 	rot = 0,0.7071069,-0.7071069,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -6521,7 +6280,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6752,20 +6511,20 @@ PART
 }
 PART
 {
-	part = bahaTrrEngine_4293947414
+	part = bahaTrrEngine_4294075012
 	partName = Part
-	pos = -0.6726938,33.94855,1.411761
-	rot = 0,-0.3826834,0,-0.9238796
+	pos = -0.6726995,33.94855,1.411768
+	rot = 0,-0.3826835,0,-0.9238797
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 0
+	istg = 1
 	dstg = 0
-	sidx = 2
-	sqor = 0
+	sidx = 0
+	sqor = 1
 	attm = 1
 	modCost = 0
-	sym = bahaTrrEngine_4293769004
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = bahaTrrEngine_4294074934
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6913,20 +6672,20 @@ PART
 }
 PART
 {
-	part = bahaTrrEngine_4293769004
+	part = bahaTrrEngine_4294074934
 	partName = Part
-	pos = 1.204317,33.94855,-0.4652499
-	rot = 0,-0.9238796,0,0.3826835
+	pos = 1.204324,33.94855,-0.4652554
+	rot = 0,-0.9238797,0,0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 0
+	istg = 1
 	dstg = 0
-	sidx = 3
-	sqor = 0
+	sidx = 1
+	sqor = 1
 	attm = 1
 	modCost = 0
-	sym = bahaTrrEngine_4293947414
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = bahaTrrEngine_4294075012
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -6984,11 +6743,11 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom06
 			}
 			ActivateAction
 			{
-				actionGroup = None
+				actionGroup = Custom05
 			}
 		}
 	}
@@ -7074,20 +6833,20 @@ PART
 }
 PART
 {
-	part = bahaTrrEngine_4293947018
+	part = bahaTrrEngine_4294074856
 	partName = Part
-	pos = -0.6741654,33.95314,-0.4667218
-	rot = 0.9238796,0,0.3826835,0
+	pos = -0.6741639,33.95314,-0.4667201
+	rot = 0.9238797,0,0.3826835,0
 	attRot = 0,0,0.9999999,0
 	mir = 1,1,1
 	istg = 0
 	dstg = 0
-	sidx = 5
+	sidx = 0
 	sqor = 0
 	attm = 1
 	modCost = 0
-	sym = bahaTrrEngine_4293768522
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = bahaTrrEngine_4294074778
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7235,7 +6994,7 @@ PART
 }
 PART
 {
-	part = bahaTrrEngine_4293768522
+	part = bahaTrrEngine_4294074778
 	partName = Part
 	pos = 1.205789,33.95314,1.413233
 	rot = 0.3826835,0,-0.9238797,0
@@ -7243,12 +7002,12 @@ PART
 	mir = 1,1,1
 	istg = 0
 	dstg = 0
-	sidx = 4
+	sidx = 1
 	sqor = 0
 	attm = 1
 	modCost = 0
-	sym = bahaTrrEngine_4293947018
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = bahaTrrEngine_4294074856
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7306,11 +7065,11 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = None
+				actionGroup = Custom05
 			}
 			ActivateAction
 			{
-				actionGroup = None
+				actionGroup = Custom06
 			}
 		}
 	}
@@ -7396,9 +7155,9 @@ PART
 }
 PART
 {
-	part = escaleralad1_4293945838
+	part = escaleralad1_4294074700
 	partName = Strut
-	pos = -1.117487,33.96207,0.8439099
+	pos = -1.117494,33.96207,0.8439153
 	rot = 7.186243E-08,-0.7933535,-8.194339E-08,-0.6087615
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -7408,8 +7167,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = escaleralad1_4293767992
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = escaleralad1_4294074664
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7449,9 +7208,9 @@ PART
 }
 PART
 {
-	part = escaleralad1_4293767992
+	part = escaleralad1_4294074664
 	partName = Strut
-	pos = 1.649111,33.96207,0.1026009
+	pos = 1.649118,33.96207,0.1025953
 	rot = -8.19434E-08,-0.6087615,-7.186243E-08,0.7933535
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -7461,8 +7220,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = escaleralad1_4293945838
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = escaleralad1_4294074700
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7502,9 +7261,9 @@ PART
 }
 PART
 {
-	part = escaleralad1_4293945766
+	part = escaleralad1_4294074628
 	partName = Strut
-	pos = -1.108921,33.96217,0.1048977
+	pos = -1.108921,33.96217,0.1049021
 	rot = -1.480733E-07,-0.6087615,1.298568E-07,-0.7933535
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -7514,8 +7273,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = escaleralad1_4293767538
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = escaleralad1_4294074592
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7555,10 +7314,10 @@ PART
 }
 PART
 {
-	part = escaleralad1_4293767538
+	part = escaleralad1_4294074592
 	partName = Strut
-	pos = 1.640544,33.96217,0.8416132
-	rot = 1.298568E-07,-0.7933533,1.480733E-07,0.6087615
+	pos = 1.640544,33.96217,0.8416089
+	rot = 1.298568E-07,-0.7933535,1.480733E-07,0.6087615
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -7567,8 +7326,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = escaleralad1_4293945766
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = escaleralad1_4294074628
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7608,9 +7367,9 @@ PART
 }
 PART
 {
-	part = RCS_4293947146
+	part = RCS_4294074556
 	partName = Part
-	pos = -1.058107,33.96208,0.4732562
+	pos = -1.058107,33.96208,0.4732608
 	rot = 0.5000001,0.5000001,-0.5000001,-0.5000001
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
@@ -7620,8 +7379,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 1068.75
-	sym = RCS_4293767058
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = RCS_4294074492
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7769,9 +7528,9 @@ PART
 }
 PART
 {
-	part = RCS_4293767058
+	part = RCS_4294074492
 	partName = Part
-	pos = 1.589731,33.96208,0.4732547
+	pos = 1.589731,33.96208,0.4732501
 	rot = -0.5000001,-0.5000001,-0.5000001,-0.5000001
 	attRot = 0,0,0.7071068,0.7071068
 	mir = 1,1,1
@@ -7781,8 +7540,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 1068.75
-	sym = RCS_4293947146
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = RCS_4294074556
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -7930,9 +7689,9 @@ PART
 }
 PART
 {
-	part = 2009RCS_4293947258
+	part = 2009RCS_4294074428
 	partName = Part
-	pos = -1.033203,32.91823,0.4732562
+	pos = -1.033203,32.91823,0.4732607
 	rot = 0,0.7071069,0,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -7942,8 +7701,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = 2009RCS_4293766374
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = 2009RCS_4294074372
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8091,10 +7850,10 @@ PART
 }
 PART
 {
-	part = 2009RCS_4293766374
+	part = 2009RCS_4294074372
 	partName = Part
-	pos = 1.564826,32.91823,0.4732547
-	rot = 0,-0.7071069,0,-0.7071068
+	pos = 1.564826,32.91823,0.4732502
+	rot = 0,-0.7071069,0,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -8103,8 +7862,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = 2009RCS_4293947258
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = 2009RCS_4294074428
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8252,9 +8011,9 @@ PART
 }
 PART
 {
-	part = 2009RCS_4293945694
+	part = 2009RCS_4294074316
 	partName = Part
-	pos = -1.03343,35.03843,0.4732562
+	pos = -1.03343,35.03843,0.4732607
 	rot = 0.7071069,0,-0.7071069,0
 	attRot = 0,0,0.9999999,0
 	mir = 1,1,1
@@ -8264,8 +8023,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = 2009RCS_4293766012
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = 2009RCS_4294074260
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8413,10 +8172,10 @@ PART
 }
 PART
 {
-	part = 2009RCS_4293766012
+	part = 2009RCS_4294074260
 	partName = Part
-	pos = 1.565054,35.03843,0.4732547
-	rot = -0.7071069,0,-0.7071068,0
+	pos = 1.565054,35.03843,0.4732502
+	rot = -0.7071069,0,-0.7071069,0
 	attRot = 0,0,0.9999999,0
 	mir = 1,1,1
 	istg = 0
@@ -8425,8 +8184,8 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = 2009RCS_4293945694
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = 2009RCS_4294074316
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8574,9 +8333,9 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293946534
+	part = solarpanels-curved01-2_4294074204
 	partName = Part
-	pos = 0.3336285,34.6294,0.4732554
+	pos = 0.3336285,34.6294,0.4732553
 	rot = 0,-0.9238797,0,-0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -8586,10 +8345,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293765374
-	sym = solarpanels-curved01-2_4293765286
-	sym = solarpanels-curved01-2_4293765198
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294074122
+	sym = solarpanels-curved01-2_4294074040
+	sym = solarpanels-curved01-2_4294073958
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8713,9 +8472,9 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293765374
+	part = solarpanels-curved01-2_4294074122
 	partName = Part
-	pos = 0.2658115,34.6294,0.4054385
+	pos = 0.2658116,34.6294,0.4054385
 	rot = 0,-0.9238797,0,0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -8725,10 +8484,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293946534
-	sym = solarpanels-curved01-2_4293765286
-	sym = solarpanels-curved01-2_4293765198
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294074204
+	sym = solarpanels-curved01-2_4294074040
+	sym = solarpanels-curved01-2_4294073958
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8852,9 +8611,9 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293765286
+	part = solarpanels-curved01-2_4294074040
 	partName = Part
-	pos = 0.1979946,34.6294,0.4732556
+	pos = 0.1979946,34.6294,0.4732557
 	rot = 0,-0.3826834,0,0.9238797
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -8864,10 +8623,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293946534
-	sym = solarpanels-curved01-2_4293765374
-	sym = solarpanels-curved01-2_4293765198
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294074204
+	sym = solarpanels-curved01-2_4294074122
+	sym = solarpanels-curved01-2_4294073958
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -8991,7 +8750,7 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293765198
+	part = solarpanels-curved01-2_4294073958
 	partName = Part
 	pos = 0.2658117,34.6294,0.5410724
 	rot = 0,0.3826835,0,0.9238797
@@ -9003,10 +8762,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293946534
-	sym = solarpanels-curved01-2_4293765374
-	sym = solarpanels-curved01-2_4293765286
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294074204
+	sym = solarpanels-curved01-2_4294074122
+	sym = solarpanels-curved01-2_4294074040
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -9130,9 +8889,9 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293946862
+	part = solarpanels-curved01-2_4294073876
 	partName = Part
-	pos = 0.3337471,33.33662,0.4732554
+	pos = 0.3337471,33.33662,0.4732553
 	rot = 0,-0.9238797,0,-0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -9142,10 +8901,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293764710
-	sym = solarpanels-curved01-2_4293764622
-	sym = solarpanels-curved01-2_4293764534
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294073794
+	sym = solarpanels-curved01-2_4294073712
+	sym = solarpanels-curved01-2_4294073630
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -9269,9 +9028,9 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293764710
+	part = solarpanels-curved01-2_4294073794
 	partName = Part
-	pos = 0.2658115,33.33662,0.4053199
+	pos = 0.2658116,33.33662,0.4053199
 	rot = 0,-0.9238797,0,0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -9281,10 +9040,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293946862
-	sym = solarpanels-curved01-2_4293764622
-	sym = solarpanels-curved01-2_4293764534
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294073876
+	sym = solarpanels-curved01-2_4294073712
+	sym = solarpanels-curved01-2_4294073630
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -9408,9 +9167,9 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293764622
+	part = solarpanels-curved01-2_4294073712
 	partName = Part
-	pos = 0.197876,33.33662,0.4732556
+	pos = 0.197876,33.33662,0.4732557
 	rot = 0,-0.3826834,0,0.9238797
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -9420,10 +9179,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293946862
-	sym = solarpanels-curved01-2_4293764710
-	sym = solarpanels-curved01-2_4293764534
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294073876
+	sym = solarpanels-curved01-2_4294073794
+	sym = solarpanels-curved01-2_4294073630
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -9547,7 +9306,7 @@ PART
 }
 PART
 {
-	part = solarpanels-curved01-2_4293764534
+	part = solarpanels-curved01-2_4294073630
 	partName = Part
 	pos = 0.2658117,33.33662,0.541191
 	rot = 0,0.3826835,0,0.9238797
@@ -9559,10 +9318,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -1769.801
-	sym = solarpanels-curved01-2_4293946862
-	sym = solarpanels-curved01-2_4293764710
-	sym = solarpanels-curved01-2_4293764622
-	srfN = srfAttach,crewtube-hub-125_4293774478
+	sym = solarpanels-curved01-2_4294073876
+	sym = solarpanels-curved01-2_4294073794
+	sym = solarpanels-curved01-2_4294073712
+	srfN = srfAttach,crewtube-hub-125_4294075710
 	EVENTS
 	{
 	}
@@ -9686,7 +9445,868 @@ PART
 }
 PART
 {
-	part = KW5mExpandedFairingBase_4293944508
+	part = W485.SurfaceOmniLight_4294073548
+	partName = Part
+	pos = 0.2658105,35.9655,1.119789
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294073514
+	srfN = srfAttach,Airlockdoors_4294075930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294073514
+	partName = Part
+	pos = 0.2658125,35.9655,-0.1732789
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294073548
+	srfN = srfAttach,Airlockdoors_4294075930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = 1x1xthirdhullnew_4294073480
+	partName = Part
+	pos = 0.2658116,44.71089,0.4732555
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = LLLCBM_4294073448
+	attN = top,LLLCBM_4294073448
+	attN = bottom,LLLWalkwayNEW_4294076856
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1000
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.6
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.25
+		currentScale = 1.25
+		defaultScale = 1.25
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 220
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = LLLCBM_4294073448
+	partName = Part
+	pos = 0.2658116,45.13465,0.4732555
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = IR.StrutDecoupler.Small_4294073392
+	link = IR.StrutDecoupler.Small_4294073348
+	attN = bottom,1x1xthirdhullnew_4294073480
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = False
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = False
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1500
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDockingNodeNamed
+		isEnabled = True
+		portName = Odyssey Station CBM
+		initialized = True
+		EVENTS
+		{
+			renameDockingPort
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Rename Port
+				guiName = Rename Port
+				category = Rename Port
+				guiActiveUnfocused = True
+				unfocusedRange = 2000
+				externalToEVAOnly = False
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = False
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDockingNode
+		isEnabled = True
+		fuelCrossFeed = True
+		acquireRange = 0.5
+		acquireForce = 2
+		acquireTorque = 2
+		undockEjectionForce = 10
+		minDistanceToReEngage = 1
+		isDecoupled = False
+		fuelCrossFeed_UIFlight
+		{
+			controlEnabled = True
+		}
+		acquireRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		acquireForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		acquireTorque_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		undockEjectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		minDistanceToReEngage_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MakeReferenceTransformAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.StrutDecoupler.Small_4294073392
+	partName = StrutConnector
+	pos = -0.382687,45.17628,0.4732555
+	rot = -2.107343E-08,0,-0.2093452,0.9778419
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 1
+	sidx = 0
+	sqor = 2
+	attm = 1
+	modCost = 0
+	cData = tgt: KW5mExpFairingCone_105; pos: -0.826516,-0.147031,0.01597798; dir: -0.9843648,-0.1751106,0.01903047
+	sym = IR.StrutDecoupler.Small_4294073348
+	srfN = srfAttach,LLLCBM_4294073448
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.025
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 0
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.StrutDecoupler.Small_4294073348
+	partName = StrutConnector
+	pos = 0.9143103,45.17628,0.4732554
+	rot = -0.2093452,0.9778419,2.107343E-08,-4.214685E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 1
+	sidx = 1
+	sqor = 2
+	attm = 1
+	modCost = 0
+	cData = tgt: KW5mExpFairingCone_32; pos: -0.8265249,-0.1470309,0.01597913; dir: -0.9843648,-0.1751106,0.01903047
+	sym = IR.StrutDecoupler.Small_4294073392
+	srfN = srfAttach,LLLCBM_4294073448
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.025
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 0
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KW5mExpandedFairingBase_4294073304
 	partName = Part
 	pos = 0.2658116,31.87238,0.4732555
 	rot = 0,0,0,1
@@ -9694,17 +10314,17 @@ PART
 	mir = 1,1,1
 	istg = 1
 	dstg = 1
-	sidx = 0
+	sidx = 2
 	sqor = 1
 	attm = 0
 	modCost = -2775
-	link = KW5mExpFairingCone_4293943814
-	link = FASAApolloIU_4293943556
-	link = KW5mExpFairingCone_4293943984
-	attN = bottom,FASAApolloIU_4293943556
-	attN = top,dockingPortHGR_4293947490
-	attN = connect3,KW5mExpFairingCone_4293943814
-	attN = connect4,KW5mExpFairingCone_4293943984
+	link = KW5mExpFairingCone_4294073252
+	link = FASAApolloIU_4294073082
+	link = KW5mExpFairingCone_4294070072
+	attN = bottom,FASAApolloIU_4294073082
+	attN = top,dockingPortHGR_4294075526
+	attN = connect3,KW5mExpFairingCone_4294073252
+	attN = connect4,KW5mExpFairingCone_4294070072
 	EVENTS
 	{
 	}
@@ -9882,21 +10502,21 @@ PART
 }
 PART
 {
-	part = KW5mExpFairingCone_4293943814
+	part = KW5mExpFairingCone_4294073252
 	partName = Part
-	pos = 1.484562,43.99221,0.4732552
+	pos = 1.484563,43.99223,0.4732507
 	rot = 0,1,0,0
 	attRot = 0,0.9999999,0,0
 	mir = 1,1,1
 	istg = 2
 	dstg = 3
-	sidx = 0
+	sidx = 2
 	sqor = 2
 	attm = 0
 	modCost = -462.5
-	link = KW5mExpFairingWall_4293943744
-	attN = connect,KW5mExpFairingWall_4293943744
-	attN = bottom,KW5mExpandedFairingBase_4293944508
+	link = KW5mExpFairingWall_4294073182
+	attN = connect,KW5mExpFairingWall_4294073182
+	attN = bottom,KW5mExpandedFairingBase_4294073304
 	EVENTS
 	{
 	}
@@ -10050,9 +10670,9 @@ PART
 }
 PART
 {
-	part = KW5mExpFairingWall_4293943744
+	part = KW5mExpFairingWall_4294073182
 	partName = Part
-	pos = 1.483624,39.88545,0.4732552
+	pos = 1.483624,39.88545,0.4732507
 	rot = 0,-1,0,0
 	attRot = 0,0,0,-0.9999999
 	mir = 1,1,1
@@ -10062,9 +10682,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -462.5
-	link = KW5mExpFairingWall_4293943694
-	attN = bottom,KW5mExpFairingCone_4293943814
-	attN = top,KW5mExpFairingWall_4293943694
+	link = KW5mExpFairingWall_4294073132
+	attN = bottom,KW5mExpFairingCone_4294073252
+	attN = top,KW5mExpFairingWall_4294073132
 	EVENTS
 	{
 	}
@@ -10191,9 +10811,9 @@ PART
 }
 PART
 {
-	part = KW5mExpFairingWall_4293943694
+	part = KW5mExpFairingWall_4294073132
 	partName = Part
-	pos = 1.483624,35.14212,0.4732552
+	pos = 1.483624,35.14212,0.4732507
 	rot = 0,-1,0,0
 	attRot = 0,0,0,-0.9999999
 	mir = 1,1,1
@@ -10203,7 +10823,7 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -462.5
-	attN = bottom,KW5mExpFairingWall_4293943744
+	attN = bottom,KW5mExpFairingWall_4294073182
 	EVENTS
 	{
 	}
@@ -10330,7 +10950,7 @@ PART
 }
 PART
 {
-	part = FASAApolloIU_4293943556
+	part = FASAApolloIU_4294073082
 	partName = Part
 	pos = 0.2658116,30.85069,0.4732555
 	rot = 0,0,0,1
@@ -10342,10 +10962,10 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 7.450581E-06
-	link = FelbournFuel2_4293943502
-	link = Kosmos.Pravilo.ASAS_4293940670
-	attN = top,KW5mExpandedFairingBase_4293944508
-	attN = bottom,FelbournFuel2_4293943502
+	link = FelbournFuel2_4294073028
+	link = Kosmos.Pravilo.ASAS_4294070196
+	attN = top,KW5mExpandedFairingBase_4294073304
+	attN = bottom,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -10525,199 +11145,6 @@ PART
 		ACTIONS
 		{
 		}
-		MechJebLocalSettings
-		{
-			MechJebModuleJoke
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleMenu
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleThrustWindow
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleTargetController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleSettings
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleSmartASS
-			{
-				mode = ORBITAL
-				target = OFF
-				advReference = INERTIAL
-				advDirection = FORWARD
-				forceRol = False
-				unlockParts = 
-				unlockTechs = 
-				srfHdg
-				{
-					_val = 90
-					_text = 90
-				}
-				srfPit
-				{
-					_val = 90
-					_text = 90
-				}
-				srfRol
-				{
-					_val = 0
-					_text = 0
-				}
-				srfVelYaw
-				{
-					_val = 0
-					_text = 0
-				}
-				srfVelPit
-				{
-					_val = 0
-					_text = 0
-				}
-				srfVelRol
-				{
-					_val = 0
-					_text = 0
-				}
-				rol
-				{
-					_val = 0
-					_text = 0
-				}
-			}
-			MechJebModuleStageStats
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
-			MechJebModuleWaypointWindow
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleWaypointHelpWindow
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			ModExtensionDemo
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleManeuverPlanner
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleNodeExecutor
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleJokeObscurePanel
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleCustomWindowEditor
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleInfoItems
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleRCSBalancerWindow
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleRendezvousGuidance
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleWarpController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleThrustController
-			{
-				limitThrottle = False
-				unlockParts = 
-				unlockTechs = 
-				maxThrottle
-				{
-					_val = 1
-					_text = 100
-				}
-			}
-			MechJebModuleRCSController
-			{
-				unlockParts = 
-				unlockTechs = 
-				Tf
-				{
-					_val = 1
-					_text = 1
-				}
-			}
-			MechJebModuleRCSBalancer
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleAttitudeController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleStagingController
-			{
-				unlockParts = 
-				unlockTechs = 
-			}
-			MechJebModuleFlightRecorder
-			{
-				markUT = 0
-				deltaVExpended = 0
-				dragLosses = 0
-				gravityLosses = 0
-				steeringLosses = 0
-				markLatitude = 0
-				markLongitude = 0
-				markAltitude = 0
-				markBodyIndex = 1
-				maxDragGees = 0
-				unlockParts = 
-				unlockTechs = 
-			}
-		}
 	}
 	MODULE
 	{
@@ -10811,9 +11238,9 @@ PART
 }
 PART
 {
-	part = FelbournFuel2_4293943502
+	part = FelbournFuel2_4294073028
 	partName = Part
-	pos = 0.2658116,28.75069,0.4732555
+	pos = 0.2658116,28.75068,0.4732555
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -10823,26 +11250,26 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 353.071
-	link = W485.SurfaceOmniLight_4293943406
-	link = W485.SurfaceOmniLight_4293943372
-	link = W485.SurfaceOmniLight_4293943338
-	link = W485.SurfaceOmniLight_4293943304
-	link = W485.SurfaceOmniLight_4293943270
-	link = W485.SurfaceOmniLight_4293943236
-	link = W485.SurfaceOmniLight_4293943202
-	link = W485.SurfaceOmniLight_4293943168
-	link = W485.SurfaceOmniLight_4293943134
-	link = W485.SurfaceOmniLight_4293943100
-	link = W485.SurfaceOmniLight_4293943066
-	link = W485.SurfaceOmniLight_4293943032
-	link = IR.Segment.TrussLarge.1m25_4293942998
-	link = IR.Segment.TrussLarge.1m25_4293942906
-	link = IR.Segment.TrussLarge.1m25_4293942770
-	link = IR.Segment.TrussLarge.1m25_4293942678
-	link = Size3AdvancedEngine_4293942542
-	link = FASAUmbilicalTower_4293940812
-	attN = top,FASAApolloIU_4293943556
-	attN = bottom,Size3AdvancedEngine_4293942542
+	link = W485.SurfaceOmniLight_4294072932
+	link = W485.SurfaceOmniLight_4294072898
+	link = W485.SurfaceOmniLight_4294072864
+	link = W485.SurfaceOmniLight_4294072830
+	link = W485.SurfaceOmniLight_4294072796
+	link = W485.SurfaceOmniLight_4294072762
+	link = W485.SurfaceOmniLight_4294072728
+	link = W485.SurfaceOmniLight_4294072694
+	link = W485.SurfaceOmniLight_4294072660
+	link = W485.SurfaceOmniLight_4294072626
+	link = W485.SurfaceOmniLight_4294072592
+	link = W485.SurfaceOmniLight_4294072558
+	link = IR.Segment.TrussLarge.1m25_4294072524
+	link = IR.Segment.TrussLarge.1m25_4294072432
+	link = IR.Segment.TrussLarge.1m25_4294072296
+	link = IR.Segment.TrussLarge.1m25_4294072204
+	link = Size3AdvancedEngine_4294072068
+	link = FASAUmbilicalTower_4294070338
+	attN = top,FASAApolloIU_4294073082
+	attN = bottom,Size3AdvancedEngine_4294072068
 	EVENTS
 	{
 	}
@@ -10883,7 +11310,7 @@ PART
 		type = Odyssey_Core
 		utilization = 86
 		mass = 1.023325
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 35000
 		type_UIEditor
 		{
@@ -10990,10 +11417,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943406
+	part = W485.SurfaceOmniLight_4294072932
 	partName = Part
-	pos = -1.34385,30.4892,1.402586
-	rot = -0.6123725,0.3535535,-0.3535534,-0.6123726
+	pos = -1.343858,30.48919,1.402594
+	rot = -0.6123726,0.3535535,-0.3535534,-0.6123725
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -11002,12 +11429,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943372
-	sym = W485.SurfaceOmniLight_4293943338
-	sym = W485.SurfaceOmniLight_4293943304
-	sym = W485.SurfaceOmniLight_4293943270
-	sym = W485.SurfaceOmniLight_4293943236
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072898
+	sym = W485.SurfaceOmniLight_4294072864
+	sym = W485.SurfaceOmniLight_4294072830
+	sym = W485.SurfaceOmniLight_4294072796
+	sym = W485.SurfaceOmniLight_4294072762
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -11146,9 +11573,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943372
+	part = W485.SurfaceOmniLight_4294072898
 	partName = Part
-	pos = 0.2658111,30.4892,2.331925
+	pos = 0.2658044,30.48919,2.331928
 	rot = -0.7071069,0,-4.214685E-08,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -11158,12 +11585,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943406
-	sym = W485.SurfaceOmniLight_4293943338
-	sym = W485.SurfaceOmniLight_4293943304
-	sym = W485.SurfaceOmniLight_4293943270
-	sym = W485.SurfaceOmniLight_4293943236
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072932
+	sym = W485.SurfaceOmniLight_4294072864
+	sym = W485.SurfaceOmniLight_4294072830
+	sym = W485.SurfaceOmniLight_4294072796
+	sym = W485.SurfaceOmniLight_4294072762
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -11302,9 +11729,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943338
+	part = W485.SurfaceOmniLight_4294072864
 	partName = Part
-	pos = 1.875473,30.4892,1.402586
+	pos = 1.875473,30.48919,1.402585
 	rot = -0.6123726,-0.3535534,0.3535534,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -11314,12 +11741,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943406
-	sym = W485.SurfaceOmniLight_4293943372
-	sym = W485.SurfaceOmniLight_4293943304
-	sym = W485.SurfaceOmniLight_4293943270
-	sym = W485.SurfaceOmniLight_4293943236
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072932
+	sym = W485.SurfaceOmniLight_4294072898
+	sym = W485.SurfaceOmniLight_4294072830
+	sym = W485.SurfaceOmniLight_4294072796
+	sym = W485.SurfaceOmniLight_4294072762
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -11458,10 +11885,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943304
+	part = W485.SurfaceOmniLight_4294072830
 	partName = Part
-	pos = 1.875473,30.4892,-0.4560852
-	rot = -0.3535534,-0.6123726,0.6123725,-0.3535535
+	pos = 1.875481,30.48919,-0.4560924
+	rot = -0.3535534,-0.6123725,0.6123726,-0.3535535
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -11470,12 +11897,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943406
-	sym = W485.SurfaceOmniLight_4293943372
-	sym = W485.SurfaceOmniLight_4293943338
-	sym = W485.SurfaceOmniLight_4293943270
-	sym = W485.SurfaceOmniLight_4293943236
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072932
+	sym = W485.SurfaceOmniLight_4294072898
+	sym = W485.SurfaceOmniLight_4294072864
+	sym = W485.SurfaceOmniLight_4294072796
+	sym = W485.SurfaceOmniLight_4294072762
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -11614,9 +12041,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943270
+	part = W485.SurfaceOmniLight_4294072796
 	partName = Part
-	pos = 0.265812,30.4892,-1.385424
+	pos = 0.2658187,30.48919,-1.385425
 	rot = 0,-0.7071069,0.7071069,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -11626,12 +12053,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943406
-	sym = W485.SurfaceOmniLight_4293943372
-	sym = W485.SurfaceOmniLight_4293943338
-	sym = W485.SurfaceOmniLight_4293943304
-	sym = W485.SurfaceOmniLight_4293943236
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072932
+	sym = W485.SurfaceOmniLight_4294072898
+	sym = W485.SurfaceOmniLight_4294072864
+	sym = W485.SurfaceOmniLight_4294072830
+	sym = W485.SurfaceOmniLight_4294072762
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -11770,9 +12197,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943236
+	part = W485.SurfaceOmniLight_4294072762
 	partName = Part
-	pos = -1.34385,30.4892,-0.4560845
+	pos = -1.34385,30.48919,-0.4560811
 	rot = 0.3535533,-0.6123726,0.6123726,0.3535535
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -11782,12 +12209,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943406
-	sym = W485.SurfaceOmniLight_4293943372
-	sym = W485.SurfaceOmniLight_4293943338
-	sym = W485.SurfaceOmniLight_4293943304
-	sym = W485.SurfaceOmniLight_4293943270
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072932
+	sym = W485.SurfaceOmniLight_4294072898
+	sym = W485.SurfaceOmniLight_4294072864
+	sym = W485.SurfaceOmniLight_4294072830
+	sym = W485.SurfaceOmniLight_4294072796
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -11926,9 +12353,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943202
+	part = W485.SurfaceOmniLight_4294072728
 	partName = Part
-	pos = -1.352529,27.11503,1.407606
+	pos = -1.352537,27.11502,1.407614
 	rot = -0.6123724,0.3535535,-0.3535535,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -11938,12 +12365,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943168
-	sym = W485.SurfaceOmniLight_4293943134
-	sym = W485.SurfaceOmniLight_4293943100
-	sym = W485.SurfaceOmniLight_4293943066
-	sym = W485.SurfaceOmniLight_4293943032
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072694
+	sym = W485.SurfaceOmniLight_4294072660
+	sym = W485.SurfaceOmniLight_4294072626
+	sym = W485.SurfaceOmniLight_4294072592
+	sym = W485.SurfaceOmniLight_4294072558
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12082,10 +12509,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943168
+	part = W485.SurfaceOmniLight_4294072694
 	partName = Part
-	pos = 0.2658111,27.11503,2.341946
-	rot = -0.7071068,4.214685E-08,-2.107343E-08,-0.7071069
+	pos = 0.2658044,27.11502,2.341949
+	rot = -0.7071069,4.214685E-08,-4.214685E-08,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -12094,12 +12521,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943202
-	sym = W485.SurfaceOmniLight_4293943134
-	sym = W485.SurfaceOmniLight_4293943100
-	sym = W485.SurfaceOmniLight_4293943066
-	sym = W485.SurfaceOmniLight_4293943032
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072728
+	sym = W485.SurfaceOmniLight_4294072660
+	sym = W485.SurfaceOmniLight_4294072626
+	sym = W485.SurfaceOmniLight_4294072592
+	sym = W485.SurfaceOmniLight_4294072558
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12238,10 +12665,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943134
+	part = W485.SurfaceOmniLight_4294072660
 	partName = Part
-	pos = 1.884151,27.11503,1.407606
-	rot = -0.6123724,-0.3535535,0.3535534,-0.6123727
+	pos = 1.884151,27.11502,1.407605
+	rot = -0.6123724,-0.3535535,0.3535534,-0.6123728
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -12250,12 +12677,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943202
-	sym = W485.SurfaceOmniLight_4293943168
-	sym = W485.SurfaceOmniLight_4293943100
-	sym = W485.SurfaceOmniLight_4293943066
-	sym = W485.SurfaceOmniLight_4293943032
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072728
+	sym = W485.SurfaceOmniLight_4294072694
+	sym = W485.SurfaceOmniLight_4294072626
+	sym = W485.SurfaceOmniLight_4294072592
+	sym = W485.SurfaceOmniLight_4294072558
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12394,9 +12821,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943100
+	part = W485.SurfaceOmniLight_4294072626
 	partName = Part
-	pos = 1.884152,27.11503,-0.4610948
+	pos = 1.88416,27.11502,-0.461102
 	rot = -0.3535535,-0.6123726,0.6123724,-0.3535535
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -12406,12 +12833,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943202
-	sym = W485.SurfaceOmniLight_4293943168
-	sym = W485.SurfaceOmniLight_4293943134
-	sym = W485.SurfaceOmniLight_4293943066
-	sym = W485.SurfaceOmniLight_4293943032
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072728
+	sym = W485.SurfaceOmniLight_4294072694
+	sym = W485.SurfaceOmniLight_4294072660
+	sym = W485.SurfaceOmniLight_4294072592
+	sym = W485.SurfaceOmniLight_4294072558
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12550,9 +12977,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943066
+	part = W485.SurfaceOmniLight_4294072592
 	partName = Part
-	pos = 0.265812,27.11503,-1.395445
+	pos = 0.2658187,27.11502,-1.395446
 	rot = 0,-0.7071071,0.7071068,-4.214685E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -12562,12 +12989,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943202
-	sym = W485.SurfaceOmniLight_4293943168
-	sym = W485.SurfaceOmniLight_4293943134
-	sym = W485.SurfaceOmniLight_4293943100
-	sym = W485.SurfaceOmniLight_4293943032
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072728
+	sym = W485.SurfaceOmniLight_4294072694
+	sym = W485.SurfaceOmniLight_4294072660
+	sym = W485.SurfaceOmniLight_4294072626
+	sym = W485.SurfaceOmniLight_4294072558
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12706,10 +13133,10 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293943032
+	part = W485.SurfaceOmniLight_4294072558
 	partName = Part
-	pos = -1.352528,27.11503,-0.4610941
-	rot = 0.3535534,-0.6123726,0.6123725,0.3535534
+	pos = -1.352528,27.11502,-0.4610905
+	rot = 0.3535534,-0.6123726,0.6123726,0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -12718,12 +13145,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293943202
-	sym = W485.SurfaceOmniLight_4293943168
-	sym = W485.SurfaceOmniLight_4293943134
-	sym = W485.SurfaceOmniLight_4293943100
-	sym = W485.SurfaceOmniLight_4293943066
-	srfN = srfAttach,FelbournFuel2_4293943502
+	sym = W485.SurfaceOmniLight_4294072728
+	sym = W485.SurfaceOmniLight_4294072694
+	sym = W485.SurfaceOmniLight_4294072660
+	sym = W485.SurfaceOmniLight_4294072626
+	sym = W485.SurfaceOmniLight_4294072592
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12862,9 +13289,9 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4293942998
+	part = IR.Segment.TrussLarge.1m25_4294072524
 	partName = Part
-	pos = -0.8426126,26.24319,0.4732558
+	pos = -0.8426148,26.24319,0.4732597
 	rot = -0.7071069,-1.264406E-07,-0.7071069,-2.107344E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -12874,11 +13301,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4293942962
-	sym = IR.Segment.TrussLarge.1m25_4293942906
-	sym = IR.Segment.TrussLarge.1m25_4293942770
-	sym = IR.Segment.TrussLarge.1m25_4293942678
-	srfN = srfAttach,FelbournFuel2_4293943502
+	link = ESARCS_4294072488
+	sym = IR.Segment.TrussLarge.1m25_4294072432
+	sym = IR.Segment.TrussLarge.1m25_4294072296
+	sym = IR.Segment.TrussLarge.1m25_4294072204
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -12945,9 +13372,9 @@ PART
 }
 PART
 {
-	part = ESARCS_4293942962
+	part = ESARCS_4294072488
 	partName = Part
-	pos = -1.080486,25.63642,0.4732563
+	pos = -1.080487,25.63635,0.4732616
 	rot = -0.5000001,0.5000001,-0.5000001,-0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -12957,10 +13384,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4293942870
-	sym = ESARCS_4293942734
-	sym = ESARCS_4293942642
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4293942998
+	sym = ESARCS_4294072396
+	sym = ESARCS_4294072260
+	sym = ESARCS_4294072168
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294072524
 	EVENTS
 	{
 	}
@@ -13108,10 +13535,10 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4293942906
+	part = IR.Segment.TrussLarge.1m25_4294072432
 	partName = Part
-	pos = 0.2658113,26.24319,1.581675
-	rot = -1,-1.043081E-07,8.42937E-08,7.450582E-08
+	pos = 0.2658074,26.24319,1.581676
+	rot = -1,-1.043081E-07,8.42937E-08,7.450588E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -13120,12 +13547,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4293942870
-	link = Kosmos.Parom.RCS.Tank_4293942814
-	sym = IR.Segment.TrussLarge.1m25_4293942998
-	sym = IR.Segment.TrussLarge.1m25_4293942770
-	sym = IR.Segment.TrussLarge.1m25_4293942678
-	srfN = srfAttach,FelbournFuel2_4293943502
+	link = ESARCS_4294072396
+	link = Kosmos.Parom.RCS.Tank_4294072340
+	sym = IR.Segment.TrussLarge.1m25_4294072524
+	sym = IR.Segment.TrussLarge.1m25_4294072296
+	sym = IR.Segment.TrussLarge.1m25_4294072204
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -13192,10 +13619,10 @@ PART
 }
 PART
 {
-	part = ESARCS_4293942870
+	part = ESARCS_4294072396
 	partName = Part
-	pos = 0.2658113,25.63642,1.819546
-	rot = -0.7071069,0,0,-0.7071069
+	pos = 0.2658063,25.63635,1.819546
+	rot = -0.7071071,0,0,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -13204,10 +13631,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4293942962
-	sym = ESARCS_4293942734
-	sym = ESARCS_4293942642
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4293942906
+	sym = ESARCS_4294072488
+	sym = ESARCS_4294072260
+	sym = ESARCS_4294072168
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294072432
 	EVENTS
 	{
 	}
@@ -13355,10 +13782,10 @@ PART
 }
 PART
 {
-	part = Kosmos.Parom.RCS.Tank_4293942814
+	part = Kosmos.Parom.RCS.Tank_4294072340
 	partName = Part
-	pos = 0.06628127,25.64058,1.781206
-	rot = 5.399153E-14,-0.3826835,8.553564E-15,-0.9238797
+	pos = 0.06627621,25.64051,1.781213
+	rot = 7.0784E-14,-0.3826835,3.393288E-14,-0.9238796
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -13367,7 +13794,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -699.1169
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4293942906
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294072432
 	EVENTS
 	{
 	}
@@ -13424,7 +13851,7 @@ PART
 		type = Odyssey_ServiceModule
 		utilization = 86
 		mass = 0.006993
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 63
 		type_UIEditor
 		{
@@ -13518,9 +13945,9 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4293942770
+	part = IR.Segment.TrussLarge.1m25_4294072296
 	partName = Part
-	pos = 1.374235,26.24319,0.4732552
+	pos = 1.374236,26.24319,0.4732513
 	rot = -0.7071068,-2.107343E-08,0.707107,1.264406E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -13530,11 +13957,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4293942734
-	sym = IR.Segment.TrussLarge.1m25_4293942998
-	sym = IR.Segment.TrussLarge.1m25_4293942906
-	sym = IR.Segment.TrussLarge.1m25_4293942678
-	srfN = srfAttach,FelbournFuel2_4293943502
+	link = ESARCS_4294072260
+	sym = IR.Segment.TrussLarge.1m25_4294072524
+	sym = IR.Segment.TrussLarge.1m25_4294072432
+	sym = IR.Segment.TrussLarge.1m25_4294072204
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -13601,10 +14028,10 @@ PART
 }
 PART
 {
-	part = ESARCS_4293942734
+	part = ESARCS_4294072260
 	partName = Part
-	pos = 1.612109,25.63642,0.4732554
-	rot = -0.5000001,-0.5000002,0.5000002,-0.5
+	pos = 1.612109,25.63635,0.4732515
+	rot = -0.5000002,-0.5000002,0.5000002,-0.5000002
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -13613,10 +14040,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4293942962
-	sym = ESARCS_4293942870
-	sym = ESARCS_4293942642
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4293942770
+	sym = ESARCS_4294072488
+	sym = ESARCS_4294072396
+	sym = ESARCS_4294072168
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294072296
 	EVENTS
 	{
 	}
@@ -13764,10 +14191,10 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4293942678
+	part = IR.Segment.TrussLarge.1m25_4294072204
 	partName = Part
-	pos = 0.2658119,26.24319,-0.6351743
-	rot = 8.42937E-08,7.450582E-08,1,1.043081E-07
+	pos = 0.2658157,26.24319,-0.6351761
+	rot = 8.42937E-08,7.450588E-08,1,1.043081E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -13776,12 +14203,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4293942642
-	link = Kosmos.Parom.RCS.Tank_4293942586
-	sym = IR.Segment.TrussLarge.1m25_4293942998
-	sym = IR.Segment.TrussLarge.1m25_4293942906
-	sym = IR.Segment.TrussLarge.1m25_4293942770
-	srfN = srfAttach,FelbournFuel2_4293943502
+	link = ESARCS_4294072168
+	link = Kosmos.Parom.RCS.Tank_4294072112
+	sym = IR.Segment.TrussLarge.1m25_4294072524
+	sym = IR.Segment.TrussLarge.1m25_4294072432
+	sym = IR.Segment.TrussLarge.1m25_4294072296
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -13848,10 +14275,10 @@ PART
 }
 PART
 {
-	part = ESARCS_4293942642
+	part = ESARCS_4294072168
 	partName = Part
-	pos = 0.2658119,25.63642,-0.8730444
-	rot = 0,-0.7071069,0.7071069,0
+	pos = 0.2658169,25.63635,-0.8730453
+	rot = 0,-0.7071068,0.7071071,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -13860,10 +14287,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4293942962
-	sym = ESARCS_4293942870
-	sym = ESARCS_4293942734
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4293942678
+	sym = ESARCS_4294072488
+	sym = ESARCS_4294072396
+	sym = ESARCS_4294072260
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294072204
 	EVENTS
 	{
 	}
@@ -14011,10 +14438,10 @@ PART
 }
 PART
 {
-	part = Kosmos.Parom.RCS.Tank_4293942586
+	part = Kosmos.Parom.RCS.Tank_4294072112
 	partName = Part
-	pos = 0.4654632,25.66269,-0.8348242
-	rot = -1.032992E-14,0.9238797,5.399153E-14,-0.3826835
+	pos = 0.4654683,25.66262,-0.8348289
+	rot = -3.393288E-14,0.9238796,7.0784E-14,-0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -14023,7 +14450,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -699.1169
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4293942678
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294072204
 	EVENTS
 	{
 	}
@@ -14080,7 +14507,7 @@ PART
 		type = Odyssey_ServiceModule
 		utilization = 86
 		mass = 0.006993
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 63
 		type_UIEditor
 		{
@@ -14174,9 +14601,9 @@ PART
 }
 PART
 {
-	part = Size3AdvancedEngine_4293942542
+	part = Size3AdvancedEngine_4294072068
 	partName = Part
-	pos = 0.2658116,25.37272,0.4732555
+	pos = 0.2658116,25.37265,0.4732555
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -14186,9 +14613,9 @@ PART
 	sqor = 3
 	attm = 0
 	modCost = 0
-	link = KW3mDecouplerShroud_4293942440
-	attN = top,FelbournFuel2_4293943502
-	attN = bottom2,KW3mDecouplerShroud_4293942440
+	link = KW3mDecouplerShroud_4294071966
+	attN = top,FelbournFuel2_4294073028
+	attN = bottom2,KW3mDecouplerShroud_4294071966
 	EVENTS
 	{
 	}
@@ -14475,9 +14902,9 @@ PART
 }
 PART
 {
-	part = KW3mDecouplerShroud_4293942440
+	part = KW3mDecouplerShroud_4294071966
 	partName = Part
-	pos = 0.2658116,21.96085,0.4732555
+	pos = 0.2658116,21.96078,0.4732555
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -14487,9 +14914,9 @@ PART
 	sqor = 3
 	attm = 0
 	modCost = 0
-	link = KW3mtankL4A_4293942392
-	attN = bottom,KW3mtankL4A_4293942392
-	attN = bottom2,Size3AdvancedEngine_4293942542
+	link = KW3mtankL4A_4294071918
+	attN = bottom,KW3mtankL4A_4294071918
+	attN = bottom2,Size3AdvancedEngine_4294072068
 	EVENTS
 	{
 	}
@@ -14605,9 +15032,9 @@ PART
 }
 PART
 {
-	part = KW3mtankL4A_4293942392
+	part = KW3mtankL4A_4294071918
 	partName = Part
-	pos = 0.2658116,14.46085,0.4732555
+	pos = 0.2658116,14.46077,0.4732555
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -14617,40 +15044,44 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 1160.091
-	link = KW3mengineTitanT1_4293942332
-	link = KXsepmotor_4293942142
-	link = KXsepmotor_4293942080
-	link = KXsepmotor_4293942018
-	link = KXsepmotor_4293941956
-	link = KXsepmotor_4293941894
-	link = KXsepmotor_4293941832
-	link = W485.SurfaceOmniLight_4293941770
-	link = W485.SurfaceOmniLight_4293941736
-	link = W485.SurfaceOmniLight_4293941702
-	link = W485.SurfaceOmniLight_4293941668
-	link = W485.SurfaceOmniLight_4293941634
-	link = W485.SurfaceOmniLight_4293941600
-	link = W485.SurfaceOmniLight_4293941566
-	link = W485.SurfaceOmniLight_4293941532
-	link = W485.SurfaceOmniLight_4293941498
-	link = W485.SurfaceOmniLight_4293941464
-	link = W485.SurfaceOmniLight_4293941430
-	link = W485.SurfaceOmniLight_4293941396
-	link = W485.SurfaceOmniLight_4293941362
-	link = W485.SurfaceOmniLight_4293941328
-	link = W485.SurfaceOmniLight_4293941294
-	link = W485.SurfaceOmniLight_4293941260
-	link = W485.SurfaceOmniLight_4293941226
-	link = W485.SurfaceOmniLight_4293941192
-	link = W485.SurfaceOmniLight_4293941158
-	link = W485.SurfaceOmniLight_4293941124
-	link = W485.SurfaceOmniLight_4293941090
-	link = W485.SurfaceOmniLight_4293941056
-	link = W485.SurfaceOmniLight_4293941022
-	link = W485.SurfaceOmniLight_4293940988
-	link = FASAUmbilicalTower_4293940954
-	attN = top,KW3mDecouplerShroud_4293942440
-	attN = bottom,KW3mengineTitanT1_4293942332
+	link = KW3mengineTitanT1_4294071858
+	link = KXsepmotor_4294071668
+	link = KXsepmotor_4294071606
+	link = KXsepmotor_4294071544
+	link = KXsepmotor_4294071482
+	link = KXsepmotor_4294071420
+	link = KXsepmotor_4294071358
+	link = W485.SurfaceOmniLight_4294071296
+	link = W485.SurfaceOmniLight_4294071262
+	link = W485.SurfaceOmniLight_4294071228
+	link = W485.SurfaceOmniLight_4294071194
+	link = W485.SurfaceOmniLight_4294071160
+	link = W485.SurfaceOmniLight_4294071126
+	link = W485.SurfaceOmniLight_4294071092
+	link = W485.SurfaceOmniLight_4294071058
+	link = W485.SurfaceOmniLight_4294071024
+	link = W485.SurfaceOmniLight_4294070990
+	link = W485.SurfaceOmniLight_4294070956
+	link = W485.SurfaceOmniLight_4294070922
+	link = W485.SurfaceOmniLight_4294070888
+	link = W485.SurfaceOmniLight_4294070854
+	link = W485.SurfaceOmniLight_4294070820
+	link = W485.SurfaceOmniLight_4294070786
+	link = W485.SurfaceOmniLight_4294070752
+	link = W485.SurfaceOmniLight_4294070718
+	link = W485.SurfaceOmniLight_4294070684
+	link = W485.SurfaceOmniLight_4294070650
+	link = W485.SurfaceOmniLight_4294070616
+	link = W485.SurfaceOmniLight_4294070582
+	link = W485.SurfaceOmniLight_4294070548
+	link = W485.SurfaceOmniLight_4294070514
+	link = FASAUmbilicalTower_4294070480
+	link = NP.decoupler.radial.Strut_4294069902
+	link = NP.decoupler.radial.Strut_4294069764
+	link = NP.decoupler.radial.Strut_4294069626
+	link = NP.decoupler.radial.Strut_4294069488
+	attN = top,KW3mDecouplerShroud_4294071966
+	attN = bottom,KW3mengineTitanT1_4294071858
 	EVENTS
 	{
 	}
@@ -14683,7 +15114,7 @@ PART
 		type = Odyssey_Core
 		utilization = 86
 		mass = 3.362354
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 115000
 		type_UIEditor
 		{
@@ -14798,21 +15229,21 @@ PART
 }
 PART
 {
-	part = KW3mengineTitanT1_4293942332
+	part = KW3mengineTitanT1_4294071858
 	partName = Part
-	pos = 0.2658116,3.450855,0.4732555
+	pos = 0.2658116,3.450733,0.4732555
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 4
+	istg = 5
 	dstg = 4
-	sidx = 0
-	sqor = 4
+	sidx = 4
+	sqor = 5
 	attm = 0
 	modCost = 0
-	link = FASAlaunchClamp25_4293942258
-	attN = top2,KW3mtankL4A_4293942392
-	attN = bottom,FASAlaunchClamp25_4293942258
+	link = FASAlaunchClamp25_4294071784
+	attN = top2,KW3mtankL4A_4294071918
+	attN = bottom,FASAlaunchClamp25_4294071784
 	EVENTS
 	{
 	}
@@ -15053,19 +15484,19 @@ PART
 }
 PART
 {
-	part = FASAlaunchClamp25_4293942258
+	part = FASAlaunchClamp25_4294071784
 	partName = Strut
-	pos = 0.2658116,1.633354,0.4732555
+	pos = 0.2658116,1.633232,0.4732555
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 4
+	istg = 5
 	dstg = 4
-	sidx = 1
-	sqor = 4
+	sidx = 5
+	sqor = 5
 	attm = 0
 	modCost = 0
-	attN = top,KW3mengineTitanT1_4293942332
+	attN = top,KW3mengineTitanT1_4294071858
 	EVENTS
 	{
 	}
@@ -15076,8 +15507,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 3.331836
-		height = 2.333813
+		scaleFactor = 3.331661
+		height = 2.333691
 		towerRot = 0,0,0,1
 		EVENTS
 		{
@@ -15126,7 +15557,7 @@ PART
 		isEnabled = True
 		enablePump = False
 		pump_rate = 100
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		EVENTS
 		{
 			TogglePump
@@ -15194,9 +15625,9 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4293942142
+	part = KXsepmotor_4294071668
 	partName = Part
-	pos = -1.304686,7.253922,1.379977
+	pos = -1.304693,7.253798,1.379985
 	rot = 0.4995243,0.03777551,-0.8652012,0.0218097
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
@@ -15206,12 +15637,12 @@ PART
 	sqor = 3
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4293942080
-	sym = KXsepmotor_4293942018
-	sym = KXsepmotor_4293941956
-	sym = KXsepmotor_4293941894
-	sym = KXsepmotor_4293941832
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = KXsepmotor_4294071606
+	sym = KXsepmotor_4294071544
+	sym = KXsepmotor_4294071482
+	sym = KXsepmotor_4294071420
+	sym = KXsepmotor_4294071358
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -15363,7 +15794,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 3
 		type_UIEditor
 		{
@@ -15525,10 +15956,10 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4293942080
+	part = KXsepmotor_4294071606
 	partName = Part
-	pos = 0.2658111,7.253922,2.286706
-	rot = 8.42937E-08,0.0436194,-0.9990484,1.317089E-09
+	pos = 0.2658044,7.253798,2.286707
+	rot = 8.42937E-08,0.04361938,-0.9990485,1.317089E-09
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
 	istg = 3
@@ -15537,12 +15968,12 @@ PART
 	sqor = 3
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4293942142
-	sym = KXsepmotor_4293942018
-	sym = KXsepmotor_4293941956
-	sym = KXsepmotor_4293941894
-	sym = KXsepmotor_4293941832
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = KXsepmotor_4294071668
+	sym = KXsepmotor_4294071544
+	sym = KXsepmotor_4294071482
+	sym = KXsepmotor_4294071420
+	sym = KXsepmotor_4294071358
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -15694,7 +16125,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 3
 		type_UIEditor
 		{
@@ -15856,9 +16287,9 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4293942018
+	part = KXsepmotor_4294071544
 	partName = Part
-	pos = 1.836308,7.253922,1.379977
+	pos = 1.836308,7.253798,1.379976
 	rot = -0.4995241,0.03777551,-0.8652013,-0.0218097
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
@@ -15868,12 +16299,12 @@ PART
 	sqor = 3
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4293942142
-	sym = KXsepmotor_4293942080
-	sym = KXsepmotor_4293941956
-	sym = KXsepmotor_4293941894
-	sym = KXsepmotor_4293941832
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = KXsepmotor_4294071668
+	sym = KXsepmotor_4294071606
+	sym = KXsepmotor_4294071482
+	sym = KXsepmotor_4294071420
+	sym = KXsepmotor_4294071358
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -16025,7 +16456,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 3
 		type_UIEditor
 		{
@@ -16187,9 +16618,9 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4293941956
+	part = KXsepmotor_4294071482
 	partName = Part
-	pos = 1.836308,7.253922,-0.4334755
+	pos = 1.836315,7.253798,-0.4334828
 	rot = -0.8652013,0.0218097,-0.4995241,-0.03777551
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
@@ -16199,12 +16630,12 @@ PART
 	sqor = 3
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4293942142
-	sym = KXsepmotor_4293942080
-	sym = KXsepmotor_4293942018
-	sym = KXsepmotor_4293941894
-	sym = KXsepmotor_4293941832
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = KXsepmotor_4294071668
+	sym = KXsepmotor_4294071606
+	sym = KXsepmotor_4294071544
+	sym = KXsepmotor_4294071420
+	sym = KXsepmotor_4294071358
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -16356,7 +16787,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 3
 		type_UIEditor
 		{
@@ -16518,10 +16949,10 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4293941894
+	part = KXsepmotor_4294071420
 	partName = Part
-	pos = 0.265812,7.253922,-1.340204
-	rot = -0.9990484,-1.317089E-09,0,-0.0436194
+	pos = 0.2658187,7.253798,-1.340205
+	rot = -0.9990485,-1.317089E-09,0,-0.04361938
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
 	istg = 3
@@ -16530,12 +16961,12 @@ PART
 	sqor = 3
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4293942142
-	sym = KXsepmotor_4293942080
-	sym = KXsepmotor_4293942018
-	sym = KXsepmotor_4293941956
-	sym = KXsepmotor_4293941832
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = KXsepmotor_4294071668
+	sym = KXsepmotor_4294071606
+	sym = KXsepmotor_4294071544
+	sym = KXsepmotor_4294071482
+	sym = KXsepmotor_4294071358
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -16687,7 +17118,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 3
 		type_UIEditor
 		{
@@ -16849,10 +17280,10 @@ PART
 }
 PART
 {
-	part = KXsepmotor_4293941832
+	part = KXsepmotor_4294071358
 	partName = Part
-	pos = -1.304686,7.253922,-0.4334747
-	rot = -0.8652014,-0.02180969,0.4995241,-0.03777552
+	pos = -1.304686,7.253798,-0.4334712
+	rot = -0.8652014,-0.02180969,0.499524,-0.03777552
 	attRot = 0,-0.04361939,0.9990482,0
 	mir = 1,1,1
 	istg = 3
@@ -16861,12 +17292,12 @@ PART
 	sqor = 3
 	attm = 1
 	modCost = -56.04812
-	sym = KXsepmotor_4293942142
-	sym = KXsepmotor_4293942080
-	sym = KXsepmotor_4293942018
-	sym = KXsepmotor_4293941956
-	sym = KXsepmotor_4293941894
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = KXsepmotor_4294071668
+	sym = KXsepmotor_4294071606
+	sym = KXsepmotor_4294071544
+	sym = KXsepmotor_4294071482
+	sym = KXsepmotor_4294071420
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -17018,7 +17449,7 @@ PART
 		type = Odyssey_Solid
 		utilization = 86
 		mass = 0.000801
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		volume = 3
 		type_UIEditor
 		{
@@ -17180,9 +17611,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941770
+	part = W485.SurfaceOmniLight_4294071296
 	partName = Part
-	pos = -1.545557,7.199337,0.4732559
+	pos = -1.545558,7.199213,0.4732626
 	rot = -0.5000001,0.5000001,-0.5000001,-0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -17192,12 +17623,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941736
-	sym = W485.SurfaceOmniLight_4293941702
-	sym = W485.SurfaceOmniLight_4293941668
-	sym = W485.SurfaceOmniLight_4293941634
-	sym = W485.SurfaceOmniLight_4293941600
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071262
+	sym = W485.SurfaceOmniLight_4294071228
+	sym = W485.SurfaceOmniLight_4294071194
+	sym = W485.SurfaceOmniLight_4294071160
+	sym = W485.SurfaceOmniLight_4294071126
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -17336,9 +17767,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941736
+	part = W485.SurfaceOmniLight_4294071262
 	partName = Part
-	pos = -0.6398727,7.199337,2.041945
+	pos = -0.6398802,7.199213,2.041946
 	rot = -0.6830128,0.1830127,-0.1830127,-0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -17348,12 +17779,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941770
-	sym = W485.SurfaceOmniLight_4293941702
-	sym = W485.SurfaceOmniLight_4293941668
-	sym = W485.SurfaceOmniLight_4293941634
-	sym = W485.SurfaceOmniLight_4293941600
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071296
+	sym = W485.SurfaceOmniLight_4294071228
+	sym = W485.SurfaceOmniLight_4294071194
+	sym = W485.SurfaceOmniLight_4294071160
+	sym = W485.SurfaceOmniLight_4294071126
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -17492,9 +17923,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941702
+	part = W485.SurfaceOmniLight_4294071228
 	partName = Part
-	pos = 1.171495,7.199337,2.041945
+	pos = 1.171493,7.199213,2.041945
 	rot = -0.6830128,-0.1830127,0.1830127,-0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -17504,12 +17935,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941770
-	sym = W485.SurfaceOmniLight_4293941736
-	sym = W485.SurfaceOmniLight_4293941668
-	sym = W485.SurfaceOmniLight_4293941634
-	sym = W485.SurfaceOmniLight_4293941600
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071296
+	sym = W485.SurfaceOmniLight_4294071262
+	sym = W485.SurfaceOmniLight_4294071194
+	sym = W485.SurfaceOmniLight_4294071160
+	sym = W485.SurfaceOmniLight_4294071126
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -17648,9 +18079,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941668
+	part = W485.SurfaceOmniLight_4294071194
 	partName = Part
-	pos = 2.077179,7.199337,0.4732551
+	pos = 2.07718,7.199213,0.4732484
 	rot = -0.5,-0.5000002,0.5000002,-0.5
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -17660,12 +18091,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941770
-	sym = W485.SurfaceOmniLight_4293941736
-	sym = W485.SurfaceOmniLight_4293941702
-	sym = W485.SurfaceOmniLight_4293941634
-	sym = W485.SurfaceOmniLight_4293941600
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071296
+	sym = W485.SurfaceOmniLight_4294071262
+	sym = W485.SurfaceOmniLight_4294071228
+	sym = W485.SurfaceOmniLight_4294071160
+	sym = W485.SurfaceOmniLight_4294071126
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -17804,9 +18235,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941634
+	part = W485.SurfaceOmniLight_4294071160
 	partName = Part
-	pos = 1.171496,7.199337,-1.095434
+	pos = 1.171504,7.199213,-1.095441
 	rot = -0.1830127,-0.6830128,0.6830128,-0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -17816,12 +18247,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941770
-	sym = W485.SurfaceOmniLight_4293941736
-	sym = W485.SurfaceOmniLight_4293941702
-	sym = W485.SurfaceOmniLight_4293941668
-	sym = W485.SurfaceOmniLight_4293941600
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071296
+	sym = W485.SurfaceOmniLight_4294071262
+	sym = W485.SurfaceOmniLight_4294071228
+	sym = W485.SurfaceOmniLight_4294071194
+	sym = W485.SurfaceOmniLight_4294071126
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -17960,9 +18391,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941600
+	part = W485.SurfaceOmniLight_4294071126
 	partName = Part
-	pos = -0.639872,7.199337,-1.095434
+	pos = -0.6398687,7.199213,-1.095434
 	rot = 0.1830127,-0.6830128,0.6830128,0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -17972,12 +18403,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941770
-	sym = W485.SurfaceOmniLight_4293941736
-	sym = W485.SurfaceOmniLight_4293941702
-	sym = W485.SurfaceOmniLight_4293941668
-	sym = W485.SurfaceOmniLight_4293941634
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071296
+	sym = W485.SurfaceOmniLight_4294071262
+	sym = W485.SurfaceOmniLight_4294071228
+	sym = W485.SurfaceOmniLight_4294071194
+	sym = W485.SurfaceOmniLight_4294071160
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -18116,9 +18547,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941566
+	part = W485.SurfaceOmniLight_4294071092
 	partName = Part
-	pos = -1.54557,21.71039,0.4732559
+	pos = -1.545571,21.71032,0.4732626
 	rot = -0.5000002,0.5,-0.5000002,-0.5
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -18128,12 +18559,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941532
-	sym = W485.SurfaceOmniLight_4293941498
-	sym = W485.SurfaceOmniLight_4293941464
-	sym = W485.SurfaceOmniLight_4293941430
-	sym = W485.SurfaceOmniLight_4293941396
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071058
+	sym = W485.SurfaceOmniLight_4294071024
+	sym = W485.SurfaceOmniLight_4294070990
+	sym = W485.SurfaceOmniLight_4294070956
+	sym = W485.SurfaceOmniLight_4294070922
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -18272,9 +18703,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941532
+	part = W485.SurfaceOmniLight_4294071058
 	partName = Part
-	pos = -0.6398777,21.71039,2.041957
+	pos = -0.6398849,21.71032,2.04196
 	rot = -0.6830128,0.1830127,-0.1830127,-0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -18284,12 +18715,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941566
-	sym = W485.SurfaceOmniLight_4293941498
-	sym = W485.SurfaceOmniLight_4293941464
-	sym = W485.SurfaceOmniLight_4293941430
-	sym = W485.SurfaceOmniLight_4293941396
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071092
+	sym = W485.SurfaceOmniLight_4294071024
+	sym = W485.SurfaceOmniLight_4294070990
+	sym = W485.SurfaceOmniLight_4294070956
+	sym = W485.SurfaceOmniLight_4294070922
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -18428,9 +18859,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941498
+	part = W485.SurfaceOmniLight_4294071024
 	partName = Part
-	pos = 1.171502,21.71039,2.041957
+	pos = 1.171501,21.71032,2.041957
 	rot = -0.6830128,-0.1830127,0.1830128,-0.6830128
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -18440,12 +18871,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941566
-	sym = W485.SurfaceOmniLight_4293941532
-	sym = W485.SurfaceOmniLight_4293941464
-	sym = W485.SurfaceOmniLight_4293941430
-	sym = W485.SurfaceOmniLight_4293941396
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071092
+	sym = W485.SurfaceOmniLight_4294071058
+	sym = W485.SurfaceOmniLight_4294070990
+	sym = W485.SurfaceOmniLight_4294070956
+	sym = W485.SurfaceOmniLight_4294070922
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -18584,9 +19015,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941464
+	part = W485.SurfaceOmniLight_4294070990
 	partName = Part
-	pos = 2.077191,21.71039,0.4732551
+	pos = 2.077194,21.71032,0.4732484
 	rot = -0.5000002,-0.5,0.5000002,-0.5
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -18596,12 +19027,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941566
-	sym = W485.SurfaceOmniLight_4293941532
-	sym = W485.SurfaceOmniLight_4293941498
-	sym = W485.SurfaceOmniLight_4293941430
-	sym = W485.SurfaceOmniLight_4293941396
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071092
+	sym = W485.SurfaceOmniLight_4294071058
+	sym = W485.SurfaceOmniLight_4294071024
+	sym = W485.SurfaceOmniLight_4294070956
+	sym = W485.SurfaceOmniLight_4294070922
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -18740,9 +19171,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941430
+	part = W485.SurfaceOmniLight_4294070956
 	partName = Part
-	pos = 1.171503,21.71039,-1.095443
+	pos = 1.171511,21.71032,-1.09545
 	rot = -0.1830127,-0.6830128,0.6830128,-0.1830127
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -18752,12 +19183,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941566
-	sym = W485.SurfaceOmniLight_4293941532
-	sym = W485.SurfaceOmniLight_4293941498
-	sym = W485.SurfaceOmniLight_4293941464
-	sym = W485.SurfaceOmniLight_4293941396
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071092
+	sym = W485.SurfaceOmniLight_4294071058
+	sym = W485.SurfaceOmniLight_4294071024
+	sym = W485.SurfaceOmniLight_4294070990
+	sym = W485.SurfaceOmniLight_4294070922
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -18896,9 +19327,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941396
+	part = W485.SurfaceOmniLight_4294070922
 	partName = Part
-	pos = -0.639877,21.71039,-1.095443
+	pos = -0.6398737,21.71032,-1.095443
 	rot = 0.1830127,-0.6830128,0.6830128,0.1830126
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -18908,12 +19339,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941566
-	sym = W485.SurfaceOmniLight_4293941532
-	sym = W485.SurfaceOmniLight_4293941498
-	sym = W485.SurfaceOmniLight_4293941464
-	sym = W485.SurfaceOmniLight_4293941430
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294071092
+	sym = W485.SurfaceOmniLight_4294071058
+	sym = W485.SurfaceOmniLight_4294071024
+	sym = W485.SurfaceOmniLight_4294070990
+	sym = W485.SurfaceOmniLight_4294070956
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19052,9 +19483,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941362
+	part = W485.SurfaceOmniLight_4294070888
 	partName = Part
-	pos = -1.306117,16.72046,1.380807
+	pos = -1.306124,16.72045,1.380815
 	rot = -0.6123726,0.3535534,-0.3535534,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -19064,12 +19495,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941328
-	sym = W485.SurfaceOmniLight_4293941294
-	sym = W485.SurfaceOmniLight_4293941260
-	sym = W485.SurfaceOmniLight_4293941226
-	sym = W485.SurfaceOmniLight_4293941192
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070854
+	sym = W485.SurfaceOmniLight_4294070820
+	sym = W485.SurfaceOmniLight_4294070786
+	sym = W485.SurfaceOmniLight_4294070752
+	sym = W485.SurfaceOmniLight_4294070718
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19208,9 +19639,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941328
+	part = W485.SurfaceOmniLight_4294070854
 	partName = Part
-	pos = 0.2658111,16.72046,2.288355
+	pos = 0.2658044,16.72045,2.288358
 	rot = -0.7071069,0,0,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -19220,12 +19651,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941362
-	sym = W485.SurfaceOmniLight_4293941294
-	sym = W485.SurfaceOmniLight_4293941260
-	sym = W485.SurfaceOmniLight_4293941226
-	sym = W485.SurfaceOmniLight_4293941192
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070888
+	sym = W485.SurfaceOmniLight_4294070820
+	sym = W485.SurfaceOmniLight_4294070786
+	sym = W485.SurfaceOmniLight_4294070752
+	sym = W485.SurfaceOmniLight_4294070718
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19364,9 +19795,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941294
+	part = W485.SurfaceOmniLight_4294070820
 	partName = Part
-	pos = 1.837739,16.72046,1.380807
+	pos = 1.837739,16.72045,1.380805
 	rot = -0.6123726,-0.3535534,0.3535534,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -19376,12 +19807,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941362
-	sym = W485.SurfaceOmniLight_4293941328
-	sym = W485.SurfaceOmniLight_4293941260
-	sym = W485.SurfaceOmniLight_4293941226
-	sym = W485.SurfaceOmniLight_4293941192
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070888
+	sym = W485.SurfaceOmniLight_4294070854
+	sym = W485.SurfaceOmniLight_4294070786
+	sym = W485.SurfaceOmniLight_4294070752
+	sym = W485.SurfaceOmniLight_4294070718
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19520,9 +19951,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941260
+	part = W485.SurfaceOmniLight_4294070786
 	partName = Part
-	pos = 1.837739,16.72046,-0.4342937
+	pos = 1.837746,16.72045,-0.4343009
 	rot = -0.3535534,-0.6123726,0.6123726,-0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -19532,12 +19963,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941362
-	sym = W485.SurfaceOmniLight_4293941328
-	sym = W485.SurfaceOmniLight_4293941294
-	sym = W485.SurfaceOmniLight_4293941226
-	sym = W485.SurfaceOmniLight_4293941192
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070888
+	sym = W485.SurfaceOmniLight_4294070854
+	sym = W485.SurfaceOmniLight_4294070820
+	sym = W485.SurfaceOmniLight_4294070752
+	sym = W485.SurfaceOmniLight_4294070718
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19676,9 +20107,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941226
+	part = W485.SurfaceOmniLight_4294070752
 	partName = Part
-	pos = 0.265812,16.72046,-1.341854
+	pos = 0.2658187,16.72045,-1.341856
 	rot = 0,-0.7071069,0.7071069,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -19688,12 +20119,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941362
-	sym = W485.SurfaceOmniLight_4293941328
-	sym = W485.SurfaceOmniLight_4293941294
-	sym = W485.SurfaceOmniLight_4293941260
-	sym = W485.SurfaceOmniLight_4293941192
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070888
+	sym = W485.SurfaceOmniLight_4294070854
+	sym = W485.SurfaceOmniLight_4294070820
+	sym = W485.SurfaceOmniLight_4294070786
+	sym = W485.SurfaceOmniLight_4294070718
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19832,9 +20263,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941192
+	part = W485.SurfaceOmniLight_4294070718
 	partName = Part
-	pos = -1.306117,16.72046,-0.434293
+	pos = -1.306117,16.72045,-0.4342895
 	rot = 0.3535534,-0.6123726,0.6123726,0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -19844,12 +20275,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941362
-	sym = W485.SurfaceOmniLight_4293941328
-	sym = W485.SurfaceOmniLight_4293941294
-	sym = W485.SurfaceOmniLight_4293941260
-	sym = W485.SurfaceOmniLight_4293941226
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070888
+	sym = W485.SurfaceOmniLight_4294070854
+	sym = W485.SurfaceOmniLight_4294070820
+	sym = W485.SurfaceOmniLight_4294070786
+	sym = W485.SurfaceOmniLight_4294070752
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -19988,9 +20419,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941158
+	part = W485.SurfaceOmniLight_4294070684
 	partName = Part
-	pos = -1.306945,12.13487,1.381285
+	pos = -1.306952,12.13479,1.381293
 	rot = -0.6123726,0.3535534,-0.3535534,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -20000,12 +20431,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941124
-	sym = W485.SurfaceOmniLight_4293941090
-	sym = W485.SurfaceOmniLight_4293941056
-	sym = W485.SurfaceOmniLight_4293941022
-	sym = W485.SurfaceOmniLight_4293940988
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070650
+	sym = W485.SurfaceOmniLight_4294070616
+	sym = W485.SurfaceOmniLight_4294070582
+	sym = W485.SurfaceOmniLight_4294070548
+	sym = W485.SurfaceOmniLight_4294070514
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20144,9 +20575,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941124
+	part = W485.SurfaceOmniLight_4294070650
 	partName = Part
-	pos = 0.2658111,12.13487,2.289317
+	pos = 0.2658044,12.13479,2.28932
 	rot = -0.7071069,0,0,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -20156,12 +20587,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941158
-	sym = W485.SurfaceOmniLight_4293941090
-	sym = W485.SurfaceOmniLight_4293941056
-	sym = W485.SurfaceOmniLight_4293941022
-	sym = W485.SurfaceOmniLight_4293940988
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070684
+	sym = W485.SurfaceOmniLight_4294070616
+	sym = W485.SurfaceOmniLight_4294070582
+	sym = W485.SurfaceOmniLight_4294070548
+	sym = W485.SurfaceOmniLight_4294070514
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20300,9 +20731,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941090
+	part = W485.SurfaceOmniLight_4294070616
 	partName = Part
-	pos = 1.838566,12.13487,1.381285
+	pos = 1.838566,12.13479,1.381283
 	rot = -0.6123726,-0.3535534,0.3535534,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -20312,12 +20743,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941158
-	sym = W485.SurfaceOmniLight_4293941124
-	sym = W485.SurfaceOmniLight_4293941056
-	sym = W485.SurfaceOmniLight_4293941022
-	sym = W485.SurfaceOmniLight_4293940988
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070684
+	sym = W485.SurfaceOmniLight_4294070650
+	sym = W485.SurfaceOmniLight_4294070582
+	sym = W485.SurfaceOmniLight_4294070548
+	sym = W485.SurfaceOmniLight_4294070514
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20456,9 +20887,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941056
+	part = W485.SurfaceOmniLight_4294070582
 	partName = Part
-	pos = 1.838566,12.13487,-0.4347743
+	pos = 1.838573,12.13479,-0.4347816
 	rot = -0.3535534,-0.6123726,0.6123726,-0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -20468,12 +20899,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941158
-	sym = W485.SurfaceOmniLight_4293941124
-	sym = W485.SurfaceOmniLight_4293941090
-	sym = W485.SurfaceOmniLight_4293941022
-	sym = W485.SurfaceOmniLight_4293940988
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070684
+	sym = W485.SurfaceOmniLight_4294070650
+	sym = W485.SurfaceOmniLight_4294070616
+	sym = W485.SurfaceOmniLight_4294070548
+	sym = W485.SurfaceOmniLight_4294070514
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20612,9 +21043,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293941022
+	part = W485.SurfaceOmniLight_4294070548
 	partName = Part
-	pos = 0.265812,12.13487,-1.342803
+	pos = 0.2658187,12.13479,-1.342804
 	rot = 0,-0.7071069,0.7071069,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -20624,12 +21055,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941158
-	sym = W485.SurfaceOmniLight_4293941124
-	sym = W485.SurfaceOmniLight_4293941090
-	sym = W485.SurfaceOmniLight_4293941056
-	sym = W485.SurfaceOmniLight_4293940988
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070684
+	sym = W485.SurfaceOmniLight_4294070650
+	sym = W485.SurfaceOmniLight_4294070616
+	sym = W485.SurfaceOmniLight_4294070582
+	sym = W485.SurfaceOmniLight_4294070514
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20768,9 +21199,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4293940988
+	part = W485.SurfaceOmniLight_4294070514
 	partName = Part
-	pos = -1.306942,12.13487,-0.4347736
+	pos = -1.306942,12.13479,-0.4347701
 	rot = 0.3535534,-0.6123726,0.6123726,0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -20780,12 +21211,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4293941158
-	sym = W485.SurfaceOmniLight_4293941124
-	sym = W485.SurfaceOmniLight_4293941090
-	sym = W485.SurfaceOmniLight_4293941056
-	sym = W485.SurfaceOmniLight_4293941022
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	sym = W485.SurfaceOmniLight_4294070684
+	sym = W485.SurfaceOmniLight_4294070650
+	sym = W485.SurfaceOmniLight_4294070616
+	sym = W485.SurfaceOmniLight_4294070582
+	sym = W485.SurfaceOmniLight_4294070548
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20924,19 +21355,19 @@ PART
 }
 PART
 {
-	part = FASAUmbilicalTower_4293940954
+	part = FASAUmbilicalTower_4294070480
 	partName = Strut
-	pos = 0.3446077,17.6906,7.184366
+	pos = 0.3445837,17.69058,7.184383
 	rot = -2.009718E-14,1,-1.713413E-07,-8.42937E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 4
+	istg = 5
 	dstg = 45
-	sidx = 2
-	sqor = 4
+	sidx = 6
+	sqor = 5
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,KW3mtankL4A_4293942392
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -20981,8 +21412,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 9.845296
-		height = 19.69059
+		scaleFactor = 9.845305
+		height = 19.69057
 		towerRot = 2.009718E-14,-1,1.713413E-07,-8.42937E-08
 		EVENTS
 		{
@@ -21031,7 +21462,7 @@ PART
 		isEnabled = True
 		enablePump = False
 		pump_rate = 100
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		EVENTS
 		{
 			TogglePump
@@ -21196,19 +21627,19 @@ PART
 }
 PART
 {
-	part = FASAUmbilicalTower_4293940812
+	part = FASAUmbilicalTower_4294070338
 	partName = Strut
-	pos = 1.476729,27.05449,7.117546
-	rot = -9.698574E-09,0.9969176,-1.232322E-07,-0.07845906
+	pos = 1.476707,27.05448,7.117549
+	rot = -9.698574E-09,0.9969175,-1.232322E-07,-0.07845906
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 4
+	istg = 5
 	dstg = 43
-	sidx = 3
-	sqor = 4
+	sidx = 7
+	sqor = 5
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,FelbournFuel2_4293943502
+	srfN = srfAttach,FelbournFuel2_4294073028
 	EVENTS
 	{
 	}
@@ -21253,9 +21684,9 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 14.52725
-		height = 29.05449
-		towerRot = 9.698572E-09,-0.9969174,1.232322E-07,-0.07845904
+		scaleFactor = 14.52724
+		height = 29.05448
+		towerRot = 9.698573E-09,-0.9969174,1.232322E-07,-0.07845905
 		EVENTS
 		{
 			Release
@@ -21303,7 +21734,7 @@ PART
 		isEnabled = True
 		enablePump = False
 		pump_rate = 100
-		timestamp = 121533.15668911
+		timestamp = 186548.084361037
 		EVENTS
 		{
 			TogglePump
@@ -21468,9 +21899,9 @@ PART
 }
 PART
 {
-	part = Kosmos.Pravilo.ASAS_4293940670
+	part = Kosmos.Pravilo.ASAS_4294070196
 	partName = Part
-	pos = 0.2658111,30.84467,2.32513
+	pos = 0.2658044,30.84467,2.325131
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -21480,7 +21911,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	srfN = srfAttach,FASAApolloIU_4293943556
+	srfN = srfAttach,FASAApolloIU_4294073082
 	EVENTS
 	{
 	}
@@ -21692,21 +22123,231 @@ PART
 }
 PART
 {
-	part = KW5mExpFairingCone_4293943984
+	part = IR.StrutDecoupler.Small_4294070160
+	partName = StrutConnector
+	pos = -0.3803413,35.93953,0.4732563
+	rot = 0,0,0,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 1
+	sidx = 3
+	sqor = 2
+	attm = 1
+	modCost = 0
+	cData = tgt: KW5mExpFairingWall_107; pos: -1.691487,0.6682704,-0.02090986; dir: -0.9299853,0.3674169,-0.01149661
+	sym = IR.StrutDecoupler.Small_4294070116
+	srfN = srfAttach,Airlockdoors_4294075930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.025
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 0
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = IR.StrutDecoupler.Small_4294070116
+	partName = StrutConnector
+	pos = 0.9119643,35.93953,0.4732546
+	rot = 0,-1,0,8.42937E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 1
+	sidx = 4
+	sqor = 2
+	attm = 1
+	modCost = 0
+	cData = tgt: KW5mExpFairingWall_34; pos: -1.691484,0.6682742,-0.02091025; dir: -0.9299853,0.3674169,-0.01149661
+	sym = IR.StrutDecoupler.Small_4294070160
+	srfN = srfAttach,Airlockdoors_4294075930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.025
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 0
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KW5mExpFairingCone_4294070072
 	partName = Part
-	pos = -0.9529384,43.99222,0.4732569
+	pos = -0.9529393,43.99221,0.4732581
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
 	dstg = 3
-	sidx = 1
+	sidx = 5
 	sqor = 2
 	attm = 0
 	modCost = -462.5
-	link = KW5mExpFairingWall_4293943914
-	attN = connect,KW5mExpFairingWall_4293943914
-	attN = bottom,KW5mExpandedFairingBase_4293944508
+	link = KW5mExpFairingWall_4294070002
+	attN = connect,KW5mExpFairingWall_4294070002
+	attN = bottom,KW5mExpandedFairingBase_4294073304
 	EVENTS
 	{
 	}
@@ -21860,9 +22501,9 @@ PART
 }
 PART
 {
-	part = KW5mExpFairingWall_4293943914
+	part = KW5mExpFairingWall_4294070002
 	partName = Part
-	pos = -0.952001,39.88547,0.4732569
+	pos = -0.952002,39.88546,0.4732581
 	rot = 0,0,0,-1
 	attRot = 0,0,0,-0.9999999
 	mir = 1,1,1
@@ -21872,9 +22513,9 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -462.5
-	link = KW5mExpFairingWall_4293943864
-	attN = bottom,KW5mExpFairingCone_4293943984
-	attN = top,KW5mExpFairingWall_4293943864
+	link = KW5mExpFairingWall_4294069952
+	attN = bottom,KW5mExpFairingCone_4294070072
+	attN = top,KW5mExpFairingWall_4294069952
 	EVENTS
 	{
 	}
@@ -22001,9 +22642,9 @@ PART
 }
 PART
 {
-	part = KW5mExpFairingWall_4293943864
+	part = KW5mExpFairingWall_4294069952
 	partName = Part
-	pos = -0.952001,35.14213,0.4732569
+	pos = -0.952002,35.14211,0.4732581
 	rot = 0,0,0,-1
 	attRot = 0,0,0,-0.9999999
 	mir = 1,1,1
@@ -22013,7 +22654,7 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = -462.5
-	attN = bottom,KW5mExpFairingWall_4293943914
+	attN = bottom,KW5mExpFairingWall_4294070002
 	EVENTS
 	{
 	}
@@ -22140,21 +22781,21 @@ PART
 }
 PART
 {
-	part = IR.StrutDecoupler.Small_4293781970
-	partName = StrutConnector
-	pos = -0.3826731,45.20732,0.4732555
-	rot = -2.107343E-08,0,-0.2093452,0.9778419
+	part = NP.decoupler.radial.Strut_4294069902
+	partName = Part
+	pos = -0.2152544,9.792553,-1.322115
+	rot = -2.453666E-07,0.7933536,-2.453667E-07,0.6087614
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 0
-	dstg = 1
-	sidx = 1
-	sqor = 0
+	istg = 4
+	dstg = 5
+	sidx = 0
+	sqor = 4
 	attm = 1
-	modCost = 0
-	cData = tgt: KW5mExpFairingCone_97; pos: -0.8132446,0.1347361,0.111683; dir: -0.9776201,0.1619694,0.1342572
-	sym = IR.StrutDecoupler.Small_4293762614
-	srfN = srfAttach,LLLCBM_4293782888
+	modCost = 1900
+	link = KWsrbGlobeVI_4294049232
+	sym = NP.decoupler.radial.Strut_4294069764
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -22190,15 +22831,21 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleStagingToggle
+		name = ModuleTestSubject
 		isEnabled = True
-		stagingEnabled = True
-		stagingEnabled_UIFlight
-		{
-			controlEnabled = True
-		}
 		EVENTS
 		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -22209,13 +22856,13 @@ PART
 		name = ExtendedPartInfo
 		isEnabled = True
 		Thrust = 0
-		MaxTemp = 1600
+		MaxTemp = 1650
 		CrashTol = 10
-		BreakForce = 1500
-		BreakTorque = 1500
+		BreakForce = 3375
+		BreakTorque = 3375
 		Torque = 0
-		Decouple = 0
-		Mass = 0.025
+		Decouple = -562.5
+		Mass = 6.75
 		EVENTS
 		{
 		}
@@ -22225,16 +22872,35 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTweakableDecouple
+		name = TweakScale
 		isEnabled = True
-		ejectionForce = 0
-		ejectionForce_UIFlight
+		tweakScale = 1.5
+		currentScale = 1.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 2700
+		tweakScale_UIEditor
 		{
 			controlEnabled = True
-			minValue = -3.402823E+38
-			maxValue = 3.402823E+38
-			stepIncrement = 1
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
 		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
 		EVENTS
 		{
 		}
@@ -22245,21 +22911,21 @@ PART
 }
 PART
 {
-	part = IR.StrutDecoupler.Small_4293762614
-	partName = StrutConnector
-	pos = 0.9142964,45.20732,0.4732554
-	rot = -0.2093452,0.9778419,2.107343E-08,-4.214685E-08
+	part = NP.decoupler.radial.Strut_4294069764
+	partName = Part
+	pos = 0.7468777,9.792553,2.268626
+	rot = -2.453667E-07,0.6087614,2.453666E-07,-0.7933535
 	attRot = 0,0,0,1
 	mir = 1,1,1
-	istg = 0
-	dstg = 1
+	istg = 4
+	dstg = 5
 	sidx = 1
-	sqor = 0
+	sqor = 4
 	attm = 1
-	modCost = 0
-	cData = tgt: KW5mExpFairingCone_32; pos: -0.8132434,0.1347366,0.1116834; dir: -0.9776201,0.1619694,0.1342572
-	sym = IR.StrutDecoupler.Small_4293781970
-	srfN = srfAttach,LLLCBM_4293782888
+	modCost = 1900
+	link = KWsrbGlobeVI_4294039894
+	sym = NP.decoupler.radial.Strut_4294069902
+	srfN = srfAttach,KW3mtankL4A_4294071918
 	EVENTS
 	{
 	}
@@ -22295,13 +22961,469 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleStagingToggle
+		name = ModuleTestSubject
 		isEnabled = True
-		stagingEnabled = True
-		stagingEnabled_UIFlight
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1650
+		CrashTol = 10
+		BreakForce = 3375
+		BreakTorque = 3375
+		Torque = 0
+		Decouple = -562.5
+		Mass = 6.75
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.5
+		currentScale = 1.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 2700
+		tweakScale_UIEditor
 		{
 			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
 		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = NP.decoupler.radial.Strut_4294069626
+	partName = Part
+	pos = 0.744306,9.787544,-1.312503
+	rot = -2.426873E-07,0.6087615,-2.426874E-07,0.7933535
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 5
+	sidx = 2
+	sqor = 4
+	attm = 1
+	modCost = 1900
+	link = KWsrbGlobeVI_4294047616
+	sym = NP.decoupler.radial.Strut_4294069488
+	srfN = srfAttach,KW3mtankL4A_4294071918
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1650
+		CrashTol = 10
+		BreakForce = 3375
+		BreakTorque = 3375
+		Torque = 0
+		Decouple = -562.5
+		Mass = 6.75
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.5
+		currentScale = 1.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 2700
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = NP.decoupler.radial.Strut_4294069488
+	partName = Part
+	pos = -0.2126826,9.787544,2.259013
+	rot = -2.426874E-07,0.7933535,2.426873E-07,-0.6087615
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 5
+	sidx = 3
+	sqor = 4
+	attm = 1
+	modCost = 1900
+	link = KWsrbGlobeVI_4294039282
+	sym = NP.decoupler.radial.Strut_4294069626
+	srfN = srfAttach,KW3mtankL4A_4294071918
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1650
+		CrashTol = 10
+		BreakForce = 3375
+		BreakTorque = 3375
+		Torque = 0
+		Decouple = -562.5
+		Mass = 6.75
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.5
+		currentScale = 1.5
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 2700
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KWsrbGlobeVI_4294049232
+	partName = Part
+	pos = -0.4347158,8.383482,-2.141165
+	rot = -2.955431E-14,0.9914451,-1.827235E-14,-0.1305262
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 5
+	dstg = 6
+	sidx = 2
+	sqor = 5
+	attm = 1
+	modCost = 8525.811
+	sym = KWsrbGlobeVI_4294039894
+	srfN = srfAttach,NP.decoupler.radial.Strut_4294069902
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
 		EVENTS
 		{
 		}
@@ -22313,14 +23435,14 @@ PART
 	{
 		name = ExtendedPartInfo
 		isEnabled = True
-		Thrust = 0
-		MaxTemp = 1600
+		Thrust = 175
+		MaxTemp = 2400
 		CrashTol = 10
 		BreakForce = 1500
 		BreakTorque = 1500
 		Torque = 0
 		Decouple = 0
-		Mass = 0.025
+		Mass = 7.9114
 		EVENTS
 		{
 		}
@@ -22330,15 +23452,90 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTweakableDecouple
+		name = ModuleTweakableGimbal
 		isEnabled = True
-		ejectionForce = 0
-		ejectionForce_UIFlight
+		gimbalRange = 0.2
+		reverseGimbalControl = False
+		gimbalRange_UIFlight
 		{
 			controlEnabled = True
 			minValue = -3.402823E+38
 			maxValue = 3.402823E+38
-			stepIncrement = 1
+			stepIncrement = 0.1
+		}
+		reverseGimbalControl_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionGimbalFlip
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_Solid
+		utilization = 86
+		mass = 2.531427
+		timestamp = 186548.084361037
+		volume = 9481
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 0.75
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 0
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
 		}
 		EVENTS
 		{
@@ -22346,5 +23543,1154 @@ PART
 		ACTIONS
 		{
 		}
+	}
+	MODULE
+	{
+		name = ModuleEngineThrustController
+		isEnabled = True
+		canAdjustAtAnytime = False
+		gp = 0
+		initialThrust = 1
+		thrustPercent = 1
+		EVENTS
+		{
+			Group1
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Group2
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuIncreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Increase Thrust
+				guiName = Increase Thrust
+				category = Increase Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDecreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decrease Thrust
+				guiName = Decrease Thrust
+				category = Decrease Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionGroupIncreaseThrust
+			{
+				actionGroup = None
+			}
+			ActionGroupDecreaseThrust
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBThrust
+		isEnabled = True
+		ignitionStartTime = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = HTPB
+		amount = 9481
+		maxAmount = 9481
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KWsrbGlobeVI_4294039894
+	partName = Part
+	pos = 0.9663378,8.383474,3.087676
+	rot = -8.352656E-14,-0.1305262,5.341947E-14,-0.9914451
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 5
+	dstg = 6
+	sidx = 2
+	sqor = 5
+	attm = 1
+	modCost = 8525.811
+	sym = KWsrbGlobeVI_4294049232
+	srfN = srfAttach,NP.decoupler.radial.Strut_4294069764
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 311.1111
+		MaxTemp = 2400
+		CrashTol = 10
+		BreakForce = 2666.667
+		BreakTorque = 2666.667
+		Torque = 0
+		Decouple = 0
+		Mass = 21.28105
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableGimbal
+		isEnabled = True
+		gimbalRange = 0.2
+		reverseGimbalControl = False
+		gimbalRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 0.1
+		}
+		reverseGimbalControl_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionGimbalFlip
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_Solid
+		utilization = 86
+		mass = 2.531427
+		timestamp = 186548.084361037
+		volume = 9481
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 0.75
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 0
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngineThrustController
+		isEnabled = True
+		canAdjustAtAnytime = False
+		gp = 0
+		initialThrust = 1
+		thrustPercent = 1
+		EVENTS
+		{
+			Group1
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Group2
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuIncreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Increase Thrust
+				guiName = Increase Thrust
+				category = Increase Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDecreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decrease Thrust
+				guiName = Decrease Thrust
+				category = Decrease Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionGroupIncreaseThrust
+			{
+				actionGroup = None
+			}
+			ActionGroupDecreaseThrust
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBThrust
+		isEnabled = True
+		ignitionStartTime = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = HTPB
+		amount = 9481
+		maxAmount = 9481
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KWsrbGlobeVI_4294047616
+	partName = Part
+	pos = 0.9636676,8.360209,-2.131162
+	rot = 2.747161E-14,0.9914451,-3.350425E-14,0.1305263
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 5
+	dstg = 6
+	sidx = 0
+	sqor = 5
+	attm = 1
+	modCost = 8525.811
+	sym = KWsrbGlobeVI_4294039282
+	srfN = srfAttach,NP.decoupler.radial.Strut_4294069626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 175
+		MaxTemp = 2400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 8.9784
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableGimbal
+		isEnabled = True
+		gimbalRange = 0.2
+		reverseGimbalControl = False
+		gimbalRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 0.1
+		}
+		reverseGimbalControl_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionGimbalFlip
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_Solid
+		utilization = 86
+		mass = 2.531427
+		timestamp = 186548.084361037
+		volume = 9481
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 0.75
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 0
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngineThrustController
+		isEnabled = True
+		canAdjustAtAnytime = False
+		gp = 0
+		initialThrust = 1
+		thrustPercent = 1
+		EVENTS
+		{
+			Group1
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Group2
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuIncreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Increase Thrust
+				guiName = Increase Thrust
+				category = Increase Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDecreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decrease Thrust
+				guiName = Decrease Thrust
+				category = Decrease Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionGroupIncreaseThrust
+			{
+				actionGroup = None
+			}
+			ActionGroupDecreaseThrust
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBThrust
+		isEnabled = True
+		ignitionStartTime = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = HTPB
+		amount = 9481
+		maxAmount = 9481
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KWsrbGlobeVI_4294039282
+	partName = Part
+	pos = -0.4320458,8.360201,3.077673
+	rot = -6.470373E-14,0.1305263,-2.14438E-14,-0.9914451
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 5
+	dstg = 6
+	sidx = 0
+	sqor = 5
+	attm = 1
+	modCost = 8525.811
+	sym = KWsrbGlobeVI_4294047616
+	srfN = srfAttach,NP.decoupler.radial.Strut_4294069488
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 311.1111
+		MaxTemp = 2400
+		CrashTol = 10
+		BreakForce = 2666.667
+		BreakTorque = 2666.667
+		Torque = 0
+		Decouple = 0
+		Mass = 21.28105
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableGimbal
+		isEnabled = True
+		gimbalRange = 0.2
+		reverseGimbalControl = False
+		gimbalRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 0.1
+		}
+		reverseGimbalControl_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionGimbalFlip
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_Solid
+		utilization = 86
+		mass = 2.531427
+		timestamp = 186548.084361037
+		volume = 9481
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 0.75
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 0
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngineThrustController
+		isEnabled = True
+		canAdjustAtAnytime = False
+		gp = 0
+		initialThrust = 1
+		thrustPercent = 1
+		EVENTS
+		{
+			Group1
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Group2
+			{
+				active = True
+				guiActive = True
+				guiIcon = Set Group 1
+				guiName = Set Group 1
+				category = Set Group 1
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuIncreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Increase Thrust
+				guiName = Increase Thrust
+				category = Increase Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDecreaseThrust
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decrease Thrust
+				guiName = Decrease Thrust
+				category = Decrease Thrust
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionGroupIncreaseThrust
+			{
+				actionGroup = None
+			}
+			ActionGroupDecreaseThrust
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBThrust
+		isEnabled = True
+		ignitionStartTime = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = OnEditorUpdateUtility_1_7_1_2
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = HTPB
+		amount = 9481
+		maxAmount = 9481
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
 	}
 }
