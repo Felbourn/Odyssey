@@ -68,8 +68,8 @@ toolbars
 		}
 		toolbar_1993518187
 		{
-			x = 931
-			y = 2
+			x = 952
+			y = -3
 			width = 250
 			height = 38
 			autoHide = False
@@ -278,8 +278,8 @@ toolbars
 	{
 		toolbar_1993518187
 		{
-			x = 931
-			y = 2
+			x = 952
+			y = -3
 			width = 250
 			height = 38
 			autoHide = False
@@ -356,7 +356,7 @@ toolbars
 			x = 207
 			y = 34
 			width = 250
-			height = 38
+			height = 81
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
@@ -431,15 +431,27 @@ toolbars
 	{
 		toolbar_1491128418
 		{
-			x = 300
-			y = 300
+			x = 421
+			y = 53
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = CIT_NodeHelper.NodeHelperButton,ferram4.FAREditorButton,Fusebox.FBToggle,MechJeb2.Construction,RCSBuildAid.mainButton,RO.ROButton,sirkut.IREditorButton,sirkut2.IREditorGroupButton,Tac.LS,test.saveAndQuit,test.toSPH,test.toTS,test.toVAB
+		}
+		toolbar_1643008673
+		{
+			x = 288
+			y = 800
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = __TOOLBAR_INTERNAL.configureVisibleButtons,PartOrganizer.sort,PartOrganizer.filter
+			visibleButtons = PartOrganizer.filter,PartOrganizer.sort
 		}
 	}
 }
