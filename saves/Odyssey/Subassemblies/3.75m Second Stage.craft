@@ -1,12 +1,12 @@
-ship = 2.5m Second Stage
+ship = 3.75m Second Stage
 version = 0.25.0
 description = No description.
 type = VAB
 PART
 {
-	part = FelbournFuel2_4294271564
+	part = FelbournFuel2_4294051266
 	partName = Part
-	pos = -0.1584827,21.81738,16.73802
+	pos = 4.565529,22.94831,16.84338
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -16,24 +16,24 @@ PART
 	sqor = -1
 	attm = 0
 	modCost = 353.071
-	link = W485.SurfaceOmniLight_4294271468
-	link = W485.SurfaceOmniLight_4294271434
-	link = W485.SurfaceOmniLight_4294271400
-	link = W485.SurfaceOmniLight_4294271366
-	link = W485.SurfaceOmniLight_4294271332
-	link = W485.SurfaceOmniLight_4294271298
-	link = W485.SurfaceOmniLight_4294271264
-	link = W485.SurfaceOmniLight_4294271230
-	link = W485.SurfaceOmniLight_4294271196
-	link = W485.SurfaceOmniLight_4294271162
-	link = W485.SurfaceOmniLight_4294271128
-	link = W485.SurfaceOmniLight_4294271094
-	link = IR.Segment.TrussLarge.1m25_4294270918
-	link = IR.Segment.TrussLarge.1m25_4294270826
-	link = IR.Segment.TrussLarge.1m25_4294270690
-	link = IR.Segment.TrussLarge.1m25_4294270598
-	link = Size3AdvancedEngine_4294270462
-	attN = bottom,Size3AdvancedEngine_4294270462
+	link = W485.SurfaceOmniLight_4294051170
+	link = W485.SurfaceOmniLight_4294051134
+	link = W485.SurfaceOmniLight_4294051098
+	link = W485.SurfaceOmniLight_4294051062
+	link = W485.SurfaceOmniLight_4294051026
+	link = W485.SurfaceOmniLight_4294050990
+	link = W485.SurfaceOmniLight_4294050954
+	link = W485.SurfaceOmniLight_4294050918
+	link = W485.SurfaceOmniLight_4294050882
+	link = W485.SurfaceOmniLight_4294050846
+	link = W485.SurfaceOmniLight_4294050810
+	link = W485.SurfaceOmniLight_4294050774
+	link = IR.Segment.TrussLarge.1m25_4294050738
+	link = IR.Segment.TrussLarge.1m25_4294050646
+	link = IR.Segment.TrussLarge.1m25_4294050510
+	link = IR.Segment.TrussLarge.1m25_4294050418
+	link = Size3AdvancedEngine_4294050282
+	attN = bottom,Size3AdvancedEngine_4294050282
 	EVENTS
 	{
 	}
@@ -136,17 +136,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 	RESOURCE
 	{
 		name = Kerosene
@@ -170,9 +159,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271468
+	part = W485.SurfaceOmniLight_4294051170
 	partName = Part
-	pos = -1.768144,23.55589,17.66735
+	pos = 2.955868,24.68682,17.77271
 	rot = -0.6123724,0.3535534,-0.3535534,-0.6123725
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -182,12 +171,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271434
-	sym = W485.SurfaceOmniLight_4294271400
-	sym = W485.SurfaceOmniLight_4294271366
-	sym = W485.SurfaceOmniLight_4294271332
-	sym = W485.SurfaceOmniLight_4294271298
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294051134
+	sym = W485.SurfaceOmniLight_4294051098
+	sym = W485.SurfaceOmniLight_4294051062
+	sym = W485.SurfaceOmniLight_4294051026
+	sym = W485.SurfaceOmniLight_4294050990
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -314,10 +303,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -326,9 +342,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271434
+	part = W485.SurfaceOmniLight_4294051134
 	partName = Part
-	pos = -0.1584827,23.55589,18.59669
+	pos = 4.565529,24.68682,18.70205
 	rot = -0.7071068,2.974082E-08,-3.373358E-08,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -338,12 +354,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271468
-	sym = W485.SurfaceOmniLight_4294271400
-	sym = W485.SurfaceOmniLight_4294271366
-	sym = W485.SurfaceOmniLight_4294271332
-	sym = W485.SurfaceOmniLight_4294271298
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294051170
+	sym = W485.SurfaceOmniLight_4294051098
+	sym = W485.SurfaceOmniLight_4294051062
+	sym = W485.SurfaceOmniLight_4294051026
+	sym = W485.SurfaceOmniLight_4294050990
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -470,10 +486,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -482,9 +525,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271400
+	part = W485.SurfaceOmniLight_4294051098
 	partName = Part
-	pos = 1.451179,23.55589,17.66735
+	pos = 6.17519,24.68682,17.77271
 	rot = -0.6123725,-0.3535534,0.3535534,-0.6123725
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -494,12 +537,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271468
-	sym = W485.SurfaceOmniLight_4294271434
-	sym = W485.SurfaceOmniLight_4294271366
-	sym = W485.SurfaceOmniLight_4294271332
-	sym = W485.SurfaceOmniLight_4294271298
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294051170
+	sym = W485.SurfaceOmniLight_4294051134
+	sym = W485.SurfaceOmniLight_4294051062
+	sym = W485.SurfaceOmniLight_4294051026
+	sym = W485.SurfaceOmniLight_4294050990
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -626,10 +669,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -638,9 +708,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271366
+	part = W485.SurfaceOmniLight_4294051062
 	partName = Part
-	pos = 1.451179,23.55589,15.80868
+	pos = 6.17519,24.68682,15.91404
 	rot = -0.3535534,-0.6123725,0.6123724,-0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -650,12 +720,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271468
-	sym = W485.SurfaceOmniLight_4294271434
-	sym = W485.SurfaceOmniLight_4294271400
-	sym = W485.SurfaceOmniLight_4294271332
-	sym = W485.SurfaceOmniLight_4294271298
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294051170
+	sym = W485.SurfaceOmniLight_4294051134
+	sym = W485.SurfaceOmniLight_4294051098
+	sym = W485.SurfaceOmniLight_4294051026
+	sym = W485.SurfaceOmniLight_4294050990
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -782,10 +852,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -794,9 +891,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271332
+	part = W485.SurfaceOmniLight_4294051026
 	partName = Part
-	pos = -0.1584827,23.55589,14.87934
+	pos = 4.565529,24.68682,14.9847
 	rot = 2.766662E-09,-0.7071068,0.7071068,6.75942E-09
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -806,12 +903,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271468
-	sym = W485.SurfaceOmniLight_4294271434
-	sym = W485.SurfaceOmniLight_4294271400
-	sym = W485.SurfaceOmniLight_4294271366
-	sym = W485.SurfaceOmniLight_4294271298
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294051170
+	sym = W485.SurfaceOmniLight_4294051134
+	sym = W485.SurfaceOmniLight_4294051098
+	sym = W485.SurfaceOmniLight_4294051062
+	sym = W485.SurfaceOmniLight_4294050990
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -938,10 +1035,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -950,9 +1074,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271298
+	part = W485.SurfaceOmniLight_4294050990
 	partName = Part
-	pos = -1.768144,23.55589,15.80868
+	pos = 2.955868,24.68682,15.91404
 	rot = 0.3535533,-0.6123725,0.6123725,0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -962,12 +1086,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271468
-	sym = W485.SurfaceOmniLight_4294271434
-	sym = W485.SurfaceOmniLight_4294271400
-	sym = W485.SurfaceOmniLight_4294271366
-	sym = W485.SurfaceOmniLight_4294271332
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294051170
+	sym = W485.SurfaceOmniLight_4294051134
+	sym = W485.SurfaceOmniLight_4294051098
+	sym = W485.SurfaceOmniLight_4294051062
+	sym = W485.SurfaceOmniLight_4294051026
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -1094,10 +1218,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -1106,9 +1257,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271264
+	part = W485.SurfaceOmniLight_4294050954
 	partName = Part
-	pos = -1.776823,20.18172,17.67237
+	pos = 2.947188,21.31265,17.77773
 	rot = -0.6123723,0.3535535,-0.3535534,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1118,12 +1269,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271230
-	sym = W485.SurfaceOmniLight_4294271196
-	sym = W485.SurfaceOmniLight_4294271162
-	sym = W485.SurfaceOmniLight_4294271128
-	sym = W485.SurfaceOmniLight_4294271094
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294050918
+	sym = W485.SurfaceOmniLight_4294050882
+	sym = W485.SurfaceOmniLight_4294050846
+	sym = W485.SurfaceOmniLight_4294050810
+	sym = W485.SurfaceOmniLight_4294050774
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -1250,10 +1401,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -1262,9 +1440,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271230
+	part = W485.SurfaceOmniLight_4294050918
 	partName = Part
-	pos = -0.1584827,20.18172,18.60671
+	pos = 4.565529,21.31265,18.71207
 	rot = -0.7071067,4.756488E-08,-3.772633E-08,-0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1274,12 +1452,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271264
-	sym = W485.SurfaceOmniLight_4294271196
-	sym = W485.SurfaceOmniLight_4294271162
-	sym = W485.SurfaceOmniLight_4294271128
-	sym = W485.SurfaceOmniLight_4294271094
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294050954
+	sym = W485.SurfaceOmniLight_4294050882
+	sym = W485.SurfaceOmniLight_4294050846
+	sym = W485.SurfaceOmniLight_4294050810
+	sym = W485.SurfaceOmniLight_4294050774
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -1406,10 +1584,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -1418,9 +1623,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271196
+	part = W485.SurfaceOmniLight_4294050882
 	partName = Part
-	pos = 1.459857,20.18172,17.67237
+	pos = 6.183868,21.31265,17.77773
 	rot = -0.6123723,-0.3535534,0.3535533,-0.6123726
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1430,12 +1635,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271264
-	sym = W485.SurfaceOmniLight_4294271230
-	sym = W485.SurfaceOmniLight_4294271162
-	sym = W485.SurfaceOmniLight_4294271128
-	sym = W485.SurfaceOmniLight_4294271094
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294050954
+	sym = W485.SurfaceOmniLight_4294050918
+	sym = W485.SurfaceOmniLight_4294050846
+	sym = W485.SurfaceOmniLight_4294050810
+	sym = W485.SurfaceOmniLight_4294050774
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -1562,10 +1767,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -1574,9 +1806,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271162
+	part = W485.SurfaceOmniLight_4294050846
 	partName = Part
-	pos = 1.459857,20.18172,15.80367
+	pos = 6.183868,21.31265,15.90903
 	rot = -0.3535534,-0.6123726,0.6123723,-0.3535535
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1586,12 +1818,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271264
-	sym = W485.SurfaceOmniLight_4294271230
-	sym = W485.SurfaceOmniLight_4294271196
-	sym = W485.SurfaceOmniLight_4294271128
-	sym = W485.SurfaceOmniLight_4294271094
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294050954
+	sym = W485.SurfaceOmniLight_4294050918
+	sym = W485.SurfaceOmniLight_4294050882
+	sym = W485.SurfaceOmniLight_4294050810
+	sym = W485.SurfaceOmniLight_4294050774
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -1718,10 +1950,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -1730,9 +1989,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271128
+	part = W485.SurfaceOmniLight_4294050810
 	partName = Part
-	pos = -0.1584827,20.18172,14.86932
+	pos = 4.565529,21.31265,14.97468
 	rot = -1.226096E-09,-0.7071069,0.7071066,-1.106463E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1742,12 +2001,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271264
-	sym = W485.SurfaceOmniLight_4294271230
-	sym = W485.SurfaceOmniLight_4294271196
-	sym = W485.SurfaceOmniLight_4294271162
-	sym = W485.SurfaceOmniLight_4294271094
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294050954
+	sym = W485.SurfaceOmniLight_4294050918
+	sym = W485.SurfaceOmniLight_4294050882
+	sym = W485.SurfaceOmniLight_4294050846
+	sym = W485.SurfaceOmniLight_4294050774
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -1874,10 +2133,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -1886,9 +2172,9 @@ PART
 }
 PART
 {
-	part = W485.SurfaceOmniLight_4294271094
+	part = W485.SurfaceOmniLight_4294050774
 	partName = Part
-	pos = -1.776822,20.18172,15.80367
+	pos = 2.94719,21.31265,15.90903
 	rot = 0.3535533,-0.6123726,0.6123724,0.3535534
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1898,12 +2184,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	sym = W485.SurfaceOmniLight_4294271264
-	sym = W485.SurfaceOmniLight_4294271230
-	sym = W485.SurfaceOmniLight_4294271196
-	sym = W485.SurfaceOmniLight_4294271162
-	sym = W485.SurfaceOmniLight_4294271128
-	srfN = srfAttach,FelbournFuel2_4294271564
+	sym = W485.SurfaceOmniLight_4294050954
+	sym = W485.SurfaceOmniLight_4294050918
+	sym = W485.SurfaceOmniLight_4294050882
+	sym = W485.SurfaceOmniLight_4294050846
+	sym = W485.SurfaceOmniLight_4294050810
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -2030,10 +2316,37 @@ PART
 	}
 	MODULE
 	{
-		name = FARBasicDragModel
+		name = ModuleHeatShield
 		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
 		EVENTS
 		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -2042,9 +2355,9 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4294270918
+	part = IR.Segment.TrussLarge.1m25_4294050738
 	partName = Part
-	pos = -1.266907,19.30988,16.73802
+	pos = 3.457105,20.44081,16.84338
 	rot = -0.7071068,-1.264406E-07,-0.7071068,-2.107343E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2054,11 +2367,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4294270882
-	sym = IR.Segment.TrussLarge.1m25_4294270826
-	sym = IR.Segment.TrussLarge.1m25_4294270690
-	sym = IR.Segment.TrussLarge.1m25_4294270598
-	srfN = srfAttach,FelbournFuel2_4294271564
+	link = ESARCS_4294050702
+	sym = IR.Segment.TrussLarge.1m25_4294050646
+	sym = IR.Segment.TrussLarge.1m25_4294050510
+	sym = IR.Segment.TrussLarge.1m25_4294050418
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -2111,23 +2424,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = ESARCS_4294270882
+	part = ESARCS_4294050702
 	partName = Part
-	pos = -1.50478,18.70311,16.73802
+	pos = 3.219231,19.83404,16.84338
 	rot = -0.5000001,0.5,-0.5000001,-0.5
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2137,10 +2439,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4294270790
-	sym = ESARCS_4294270654
-	sym = ESARCS_4294270562
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294270918
+	sym = ESARCS_4294050610
+	sym = ESARCS_4294050474
+	sym = ESARCS_4294050382
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294050738
 	EVENTS
 	{
 	}
@@ -2274,23 +2576,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4294270826
+	part = IR.Segment.TrussLarge.1m25_4294050646
 	partName = Part
-	pos = -0.1584827,19.30988,17.84644
+	pos = 4.565529,20.44081,17.9518
 	rot = -1,-1.043081E-07,4.214685E-08,7.450581E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2300,12 +2591,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4294270790
-	link = Kosmos.Parom.RCS.Tank_4294270734
-	sym = IR.Segment.TrussLarge.1m25_4294270918
-	sym = IR.Segment.TrussLarge.1m25_4294270690
-	sym = IR.Segment.TrussLarge.1m25_4294270598
-	srfN = srfAttach,FelbournFuel2_4294271564
+	link = ESARCS_4294050610
+	link = Kosmos.Parom.RCS.Tank_4294050554
+	sym = IR.Segment.TrussLarge.1m25_4294050738
+	sym = IR.Segment.TrussLarge.1m25_4294050510
+	sym = IR.Segment.TrussLarge.1m25_4294050418
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -2358,23 +2649,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = ESARCS_4294270790
+	part = ESARCS_4294050610
 	partName = Part
-	pos = -0.1584827,18.70311,18.08431
+	pos = 4.565529,19.83404,18.18967
 	rot = -0.7071068,-1.240367E-15,1.771483E-15,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2384,10 +2664,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4294270882
-	sym = ESARCS_4294270654
-	sym = ESARCS_4294270562
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294270826
+	sym = ESARCS_4294050702
+	sym = ESARCS_4294050474
+	sym = ESARCS_4294050382
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294050646
 	EVENTS
 	{
 	}
@@ -2521,24 +2801,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = Kosmos.Parom.RCS.Tank_4294270734
+	part = Kosmos.Parom.RCS.Tank_4294050554
 	partName = Part
-	pos = -0.3580127,18.70727,18.04597
-	rot = 3.800432E-14,-0.3826834,8.553564E-15,-0.9238796
+	pos = 4.365999,19.8382,18.15133
+	rot = 3.978067E-14,-0.3826834,8.553564E-15,-0.9238796
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -2547,7 +2816,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -699.1169
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294270826
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294050646
 	EVENTS
 	{
 	}
@@ -2663,17 +2932,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 	RESOURCE
 	{
 		name = Hydrazine
@@ -2687,9 +2945,9 @@ PART
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4294270690
+	part = IR.Segment.TrussLarge.1m25_4294050510
 	partName = Part
-	pos = 0.949941,19.30988,16.73802
+	pos = 5.673953,20.44081,16.84338
 	rot = -0.7071067,-2.107342E-08,0.7071069,1.264406E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2699,11 +2957,11 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4294270654
-	sym = IR.Segment.TrussLarge.1m25_4294270918
-	sym = IR.Segment.TrussLarge.1m25_4294270826
-	sym = IR.Segment.TrussLarge.1m25_4294270598
-	srfN = srfAttach,FelbournFuel2_4294271564
+	link = ESARCS_4294050474
+	sym = IR.Segment.TrussLarge.1m25_4294050738
+	sym = IR.Segment.TrussLarge.1m25_4294050646
+	sym = IR.Segment.TrussLarge.1m25_4294050418
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -2756,23 +3014,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = ESARCS_4294270654
+	part = ESARCS_4294050474
 	partName = Part
-	pos = 1.187815,18.70311,16.73802
+	pos = 5.911827,19.83404,16.84338
 	rot = -0.5,-0.5000001,0.5000001,-0.4999999
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2782,10 +3029,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4294270882
-	sym = ESARCS_4294270790
-	sym = ESARCS_4294270562
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294270690
+	sym = ESARCS_4294050702
+	sym = ESARCS_4294050610
+	sym = ESARCS_4294050382
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294050510
 	EVENTS
 	{
 	}
@@ -2919,23 +3166,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = IR.Segment.TrussLarge.1m25_4294270598
+	part = IR.Segment.TrussLarge.1m25_4294050418
 	partName = Part
-	pos = -0.1584827,19.30988,15.62959
+	pos = 4.565529,20.44081,15.73495
 	rot = 4.214685E-08,7.450581E-08,1,1.043081E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2945,12 +3181,12 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 0
-	link = ESARCS_4294270562
-	link = Kosmos.Parom.RCS.Tank_4294270506
-	sym = IR.Segment.TrussLarge.1m25_4294270918
-	sym = IR.Segment.TrussLarge.1m25_4294270826
-	sym = IR.Segment.TrussLarge.1m25_4294270690
-	srfN = srfAttach,FelbournFuel2_4294271564
+	link = ESARCS_4294050382
+	link = Kosmos.Parom.RCS.Tank_4294050326
+	sym = IR.Segment.TrussLarge.1m25_4294050738
+	sym = IR.Segment.TrussLarge.1m25_4294050646
+	sym = IR.Segment.TrussLarge.1m25_4294050510
+	srfN = srfAttach,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -3003,23 +3239,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = ESARCS_4294270562
+	part = ESARCS_4294050382
 	partName = Part
-	pos = -0.1584827,18.70311,15.39172
+	pos = 4.565529,19.83404,15.49708
 	rot = 1.771483E-15,-0.7071068,0.7071068,1.240367E-15
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3029,10 +3254,10 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = 3500
-	sym = ESARCS_4294270882
-	sym = ESARCS_4294270790
-	sym = ESARCS_4294270654
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294270598
+	sym = ESARCS_4294050702
+	sym = ESARCS_4294050610
+	sym = ESARCS_4294050474
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294050418
 	EVENTS
 	{
 	}
@@ -3166,24 +3391,13 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
-	part = Kosmos.Parom.RCS.Tank_4294270506
+	part = Kosmos.Parom.RCS.Tank_4294050326
 	partName = Part
-	pos = 0.04116863,18.72938,15.42994
-	rot = -1.032992E-14,0.9238796,3.800432E-14,-0.3826835
+	pos = 4.76518,19.86031,15.5353
+	rot = -1.032992E-14,0.9238796,3.978067E-14,-0.3826835
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 2
@@ -3192,7 +3406,7 @@ PART
 	sqor = -1
 	attm = 1
 	modCost = -699.1169
-	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294270598
+	srfN = srfAttach,IR.Segment.TrussLarge.1m25_4294050418
 	EVENTS
 	{
 	}
@@ -3308,17 +3522,6 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
 	RESOURCE
 	{
 		name = Hydrazine
@@ -3332,9 +3535,9 @@ PART
 }
 PART
 {
-	part = Size3AdvancedEngine_4294270462
+	part = Size3AdvancedEngine_4294050282
 	partName = Part
-	pos = -0.1584827,18.43941,16.73802
+	pos = 4.565529,19.57034,16.84338
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3344,7 +3547,7 @@ PART
 	sqor = 2
 	attm = 0
 	modCost = 0
-	attN = top,FelbournFuel2_4294271564
+	attN = top,FelbournFuel2_4294051266
 	EVENTS
 	{
 	}
@@ -3605,17 +3808,6 @@ PART
 			{
 				actionGroup = None
 			}
-		}
-	}
-	MODULE
-	{
-		name = FARBasicDragModel
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 	}
 	RESOURCE
