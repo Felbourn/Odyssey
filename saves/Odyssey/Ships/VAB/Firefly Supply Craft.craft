@@ -1,0 +1,5335 @@
+ship = Firefly Supply Craft
+version = 0.25.0
+description = 
+type = VAB
+PART
+{
+	part = Pollux.Control.A_4294394110
+	partName = Part
+	pos = 0.1659794,15.72366,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 5512.234
+	link = dockingPortHGR_4294394042
+	link = Pollux.Engine.A_4294393966
+	link = W485.SurfaceOmniLight_4294323850
+	link = W485.SurfaceOmniLight_4294321746
+	link = W485.SurfaceOmniLight_4294321704
+	link = W485.SurfaceOmniLight_4294321662
+	attN = bottom,Pollux.Engine.A_4294393966
+	attN = top,dockingPortHGR_4294394042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1000
+		CrashTol = 10
+		BreakForce = 6000
+		BreakTorque = 6000
+		Torque = 0
+		Decouple = 0
+		Mass = 7.475733
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TrajectoriesVesselSettings
+		isEnabled = True
+		EntryAngle = 0
+		EntryHorizon = False
+		HighAngle = 0
+		HighHorizon = False
+		LowAngle = 0
+		LowHorizon = False
+		GroundAngle = 0
+		GroundHorizon = False
+		hasTarget = False
+		targetLocation = (0, 0, 0)
+		targetReferenceBody = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FSinfoPopup
+		isEnabled = True
+		textHeading = Craft Info
+		textBody1 = 1 - Activate communications antenna
+		textBody2 = 2 - Activate RCS engines
+		textBody3 = 3 - Extend or toggle solar panels
+		textBody4 = 4 - Activate communications dishes
+		textBody5 = 5 -
+		textBody6 = 6 -
+		textBody7 = 7 -
+		textBody8 = 8 -
+		textBody9 = 9 -
+		textBody10 = 
+		textBody11 = 
+		showAtFlightStart = True
+		hideAfterCountdown = True
+		showOnEachFlightStart = True
+		hasBeenShown = False
+		useHotkey = True
+		EVENTS
+		{
+			showInfoEvent
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Show Info
+				guiName = Show Info
+				category = Show Info
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			showInfoAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = MechJebCore
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		MechJebLocalSettings
+		{
+			MechJebModuleJoke
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleMenu
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleTargetController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSettings
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSmartASS
+			{
+				mode = ORBITAL
+				target = OFF
+				advReference = INERTIAL
+				advDirection = FORWARD
+				forceRol = False
+				unlockParts = 
+				unlockTechs = 
+				srfHdg
+				{
+					_val = 90
+					_text = 90
+				}
+				srfPit
+				{
+					_val = 90
+					_text = 90
+				}
+				srfRol
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelYaw
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelPit
+				{
+					_val = 0
+					_text = 0
+				}
+				srfVelRol
+				{
+					_val = 0
+					_text = 0
+				}
+				rol
+				{
+					_val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleStageStats
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleWaypointWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWaypointHelpWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			ModExtensionDemo
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleManeuverPlanner
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleNodeExecutor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleJokeObscurePanel
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomWindowEditor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleInfoItems
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRCSBalancerWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRendezvousGuidance
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWarpController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustController
+			{
+				limitThrottle = False
+				unlockParts = 
+				unlockTechs = 
+				maxThrottle
+				{
+					_val = 1
+					_text = 100
+				}
+			}
+			MechJebModuleRCSController
+			{
+				unlockParts = 
+				unlockTechs = 
+				Tf
+				{
+					_val = 1
+					_text = 1
+				}
+			}
+			MechJebModuleRCSBalancer
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAttitudeController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleStagingController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleFlightRecorder
+			{
+				markUT = 0
+				deltaVExpended = 0
+				dragLosses = 0
+				gravityLosses = 0
+				steeringLosses = 0
+				markLatitude = 0
+				markLongitude = 0
+				markAltitude = 0
+				markBodyIndex = 1
+				maxDragGees = 0
+				unlockParts = 
+				unlockTechs = 
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_FullService
+		utilization = 86
+		mass = 4
+		timestamp = 0
+		volume = 3200
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiIcon = 46.607% UDMH / 53.393% NTO
+				guiName = 46.607% UDMH / 53.393% NTO
+				category = 46.607% UDMH / 53.393% NTO
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.25
+		currentScale = 1.25
+		defaultScale = 0.625
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 6257.804
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Food
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Water
+		amount = 200
+		maxAmount = 200
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Hydrazine
+		amount = 500
+		maxAmount = 500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = UDMH
+		amount = 1118.57542991638
+		maxAmount = 1118.57542991638
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = NTO
+		amount = 1281.42457008362
+		maxAmount = 1281.42457008362
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = dockingPortHGR_4294394042
+	partName = Part
+	pos = 0.1659794,16.74866,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = ESARCS_4294343936
+	link = ESARCS_4294335510
+	link = ESARCS_4294335394
+	link = ESARCS_4294335278
+	attN = bottom,Pollux.Control.A_4294394110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = False
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = False
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Extend Docking Probe
+				category = Toggle
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1500
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.4
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDockingNodeNamed
+		isEnabled = True
+		portName = Odyssey Ship Docking Port
+		initialized = True
+		EVENTS
+		{
+			renameDockingPort
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Rename Port
+				guiName = Rename Port
+				category = Rename Port
+				guiActiveUnfocused = True
+				unfocusedRange = 2000
+				externalToEVAOnly = False
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableAnimateGeneric
+		isEnabled = True
+		startCompleted = False
+		startCompleted_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = False
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDockingNode
+		isEnabled = True
+		fuelCrossFeed = True
+		acquireRange = 0.5
+		acquireForce = 2
+		acquireTorque = 2
+		undockEjectionForce = 10
+		minDistanceToReEngage = 1
+		isDecoupled = False
+		fuelCrossFeed_UIFlight
+		{
+			controlEnabled = True
+		}
+		acquireRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		acquireForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		acquireTorque_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		undockEjectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		minDistanceToReEngage_UIFlight
+		{
+			controlEnabled = True
+			minValue = -1
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MakeReferenceTransformAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Pollux.Engine.A_4294393966
+	partName = Part
+	pos = 0.1659794,14.35242,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 0
+	modCost = 7520.061
+	link = solarpanels-modern02_4294349134
+	link = solarpanels-modern02_4294348986
+	link = RetRCSBlockC_4294346154
+	link = RetRCSBlockC_4294345310
+	link = W485.SurfaceOmniLight_4294321444
+	link = W485.SurfaceOmniLight_4294321122
+	link = W485.SurfaceOmniLight_4294321078
+	link = W485.SurfaceOmniLight_4294321034
+	link = Kosmos.Pravilo.ASAS_4294314758
+	link = KW5mFairingBase_4294393910
+	attN = bottom,KW5mFairingBase_4294393910
+	attN = top,Pollux.Control.A_4294394110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1650
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.1
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableGimbal
+		isEnabled = True
+		gimbalRange = 0.5
+		reverseGimbalControl = False
+		gimbalRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 0.1
+		}
+		reverseGimbalControl_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionGimbalFlip
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_ServiceModule
+		utilization = 86
+		mass = 0.52098
+		timestamp = 0
+		volume = 800
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiIcon = 46.607% UDMH / 53.393% NTO
+				guiName = 46.607% UDMH / 53.393% NTO
+				category = 46.607% UDMH / 53.393% NTO
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.25
+		currentScale = 1.25
+		defaultScale = 0.625
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 7440
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 20000
+		maxAmount = 20000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Hydrazine
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = UDMH
+		amount = 316.929705142975
+		maxAmount = 316.929705142975
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = NTO
+		amount = 363.070294857025
+		maxAmount = 363.070294857025
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = solarpanels-modern02_4294349134
+	partName = Part
+	pos = 0.1659793,14.4965,-0.3087018
+	rot = 0.5000001,0.5,0.5,-0.5000001
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = solarpanels-modern02_4294348986
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0.5000001, 0.5, -0.5000001, 0.5)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = -1
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1200
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.015
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 1230
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableSolarPanel
+		isEnabled = True
+		StartOpened = False
+		sunTrackingEnabled = True
+		StartOpened_UIFlight
+		{
+			controlEnabled = True
+		}
+		sunTrackingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = solarpanels-modern02_4294348986
+	partName = Part
+	pos = 0.1659795,14.4965,0.883532
+	rot = 0.5,-0.5000001,-0.5000001,-0.5
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = solarpanels-modern02_4294349134
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0.5000001, 0.5, -0.5000001, 0.5)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = -1
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1200
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.015
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 1230
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableSolarPanel
+		isEnabled = True
+		StartOpened = False
+		sunTrackingEnabled = True
+		StartOpened_UIFlight
+		{
+			controlEnabled = True
+		}
+		sunTrackingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RetRCSBlockC_4294346154
+	partName = Part
+	pos = -0.4283246,14.59594,0.2874151
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = RetRCSBlockC_4294345310
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = AnimatedRCS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0.5
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.015
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = True
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = None
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 650
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RetRCSBlockC_4294345310
+	partName = Part
+	pos = 0.7602834,14.59594,0.287415
+	rot = -0.7071068,-0.7071068,3.090862E-08,3.090862E-08
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = RetRCSBlockC_4294346154
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = AnimatedRCS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0.5
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.015
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = True
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = None
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 650
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294343936
+	partName = Part
+	pos = -0.4048269,16.63222,0.2874151
+	rot = -0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -289.0624
+	sym = ESARCS_4294335510
+	sym = ESARCS_4294335394
+	sym = ESARCS_4294335278
+	srfN = srfAttach,dockingPortHGR_4294394042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0.5
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.003
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = True
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = None
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.75
+		currentScale = 0.75
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 210.9375
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294335510
+	partName = Part
+	pos = 0.1659794,16.63222,0.8582213
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -289.0624
+	sym = ESARCS_4294343936
+	sym = ESARCS_4294335394
+	sym = ESARCS_4294335278
+	srfN = srfAttach,dockingPortHGR_4294394042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0.5
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 843.75
+		BreakTorque = 843.75
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001265625
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = True
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = None
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.75
+		currentScale = 0.75
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 210.9375
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294335394
+	partName = Part
+	pos = 0.7367857,16.63222,0.287415
+	rot = -0.5,-0.5000001,0.5000001,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -289.0624
+	sym = ESARCS_4294343936
+	sym = ESARCS_4294335510
+	sym = ESARCS_4294335278
+	srfN = srfAttach,dockingPortHGR_4294394042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0.5
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 843.75
+		BreakTorque = 843.75
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001265625
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = True
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = None
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.75
+		currentScale = 0.75
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 210.9375
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = ESARCS_4294335278
+	partName = Part
+	pos = 0.1659793,16.63222,-0.2833911
+	rot = 0,-0.7071068,0.7071068,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = -289.0624
+	sym = ESARCS_4294343936
+	sym = ESARCS_4294335510
+	sym = ESARCS_4294335394
+	srfN = srfAttach,dockingPortHGR_4294394042
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0.5
+		MaxTemp = 1600
+		CrashTol = 10
+		BreakForce = 843.75
+		BreakTorque = 843.75
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001265625
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RcsSounds
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableRCS
+		isEnabled = True
+		startEnabled = True
+		thrustLimit = 100
+		startEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		thrustLimit_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionEnableThruster
+			{
+				actionGroup = None
+			}
+			ActionDisableThruster
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 0.75
+		currentScale = 0.75
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 210.9375
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294323850
+	partName = Part
+	pos = -0.2870005,16.51879,0.7403949
+	rot = -0.4132408,0.381841,-0.1965022,-0.8030047
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294321746
+	sym = W485.SurfaceOmniLight_4294321704
+	sym = W485.SurfaceOmniLight_4294321662
+	srfN = srfAttach,Pollux.Control.A_4294394110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321746
+	partName = Part
+	pos = 0.6189592,16.51879,0.740395
+	rot = -0.4311534,-0.2978077,0.1532573,-0.8378124
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294323850
+	sym = W485.SurfaceOmniLight_4294321704
+	sym = W485.SurfaceOmniLight_4294321662
+	srfN = srfAttach,Pollux.Control.A_4294394110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321704
+	partName = Part
+	pos = 0.6189592,16.51879,-0.1655647
+	rot = -0.1965022,-0.8030047,0.4132408,-0.381841
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294323850
+	sym = W485.SurfaceOmniLight_4294321746
+	sym = W485.SurfaceOmniLight_4294321662
+	srfN = srfAttach,Pollux.Control.A_4294394110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321662
+	partName = Part
+	pos = -0.2870004,16.51879,-0.1655647
+	rot = 0.1532573,-0.8378124,0.4311534,0.2978077
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294323850
+	sym = W485.SurfaceOmniLight_4294321746
+	sym = W485.SurfaceOmniLight_4294321704
+	srfN = srfAttach,Pollux.Control.A_4294394110
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321444
+	partName = Part
+	pos = -0.2559799,14.21455,0.7093744
+	rot = -0.6532815,0.2705981,-0.2705981,-0.6532815
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294321122
+	sym = W485.SurfaceOmniLight_4294321078
+	sym = W485.SurfaceOmniLight_4294321034
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321122
+	partName = Part
+	pos = 0.5879385,14.21455,0.7093744
+	rot = -0.6532815,-0.270598,0.270598,-0.6532815
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294321444
+	sym = W485.SurfaceOmniLight_4294321078
+	sym = W485.SurfaceOmniLight_4294321034
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321078
+	partName = Part
+	pos = 0.5879387,14.21455,-0.1345442
+	rot = -0.2705981,-0.6532815,0.6532815,-0.2705981
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294321444
+	sym = W485.SurfaceOmniLight_4294321122
+	sym = W485.SurfaceOmniLight_4294321034
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = W485.SurfaceOmniLight_4294321034
+	partName = Part
+	pos = -0.2559799,14.21455,-0.1345441
+	rot = 0.270598,-0.6532815,0.6532815,0.270598
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = W485.SurfaceOmniLight_4294321444
+	sym = W485.SurfaceOmniLight_4294321122
+	sym = W485.SurfaceOmniLight_4294321078
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1400
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.25
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Kosmos.Pravilo.ASAS_4294314758
+	partName = Part
+	pos = -0.4134132,14.2182,0.4426629
+	rot = 0.4304594,-0.4304594,-0.5609855,0.5609855
+	attRot = 0,0,0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	srfN = srfAttach,Pollux.Engine.A_4294393966
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1300
+		CrashTol = 10
+		BreakForce = 1500
+		BreakTorque = 1500
+		Torque = 0
+		Decouple = 0
+		Mass = 0.001
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 100
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = True
+		IsRTPowered = True
+		IsRTBroken = False
+		RTDishRadians = 1
+		RTOmniRange = 500000
+		RTDishRange = -1
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = False
+				guiActive = False
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = False
+				guiActive = False
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = None
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KW5mFairingBase_4294393910
+	partName = Part
+	pos = 0.1659794,13.72907,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	attm = 0
+	modCost = -3789.063
+	link = FelbournFuel1_4294393374
+	link = KW5mFairingCone_4294393854
+	attN = bottom,FelbournFuel1_4294393374
+	attN = top,Pollux.Engine.A_4294393966
+	attN = connect5,KW5mFairingCone_4294393854
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1700
+		CrashTol = 10
+		BreakForce = 210.9375
+		BreakTorque = 210.9375
+		Torque = 0
+		Decouple = 112.5
+		Mass = 0.1582031
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 800
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.05
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 5
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 210.9375
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCrossFeed
+		isEnabled = True
+		crossFeedOverride = True
+		EVENTS
+		{
+			ToggleCrossFeed
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Crossfeed is On
+				guiName = Crossfeed is On
+				category = Crossfeed is On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPayloadFairingModule
+		isEnabled = True
+		EVENTS
+		{
+			FairingShapeChanged
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = FelbournFuel1_4294393374
+	partName = Part
+	pos = 0.1659794,6.119452,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = -45095.2
+	link = KW3mengineTitanT1_4294393228
+	attN = top,KW5mFairingBase_4294393910
+	attN = bottom,KW3mengineTitanT1_4294393228
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 3.75
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 6480.001
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Odyssey_Core
+		utilization = 86
+		mass = 0.7674938
+		timestamp = 0
+		volume = 26250
+		type_UIEditor
+		{
+			controlEnabled = True
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			incrementSlide = 1
+		}
+		EVENTS
+		{
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiIcon = 46.607% UDMH / 53.393% NTO
+				guiName = 46.607% UDMH / 53.393% NTO
+				category = 46.607% UDMH / 53.393% NTO
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT1
+			{
+				active = True
+				guiActive = False
+				guiIcon = 38.107% Kerosene / 61.893% LqdOxygen
+				guiName = 38.107% Kerosene / 61.893% LqdOxygen
+				category = 38.107% Kerosene / 61.893% LqdOxygen
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1550
+		CrashTol = 10
+		BreakForce = 375
+		BreakTorque = 375
+		Torque = 0
+		Decouple = 0
+		Mass = 27.50775
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Kerosene
+		amount = 10003.0895322561
+		maxAmount = 10003.0895322561
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = LqdOxygen
+		amount = 16246.9104677439
+		maxAmount = 16246.9104677439
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KW3mengineTitanT1_4294393228
+	partName = Part
+	pos = 0.1659794,0.4394541,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = 2
+	attm = 0
+	modCost = -8750
+	attN = top2,FelbournFuel1_4294393374
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		EVENTS
+		{
+			Jettison
+			{
+				active = False
+				guiActive = True
+				guiIcon = Jettison
+				guiName = Jettison
+				category = Jettison
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 662.5
+		MaxTemp = 2300
+		CrashTol = 10
+		BreakForce = 375
+		BreakTorque = 375
+		Torque = 0
+		Decouple = 0
+		Mass = 0.5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableGimbal
+		isEnabled = True
+		gimbalRange = 1.5
+		reverseGimbalControl = False
+		gimbalRange_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 0.1
+		}
+		reverseGimbalControl_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionGimbalFlip
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 3.75
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 1250
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = False
+		hideFlow = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = KW5mFairingCone_4294393854
+	partName = Part
+	pos = 2.556604,18.24829,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 3
+	sidx = 1
+	sqor = 2
+	attm = 0
+	modCost = -530.4688
+	link = KW5mFairingWall_4294393810
+	attN = connect,KW5mFairingWall_4294393810
+	attN = bottom,KW5mFairingBase_4294393910
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		isDecoupled = False
+		EVENTS
+		{
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple
+				guiName = Decouple
+				category = Decouple
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1700
+		CrashTol = 10
+		BreakForce = 210.9375
+		BreakTorque = 210.9375
+		Torque = 0
+		Decouple = 112.5
+		Mass = 0.01845703
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableDecouple
+		isEnabled = True
+		ejectionForce = 800
+		ejectionForce_UIFlight
+		{
+			controlEnabled = True
+			minValue = -3.402823E+38
+			maxValue = 3.402823E+38
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStagingToggle
+		isEnabled = True
+		stagingEnabled = True
+		stagingEnabled_UIFlight
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.1
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 5
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 29.53125
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPayloadFairingModule
+		isEnabled = True
+		EVENTS
+		{
+			FairingShapeChanged
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KW5mFairingWall_4294393810
+	partName = Part
+	pos = 2.275823,16.85441,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = -530.4688
+	link = KW5mFairingWall_4294393772
+	attN = bottom,KW5mFairingWall_4294393772
+	attN = top,KW5mFairingCone_4294393854
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1700
+		CrashTol = 10
+		BreakForce = 210.9375
+		BreakTorque = 210.9375
+		Torque = 0
+		Decouple = 0
+		Mass = 0.01582031
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.05
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 5
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 29.53125
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPayloadFairingModule
+		isEnabled = True
+		EVENTS
+		{
+			FairingShapeChanged
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = KW5mFairingWall_4294393772
+	partName = Part
+	pos = 2.275823,14.97941,0.2874151
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = -530.4688
+	attN = top,KW5mFairingWall_4294393810
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ExtendedPartInfo
+		isEnabled = True
+		Thrust = 0
+		MaxTemp = 1700
+		CrashTol = 10
+		BreakForce = 210.9375
+		BreakTorque = 210.9375
+		Torque = 0
+		Decouple = 0
+		Mass = 0.01582031
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleHeatShield
+		isEnabled = True
+		deployAnimationController = 0
+		direction = (0, 0, 0)
+		reflective = 0.05
+		ablative = 
+		area = 0
+		thickness = 0
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		loss
+		{
+		}
+		dissipation
+		{
+		}
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.875
+		currentScale = 1.875
+		defaultScale = 5
+		isFreeScale = False
+		version = 1.44.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 29.53125
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPayloadFairingModule
+		isEnabled = True
+		EVENTS
+		{
+			FairingShapeChanged
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
