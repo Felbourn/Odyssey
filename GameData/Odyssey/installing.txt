@@ -194,6 +194,10 @@ RCS Sounds 4.2
 
 Wheels 1.7
 	http://forum.kerbalspaceprogram.com/threads/84102-WIP-PARTS-PLUGIN-0-25-Kerbal-Foundries-wheels-anti-grav-repulsors-and-tracks
+	install:
+		GameData\KerbalFoundries\DevPlugins
+		GameData\KerbalFoundries\Plugins
+		GameData\KerbalFoundries\Sounds
 
 Wheel Sounds 1.2
 	http://forum.kerbalspaceprogram.com/threads/55104-0-24-2-Rover-Wheel-Sounds
@@ -294,6 +298,11 @@ Kethane 0.9.2
 	http://forum.kerbalspaceprogram.com/threads/23979-Kethane-Pack-0-9-Major-API-changes-license-revisions-and-code-reorganization
 	delete GameData\Kethane\Flags
 	delete GameData\Kethane\Parts
+
+Karbonite 0.4.2
+	http://forum.kerbalspaceprogram.com/threads/89401-0-25-Karbonite-Mineable-Burnable-and-Community-Driven-0-4-2-2014-10-07
+	only install: GameData\ORSX
+	and loose *.dll and *.version from: GameData\UmbraSpaceIndustries
 
 
 ===================================================================================================
@@ -435,9 +444,6 @@ Lack Luster Labs 12.2
 Nova Punch 2.06
 	http://forum.kerbalspaceprogram.com/threads/3870-0-24-2-NovaPunch-2-06-Aug-9th-New-IVA-for-Freyja-Career-Mode-Agencies!
 
-Karbonite 0.4.2
-	http://forum.kerbalspaceprogram.com/threads/89401-0-25-Karbonite-Mineable-Burnable-and-Community-Driven-0-4-2-2014-10-07
-
 Chaka Monkey 0.12
 	http://forum.kerbalspaceprogram.com/threads/64993-24-2-Chaka-Monkey-EXPLORATION-BETA-0-12
 
@@ -449,6 +455,9 @@ Tantares
 
 Hex Trusses 0.3
 	http://forum.kerbalspaceprogram.com/threads/86388-0-24-1-Speedy-s-Hex-Truss-System
+
+Habitat Pack 0.4
+	http://forum.kerbalspaceprogram.com/threads/64442-0-23-5-Habitat-Pack-v0-4
 
 
 ===================================================================================================
@@ -818,3 +827,28 @@ Small Supply Craft
 Custom Solid Booster
 	GameData\KWRocketry\Parts\Fuel\KW_Universal_Tanks\KW_Fuel_3mL1.mu
 	GameData\KerbalStockLauncherOverhaul\Parts\Engine\KX LVT253
+
+Replacing Mono tanks with new artwork; replace files as necessary
+	copy from here: GameData\CMES\Electrical\Kosmos_TKS_RCS_Tank
+	over into here: GameData\KOSMOS\Parts\FuelTank\Kosmos_TKS_RCS_Tank
+	these files: *.mu and *.tga
+
+Mun/Duna Lander Body
+	GameData\LLL\Parts\Structural\Adapters\2x1Adaptor0
+	GameData\LLL\Parts\Structural\2x1\DropDownRamp
+	GameData\LLL\Parts\Structural\2x1\DropDownRampLeg
+	GameData\LLL\Parts\Command\2x1Probe
+	GameData\LLL\Models\Propulsion\LLL2x1\detail1x1third.mu
+	GameData\LLL\Models\Propulsion\LLL2x1\stripe1x1.mu
+	GameData\LLL\Models\Propulsion\LLL2x1\StripeJet.tga
+	GameData\LLL\Models\Propulsion\LLL2x1\StripeKeth.tga
+	GameData\LLL\Models\Structural\2x1Cargo\dropramp.mu
+	GameData\LLL\Models\Structural\2x1Cargo\droprampleg.mu
+	GameData\LLL\Models\Structural\2x1Cargo\Ski.tga
+	GameData\UmbraSpaceIndustries\Karbonite\Parts\KA_LandingFrame
+	GameData\UmbraSpaceIndustries\Karbonite\Parts\KA_Drill_125_01
+	GameData\LLL\Models\Command\ASAS\model.mu
+	GameData\LLL\Models\Command\ASAS\model000.tga
+
+Duna Lander Rover
+	GameData\KerbalFoundries\AlphaMediumTrack
