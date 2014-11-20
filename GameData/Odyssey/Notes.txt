@@ -287,16 +287,16 @@ Cooling  	- battery + cooling tank
 ===================================================================================================
 === SCANSAT SENSORS
 ===================================================================================================
-type 	min, best, max, data   											part
-----    --------------------------------------------------------------- ---------------------------
-1 		5000, 5000, 500000, altimetry (low res, limited zoom) 		    DMagic imaging platform
-2 		5000, 750000, 800000, altimetry (high res, unlimited zoom)	 	x
-4   	unused 															x
-8 		5000, 250000, 500000, biomes 									LLL dish radar
-16 		5000, 250000, 500000, anomalies (position)						ship-type LLL radar
-32  	0, 0, 2000, anomalies (name, details)							x
-64 		x, x, x, kethane			 									Karbonite Scanner
-262144 	x, x, x, karbonite 												x
+bit type 	min, best, max, data   											part
+--- ----    --------------------------------------------------------------- ---------------------------
+ 1  1 		5000, 5000, 500000, altimetry (low res, limited zoom) 		    DMagic imaging platform
+ 2  2 	 	5000, 750000, 800000, altimetry (high res, unlimited zoom)	 	x
+ 3  4    	unused 															x
+ 4  8 		5000, 250000, 500000, biomes 									LLL dish radar
+ 5  16 		5000, 250000, 500000, anomalies (position)						ship-type LLL radar
+ 6  32  	0, 0, 2000, anomalies (name, details)							x
+ 7  64 		100000, 300000, 500000, kethane			 						Karbonite Scanner
+18  262144 	100000, 300000, 500000, karbonite 								x
 
 
 ===================================================================================================
