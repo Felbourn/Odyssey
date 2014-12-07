@@ -13,6 +13,26 @@
   </SubModules>
   <ModulesToIgnore>
     <ModuleAttribute AttributeName="TweakScale" />
+    <ModuleAttribute AttributeName="FMRS_PM" />
+    <ModuleAttribute AttributeName="Variometer" />
+    <ModuleAttribute AttributeName="TrajectoriesVesselSettings" />
+    <ModuleAttribute AttributeName="TelemachusDataLink" />
+    <ModuleAttribute AttributeName="TelemachusPowerDrain" />
+    <ModuleAttribute AttributeName="ProbeControlRoomPart" />
+    <ModuleAttribute AttributeName="RasterPropMonitorComputer" />
+    <ModuleAttribute AttributeName="Proximity" />
+    <ModuleAttribute AttributeName="LazorSystemDockingCamera" />
+    <ModuleAttribute AttributeName="ModuleDockingNodeController" />
+    <ModuleAttribute AttributeName="ModuleDockingNodeNamed" />
+    <ModuleAttribute AttributeName="ModuleStagingToggle" />
+    <ModuleAttribute AttributeName="GoodspeedPump" />
+    <ModuleAttribute AttributeName="ModuleTweakableDockingNode" />
+    <ModuleAttribute AttributeName="KASModuleGrab" />
+    <ModuleAttribute AttributeName="ModuleTweakableRCS" />
+    <ModuleAttribute AttributeName="ModuleTweakableSolarPanel" />
+    <ModuleAttribute AttributeName="KOSNameTag" />
+    <ModuleAttribute AttributeName="GoodspeedPump" />
+    <ModuleAttribute AttributeName="ModuleCrossFeed" />
   </ModulesToIgnore>
   <AveragedModuleAttributes>
     <ModuleAttribute AttributeName="FNAntimatterReactor_ReactorTemp" />
@@ -34,6 +54,7 @@
   <BreakingModuleAttributes>
     <ModuleAttribute AttributeName="FNAntimatterReactor_radius" />
     <ModuleAttribute AttributeName="ModuleScienceExperiment_experimentID" />
+    <ModuleAttribute AttributeName="MuMechToggle" />
   </BreakingModuleAttributes>
 </ModuleAttributeLists>
 <!-- The ModuleAttributeList.xml gives you the ability to edit how the Weldingtool will process the merging of certain modules and their attributes. -->
