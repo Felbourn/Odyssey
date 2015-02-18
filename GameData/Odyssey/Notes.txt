@@ -26,6 +26,34 @@ EXTRAS
  -Handrails & Ladders
 
 
+
+===================================================================================================
+=== ENGINE FX
+===================================================================================================
+orange
+	flamebooster - small SRB
+	flamef1fx - large orange flames
+	flamejet3 - tiny hot orange flame
+	flamesrblarge - large SRB
+	KWbooster - smaller orange flames
+	ssmeflamebig - solid orange line
+blue
+	flameion - tiny Bic lighter flame
+	nasa4engine - large Bic lighter
+	flamenukeblue - long light blue
+	flamelowblue - blue dispersal pattern
+wisps
+	KWflamelow - colorless dispersal pattern
+other
+	flamenuke - deep red
+	fusionflame - purple
+	fusionflame2 - green
+smoke	
+	shuttlesep - dispersal skoke
+	smokebooster - thick long smoke
+	smokebooster2 - thin long smoke
+
+
 ===================================================================================================
 === TODO
 ===================================================================================================
@@ -127,10 +155,11 @@ Use for station internals:
 Living space assumptions:
 	a 2.5 diam by 2.5 tall section with 50% living space is ~6 cu-m for crew 
 	every 2x cu-m is room for 1 crew (so 1 crew per 4 total internal cu-m)
-	total station size 20x CrewCapacity per 1 actual crew to be comfortable long durations
-	10x CrewCapacity per crew for medium duration (up to 6 weeks)
-	2x CrewCapacity per crew for short duration (up to 2 weeks)
-	1x CrewCapacity per crew for short travel (up to 3 days)
+	total station size "CrewCapacity per 1 actual crew":
+	1x short durations (up to 3 days)
+	2x medium durations (4 to 14 days)
+	10x long durations (2 to 6 weeks)
+	20x extended durations (more than 6 weeks)
 
 
 ===================================================================================================
@@ -266,6 +295,9 @@ Hydrogen    - Near HI-80 H2 tank
 Methane     - Near Octo-Girder Xenon
 Fuel 		- Near Octo-Girder LFO
 Cooling  	- battery + cooling tank
+
+Food -> Kerbal -> Waste Tank
+Water -> Kerbal -> WasteWater -> Water Purifier + Waste
 
 
 ===================================================================================================
