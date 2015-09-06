@@ -1,0 +1,6483 @@
+ship = Conference  Dome (Color B)
+version = 0.25.0
+description = xxxx
+type = VAB
+PART
+{
+	part = B9.Structure.PA.Adapter_4293534686
+	partName = Part
+	pos = 0.04314339,46.46505,-0.182685
+	rot = -1,0,0,0
+	attRot = -0.9999999,0,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	modCost = 0
+	link = LLLGreenhousemid_4293518506
+	link = B9.Structure.P4.Surface_4293444188
+	link = B9.Structure.P4.Surface_4292349790
+	link = B9.Structure.P4.Surface_4292349618
+	link = B9.Structure.P4.Surface_4292349446
+	link = B9.Structure.P4.Surface_4292349274
+	link = B9.Structure.P4.Surface_4292349102
+	link = B9.Structure.P4.Surface_4292348930
+	link = B9.Structure.P4.Surface_4292348758
+	link = B9.Structure.P4.Surface_4292348586
+	link = B9.Structure.P4.Surface_4292348414
+	link = B9.Structure.P4.Surface_4292348242
+	link = B9.Structure.P4.Surface_4292348070
+	link = batteryBAEr_4292328090
+	link = batteryBAEr_4292215928
+	link = batteryBAEr_4292215896
+	link = batteryBAEr_4292215864
+	link = batteryBAEr_4292215832
+	link = batteryBAEr_4292215800
+	link = batteryBAEr_4292215768
+	link = batteryBAEr_4292215736
+	link = batteryBAEr_4292215704
+	link = batteryBAEr_4292215672
+	link = batteryBAEr_4292215640
+	link = batteryBAEr_4292215608
+	link = batteryBAEr_4292215576
+	link = batteryBAEr_4292215544
+	link = batteryBAEr_4292215512
+	link = batteryBAEr_4292215480
+	link = batteryBAEr_4292215448
+	link = batteryBAEr_4292215416
+	link = batteryBAEr_4292215384
+	link = batteryBAEr_4292215352
+	link = batteryBAEr_4292215320
+	link = batteryBAEr_4292215288
+	link = batteryBAEr_4292215256
+	link = batteryBAEr_4292215224
+	link = batteryBAEr_4292215032
+	link = batteryBAEr_4292196644
+	link = batteryBAEr_4292196612
+	link = batteryBAEr_4292196580
+	link = batteryBAEr_4292196548
+	link = batteryBAEr_4292196516
+	link = batteryBAEr_4292196484
+	link = batteryBAEr_4292196452
+	link = batteryBAEr_4292196420
+	link = batteryBAEr_4292196388
+	link = batteryBAEr_4292196356
+	link = batteryBAEr_4292196324
+	link = batteryBAEr_4292196292
+	link = batteryBAEr_4292196260
+	link = batteryBAEr_4292196228
+	link = batteryBAEr_4292196196
+	link = batteryBAEr_4292196164
+	link = batteryBAEr_4292196132
+	link = batteryBAEr_4292196100
+	link = batteryBAEr_4292196068
+	link = batteryBAEr_4292196036
+	link = batteryBAEr_4292196004
+	link = batteryBAEr_4292195972
+	link = batteryBAEr_4292195940
+	link = batteryBAEr_4292195908
+	link = batteryBAEr_4292195876
+	link = batteryBAEr_4292195844
+	link = batteryBAEr_4292195812
+	link = batteryBAEr_4292195780
+	link = batteryBAEr_4292195748
+	link = batteryBAEr_4292195716
+	link = batteryBAEr_4292195684
+	link = batteryBAEr_4292195652
+	link = batteryBAEr_4292195620
+	link = batteryBAEr_4292195588
+	link = batteryBAEr_4292195556
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSfuelSwitch
+		isEnabled = True
+		currentAmounts = (980, 539, 0, 0)
+		selectedTankSetup = 0
+		hasLaunched = False
+		brandNewPart = False
+		EVENTS
+		{
+			nextTankSetupEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next tank setup
+				guiName = Next tank setup
+				category = Next tank setup
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = LLLGreenhousemid_4293518506
+	partName = Part
+	pos = 0.01960652,45.82809,-0.1684878
+	rot = 1,0,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 1
+		lightG = 1
+		lightB = 1
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = RasterPropMonitorComputer
+		isEnabled = True
+		data = 
+		vesselDescription = xxxx
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = JSINonTransparentPod
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4293444188
+	partName = Part
+	pos = -0.05618994,44.91836,2.9943
+	rot = 0,-0.8837867,0.4678902,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4293444096
+	link = WindLong_4293286310
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4293444096
+	partName = Winglet
+	pos = -1.931931,43.70766,4.553092
+	rot = 2.285284E-08,0.6480859,0.7615674,2.052894E-08
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4293444188
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4293286310
+	partName = Part
+	pos = -0.006116051,44.36021,3.76237
+	rot = -0.2655129,-7.088283E-08,-3.834619E-08,0.9641074
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4293444188
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292349790
+	partName = Part
+	pos = -1.631374,44.91836,2.518998
+	rot = -0.1210989,-0.8536724,0.4519472,-0.2287408
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292349698
+	link = WindLong_4292349656
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292349698
+	partName = Winglet
+	pos = -4.03521,43.70766,2.931081
+	rot = -0.1971081,0.6260029,0.7356176,0.167737
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349790
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292349656
+	partName = Part
+	pos = -1.972044,44.36021,3.209203
+	rot = -0.2564658,-0.2495294,-0.06871985,0.9312562
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349790
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292349618
+	partName = Part
+	pos = -2.757873,44.91836,1.319782
+	rot = -0.2339451,-0.7653817,0.4052048,-0.4418933
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292349526
+	link = WindLong_4292349484
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292349526
+	partName = Winglet
+	pos = -5.045697,43.70766,0.4747393
+	rot = -0.3807837,0.5612589,0.6595367,0.3240429
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292349484
+	partName = Part
+	pos = -3.398004,44.36021,1.747182
+	rot = -0.2299409,-0.4820538,-0.1327565,0.8349414
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292349446
+	partName = Part
+	pos = -3.133842,44.91836,-0.2820181
+	rot = -0.3308483,-0.6249315,0.3308483,-0.6249315
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292349354
+	link = WindLong_4292349312
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292349354
+	partName = Winglet
+	pos = -4.692634,43.70766,-2.157759
+	rot = -0.5385094,0.4582659,0.5385094,0.4582659
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349446
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292349312
+	partName = Part
+	pos = -3.901911,44.36021,-0.2319443
+	rot = -0.187746,-0.6817269,-0.187746,0.6817268
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349446
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292349274
+	partName = Part
+	pos = -2.65854,44.91836,-1.857203
+	rot = -0.4052048,-0.4418933,0.2339451,-0.7653817
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292349182
+	link = WindLong_4292349140
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292349182
+	partName = Winglet
+	pos = -3.070623,43.70766,-4.261038
+	rot = -0.6595367,0.3240429,0.3807837,0.5612589
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349274
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292349140
+	partName = Part
+	pos = -3.348744,44.36021,-2.197873
+	rot = -0.1327564,-0.8349415,-0.229941,0.4820536
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349274
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292349102
+	partName = Part
+	pos = -1.459324,44.91836,-2.983701
+	rot = -0.4519472,-0.2287408,0.1210989,-0.8536723
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292349010
+	link = WindLong_4292348968
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292349010
+	partName = Winglet
+	pos = -0.6142815,43.70766,-5.271524
+	rot = -0.7356176,0.1677369,0.1971082,0.6260028
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349102
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292348968
+	partName = Part
+	pos = -1.886724,44.36021,-3.623832
+	rot = -0.06871977,-0.9312562,-0.2564658,0.2495293
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292349102
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292348930
+	partName = Part
+	pos = 0.142477,44.91836,-3.35967
+	rot = -0.4678902,3.863154E-08,-2.045213E-08,-0.8837867
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292348838
+	link = WindLong_4292348796
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292348838
+	partName = Winglet
+	pos = 2.018218,43.70766,-4.918462
+	rot = -0.7615674,-4.885768E-08,-1.043632E-08,0.6480859
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292348796
+	partName = Part
+	pos = 0.0924032,44.36021,-4.127739
+	rot = 4.995213E-08,-0.9641074,-0.2655129,-1.130253E-07
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292348758
+	partName = Part
+	pos = 1.717661,44.91836,-2.884368
+	rot = -0.4519472,0.2287408,-0.1210989,-0.8536724
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292348666
+	link = WindLong_4292348624
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292348666
+	partName = Winglet
+	pos = 4.121495,43.70766,-3.296451
+	rot = -0.7356176,-0.167737,-0.1971081,0.6260029
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292348624
+	partName = Part
+	pos = 2.058331,44.36021,-3.574573
+	rot = 0.06871985,-0.9312562,-0.2564658,-0.2495294
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348758
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292348586
+	partName = Part
+	pos = 2.84416,44.91836,-1.685152
+	rot = -0.4052048,0.4418934,-0.2339451,-0.7653817
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292348494
+	link = WindLong_4292348452
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292348494
+	partName = Winglet
+	pos = 5.131984,43.70766,-0.840109
+	rot = -0.6595367,-0.324043,-0.3807837,0.5612589
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348586
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292348452
+	partName = Part
+	pos = 3.484291,44.36021,-2.112552
+	rot = 0.1327565,-0.8349414,-0.2299409,-0.4820538
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348586
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292348414
+	partName = Part
+	pos = 3.220128,44.91836,-0.0833515
+	rot = -0.3308483,0.6249315,-0.3308483,-0.6249315
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292348322
+	link = WindLong_4292348280
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348242
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292348322
+	partName = Winglet
+	pos = 4.77892,43.70766,1.792389
+	rot = -0.5385094,-0.4582659,-0.5385094,0.4582659
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348414
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292348280
+	partName = Part
+	pos = 3.988198,44.36021,-0.1334254
+	rot = 0.187746,-0.6817268,-0.187746,-0.6817269
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348108
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348414
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292348242
+	partName = Part
+	pos = 2.744827,44.91836,1.491832
+	rot = -0.2339451,0.7653816,-0.4052048,-0.4418934
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292348150
+	link = WindLong_4292348108
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348070
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292348150
+	partName = Winglet
+	pos = 3.15691,43.70766,3.895667
+	rot = -0.3807838,-0.5612588,-0.6595367,0.324043
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292347978
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348242
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292348108
+	partName = Part
+	pos = 3.435031,44.36021,1.832502
+	rot = 0.229941,-0.4820537,-0.1327564,-0.8349414
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292347936
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348242
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = B9.Structure.P4.Surface_4292348070
+	partName = Part
+	pos = 1.54561,44.91836,2.618332
+	rot = -0.1210988,0.8536724,-0.4519472,-0.2287407
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	link = B9.Aero.Wing.SH.S.4m_4292347978
+	link = WindLong_4292347936
+	sym = B9.Structure.P4.Surface_4293444188
+	sym = B9.Structure.P4.Surface_4292349790
+	sym = B9.Structure.P4.Surface_4292349618
+	sym = B9.Structure.P4.Surface_4292349446
+	sym = B9.Structure.P4.Surface_4292349274
+	sym = B9.Structure.P4.Surface_4292349102
+	sym = B9.Structure.P4.Surface_4292348930
+	sym = B9.Structure.P4.Surface_4292348758
+	sym = B9.Structure.P4.Surface_4292348586
+	sym = B9.Structure.P4.Surface_4292348414
+	sym = B9.Structure.P4.Surface_4292348242
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FSmeshSwitch
+		isEnabled = True
+		selectedObject = 1
+		EVENTS
+		{
+			nextObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Next part variant
+				guiName = Next part variant
+				category = Next part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			previousObjectEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Prev part variant
+				guiName = Prev part variant
+				category = Prev part variant
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = B9.Aero.Wing.SH.S.4m_4292347978
+	partName = Winglet
+	pos = 0.7005667,43.70766,4.906156
+	rot = -0.1971081,-0.6260029,-0.7356176,0.1677369
+	attRot = -0.6903455,-0.1530459,0.6903455,0.1530459
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = B9.Aero.Wing.SH.S.4m_4293444096
+	sym = B9.Aero.Wing.SH.S.4m_4292349698
+	sym = B9.Aero.Wing.SH.S.4m_4292349526
+	sym = B9.Aero.Wing.SH.S.4m_4292349354
+	sym = B9.Aero.Wing.SH.S.4m_4292349182
+	sym = B9.Aero.Wing.SH.S.4m_4292349010
+	sym = B9.Aero.Wing.SH.S.4m_4292348838
+	sym = B9.Aero.Wing.SH.S.4m_4292348666
+	sym = B9.Aero.Wing.SH.S.4m_4292348494
+	sym = B9.Aero.Wing.SH.S.4m_4292348322
+	sym = B9.Aero.Wing.SH.S.4m_4292348150
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348070
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = WindLong_4292347936
+	partName = Part
+	pos = 1.97301,44.36021,3.258463
+	rot = 0.2564658,-0.2495292,-0.06871973,-0.9312563
+	attRot = -0.2164396,0,0,0.9762962
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = WindLong_4293286310
+	sym = WindLong_4292349656
+	sym = WindLong_4292349484
+	sym = WindLong_4292349312
+	sym = WindLong_4292349140
+	sym = WindLong_4292348968
+	sym = WindLong_4292348796
+	sym = WindLong_4292348624
+	sym = WindLong_4292348452
+	sym = WindLong_4292348280
+	sym = WindLong_4292348108
+	srfN = srfAttach,B9.Structure.P4.Surface_4292348070
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleLight
+		isEnabled = True
+		isOn = True
+		lightR = 0.75
+		lightG = 0.75
+		lightB = 0.75
+		lightR_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightG_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		lightB_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 1
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			LightsOff
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights Off
+				guiName = Lights Off
+				category = Lights Off
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LightsOn
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lights On
+				guiName = Lights On
+				category = Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleLightAction
+			{
+				actionGroup = Light
+			}
+			LightOnAction
+			{
+				actionGroup = None
+			}
+			LightOffAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = batteryBAEr_4292328090
+	partName = Part
+	pos = 1.209691,45.8281,-0.1750314
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215928
+	partName = Part
+	pos = 1.167961,45.8281,0.1266327
+	rot = 0.09229597,0.09229597,-0.7010574,-0.7010574
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215896
+	partName = Part
+	pos = 1.049577,45.8281,0.4072172
+	rot = 0.1830127,0.1830127,-0.6830127,-0.6830127
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215864
+	partName = Part
+	pos = 0.8626055,45.8281,0.6476009
+	rot = 0.2705981,0.2705981,-0.6532815,-0.6532815
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215832
+	partName = Part
+	pos = 0.6197892,45.8281,0.8314019
+	rot = 0.3535534,0.3535534,-0.6123725,-0.6123725
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215800
+	partName = Part
+	pos = 0.3376755,45.8281,0.9460948
+	rot = 0.4304594,0.4304594,-0.5609856,-0.5609856
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215768
+	partName = Part
+	pos = 0.03548988,45.8281,0.9838629
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215736
+	partName = Part
+	pos = -0.2661742,45.8281,0.9421329
+	rot = 0.5609856,0.5609856,-0.4304594,-0.4304594
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215704
+	partName = Part
+	pos = -0.5467589,45.8281,0.8237484
+	rot = 0.6123725,0.6123725,-0.3535534,-0.3535534
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215672
+	partName = Part
+	pos = -0.7871425,45.8281,0.6367771
+	rot = 0.6532815,0.6532815,-0.2705981,-0.2705981
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215640
+	partName = Part
+	pos = -0.9709436,45.8281,0.3939609
+	rot = 0.6830127,0.6830127,-0.1830127,-0.1830127
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215608
+	partName = Part
+	pos = -1.085636,45.8281,0.1118469
+	rot = 0.7010574,0.7010574,-0.09229591,-0.09229591
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215576
+	partName = Part
+	pos = -1.123405,45.8281,-0.1903387
+	rot = 0.7071068,0.7071068,3.090862E-08,3.090862E-08
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215544
+	partName = Part
+	pos = -1.081674,45.8281,-0.492003
+	rot = 0.7010574,0.7010574,0.09229606,0.09229606
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215512
+	partName = Part
+	pos = -0.96329,45.8281,-0.7725872
+	rot = 0.6830127,0.6830127,0.1830127,0.1830127
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215480
+	partName = Part
+	pos = -0.7763186,45.8281,-1.012971
+	rot = 0.6532815,0.6532815,0.2705981,0.2705981
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215448
+	partName = Part
+	pos = -0.5335024,45.8281,-1.196772
+	rot = 0.6123725,0.6123725,0.3535534,0.3535534
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215416
+	partName = Part
+	pos = -0.2513886,45.8281,-1.311465
+	rot = 0.5609856,0.5609856,0.4304594,0.4304594
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215384
+	partName = Part
+	pos = 0.05079704,45.8281,-1.349233
+	rot = 0.5,0.5,0.5,0.5
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215352
+	partName = Part
+	pos = 0.3524615,45.8281,-1.307503
+	rot = 0.4304592,0.4304592,0.5609857,0.5609857
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215320
+	partName = Part
+	pos = 0.6330454,45.8281,-1.189119
+	rot = 0.3535534,0.3535534,0.6123725,0.6123725
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215288
+	partName = Part
+	pos = 0.8734295,45.8281,-1.002147
+	rot = 0.270598,0.270598,0.6532816,0.6532816
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215256
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215256
+	partName = Part
+	pos = 1.057231,45.8281,-0.7593306
+	rot = 0.1830126,0.1830126,0.6830128,0.6830128
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215224
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215224
+	partName = Part
+	pos = 1.171923,45.8281,-0.4772168
+	rot = 0.09229589,0.09229589,0.7010574,0.7010574
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292328090
+	sym = batteryBAEr_4292215928
+	sym = batteryBAEr_4292215896
+	sym = batteryBAEr_4292215864
+	sym = batteryBAEr_4292215832
+	sym = batteryBAEr_4292215800
+	sym = batteryBAEr_4292215768
+	sym = batteryBAEr_4292215736
+	sym = batteryBAEr_4292215704
+	sym = batteryBAEr_4292215672
+	sym = batteryBAEr_4292215640
+	sym = batteryBAEr_4292215608
+	sym = batteryBAEr_4292215576
+	sym = batteryBAEr_4292215544
+	sym = batteryBAEr_4292215512
+	sym = batteryBAEr_4292215480
+	sym = batteryBAEr_4292215448
+	sym = batteryBAEr_4292215416
+	sym = batteryBAEr_4292215384
+	sym = batteryBAEr_4292215352
+	sym = batteryBAEr_4292215320
+	sym = batteryBAEr_4292215288
+	sym = batteryBAEr_4292215256
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292215032
+	partName = Part
+	pos = -0.9843923,45.86701,-1.165186
+	rot = 0.1352086,0.3580017,-0.3264225,-0.8642926
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196644
+	partName = Part
+	pos = -0.7981723,45.86701,-1.328689
+	rot = 0.1631437,0.4319675,-0.3133962,-0.8298019
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196612
+	partName = Part
+	pos = -0.5863893,45.86701,-1.457371
+	rot = 0.1898372,0.5026458,-0.2979847,-0.7889957
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196580
+	partName = Part
+	pos = -0.3554783,45.86701,-1.547323
+	rot = 0.2150859,0.5694985,-0.2803054,-0.7421849
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196548
+	partName = Part
+	pos = -0.1124554,45.86701,-1.595811
+	rot = 0.2386976,0.6320171,-0.2604927,-0.6897256
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196516
+	partName = Part
+	pos = 0.1352954,45.86701,-1.601362
+	rot = 0.2604928,0.6897256,-0.2386976,-0.6320171
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196484
+	partName = Part
+	pos = 0.380246,45.86701,-1.563807
+	rot = 0.2803054,0.7421849,-0.2150859,-0.5694985
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196452
+	partName = Part
+	pos = 0.6149542,45.86701,-1.484288
+	rot = 0.2979847,0.7889957,-0.1898371,-0.5026457
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196420
+	partName = Part
+	pos = 0.832288,45.86701,-1.365219
+	rot = 0.3133962,0.8298019,-0.1631437,-0.4319675
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196388
+	partName = Part
+	pos = 1.025644,45.86701,-1.210221
+	rot = 0.3264225,0.8642926,-0.1352086,-0.3580017
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196356
+	partName = Part
+	pos = 1.189147,45.86701,-1.024001
+	rot = 0.3369646,0.8922057,-0.1062445,-0.2813113
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196324
+	partName = Part
+	pos = 1.31783,45.86701,-0.8122178
+	rot = 0.3449422,0.9133285,-0.07647184,-0.2024801
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196292
+	partName = Part
+	pos = 1.407782,45.86701,-0.5813066
+	rot = 0.3502945,0.9275002,-0.04611712,-0.1221077
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196260
+	partName = Part
+	pos = 1.45627,45.86701,-0.3382837
+	rot = 0.3529809,0.9346132,-0.01541146,-0.04080608
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196228
+	partName = Part
+	pos = 1.461821,45.86701,-0.0905328
+	rot = 0.3529809,0.9346132,0.01541152,0.04080619
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196196
+	partName = Part
+	pos = 1.424266,45.86701,0.1544175
+	rot = 0.3502945,0.9275002,0.04611713,0.1221077
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196164
+	partName = Part
+	pos = 1.344746,45.86701,0.3891259
+	rot = 0.3449422,0.9133285,0.07647187,0.2024801
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196132
+	partName = Part
+	pos = 1.225678,45.86701,0.6064594
+	rot = 0.3369646,0.8922057,0.1062445,0.2813113
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196100
+	partName = Part
+	pos = 1.070679,45.86701,0.7998157
+	rot = 0.3264225,0.8642926,0.1352086,0.3580017
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196068
+	partName = Part
+	pos = 0.8844587,45.86701,0.9633189
+	rot = 0.3133961,0.8298018,0.1631438,0.4319676
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196036
+	partName = Part
+	pos = 0.6726758,45.86701,1.092002
+	rot = 0.2979846,0.7889957,0.1898372,0.5026458
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292196004
+	partName = Part
+	pos = 0.441765,45.86701,1.181953
+	rot = 0.2803054,0.7421849,0.2150859,0.5694985
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195972
+	partName = Part
+	pos = 0.1987422,45.86701,1.230441
+	rot = 0.2604928,0.6897256,0.2386976,0.6320171
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195940
+	partName = Part
+	pos = -0.04900876,45.86701,1.235992
+	rot = 0.2386976,0.632017,0.2604927,0.6897256
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195908
+	partName = Part
+	pos = -0.2939593,45.86701,1.198437
+	rot = 0.2150858,0.5694985,0.2803054,0.7421849
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195876
+	partName = Part
+	pos = -0.5286673,45.86701,1.118918
+	rot = 0.1898372,0.5026457,0.2979847,0.7889957
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195844
+	partName = Part
+	pos = -0.7460012,45.86701,0.9998494
+	rot = 0.1631437,0.4319675,0.3133962,0.8298019
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195812
+	partName = Part
+	pos = -0.9393572,45.86701,0.8448505
+	rot = 0.1352086,0.3580017,0.3264225,0.8642926
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195780
+	partName = Part
+	pos = -1.102861,45.86701,0.6586302
+	rot = 0.1062444,0.2813112,0.3369646,0.8922057
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195748
+	partName = Part
+	pos = -1.231543,45.86701,0.4468472
+	rot = 0.07647175,0.2024799,0.3449422,0.9133285
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195716
+	partName = Part
+	pos = -1.321495,45.86701,0.2159369
+	rot = 0.04611716,0.1221078,0.3502945,0.9275002
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195684
+	partName = Part
+	pos = -1.369983,45.86701,-0.02708596
+	rot = 0.0154115,0.04080618,0.3529809,0.9346132
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195652
+	partName = Part
+	pos = -1.375534,45.86701,-0.2748373
+	rot = -0.01541153,-0.04080622,0.3529809,0.9346132
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195620
+	partName = Part
+	pos = -1.337979,45.86701,-0.5197879
+	rot = -0.04611719,-0.1221078,0.3502945,0.9275002
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195588
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195588
+	partName = Part
+	pos = -1.258459,45.86701,-0.7544953
+	rot = -0.07647179,-0.2024799,0.3449421,0.9133285
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195556
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = batteryBAEr_4292195556
+	partName = Part
+	pos = -1.139391,45.86701,-0.9718297
+	rot = -0.1062446,-0.2813115,0.3369646,0.8922057
+	attRot = 0,0.3007058,-0.9537169,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	modCost = 0
+	sym = batteryBAEr_4292215032
+	sym = batteryBAEr_4292196644
+	sym = batteryBAEr_4292196612
+	sym = batteryBAEr_4292196580
+	sym = batteryBAEr_4292196548
+	sym = batteryBAEr_4292196516
+	sym = batteryBAEr_4292196484
+	sym = batteryBAEr_4292196452
+	sym = batteryBAEr_4292196420
+	sym = batteryBAEr_4292196388
+	sym = batteryBAEr_4292196356
+	sym = batteryBAEr_4292196324
+	sym = batteryBAEr_4292196292
+	sym = batteryBAEr_4292196260
+	sym = batteryBAEr_4292196228
+	sym = batteryBAEr_4292196196
+	sym = batteryBAEr_4292196164
+	sym = batteryBAEr_4292196132
+	sym = batteryBAEr_4292196100
+	sym = batteryBAEr_4292196068
+	sym = batteryBAEr_4292196036
+	sym = batteryBAEr_4292196004
+	sym = batteryBAEr_4292195972
+	sym = batteryBAEr_4292195940
+	sym = batteryBAEr_4292195908
+	sym = batteryBAEr_4292195876
+	sym = batteryBAEr_4292195844
+	sym = batteryBAEr_4292195812
+	sym = batteryBAEr_4292195780
+	sym = batteryBAEr_4292195748
+	sym = batteryBAEr_4292195716
+	sym = batteryBAEr_4292195684
+	sym = batteryBAEr_4292195652
+	sym = batteryBAEr_4292195620
+	sym = batteryBAEr_4292195588
+	srfN = srfAttach,B9.Structure.PA.Adapter_4293534686
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 100
+		maxAmount = 100
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
